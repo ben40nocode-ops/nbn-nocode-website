@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "@/components/Logo";
 
 export function Footer() {
   return (
@@ -8,9 +9,8 @@ export function Footer() {
 
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-1 mb-4">
-              <span className="text-base font-bold text-white">NBN</span>
-              <span className="text-sm font-semibold text-[#e8632a]">Nocode</span>
+            <div className="mb-4">
+              <Logo width={88} variant="light" />
             </div>
             <p className="text-sm leading-relaxed max-w-xs mb-6">
               On construit l&apos;architecture. Vous récoltez les résultats. Automatisation & agents IA pour PME qui veulent scaler sans recruter.

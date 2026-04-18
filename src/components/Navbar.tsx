@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import { Logo } from "@/components/Logo";
 
 const links = [
   { label: "À propos", href: "/#apropos" },
@@ -24,9 +25,8 @@ export function Navbar() {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white ${scrolled ? "border-b border-gray-100 shadow-sm" : ""}`}>
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-1">
-          <span className="text-base font-bold text-gray-900">NBN</span>
-          <span className="text-sm font-semibold text-[#e8632a]">Nocode</span>
+        <Link href="/" className="flex items-center">
+          <Logo width={72} variant="dark" />
         </Link>
 
         <ul className="hidden md:flex items-center gap-8">
