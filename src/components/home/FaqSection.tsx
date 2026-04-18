@@ -6,11 +6,11 @@ import { Plus, Minus } from "lucide-react";
 const faqs = [
   {
     q: "C'est quoi le modèle exactement ?",
-    a: "On facture une fois la conception et le déploiement de votre architecture (à partir de 450€ selon la complexité). Ensuite, vous choisissez un abonnement mensuel pour la maintenance, le monitoring et l'évolution. Pas d'engagement minimum.",
+    a: "On facture une fois la conception et le déploiement de votre architecture (à partir de 450€). Ensuite, vous choisissez un abonnement mensuel pour la maintenance, le monitoring et l'évolution. Pas d'engagement minimum.",
   },
   {
     q: "Pourquoi Claude AI plutôt que ChatGPT ?",
-    a: "Claude (Anthropic) est aujourd'hui le modèle le plus avancé pour les cas d'usage business : raisonnement long, documents complexes, agents autonomes. On s'y est spécialisés et on utilise les dernières versions via l'API directement.",
+    a: "Claude (Anthropic) est aujourd'hui le modèle le plus avancé pour les cas d'usage business : raisonnement long, documents complexes, agents autonomes. On s'y est spécialisés et on utilise les dernières versions via l'API.",
   },
   {
     q: "On n'a pas de compétences techniques en interne, c'est un problème ?",
@@ -18,11 +18,11 @@ const faqs = [
   },
   {
     q: "Combien de temps pour déployer une première automatisation ?",
-    a: "Pour une automatisation simple (capture de leads, notification, traitement de données) : 48h. Pour une architecture complète avec agents IA : 1 à 3 semaines selon la complexité.",
+    a: "Pour une automatisation simple : 48h. Pour une architecture complète avec agents IA : 1 à 3 semaines selon la complexité.",
   },
   {
     q: "Est-ce que vous faites aussi du conseil sans passer par vos outils ?",
-    a: "Oui. L'audit gratuit (30 min) est un vrai diagnostic — on vous dit ce qui peut être automatisé et ce qui ne le peut pas, sans obligation d'achat.",
+    a: "Oui. L'audit gratuit de 30 min est un vrai diagnostic — on vous dit ce qui peut être automatisé et ce qui ne le peut pas, sans obligation d'achat.",
   },
   {
     q: "Mes données sont-elles sécurisées ?",
@@ -34,40 +34,40 @@ export function FaqSection() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section className="py-24 md:py-32 bg-[#050505]">
+    <section className="py-24 bg-gray-50">
       <div className="max-w-3xl mx-auto px-6">
+
+        {/* Section header */}
         <div className="text-center mb-16">
-          <p className="text-xs text-[#e8632a] uppercase tracking-widest mb-4 font-medium">FAQ</p>
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#f2f0eb]">
+          <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">FAQ</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
             Questions fréquentes.
           </h2>
         </div>
 
-        <div className="space-y-2">
+        {/* Accordion */}
+        <div className="flex flex-col gap-2">
           {faqs.map((faq, i) => (
-            <div
-              key={i}
-              className="border border-[#1c1c1c] rounded-xl overflow-hidden"
-            >
+            <div key={i} className="border border-gray-200 rounded-xl overflow-hidden bg-white">
               <button
                 onClick={() => setOpen(open === i ? null : i)}
-                className="w-full flex items-center justify-between p-5 text-left bg-[#0a0a0a] hover:bg-[#0f0f0f] transition-colors duration-200"
+                className="w-full flex items-center justify-between px-6 py-4 text-left hover:bg-gray-50 transition-colors"
               >
-                <span className="text-sm font-medium text-[#f2f0eb] pr-4">{faq.q}</span>
-                {open === i ? (
-                  <Minus size={16} className="text-[#e8632a] flex-shrink-0" />
-                ) : (
-                  <Plus size={16} className="text-[#555550] flex-shrink-0" />
-                )}
+                <span className="text-sm font-semibold text-gray-900 pr-4">{faq.q}</span>
+                {open === i
+                  ? <Minus size={15} className="text-[#e8632a] flex-shrink-0" />
+                  : <Plus size={15} className="text-gray-400 flex-shrink-0" />
+                }
               </button>
               {open === i && (
-                <div className="px-5 pb-5 bg-[#0a0a0a] border-t border-[#1c1c1c]">
-                  <p className="text-sm text-[#777770] leading-relaxed pt-4">{faq.a}</p>
+                <div className="px-6 pb-5 border-t border-gray-100">
+                  <p className="text-sm text-gray-500 leading-relaxed pt-4">{faq.a}</p>
                 </div>
               )}
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

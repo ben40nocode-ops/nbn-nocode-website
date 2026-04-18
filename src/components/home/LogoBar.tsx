@@ -2,14 +2,14 @@ const tools = ["Make", "Zapier", "Airtable", "Webflow", "Claude AI", "Anthropic"
 
 export function LogoBar() {
   return (
-    <section className="py-8 border-y border-[#1e1e1e] bg-[#0e0e0e] overflow-hidden">
+    <section className="py-10 bg-gray-50 border-y border-gray-100 overflow-hidden">
+      <p className="text-center text-[11px] font-semibold text-gray-400 uppercase tracking-widest mb-7">
+        Stack technologique maîtrisé
+      </p>
       <div className="relative">
-        <div className="flex gap-10 animate-[scroll_22s_linear_infinite] whitespace-nowrap">
+        <div className="flex gap-14 animate-[scroll_24s_linear_infinite] whitespace-nowrap">
           {[...tools, ...tools, ...tools].map((tool, i) => (
-            <span
-              key={i}
-              className="text-xs font-semibold text-[#3a3a38] uppercase tracking-widest flex-shrink-0"
-            >
+            <span key={i} className="text-sm font-semibold text-gray-300 uppercase tracking-widest flex-shrink-0">
               {tool}
             </span>
           ))}
