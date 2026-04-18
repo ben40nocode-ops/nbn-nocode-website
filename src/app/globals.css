@@ -13,15 +13,14 @@
 }
 
 :root {
-  --background: #080808;
-  --foreground: #f2f0eb;
+  --background: #0c0c0c;
+  --foreground: #f0ede8;
   --accent: #e8632a;
   --accent-dark: #c4521f;
-  --teal: #1a3a4a;
-  --teal-light: #2a5a6e;
-  --muted: #777770;
-  --border: #1c1c1c;
-  --card: #0f0f0f;
+  --muted: #888882;
+  --border: #242424;
+  --card: #141414;
+  --section-alt: #111111;
 }
 
 * {
