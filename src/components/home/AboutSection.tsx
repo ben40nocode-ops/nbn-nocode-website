@@ -12,7 +12,6 @@ export function AboutSection() {
     <section id="apropos" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
 
-        {/* Section header — centré */}
         <div className="text-center mb-16">
           <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">
             Qui sommes-nous
@@ -22,11 +21,13 @@ export function AboutSection() {
           </h2>
         </div>
 
-        {/* Content */}
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-gray-500 leading-relaxed mb-4">
-              Formés à l&apos;Alegría Academy, nous sommes 3 product builders spécialisés dans la conception d&apos;architectures d&apos;automatisation et d&apos;agents IA.
+              Fondée par <strong className="text-gray-700">Benjamin Bertigny</strong>, product builder spécialisé Claude AI, NBN Nocode conçoit des architectures d&apos;automatisation et d&apos;agents IA sur mesure pour les PME du triangle Bordeaux · Royan · Arcachon et partout en France.
+            </p>
+            <p className="text-gray-500 leading-relaxed mb-4">
+              Formés à l&apos;Alegría Academy, notre équipe de 3 experts combine vibe coding, nocode et intégration IA pour livrer des systèmes qui tournent sans intervention humaine.
             </p>
             <p className="text-gray-500 leading-relaxed">
               Notre conviction : l&apos;IA doit travailler pour vous, pas l&apos;inverse. On ne livre pas des workflows. On livre un système qui tourne, s&apos;adapte, et qu&apos;on maintient dans le temps.
