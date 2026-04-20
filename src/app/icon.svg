@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="6" fill="#ffffff"/>
+  <!-- Coins colorés -->
+  <path d="M2,5 L2,2 L5,2" stroke="#8B6E4E" stroke-width="1.8" stroke-linecap="square" fill="none"/>
+  <path d="M27,2 L30,2 L30,5" stroke="#1E2A6E" stroke-width="1.8" stroke-linecap="square" fill="none"/>
+  <path d="M2,27 L2,30 L5,30" stroke="#A8956A" stroke-width="1.8" stroke-linecap="square" fill="none"/>
+  <path d="M27,30 L30,30 L30,27" stroke="#5A6A2A" stroke-width="1.8" stroke-linecap="square" fill="none"/>
+  <!-- NBN texte -->
+  <text x="16" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="13" fill="#111111" letter-spacing="-0.5">NBN</text>
+</svg>

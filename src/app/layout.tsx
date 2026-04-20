@@ -57,6 +57,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.nbn-nocode.fr",
   },
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
