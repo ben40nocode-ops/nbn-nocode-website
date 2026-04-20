@@ -1,0 +1,2 @@
+userId,email,plan,stripeSubscriptionId,stripeCustomerId,status,createdAt
+exemple_user_123,client@example.com,business,sub_example123,cus_example123,active,2026-04-20
