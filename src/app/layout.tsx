@@ -18,20 +18,24 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.nbn-nocode.fr"),
   title: {
-    default: "NBN Nocode — Automatisation & Agents IA pour PME",
+    default: "NBN Nocode — Automatisation & Agents IA | Bordeaux · Royan · Arcachon",
     template: "%s | NBN Nocode",
   },
   description:
-    "NBN Nocode conçoit vos architectures d'automatisation et agents IA sur mesure. Gagnez du temps, réduisez les coûts, scalez sans coder. Bordeaux, Royan, Arcachon.",
+    "Expert en automatisation nocode et agents IA pour PME à Bordeaux, Royan et Arcachon. Setup Make, Zapier, Airtable, Claude AI. Gagnez du temps, scalez sans recruter.",
   keywords: [
-    "automatisation nocode",
-    "agent IA PME",
-    "Make Zapier Airtable",
-    "Claude API",
-    "no-code Bordeaux",
-    "workflow automatisé",
-    "product builder IA",
-    "intégration IA entreprise",
+    "automatisation nocode Bordeaux",
+    "agent IA Bordeaux",
+    "nocode Royan",
+    "automatisation PME Arcachon",
+    "Make Zapier Bordeaux",
+    "Claude AI intégration",
+    "workflow automatisé Gironde",
+    "product builder IA Bordeaux",
+    "automatisation entreprise Bordeaux",
+    "no-code Gironde",
+    "consultant automatisation Bordeaux",
+    "agent IA PME France",
   ],
   authors: [{ name: "NBN Nocode", url: "https://www.nbn-nocode.fr" }],
   creator: "NBN Nocode",
@@ -40,15 +44,15 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     url: "https://www.nbn-nocode.fr",
     siteName: "NBN Nocode",
-    title: "NBN Nocode — Automatisation & Agents IA pour PME",
-    description:
-      "Vos process tournent. Même quand vous dormez. On construit l'architecture, vous récoltez les résultats.",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "NBN Nocode" }],
+    title: "NBN Nocode — Automatisation & Agents IA | Bordeaux · Royan · Arcachon",
+    description: "Vos process tournent. Même quand vous dormez. Expert nocode & Claude AI pour PME en Gironde.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "NBN Nocode — Automatisation & Agents IA" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "NBN Nocode — Automatisation & Agents IA",
-    description: "Architectures d'automatisation et agents IA sur mesure pour PME.",
+    description: "Expert nocode & Claude AI pour PME. Bordeaux · Royan · Arcachon.",
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
@@ -65,10 +69,77 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.nbn-nocode.fr/#organization",
+      name: "NBN Nocode",
+      url: "https://www.nbn-nocode.fr",
+      logo: "https://www.nbn-nocode.fr/icon.svg",
+      email: "contact@nbn-nocode.fr",
+      description: "Spécialiste en automatisation nocode et agents IA pour PME. Bordeaux, Royan, Arcachon.",
+      areaServed: ["Bordeaux", "Royan", "Arcachon", "Gironde", "France"],
+      knowsAbout: ["Automatisation", "Intelligence Artificielle", "Claude AI", "Make", "Zapier", "Airtable", "Nocode"],
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.nbn-nocode.fr/#localbusiness",
+      name: "NBN Nocode",
+      url: "https://www.nbn-nocode.fr",
+      telephone: "",
+      email: "contact@nbn-nocode.fr",
+      image: "https://www.nbn-nocode.fr/og-image.png",
+      description: "Expert automatisation nocode et agents IA Claude pour PME. Setup sur mesure, abonnement maintenance. Bordeaux, Royan, Arcachon.",
+      priceRange: "€€",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Bordeaux",
+        addressRegion: "Nouvelle-Aquitaine",
+        postalCode: "33000",
+        addressCountry: "FR",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 44.8378,
+        longitude: -0.5792,
+      },
+      areaServed: [
+        { "@type": "City", name: "Bordeaux" },
+        { "@type": "City", name: "Royan" },
+        { "@type": "City", name: "Arcachon" },
+        { "@type": "AdministrativeArea", name: "Gironde" },
+        { "@type": "Country", name: "France" },
+      ],
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "09:00",
+        closes: "18:00",
+      },
+      sameAs: ["https://www.linkedin.com/company/nbn-nocode"],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.nbn-nocode.fr/#website",
+      url: "https://www.nbn-nocode.fr",
+      name: "NBN Nocode",
+      publisher: { "@id": "https://www.nbn-nocode.fr/#organization" },
+    },
+  ],
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ClerkProvider>
       <html lang="fr" className={`${geistSans.variable} ${geistMono.variable}`}>
+        <head>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          />
+        </head>
         <body className="min-h-screen flex flex-col">
           <Navbar />
           <main className="flex-1">{children}</main>

@@ -21,6 +21,10 @@ const faqs = [
     a: "Pour une automatisation simple : 48h. Pour une architecture complète avec agents IA : 1 à 3 semaines selon la complexité.",
   },
   {
+    q: "Est-ce que vous intervenez à Bordeaux, Royan et Arcachon ?",
+    a: "Oui, on est basés dans ce triangle et on intervient en présentiel ou en remote. On couvre aussi toute la France à distance.",
+  },
+  {
     q: "Est-ce que vous faites aussi du conseil sans passer par vos outils ?",
     a: "Oui. L'audit gratuit de 30 min est un vrai diagnostic — on vous dit ce qui peut être automatisé et ce qui ne le peut pas, sans obligation d'achat.",
   },
@@ -30,14 +34,24 @@ const faqs = [
   },
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.q,
+    acceptedAnswer: { "@type": "Answer", text: faq.a },
+  })),
+};
+
 export function FaqSection() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
     <section className="py-24 bg-gray-50">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="max-w-3xl mx-auto px-6">
 
-        {/* Section header */}
         <div className="text-center mb-16">
           <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">FAQ</p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
@@ -45,7 +59,6 @@ export function FaqSection() {
           </h2>
         </div>
 
-        {/* Accordion */}
         <div className="flex flex-col gap-2">
           {faqs.map((faq, i) => (
             <div key={i} className="border border-gray-200 rounded-xl overflow-hidden bg-white">
