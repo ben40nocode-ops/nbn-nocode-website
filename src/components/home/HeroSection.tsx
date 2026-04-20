@@ -26,7 +26,7 @@ export function HeroSection() {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link
-            href="https://calendly.com/nbn-nocode"
+            href="https://calendly.com/ben40nocode/1h"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 shadow-lg shadow-orange-200"

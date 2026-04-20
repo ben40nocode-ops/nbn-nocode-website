@@ -117,7 +117,7 @@ export default function TarifsPage() {
                   ))}
                 </ul>
                 <Link
-                  href="https://calendly.com/nbn-nocode"
+                  href="https://calendly.com/ben40nocode/1h"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`w-full text-center py-3 rounded-xl text-sm font-medium transition-colors ${
@@ -138,7 +138,7 @@ export default function TarifsPage() {
           <p className="text-[#f2f0eb] font-semibold text-lg mb-2">Pas sûr de quel plan choisir ?</p>
           <p className="text-[#555550] text-sm mb-6">L&apos;audit gratuit de 30 min répond à toutes vos questions et définit le setup idéal.</p>
           <Link
-            href="https://calendly.com/nbn-nocode"
+            href="https://calendly.com/ben40nocode/1h"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl text-sm font-medium transition-colors"

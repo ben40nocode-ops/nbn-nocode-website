@@ -16,7 +16,7 @@ export function Footer() {
               On construit l&apos;architecture. Vous récoltez les résultats. Automatisation & agents IA pour PME qui veulent scaler sans recruter.
             </p>
             <Link
-              href="https://calendly.com/nbn-nocode"
+              href="https://calendly.com/ben40nocode/1h"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-colors"

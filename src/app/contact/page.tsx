@@ -31,7 +31,7 @@ export default function ContactPage() {
               </div>
               <p className="text-sm text-[#777770] mb-4">Réservez directement un créneau dans notre agenda. On analyse votre situation et on vous propose un plan d&apos;action.</p>
               <Link
-                href="https://calendly.com/nbn-nocode"
+                href="https://calendly.com/ben40nocode/1h"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-4 py-2.5 rounded-lg text-sm font-medium transition-colors"
