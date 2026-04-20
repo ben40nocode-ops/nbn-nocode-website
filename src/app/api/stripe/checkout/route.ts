@@ -10,13 +10,13 @@ const PRICE_MAP: Record<string, string | undefined> = {
   fullstack: process.env.STRIPE_PRICE_FULLSTACK,
 };
 
-export async function POST(req: NextRequest) {
+export async function GET(req: NextRequest) {
   const { userId } = await auth();
-  if (!userId) return NextResponse.json({ error: "Non autorisé" }, { status: 401 });
+  if (!userId) return NextResponse.redirect(new URL("/sign-in", req.url));
 
-  const { plan } = await req.json();
-  const priceId = PRICE_MAP[plan];
-  if (!priceId) return NextResponse.json({ error: "Plan inconnu" }, { status: 400 });
+  const plan = req.nextUrl.searchParams.get("plan");
+  const priceId = plan ? PRICE_MAP[plan] : undefined;
+  if (!priceId) return NextResponse.redirect(new URL("/tarifs", req.url));
 
   const session = await stripe.checkout.sessions.create({
     mode: "subscription",
@@ -27,5 +27,5 @@ export async function POST(req: NextRequest) {
     cancel_url: `${process.env.NEXT_PUBLIC_APP_URL ?? "https://www.nbn-nocode.fr"}/tarifs`,
   });
 
-  return NextResponse.json({ url: session.url });
+  return NextResponse.redirect(session.url!);
 }
