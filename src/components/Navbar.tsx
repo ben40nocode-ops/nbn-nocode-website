@@ -44,7 +44,7 @@ export function Navbar() {
         <div className="hidden md:flex items-center gap-3">
           {isSignedIn ? (
             <>
-              <Link href="/dashboard" className="text-sm text-gray-500 hover:text-gray-900 transition-colors px-3 py-1.5">
+              <Link href="/dashboard" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-500 hover:text-gray-900 transition-colors px-3 py-1.5">
                 Espace client
               </Link>
               <UserButton />
@@ -82,7 +82,7 @@ export function Navbar() {
           ))}
           <div className="flex flex-col gap-3 pt-4 border-t border-gray-100">
             {isSignedIn ? (
-              <Link href="/dashboard" onClick={() => setOpen(false)} className="text-sm text-gray-600 text-center py-2">
+              <Link href="/dashboard" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="text-sm text-gray-600 text-center py-2">
                 Espace client
               </Link>
             ) : (

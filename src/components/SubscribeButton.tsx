@@ -29,7 +29,7 @@ export function SubscribeButton({ plan, highlight, label }: Props) {
         body: JSON.stringify({ plan }),
       });
       const data = await res.json();
-      if (data.url) router.push(data.url);
+      if (data.url) window.open(data.url, "_blank");
     } finally {
       setLoading(false);
     }
