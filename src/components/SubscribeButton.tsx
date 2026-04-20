@@ -22,6 +22,7 @@ export function SubscribeButton({ plan, highlight, label }: Props) {
       return;
     }
     setLoading(true);
+    const newTab = window.open("", "_blank");
     try {
       const res = await fetch("/api/stripe/checkout", {
         method: "POST",
@@ -29,7 +30,7 @@ export function SubscribeButton({ plan, highlight, label }: Props) {
         body: JSON.stringify({ plan }),
       });
       const data = await res.json();
-      if (data.url) window.open(data.url, "_blank");
+      if (data.url && newTab) newTab.location.href = data.url;
     } finally {
       setLoading(false);
     }
