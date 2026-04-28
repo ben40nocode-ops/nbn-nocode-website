@@ -17,7 +17,7 @@ export default function MentionsLegalesPage() {
           <section>
             <h2 className="text-base font-bold text-gray-900 mb-3">Éditeur du site</h2>
             <p>NBN IA<br />
-            Contact : contact@nbn-nocode.fr<br />
+            Contact : contact@nbn-ia.fr<br />
             Directeur de la publication : Benjamin Bertigny</p>
           </section>
 

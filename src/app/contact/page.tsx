@@ -52,8 +52,8 @@ export default function ContactPage() {
                 <Mail size={18} className="text-[#e8632a]" />
                 <h3 className="text-sm font-semibold text-gray-900">Email</h3>
               </div>
-              <a href="mailto:contact@nbn-nocode.fr" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
-                contact@nbn-nocode.fr
+              <a href="mailto:contact@nbn-ia.fr" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
+                contact@nbn-ia.fr
               </a>
             </div>
 
@@ -68,7 +68,7 @@ export default function ContactPage() {
 
           <div className="p-8 rounded-2xl border border-gray-100 bg-gray-50">
             <h2 className="text-base font-bold text-gray-900 mb-6">Envoyez un message</h2>
-            <form className="space-y-4" action="mailto:contact@nbn-nocode.fr" method="get">
+            <form className="space-y-4" action="mailto:contact@nbn-ia.fr" method="get">
               <div>
                 <label className="block text-xs text-gray-400 mb-2 uppercase tracking-wide font-medium">Nom</label>
                 <input

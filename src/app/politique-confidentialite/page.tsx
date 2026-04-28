@@ -17,7 +17,7 @@ export default function PolitiqueConfidentialitePage() {
           <section>
             <h2 className="text-base font-bold text-gray-900 mb-3">Responsable du traitement</h2>
             <p>NBN IA — Benjamin Bertigny<br />
-            Email : contact@nbn-nocode.fr</p>
+            Email : contact@nbn-ia.fr</p>
           </section>
 
           <section>
@@ -60,7 +60,7 @@ export default function PolitiqueConfidentialitePage() {
               <li>Droit à la portabilité</li>
               <li>Droit d&apos;opposition</li>
             </ul>
-            <p className="mt-3">Pour exercer ces droits : <a href="mailto:contact@nbn-nocode.fr" className="text-[#e8632a] hover:underline">contact@nbn-nocode.fr</a></p>
+            <p className="mt-3">Pour exercer ces droits : <a href="mailto:contact@nbn-ia.fr" className="text-[#e8632a] hover:underline">contact@nbn-ia.fr</a></p>
           </section>
 
           <section>
