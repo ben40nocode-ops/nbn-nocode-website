@@ -4,12 +4,12 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA à Arcachon — NBN IA",
-  description: "Expert en automatisation nocode et agents IA à Arcachon et Bassin d'Arcachon. Make, Zapier, Airtable, Claude AI. Audit gratuit 1h sans engagement.",
+  description: "Expert en agents IA et automatisation IA à Arcachon et Bassin d'Arcachon. Make, Zapier, Airtable, Claude AI. Audit gratuit 1h sans engagement.",
   keywords: ["automatisation Arcachon", "agent IA Arcachon", "nocode Arcachon", "consultant automatisation Bassin Arcachon", "Claude AI Arcachon", "PME Arcachon automatisation"],
   alternates: { canonical: "https://www.nbn-ia.fr/automatisation-arcachon" },
   openGraph: {
     title: "Automatisation & Agents IA à Arcachon — NBN IA",
-    description: "Expert nocode & Claude AI pour PME à Arcachon. Setup sur mesure, maintenance mensuelle.",
+    description: "Expert agents IA & Claude AI pour PME à Arcachon. Setup sur mesure, maintenance mensuelle.",
     url: "https://www.nbn-ia.fr/automatisation-arcachon",
   },
 };

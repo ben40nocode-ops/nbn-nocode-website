@@ -117,8 +117,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.nbn-ia.fr" },
-        { "@type": "ListItem", position: 2, name: "Automatisation", item: "https://www.nbn-ia.fr/automatisation-bordeaux" },
-        { "@type": "ListItem", position: 3, name: label, item: `https://www.nbn-ia.fr/automatisation/${ville}` },
+        { "@type": "ListItem", position: 2, name: label, item: `https://www.nbn-ia.fr/automatisation/${ville}` },
       ],
     },
   ];

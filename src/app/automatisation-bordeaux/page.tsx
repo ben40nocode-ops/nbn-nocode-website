@@ -4,12 +4,12 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA à Bordeaux — NBN IA",
-  description: "Expert en automatisation nocode et agents IA à Bordeaux. Faites tourner vos process sans recruter. Make, Zapier, Airtable, Claude AI. Audit gratuit 1h.",
+  description: "Expert en agents IA et automatisation IA à Bordeaux. Faites tourner vos process sans recruter. Make, Zapier, Airtable, Claude AI. Audit gratuit 1h.",
   keywords: ["automatisation Bordeaux", "agent IA Bordeaux", "nocode Bordeaux", "Make Bordeaux", "consultant automatisation Bordeaux", "Claude AI Bordeaux", "PME Bordeaux automatisation"],
   alternates: { canonical: "https://www.nbn-ia.fr/automatisation-bordeaux" },
   openGraph: {
     title: "Automatisation & Agents IA à Bordeaux — NBN IA",
-    description: "Expert nocode & Claude AI pour PME bordelaises. Setup sur mesure, maintenance mensuelle.",
+    description: "Expert agents IA & Claude AI pour PME bordelaises. Setup sur mesure, maintenance mensuelle.",
     url: "https://www.nbn-ia.fr/automatisation-bordeaux",
   },
 };

@@ -9,7 +9,7 @@ export const articles: Article[] = [
   {
     "slug": "automatisation-nocode-pme-guide-complet",
     "title": "Automatisation nocode pour PME : le guide complet 2026",
-    "description": "Automatisation nocode pour PME : le guide complet 2026 — Découvrez les meilleures pratiques d'automatisation nocode et agents IA pour PME. Par Benjamin Bertigny, expert Claude AI à Bordeaux.",
+    "description": "Automatisez vos process sans coder : outils, méthodes et cas concrets pour PME en 2026. Make, Airtable, agents IA — récupérez 10 à 20h par semaine.",
     "date": "2026-04-24",
     "author": "Benjamin Bertigny",
     "category": "Automatisation",
@@ -25,7 +25,7 @@ export const articles: Article[] = [
   {
     "slug": "make-vs-zapier-comparatif-2026",
     "title": "Make vs Zapier en 2026 : lequel choisir pour automatiser votre business ?",
-    "description": "Make vs Zapier en 2026 : lequel choisir pour automatiser votre business ? — Découvrez les meilleures pratiques d'automatisation nocode et agents IA pour PME. Par Benjamin Bertigny, expert Claude AI à Bordeaux.",
+    "description": "Comparatif Make vs Zapier 2026 : prix, puissance et cas d'usage réels. Quel outil choisir pour automatiser votre PME avec les agents IA ?",
     "date": "2026-04-24",
     "author": "Benjamin Bertigny",
     "category": "Automatisation",
@@ -41,7 +41,7 @@ export const articles: Article[] = [
   {
     "slug": "agent-ia-claude-entreprise-sans-code",
     "title": "Comment déployer un agent IA Claude dans votre entreprise (sans coder)",
-    "description": "Comment déployer un agent IA Claude dans votre entreprise (sans coder) — Découvrez les meilleures pratiques d'automatisation nocode et agents IA pour PME. Par Benjamin Bertigny, expert Claude AI à Bordeaux.",
+    "description": "Déployez Claude AI dans votre entreprise sans développeur : méthode en 5 étapes avec Make et Airtable. ROI atteint en moins de 3 mois pour les PME.",
     "date": "2026-04-24",
     "author": "Benjamin Bertigny",
     "category": "Agents IA",
@@ -57,7 +57,7 @@ export const articles: Article[] = [
   {
     "slug": "automatisation-relances-clients",
     "title": "5 automatisations pour ne plus jamais oublier de relancer un client",
-    "description": "5 automatisations pour ne plus jamais oublier de relancer un client — Découvrez les meilleures pratiques d'automatisation nocode et agents IA pour PME. Par Benjamin Bertigny, expert Claude AI à Bordeaux.",
+    "description": "5 systèmes IA pour automatiser vos relances clients : devis, contrats, post-achat. Récupérez jusqu'à 25% de ventes perdues sans intervention manuelle.",
     "date": "2026-04-24",
     "author": "Benjamin Bertigny",
     "category": "Automatisation",
@@ -73,7 +73,7 @@ export const articles: Article[] = [
   {
     "slug": "roi-automatisation-entreprise-calcul",
     "title": "ROI de l'automatisation : combien d'heures votre PME perd-elle chaque semaine ?",
-    "description": "ROI de l'automatisation : combien d'heures votre PME perd-elle chaque semaine ? — Découvrez les meilleures pratiques d'automatisation nocode et agents IA pour PME. Par Benjamin Bertigny, expert Claude AI à Bordeaux.",
+    "description": "Calculez le ROI réel de l'automatisation IA pour votre PME : chiffres concrets, méthode en 3 étapes et exemples de 400% de retour dès la première année.",
     "date": "2026-04-24",
     "author": "Benjamin Bertigny",
     "category": "Business",

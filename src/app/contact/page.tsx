@@ -4,7 +4,7 @@ import { Mail, MapPin, Calendar } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contactez NBN IA pour un audit gratuit de 1h. Expert en automatisation nocode et agents IA à Bordeaux, Royan et Arcachon. Réponse sous 24h.",
+  description: "Contactez NBN IA pour un audit gratuit de 1h. Expert en systèmes IA autonomes et agents IA à Bordeaux, Royan et Arcachon. Réponse sous 24h.",
   alternates: { canonical: "https://www.nbn-ia.fr/contact" },
   openGraph: {
     title: "Contact — NBN IA",

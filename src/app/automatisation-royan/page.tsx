@@ -4,12 +4,12 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA à Royan — NBN IA",
-  description: "Expert en automatisation nocode et agents IA à Royan et Charente-Maritime. Make, Zapier, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 1h.",
+  description: "Expert en agents IA et automatisation IA à Royan et Charente-Maritime. Make, Zapier, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 1h.",
   keywords: ["automatisation Royan", "agent IA Royan", "nocode Royan", "consultant automatisation Charente-Maritime", "Claude AI Royan", "PME Royan automatisation"],
   alternates: { canonical: "https://www.nbn-ia.fr/automatisation-royan" },
   openGraph: {
     title: "Automatisation & Agents IA à Royan — NBN IA",
-    description: "Expert nocode & Claude AI pour PME à Royan. Setup sur mesure, maintenance mensuelle.",
+    description: "Expert agents IA & Claude AI pour PME à Royan. Setup sur mesure, maintenance mensuelle.",
     url: "https://www.nbn-ia.fr/automatisation-royan",
   },
 };

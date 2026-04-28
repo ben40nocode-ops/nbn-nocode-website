@@ -81,7 +81,7 @@ const jsonLd = {
       email: "contact@nbn-ia.fr",
       description: "Architecte de systèmes IA autonomes pour PME. Agents IA Claude, vibe coding, orchestration IA. Bordeaux, Royan, Arcachon.",
       areaServed: ["Bordeaux", "Royan", "Arcachon", "Gironde", "France"],
-      knowsAbout: ["Systèmes IA Autonomes", "Agents IA", "Claude AI", "Vibe Coding", "Claude Code", "Orchestration IA", "IA Générative", "Make", "n8n"],
+      knowsAbout: ["Systèmes IA Autonomes", "Agents IA", "Claude AI", "Vibe Coding", "Claude Code", "Orchestration IA", "IA Générative", "Make", "n8n", "MCP", "Anthropic", "AI Systems Engineering", "Agent Orchestration", "LLM Workflows"],
     },
     {
       "@type": "LocalBusiness",
@@ -137,7 +137,7 @@ const jsonLd = {
       email: "contact@nbn-ia.fr",
       worksFor: { "@id": "https://www.nbn-ia.fr/#organization" },
       sameAs: ["https://www.linkedin.com/company/nbn-nocode"],
-      knowsAbout: ["Claude AI", "Claude Code", "Agents IA", "Systèmes IA Autonomes", "Vibe Coding", "Orchestration IA", "IA Générative", "Make", "n8n", "Next.js"],
+      knowsAbout: ["Claude AI", "Claude Code", "Agents IA", "Systèmes IA Autonomes", "Vibe Coding", "Orchestration IA", "IA Générative", "Make", "n8n", "Next.js", "MCP", "Anthropic", "AI Systems Engineering", "Agent Orchestration", "LLM Workflows"],
     },
   ],
 };
