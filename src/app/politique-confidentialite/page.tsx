@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Politique de confidentialité",
-  description: "Politique de confidentialité et RGPD de NBN Nocode.",
+  description: "Politique de confidentialité et RGPD de NBN IA.",
   robots: { index: false, follow: false },
 };
 
@@ -16,7 +16,7 @@ export default function PolitiqueConfidentialitePage() {
 
           <section>
             <h2 className="text-base font-bold text-gray-900 mb-3">Responsable du traitement</h2>
-            <p>NBN Nocode — Benjamin Bertigny<br />
+            <p>NBN IA — Benjamin Bertigny<br />
             Email : contact@nbn-nocode.fr</p>
           </section>
 
@@ -42,7 +42,7 @@ export default function PolitiqueConfidentialitePage() {
 
           <section>
             <h2 className="text-base font-bold text-gray-900 mb-3">Base légale</h2>
-            <p>Les traitements reposent sur votre consentement et/ou l&apos;exécution du contrat vous liant à NBN Nocode.</p>
+            <p>Les traitements reposent sur votre consentement et/ou l&apos;exécution du contrat vous liant à NBN IA.</p>
           </section>
 
           <section>

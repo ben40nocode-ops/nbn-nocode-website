@@ -43,7 +43,7 @@ export function Logo({ className = "", width = 100, variant = "dark" }: LogoProp
         NBN
       </text>
 
-      {/* Nocode sub text */}
+      {/* IA sub text */}
       <text
         x="50"
         y="58"
@@ -52,9 +52,9 @@ export function Logo({ className = "", width = 100, variant = "dark" }: LogoProp
         fontWeight="400"
         fontSize="11"
         fill={subColor}
-        letterSpacing="1.5"
+        letterSpacing="4"
       >
-        Nocode
+        IA
       </text>
     </svg>
   );

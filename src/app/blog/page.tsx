@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Guides pratiques, tutoriels et analyses sur l'automatisation nocode, les agents IA Claude et la transformation digitale des PME. Par Benjamin Bertigny, expert à Bordeaux.",
   alternates: { canonical: "https://www.nbn-ia.fr/blog" },
   openGraph: {
-    title: "Blog NBN Nocode — Automatisation & Agents IA",
+    title: "Blog NBN IA — Automatisation & Agents IA",
     description: "Guides pratiques sur l'automatisation nocode et les agents IA pour PME.",
     url: "https://www.nbn-ia.fr/blog",
   },

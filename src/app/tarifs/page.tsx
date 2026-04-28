@@ -6,7 +6,7 @@ import { SubscribeButton } from "@/components/SubscribeButton";
 export const metadata: Metadata = {
   title: "Tarifs",
   description:
-    "Setup unique à partir de 450€ + abonnement mensuel dès 159€/mois. Pas d'engagement, pas de surprise. Découvrez nos offres NBN Nocode.",
+    "Setup unique à partir de 450€ + abonnement mensuel dès 159€/mois. Pas d'engagement, pas de surprise. Découvrez nos offres NBN IA.",
 };
 
 const setup = [
@@ -83,7 +83,7 @@ export default function TarifsPage() {
             </div>
             <div className="bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 text-center flex flex-col items-center justify-center">
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest">vs</p>
-              <p className="text-xs text-gray-400 mt-1">un abonnement NBN Nocode</p>
+              <p className="text-xs text-gray-400 mt-1">un abonnement NBN IA</p>
             </div>
             <div className="bg-orange-50 border border-orange-100 rounded-xl px-5 py-4 text-center">
               <p className="text-2xl font-bold text-[#e8632a]">dès 159€</p>

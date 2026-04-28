@@ -52,7 +52,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     },
     publisher: {
       "@type": "Organization",
-      name: "NBN Nocode",
+      name: "NBN IA",
       url: "https://www.nbn-ia.fr",
       logo: { "@type": "ImageObject", url: "https://www.nbn-ia.fr/icon.svg" },
     },

@@ -66,7 +66,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-gray-600">© {new Date().getFullYear()} NBN Nocode — Benjamin Bertigny. Tous droits réservés.</p>
+          <p className="text-xs text-gray-600">© {new Date().getFullYear()} NBN IA — Benjamin Bertigny. Tous droits réservés.</p>
           <div className="flex gap-6">
             <Link href="/mentions-legales" className="text-xs text-gray-600 hover:text-gray-400 transition-colors">Mentions légales</Link>
             <Link href="/politique-confidentialite" className="text-xs text-gray-600 hover:text-gray-400 transition-colors">Confidentialité</Link>

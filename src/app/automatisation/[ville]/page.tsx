@@ -84,12 +84,12 @@ export async function generateMetadata({ params }: { params: Promise<{ ville: st
   const label = toLabel(ville);
   const { dept } = villes[ville];
   return {
-    title: `Automatisation & Agents IA à ${label} — NBN Nocode`,
+    title: `Automatisation & Agents IA à ${label} — NBN IA`,
     description: `Expert automatisation nocode et agents IA à ${label} (${dept}). Make, Zapier, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 1h sans engagement.`,
     keywords: [`automatisation ${label}`, `agent IA ${label}`, `nocode ${label}`, `Claude AI ${label}`, `automatisation PME ${dept}`],
     alternates: { canonical: `https://www.nbn-ia.fr/automatisation/${ville}` },
     openGraph: {
-      title: `Automatisation & Agents IA à ${label} — NBN Nocode`,
+      title: `Automatisation & Agents IA à ${label} — NBN IA`,
       description: `Expert nocode & Claude AI pour PME à ${label}. Audit gratuit.`,
       url: `https://www.nbn-ia.fr/automatisation/${ville}`,
     },
@@ -108,7 +108,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
       "@context": "https://schema.org",
       "@type": "Service",
       name: `Automatisation & Agents IA à ${label}`,
-      provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-ia.fr" },
+      provider: { "@type": "Organization", name: "NBN IA", url: "https://www.nbn-ia.fr" },
       areaServed: { "@type": "City", name: label },
       description: `Conception d'architectures d'automatisation et d'agents IA pour les PME de ${label} (${dept}).`,
     },
@@ -141,7 +141,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
 
           <p className="text-lg text-gray-500 max-w-2xl mb-10 leading-relaxed">
             Vous gérez une entreprise à {label} et vos process vous font perdre du temps chaque jour ?
-            NBN Nocode conçoit votre architecture d&apos;automatisation sur mesure avec Make, Zapier, Airtable et Claude AI — 100% remote, résultats garantis.
+            NBN IA conçoit votre architecture d&apos;automatisation sur mesure avec Make, Zapier, Airtable et Claude AI — 100% remote, résultats garantis.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
@@ -173,7 +173,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
               </ul>
             </div>
             <div className="bg-gray-50 rounded-2xl p-7">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">Pourquoi NBN Nocode ?</h2>
+              <h2 className="text-lg font-bold text-gray-900 mb-3">Pourquoi NBN IA ?</h2>
               <ul className="space-y-3 text-sm text-gray-600">
                 {[
                   `Intervention à ${label} ou 100% remote`,

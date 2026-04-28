@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Check, ArrowRight, Bot } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Chatbot IA & Agents Claude — Bordeaux | NBN Nocode",
+  title: "Chatbot IA & Agents Claude — Bordeaux | NBN IA",
   description: "Créez un agent IA sur mesure pour votre entreprise à Bordeaux. Répond à vos clients 24h/24, traite vos emails, qualifie vos leads. Basé sur Claude AI (Anthropic). Audit gratuit.",
   keywords: ["chatbot IA Bordeaux", "agent IA Bordeaux", "Claude AI Bordeaux", "assistant IA entreprise", "chatbot entreprise Bordeaux", "automatisation IA Bordeaux", "agent Claude Bordeaux"],
   alternates: { canonical: "https://www.nbn-ia.fr/chatbot-ia-bordeaux" },
   openGraph: {
-    title: "Chatbot IA & Agents Claude à Bordeaux — NBN Nocode",
+    title: "Chatbot IA & Agents Claude à Bordeaux — NBN IA",
     description: "Agent IA sur mesure pour PME bordelaises. Basé sur Claude AI. Audit gratuit.",
     url: "https://www.nbn-ia.fr/chatbot-ia-bordeaux",
   },
@@ -18,7 +18,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Création de Chatbot IA & Agents Claude à Bordeaux",
-  provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-ia.fr" },
+  provider: { "@type": "Organization", name: "NBN IA", url: "https://www.nbn-ia.fr" },
   areaServed: { "@type": "City", name: "Bordeaux" },
   description: "Conception d'agents IA et chatbots basés sur Claude AI pour les PME de Bordeaux.",
 };

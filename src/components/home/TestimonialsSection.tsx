@@ -28,7 +28,7 @@ const testimonials = [
 const aggregateRatingJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "NBN Nocode",
+  name: "NBN IA",
   url: "https://www.nbn-ia.fr",
   aggregateRating: {
     "@type": "AggregateRating",

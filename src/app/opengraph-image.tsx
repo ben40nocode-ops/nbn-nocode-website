@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "NBN Nocode — Automatisation & Agents IA";
+export const alt = "NBN IA — Automatisation & Agents IA";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -43,7 +43,7 @@ export default function Image() {
         {/* Bottom bar */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%", borderTop: "2px solid #f3f4f6", paddingTop: "32px" }}>
           <span style={{ fontSize: "28px", fontWeight: 900, color: "#111111", letterSpacing: "-0.02em" }}>
-            NBN Nocode
+            NBN IA
           </span>
           <span style={{ fontSize: "20px", color: "#9ca3af" }}>nbn-ia.fr</span>
         </div>

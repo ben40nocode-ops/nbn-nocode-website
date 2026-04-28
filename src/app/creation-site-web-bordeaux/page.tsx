@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Check, ArrowRight, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Création Site Web & Application à Bordeaux — NBN Nocode",
+  title: "Création Site Web & Application à Bordeaux — NBN IA",
   description: "Création de sites web et applications nocode à Bordeaux. Webflow, Next.js, vibe coding. Rapide, performant, connecté à vos automatisations IA. Devis gratuit.",
   keywords: ["création site web Bordeaux", "création application Bordeaux", "vibe coding Bordeaux", "Webflow Bordeaux", "développeur nocode Bordeaux", "site web IA Bordeaux", "Next.js Bordeaux"],
   alternates: { canonical: "https://www.nbn-ia.fr/creation-site-web-bordeaux" },
   openGraph: {
-    title: "Création Site Web & App à Bordeaux — NBN Nocode",
+    title: "Création Site Web & App à Bordeaux — NBN IA",
     description: "Sites web et apps nocode à Bordeaux. Webflow, Next.js, vibe coding. Audit gratuit.",
     url: "https://www.nbn-ia.fr/creation-site-web-bordeaux",
   },
@@ -18,7 +18,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Création Site Web & Application Nocode à Bordeaux",
-  provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-ia.fr" },
+  provider: { "@type": "Organization", name: "NBN IA", url: "https://www.nbn-ia.fr" },
   areaServed: { "@type": "City", name: "Bordeaux" },
   description: "Création de sites web et applications nocode avec Webflow, Next.js et vibe coding pour les PME de Bordeaux.",
 };

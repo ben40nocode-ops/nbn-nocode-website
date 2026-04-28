@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Mentions légales",
-  description: "Mentions légales de NBN Nocode — Automatisation & Agents IA.",
+  description: "Mentions légales de NBN IA — Automatisation & Agents IA.",
   robots: { index: false, follow: false },
 };
 
@@ -16,7 +16,7 @@ export default function MentionsLegalesPage() {
 
           <section>
             <h2 className="text-base font-bold text-gray-900 mb-3">Éditeur du site</h2>
-            <p>NBN Nocode<br />
+            <p>NBN IA<br />
             Contact : contact@nbn-nocode.fr<br />
             Directeur de la publication : Benjamin Bertigny</p>
           </section>
@@ -31,17 +31,17 @@ export default function MentionsLegalesPage() {
 
           <section>
             <h2 className="text-base font-bold text-gray-900 mb-3">Propriété intellectuelle</h2>
-            <p>L&apos;ensemble du contenu de ce site (textes, images, graphismes, logo, icônes, etc.) est la propriété exclusive de NBN Nocode, sauf mention contraire. Toute reproduction, distribution ou utilisation sans autorisation écrite préalable est strictement interdite.</p>
+            <p>L&apos;ensemble du contenu de ce site (textes, images, graphismes, logo, icônes, etc.) est la propriété exclusive de NBN IA, sauf mention contraire. Toute reproduction, distribution ou utilisation sans autorisation écrite préalable est strictement interdite.</p>
           </section>
 
           <section>
             <h2 className="text-base font-bold text-gray-900 mb-3">Responsabilité</h2>
-            <p>NBN Nocode s&apos;efforce de maintenir les informations publiées sur ce site aussi précises et à jour que possible. Cependant, NBN Nocode ne peut garantir l&apos;exactitude, la complétude ou l&apos;actualité des informations diffusées sur ce site.</p>
+            <p>NBN IA s&apos;efforce de maintenir les informations publiées sur ce site aussi précises et à jour que possible. Cependant, NBN IA ne peut garantir l&apos;exactitude, la complétude ou l&apos;actualité des informations diffusées sur ce site.</p>
           </section>
 
           <section>
             <h2 className="text-base font-bold text-gray-900 mb-3">Liens hypertextes</h2>
-            <p>Ce site peut contenir des liens vers d&apos;autres sites. NBN Nocode n&apos;est pas responsable du contenu de ces sites tiers.</p>
+            <p>Ce site peut contenir des liens vers d&apos;autres sites. NBN IA n&apos;est pas responsable du contenu de ces sites tiers.</p>
           </section>
 
           <section>

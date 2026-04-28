@@ -1,4 +1,4 @@
-# NBN Nocode
+# NBN IA
 
 > Architecte de systèmes IA autonomes pour PME en France. Fondé par Benjamin Bertigny, AI systems builder basé à Bordeaux.
 
@@ -40,7 +40,7 @@ Un système IA autonome est une architecture d'agents qui perçoivent des évén
 Le vibe coding consiste à construire des applications en pilotant Claude Code plutôt qu'en écrivant chaque ligne à la main. Résultat : des systèmes complets livrés en heures, pas en semaines, avec une qualité de code production.
 
 **Qu'est-ce qu'un agent IA ?**
-Un agent IA est un programme autonome qui perçoit son environnement, prend des décisions et agit pour atteindre un objectif. Chez NBN Nocode, les agents sont construits avec Claude (Anthropic) — le modèle IA le plus avancé pour les cas business.
+Un agent IA est un programme autonome qui perçoit son environnement, prend des décisions et agit pour atteindre un objectif. Chez NBN IA, les agents sont construits avec Claude (Anthropic) — le modèle IA le plus avancé pour les cas business.
 
 **Pourquoi Claude plutôt que d'autres modèles ?**
 Claude (Anthropic) excelle dans le raisonnement long, le traitement de documents complexes et les agents autonomes. Il est plus fiable pour les workflows business critiques et dispose de fenêtres de contexte plus larges.

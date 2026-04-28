@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Check, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Automatisation & Agents IA à Bordeaux — NBN Nocode",
+  title: "Automatisation & Agents IA à Bordeaux — NBN IA",
   description: "Expert en automatisation nocode et agents IA à Bordeaux. Faites tourner vos process sans recruter. Make, Zapier, Airtable, Claude AI. Audit gratuit 1h.",
   keywords: ["automatisation Bordeaux", "agent IA Bordeaux", "nocode Bordeaux", "Make Bordeaux", "consultant automatisation Bordeaux", "Claude AI Bordeaux", "PME Bordeaux automatisation"],
   alternates: { canonical: "https://www.nbn-ia.fr/automatisation-bordeaux" },
   openGraph: {
-    title: "Automatisation & Agents IA à Bordeaux — NBN Nocode",
+    title: "Automatisation & Agents IA à Bordeaux — NBN IA",
     description: "Expert nocode & Claude AI pour PME bordelaises. Setup sur mesure, maintenance mensuelle.",
     url: "https://www.nbn-ia.fr/automatisation-bordeaux",
   },
@@ -18,7 +18,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Automatisation & Agents IA à Bordeaux",
-  provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-ia.fr" },
+  provider: { "@type": "Organization", name: "NBN IA", url: "https://www.nbn-ia.fr" },
   areaServed: { "@type": "City", name: "Bordeaux" },
   description: "Conception d'architectures d'automatisation et d'agents IA sur mesure pour les PME de Bordeaux.",
   offers: { "@type": "Offer", priceCurrency: "EUR", price: "450", priceSpecification: { "@type": "UnitPriceSpecification", priceCurrency: "EUR", price: "450", unitText: "setup" } },
@@ -79,7 +79,7 @@ export default function BordeauxPage() {
               </ul>
             </div>
             <div className="bg-gray-50 rounded-2xl p-7">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">Pourquoi NBN Nocode à Bordeaux ?</h2>
+              <h2 className="text-lg font-bold text-gray-900 mb-3">Pourquoi NBN IA à Bordeaux ?</h2>
               <ul className="space-y-3 text-sm text-gray-600">
                 {[
                   "Basé dans le triangle Bordeaux / Royan / Arcachon",
