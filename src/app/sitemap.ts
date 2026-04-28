@@ -19,7 +19,7 @@ const villes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://www.nbn-nocode.fr";
+  const base = "https://www.nbn-ia.fr";
   const staticPages: MetadataRoute.Sitemap = [
     { url: base, lastModified: new Date(), changeFrequency: "daily", priority: 1 },
     { url: `${base}/tarifs`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },

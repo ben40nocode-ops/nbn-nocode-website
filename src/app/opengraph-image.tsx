@@ -45,7 +45,7 @@ export default function Image() {
           <span style={{ fontSize: "28px", fontWeight: 900, color: "#111111", letterSpacing: "-0.02em" }}>
             NBN Nocode
           </span>
-          <span style={{ fontSize: "20px", color: "#9ca3af" }}>nbn-nocode.fr</span>
+          <span style={{ fontSize: "20px", color: "#9ca3af" }}>nbn-ia.fr</span>
         </div>
       </div>
     ),

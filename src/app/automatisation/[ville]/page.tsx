@@ -87,11 +87,11 @@ export async function generateMetadata({ params }: { params: Promise<{ ville: st
     title: `Automatisation & Agents IA à ${label} — NBN Nocode`,
     description: `Expert automatisation nocode et agents IA à ${label} (${dept}). Make, Zapier, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 1h sans engagement.`,
     keywords: [`automatisation ${label}`, `agent IA ${label}`, `nocode ${label}`, `Claude AI ${label}`, `automatisation PME ${dept}`],
-    alternates: { canonical: `https://www.nbn-nocode.fr/automatisation/${ville}` },
+    alternates: { canonical: `https://www.nbn-ia.fr/automatisation/${ville}` },
     openGraph: {
       title: `Automatisation & Agents IA à ${label} — NBN Nocode`,
       description: `Expert nocode & Claude AI pour PME à ${label}. Audit gratuit.`,
-      url: `https://www.nbn-nocode.fr/automatisation/${ville}`,
+      url: `https://www.nbn-ia.fr/automatisation/${ville}`,
     },
   };
 }
@@ -108,7 +108,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
       "@context": "https://schema.org",
       "@type": "Service",
       name: `Automatisation & Agents IA à ${label}`,
-      provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-nocode.fr" },
+      provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-ia.fr" },
       areaServed: { "@type": "City", name: label },
       description: `Conception d'architectures d'automatisation et d'agents IA pour les PME de ${label} (${dept}).`,
     },
@@ -116,9 +116,9 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.nbn-nocode.fr" },
-        { "@type": "ListItem", position: 2, name: "Automatisation", item: "https://www.nbn-nocode.fr/automatisation-bordeaux" },
-        { "@type": "ListItem", position: 3, name: label, item: `https://www.nbn-nocode.fr/automatisation/${ville}` },
+        { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.nbn-ia.fr" },
+        { "@type": "ListItem", position: 2, name: "Automatisation", item: "https://www.nbn-ia.fr/automatisation-bordeaux" },
+        { "@type": "ListItem", position: 3, name: label, item: `https://www.nbn-ia.fr/automatisation/${ville}` },
       ],
     },
   ];

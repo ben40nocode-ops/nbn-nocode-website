@@ -12,7 +12,7 @@ import { CtaSection } from "@/components/home/CtaSection";
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA pour PME | Bordeaux · Royan · Arcachon",
   description: "Je construis des systèmes IA autonomes qui travaillent à votre place. 24h/24. Agents IA Claude, vibe coding, orchestration sur mesure. Bordeaux, Royan, Arcachon et toute la France.",
-  alternates: { canonical: "https://www.nbn-nocode.fr" },
+  alternates: { canonical: "https://www.nbn-ia.fr" },
 };
 
 export default function HomePage() {

@@ -29,7 +29,7 @@ const aggregateRatingJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "NBN Nocode",
-  url: "https://www.nbn-nocode.fr",
+  url: "https://www.nbn-ia.fr",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5",

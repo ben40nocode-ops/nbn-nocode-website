@@ -5,11 +5,11 @@ import { Mail, MapPin, Calendar } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact",
   description: "Contactez NBN Nocode pour un audit gratuit de 1h. Expert en automatisation nocode et agents IA à Bordeaux, Royan et Arcachon. Réponse sous 24h.",
-  alternates: { canonical: "https://www.nbn-nocode.fr/contact" },
+  alternates: { canonical: "https://www.nbn-ia.fr/contact" },
   openGraph: {
     title: "Contact — NBN Nocode",
     description: "Audit gratuit 1h. Expert automatisation & agents IA à Bordeaux, Royan, Arcachon.",
-    url: "https://www.nbn-nocode.fr/contact",
+    url: "https://www.nbn-ia.fr/contact",
   },
 };
 

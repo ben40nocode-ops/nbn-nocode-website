@@ -23,8 +23,8 @@ export async function GET(req: NextRequest) {
     payment_method_types: ["card"],
     line_items: [{ price: priceId, quantity: 1 }],
     metadata: { userId },
-    success_url: `${process.env.NEXT_PUBLIC_APP_URL ?? "https://www.nbn-nocode.fr"}/dashboard?success=1`,
-    cancel_url: `${process.env.NEXT_PUBLIC_APP_URL ?? "https://www.nbn-nocode.fr"}/tarifs`,
+    success_url: `${process.env.NEXT_PUBLIC_APP_URL ?? "https://www.nbn-ia.fr"}/dashboard?success=1`,
+    cancel_url: `${process.env.NEXT_PUBLIC_APP_URL ?? "https://www.nbn-ia.fr"}/tarifs`,
   });
 
   return NextResponse.redirect(session.url!);

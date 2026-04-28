@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.nbn-nocode.fr"),
+  metadataBase: new URL("https://www.nbn-ia.fr"),
   title: {
     default: "NBN Nocode — Automatisation & Agents IA | Bordeaux · Royan · Arcachon",
     template: "%s | NBN Nocode",
@@ -37,12 +37,12 @@ export const metadata: Metadata = {
     "automatisation agents IA Bordeaux",
     "agent IA PME France",
   ],
-  authors: [{ name: "Benjamin Bertigny", url: "https://www.nbn-nocode.fr" }],
+  authors: [{ name: "Benjamin Bertigny", url: "https://www.nbn-ia.fr" }],
   creator: "NBN Nocode",
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://www.nbn-nocode.fr",
+    url: "https://www.nbn-ia.fr",
     siteName: "NBN Nocode",
     title: "NBN Nocode — Automatisation & Agents IA | Bordeaux · Royan · Arcachon",
     description: "Je construis des systèmes IA autonomes qui travaillent à votre place. 24h/24. Agents IA, vibe coding, Claude Code — Bordeaux · Royan · Arcachon.",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
   alternates: {
-    canonical: "https://www.nbn-nocode.fr",
+    canonical: "https://www.nbn-ia.fr",
   },
   icons: {
     icon: "/icon.svg",
@@ -74,10 +74,10 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.nbn-nocode.fr/#organization",
+      "@id": "https://www.nbn-ia.fr/#organization",
       name: "NBN Nocode",
-      url: "https://www.nbn-nocode.fr",
-      logo: "https://www.nbn-nocode.fr/icon.svg",
+      url: "https://www.nbn-ia.fr",
+      logo: "https://www.nbn-ia.fr/icon.svg",
       email: "contact@nbn-nocode.fr",
       description: "Architecte de systèmes IA autonomes pour PME. Agents IA Claude, vibe coding, orchestration IA. Bordeaux, Royan, Arcachon.",
       areaServed: ["Bordeaux", "Royan", "Arcachon", "Gironde", "France"],
@@ -85,12 +85,12 @@ const jsonLd = {
     },
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.nbn-nocode.fr/#localbusiness",
+      "@id": "https://www.nbn-ia.fr/#localbusiness",
       name: "NBN Nocode",
-      url: "https://www.nbn-nocode.fr",
+      url: "https://www.nbn-ia.fr",
       telephone: "+33640685975",
       email: "contact@nbn-nocode.fr",
-      image: "https://www.nbn-nocode.fr/og-image.png",
+      image: "https://www.nbn-ia.fr/og-image.png",
       description: "Architecte de systèmes IA autonomes pour PME. Agents IA Claude, vibe coding, orchestration sur mesure. Setup unique, abonnement maintenance. Bordeaux, Royan, Arcachon.",
       priceRange: "€€",
       address: {
@@ -122,20 +122,20 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.nbn-nocode.fr/#website",
-      url: "https://www.nbn-nocode.fr",
+      "@id": "https://www.nbn-ia.fr/#website",
+      url: "https://www.nbn-ia.fr",
       name: "NBN Nocode",
-      publisher: { "@id": "https://www.nbn-nocode.fr/#organization" },
+      publisher: { "@id": "https://www.nbn-ia.fr/#organization" },
     },
     {
       "@type": "Person",
-      "@id": "https://www.nbn-nocode.fr/#founder",
+      "@id": "https://www.nbn-ia.fr/#founder",
       name: "Benjamin Bertigny",
       jobTitle: "AI Systems Builder & Architecte de Systèmes IA Autonomes",
       description: "Fondateur de NBN Nocode. Architecte de systèmes IA autonomes pour PME. Vibe coding avec Claude Code, orchestration d'agents IA. Basé à Bordeaux.",
-      url: "https://www.nbn-nocode.fr",
+      url: "https://www.nbn-ia.fr",
       email: "contact@nbn-nocode.fr",
-      worksFor: { "@id": "https://www.nbn-nocode.fr/#organization" },
+      worksFor: { "@id": "https://www.nbn-ia.fr/#organization" },
       sameAs: ["https://www.linkedin.com/company/nbn-nocode"],
       knowsAbout: ["Claude AI", "Claude Code", "Agents IA", "Systèmes IA Autonomes", "Vibe Coding", "Orchestration IA", "IA Générative", "Make", "n8n", "Next.js"],
     },

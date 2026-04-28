@@ -6,11 +6,11 @@ import { ArrowRight, Clock, Tag } from "lucide-react";
 export const metadata: Metadata = {
   title: "Blog — Automatisation, Agents IA & Nocode",
   description: "Guides pratiques, tutoriels et analyses sur l'automatisation nocode, les agents IA Claude et la transformation digitale des PME. Par Benjamin Bertigny, expert à Bordeaux.",
-  alternates: { canonical: "https://www.nbn-nocode.fr/blog" },
+  alternates: { canonical: "https://www.nbn-ia.fr/blog" },
   openGraph: {
     title: "Blog NBN Nocode — Automatisation & Agents IA",
     description: "Guides pratiques sur l'automatisation nocode et les agents IA pour PME.",
-    url: "https://www.nbn-nocode.fr/blog",
+    url: "https://www.nbn-ia.fr/blog",
   },
 };
 

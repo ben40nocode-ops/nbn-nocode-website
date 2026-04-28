@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Automatisation & Agents IA à Royan — NBN Nocode",
   description: "Expert en automatisation nocode et agents IA à Royan et Charente-Maritime. Make, Zapier, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 1h.",
   keywords: ["automatisation Royan", "agent IA Royan", "nocode Royan", "consultant automatisation Charente-Maritime", "Claude AI Royan", "PME Royan automatisation"],
-  alternates: { canonical: "https://www.nbn-nocode.fr/automatisation-royan" },
+  alternates: { canonical: "https://www.nbn-ia.fr/automatisation-royan" },
   openGraph: {
     title: "Automatisation & Agents IA à Royan — NBN Nocode",
     description: "Expert nocode & Claude AI pour PME à Royan. Setup sur mesure, maintenance mensuelle.",
-    url: "https://www.nbn-nocode.fr/automatisation-royan",
+    url: "https://www.nbn-ia.fr/automatisation-royan",
   },
 };
 
@@ -18,7 +18,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Automatisation & Agents IA à Royan",
-  provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-nocode.fr" },
+  provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-ia.fr" },
   areaServed: { "@type": "City", name: "Royan" },
   description: "Conception d'architectures d'automatisation et d'agents IA sur mesure pour les PME de Royan et Charente-Maritime.",
 };

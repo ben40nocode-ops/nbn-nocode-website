@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Automatisation & Agents IA à Bordeaux — NBN Nocode",
   description: "Expert en automatisation nocode et agents IA à Bordeaux. Faites tourner vos process sans recruter. Make, Zapier, Airtable, Claude AI. Audit gratuit 1h.",
   keywords: ["automatisation Bordeaux", "agent IA Bordeaux", "nocode Bordeaux", "Make Bordeaux", "consultant automatisation Bordeaux", "Claude AI Bordeaux", "PME Bordeaux automatisation"],
-  alternates: { canonical: "https://www.nbn-nocode.fr/automatisation-bordeaux" },
+  alternates: { canonical: "https://www.nbn-ia.fr/automatisation-bordeaux" },
   openGraph: {
     title: "Automatisation & Agents IA à Bordeaux — NBN Nocode",
     description: "Expert nocode & Claude AI pour PME bordelaises. Setup sur mesure, maintenance mensuelle.",
-    url: "https://www.nbn-nocode.fr/automatisation-bordeaux",
+    url: "https://www.nbn-ia.fr/automatisation-bordeaux",
   },
 };
 
@@ -18,7 +18,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Automatisation & Agents IA à Bordeaux",
-  provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-nocode.fr" },
+  provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-ia.fr" },
   areaServed: { "@type": "City", name: "Bordeaux" },
   description: "Conception d'architectures d'automatisation et d'agents IA sur mesure pour les PME de Bordeaux.",
   offers: { "@type": "Offer", priceCurrency: "EUR", price: "450", priceSpecification: { "@type": "UnitPriceSpecification", priceCurrency: "EUR", price: "450", unitText: "setup" } },

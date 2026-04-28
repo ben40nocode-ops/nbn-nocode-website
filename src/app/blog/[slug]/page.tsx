@@ -18,11 +18,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: article.description,
     keywords: article.keywords,
     authors: [{ name: article.author }],
-    alternates: { canonical: `https://www.nbn-nocode.fr/blog/${article.slug}` },
+    alternates: { canonical: `https://www.nbn-ia.fr/blog/${article.slug}` },
     openGraph: {
       title: article.title,
       description: article.description,
-      url: `https://www.nbn-nocode.fr/blog/${article.slug}`,
+      url: `https://www.nbn-ia.fr/blog/${article.slug}`,
       type: "article",
       publishedTime: article.date,
       authors: [article.author],
@@ -48,15 +48,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     author: {
       "@type": "Person",
       name: article.author,
-      url: "https://www.nbn-nocode.fr",
+      url: "https://www.nbn-ia.fr",
     },
     publisher: {
       "@type": "Organization",
       name: "NBN Nocode",
-      url: "https://www.nbn-nocode.fr",
-      logo: { "@type": "ImageObject", url: "https://www.nbn-nocode.fr/icon.svg" },
+      url: "https://www.nbn-ia.fr",
+      logo: { "@type": "ImageObject", url: "https://www.nbn-ia.fr/icon.svg" },
     },
-    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.nbn-nocode.fr/blog/${article.slug}` },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.nbn-ia.fr/blog/${article.slug}` },
     keywords: article.keywords.join(", "),
   };
 
@@ -64,9 +64,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.nbn-nocode.fr" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.nbn-nocode.fr/blog" },
-      { "@type": "ListItem", position: 3, name: article.title, item: `https://www.nbn-nocode.fr/blog/${article.slug}` },
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.nbn-ia.fr" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.nbn-ia.fr/blog" },
+      { "@type": "ListItem", position: 3, name: article.title, item: `https://www.nbn-ia.fr/blog/${article.slug}` },
     ],
   };
 
