@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { articles } from "@/content/blog/articles";
 
 const villes = [
   // Gironde
@@ -30,6 +31,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/creation-site-web-bordeaux`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
   ];
 
+  const blogPages: MetadataRoute.Sitemap = [
+    { url: `${base}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
+    ...articles.map((a) => ({
+      url: `${base}/blog/${a.slug}`,
+      lastModified: new Date(a.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+  ];
+
   const villePages: MetadataRoute.Sitemap = villes.map((ville) => ({
     url: `${base}/automatisation/${ville}`,
     lastModified: new Date(),
@@ -37,5 +48,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...villePages];
+  return [...staticPages, ...blogPages, ...villePages];
 }

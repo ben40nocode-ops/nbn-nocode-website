@@ -85,7 +85,7 @@ export async function generateMetadata({ params }: { params: Promise<{ ville: st
   const { dept } = villes[ville];
   return {
     title: `Automatisation & Agents IA à ${label} — NBN Nocode`,
-    description: `Expert automatisation nocode et agents IA à ${label} (${dept}). Make, Zapier, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 30 min sans engagement.`,
+    description: `Expert automatisation nocode et agents IA à ${label} (${dept}). Make, Zapier, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 1h sans engagement.`,
     keywords: [`automatisation ${label}`, `agent IA ${label}`, `nocode ${label}`, `Claude AI ${label}`, `automatisation PME ${dept}`],
     alternates: { canonical: `https://www.nbn-nocode.fr/automatisation/${ville}` },
     openGraph: {
@@ -103,18 +103,30 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
   const label = toLabel(ville);
   const { dept } = villes[ville];
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    name: `Automatisation & Agents IA à ${label}`,
-    provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-nocode.fr" },
-    areaServed: { "@type": "City", name: label },
-    description: `Conception d'architectures d'automatisation et d'agents IA pour les PME de ${label} (${dept}).`,
-  };
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      name: `Automatisation & Agents IA à ${label}`,
+      provider: { "@type": "Organization", name: "NBN Nocode", url: "https://www.nbn-nocode.fr" },
+      areaServed: { "@type": "City", name: label },
+      description: `Conception d'architectures d'automatisation et d'agents IA pour les PME de ${label} (${dept}).`,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.nbn-nocode.fr" },
+        { "@type": "ListItem", position: 2, name: "Automatisation", item: "https://www.nbn-nocode.fr/automatisation-bordeaux" },
+        { "@type": "ListItem", position: 3, name: label, item: `https://www.nbn-nocode.fr/automatisation/${ville}` },
+      ],
+    },
+  ];
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd[0]) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd[1]) }} />
       <div className="min-h-screen bg-white pt-32 pb-24">
         <div className="max-w-4xl mx-auto px-6">
 
@@ -179,7 +191,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
           </div>
 
           <div className="bg-gray-900 rounded-2xl p-10 text-center">
-            <h2 className="text-2xl font-bold text-white mb-3">30 minutes pour cartographier vos process</h2>
+            <h2 className="text-2xl font-bold text-white mb-3">1 heure pour cartographier vos process</h2>
             <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;audit est gratuit, sans engagement. On se retrouve en visio ou à {label}.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">

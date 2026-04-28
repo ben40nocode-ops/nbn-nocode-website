@@ -74,6 +74,23 @@ export default function TarifsPage() {
           <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
             Un investissement unique pour construire. Un abonnement pour que ça tourne. Résiliable à tout moment.
           </p>
+
+          {/* ROI framing */}
+          <div className="mt-10 grid sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
+            <div className="bg-orange-50 border border-orange-100 rounded-xl px-5 py-4 text-center">
+              <p className="text-2xl font-bold text-[#e8632a]">~2 000€</p>
+              <p className="text-xs text-gray-500 mt-1">coût mensuel d&apos;un assistant temps plein</p>
+            </div>
+            <div className="bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 text-center flex flex-col items-center justify-center">
+              <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest">vs</p>
+              <p className="text-xs text-gray-400 mt-1">un abonnement NBN Nocode</p>
+            </div>
+            <div className="bg-orange-50 border border-orange-100 rounded-xl px-5 py-4 text-center">
+              <p className="text-2xl font-bold text-[#e8632a]">dès 159€</p>
+              <p className="text-xs text-gray-500 mt-1">et vos process tournent 24h/24</p>
+            </div>
+          </div>
+          <p className="text-xs text-gray-400 mt-4">Sans recrutement. Sans formation. Sans charge patronale.</p>
         </div>
 
         {/* Setup */}
@@ -144,7 +161,7 @@ export default function TarifsPage() {
         {/* CTA */}
         <div className="text-center bg-gray-50 rounded-2xl p-10 border border-gray-100">
           <p className="text-gray-900 font-bold text-lg mb-2">Pas sûr de quel plan choisir ?</p>
-          <p className="text-gray-500 text-sm mb-6">L&apos;audit gratuit de 30 min répond à toutes vos questions.</p>
+          <p className="text-gray-500 text-sm mb-6">L&apos;audit gratuit de 1h répond à toutes vos questions.</p>
           <Link
             href="https://calendly.com/ben40nocode/1h"
             target="_blank"

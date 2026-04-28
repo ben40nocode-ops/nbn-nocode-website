@@ -36,6 +36,7 @@ export function Footer() {
                 { label: "Réalisations", href: "/#realisations" },
                 { label: "Tarifs", href: "/tarifs" },
                 { label: "Contact", href: "/contact" },
+                { label: "Blog", href: "/blog" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link href={l.href} className="text-sm hover:text-white transition-colors">{l.label}</Link>

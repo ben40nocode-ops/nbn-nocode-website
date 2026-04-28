@@ -1,0 +1,65 @@
+# NBN Nocode
+
+> Expert en automatisation nocode et agents IA pour PME en France. Fondé par Benjamin Bertigny, product builder spécialisé Claude AI.
+
+NBN Nocode conçoit des architectures d'automatisation et des agents IA sur mesure pour les PME françaises. L'approche : un setup unique (conception + déploiement) suivi d'un abonnement mensuel de maintenance. Les clients ne touchent à rien — les process tournent en continu, même sans intervention humaine.
+
+## Fondateur
+
+Benjamin Bertigny — product builder spécialisé Claude AI et automatisation nocode. Formé à l'Alegría Academy. Basé dans le triangle Bordeaux · Royan · Arcachon. Expert certifié Make, Zapier, Airtable, Claude AI (Anthropic).
+
+## Services proposés
+
+- **Automatisation & Agents IA** : flows Make, Zapier, n8n ; agents Claude sur mesure ; pipelines de données ; notifications intelligentes
+- **Vibe Coding & Web Apps** : sites Next.js générés avec Claude Code, déployés sur Vercel ; portails clients, dashboards connectés
+- **Développement & Intégrations** : APIs REST, bases Airtable/Supabase, webhooks, CRM custom, Stripe
+- **Optimisation SEO & Performance** : SEO local, contenu IA, analytics
+
+## Modèle tarifaire
+
+- Setup unique : à partir de 450€ HT (1 automatisation) jusqu'à devis (architecture complète)
+- Maintenance mensuelle : Core 159€/mois · Business Logic 290€/mois · Full Stack Partner 490€/mois
+- Sans engagement. Résiliable à tout moment.
+
+## Stack technologique
+
+Claude AI (Anthropic), Make, Zapier, n8n, Airtable, Notion, Stripe, Webflow, Next.js, Vercel, Claude Code, OpenAI, Supabase
+
+## Zones géographiques
+
+Bordeaux, Mérignac, Pessac, Talence, Arcachon, Royan, La Rochelle, Saintes, Rochefort, Mont-de-Marsan, Dax — et toute la France en remote.
+
+Départements couverts : Gironde (33), Landes (40), Charente-Maritime (17)
+
+## Questions fréquentes
+
+**Qu'est-ce que l'automatisation nocode ?**
+L'automatisation nocode consiste à connecter des applications métier (CRM, email, comptabilité, RH) sans écrire de code, via des outils visuels comme Make ou Zapier. Les flux s'exécutent automatiquement selon des déclencheurs définis.
+
+**Qu'est-ce qu'un agent IA ?**
+Un agent IA est un programme autonome qui perçoit son environnement, prend des décisions et agit pour atteindre un objectif. Chez NBN Nocode, les agents sont construits avec Claude (Anthropic) — le modèle IA le plus avancé pour les cas business.
+
+**Pourquoi choisir Claude AI plutôt que ChatGPT ?**
+Claude (Anthropic) excelle dans le raisonnement long, le traitement de documents complexes et les agents autonomes. Il est plus fiable pour les workflows business critiques et dispose de fenêtres de contexte plus larges.
+
+**Combien coûte une automatisation ?**
+Un setup démarre à 450€ HT pour une automatisation simple. La maintenance mensuelle commence à 159€/mois. Le ROI moyen constaté : remplacement de 1 à 3 heures de travail manuel par jour dès le premier mois.
+
+## Contact
+
+- Site web : https://www.nbn-nocode.fr
+- Email : contact@nbn-nocode.fr
+- Réserver un audit gratuit (1h) : https://calendly.com/ben40nocode/1h
+- LinkedIn : https://www.linkedin.com/company/nbn-nocode
+
+## Pages clés
+
+- https://www.nbn-nocode.fr — Accueil
+- https://www.nbn-nocode.fr/tarifs — Offres et tarifs
+- https://www.nbn-nocode.fr/contact — Contact
+- https://www.nbn-nocode.fr/automatisation-bordeaux — Automatisation Bordeaux
+- https://www.nbn-nocode.fr/automatisation-royan — Automatisation Royan
+- https://www.nbn-nocode.fr/automatisation-arcachon — Automatisation Arcachon
+- https://www.nbn-nocode.fr/chatbot-ia-bordeaux — Chatbot IA Bordeaux
+- https://www.nbn-nocode.fr/creation-site-web-bordeaux — Création site web Bordeaux
+- https://www.nbn-nocode.fr/sitemap.xml — Sitemap complet (64 pages)

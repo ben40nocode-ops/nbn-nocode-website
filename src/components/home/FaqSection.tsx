@@ -26,11 +26,23 @@ const faqs = [
   },
   {
     q: "Est-ce que vous faites aussi du conseil sans passer par vos outils ?",
-    a: "Oui. L'audit gratuit de 30 min est un vrai diagnostic — on vous dit ce qui peut être automatisé et ce qui ne le peut pas, sans obligation d'achat.",
+    a: "Oui. L'audit gratuit de 1h est un vrai diagnostic — on vous dit ce qui peut être automatisé et ce qui ne le peut pas, sans obligation d'achat.",
   },
   {
     q: "Mes données sont-elles sécurisées ?",
     a: "Absolument. On travaille avec des infrastructures Européennes (RGPD), des connexions OAuth sécurisées et nous ne stockons jamais vos données métier sur nos propres serveurs.",
+  },
+  {
+    q: "Qu'est-ce que l'automatisation nocode exactement ?",
+    a: "L'automatisation nocode consiste à connecter vos outils métier (CRM, email, comptabilité, RH) sans écrire une seule ligne de code, via des plateformes visuelles comme Make ou n8n. Les flux s'exécutent automatiquement selon des déclencheurs : une nouvelle commande, un email reçu, une mise à jour dans votre base de données. Résultat : vos équipes se concentrent sur ce qui a de la valeur, les tâches répétitives disparaissent.",
+  },
+  {
+    q: "Combien d'heures par semaine peut-on gagner avec vos automatisations ?",
+    a: "Selon les cas, entre 3h et 20h par semaine par collaborateur. Une PME type avec un flux de relances clients automatisé + un CRM synchronisé + des rapports hebdomadaires auto-générés économise en moyenne 2 équivalents temps partiel. Le ROI dépasse souvent le coût du setup dès le premier mois.",
+  },
+  {
+    q: "Est-ce qu'un agent IA peut vraiment remplacer un salarié ?",
+    a: "Pas un salarié — mais il peut absorber la charge mentale et répétitive de plusieurs personnes. Un agent Claude bien configuré peut traiter des emails, qualifier des leads, rédiger des comptes-rendus, extraire des données de documents et prendre des décisions simples en autonomie, 24h/24. Ce qu'il ne remplace pas : la relation humaine, le jugement stratégique et la créativité.",
   },
 ];
 

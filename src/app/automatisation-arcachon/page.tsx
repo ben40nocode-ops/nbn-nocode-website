@@ -4,7 +4,7 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA à Arcachon — NBN Nocode",
-  description: "Expert en automatisation nocode et agents IA à Arcachon et Bassin d'Arcachon. Make, Zapier, Airtable, Claude AI. Audit gratuit 30 min sans engagement.",
+  description: "Expert en automatisation nocode et agents IA à Arcachon et Bassin d'Arcachon. Make, Zapier, Airtable, Claude AI. Audit gratuit 1h sans engagement.",
   keywords: ["automatisation Arcachon", "agent IA Arcachon", "nocode Arcachon", "consultant automatisation Bassin Arcachon", "Claude AI Arcachon", "PME Arcachon automatisation"],
   alternates: { canonical: "https://www.nbn-nocode.fr/automatisation-arcachon" },
   openGraph: {
@@ -97,7 +97,7 @@ export default function ArcachonPage() {
           </div>
 
           <div className="bg-gray-900 rounded-2xl p-10 text-center">
-            <h2 className="text-2xl font-bold text-white mb-3">30 minutes pour cartographier vos process</h2>
+            <h2 className="text-2xl font-bold text-white mb-3">1 heure pour cartographier vos process</h2>
             <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;audit est gratuit, sans engagement. On se retrouve sur le Bassin ou en visio.</p>
             <Link
               href="https://calendly.com/ben40nocode/1h"

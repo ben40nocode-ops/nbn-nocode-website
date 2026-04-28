@@ -94,7 +94,7 @@ export default function CreationSiteWebBordeauxPage() {
 
           <div className="bg-gray-900 rounded-2xl p-10 text-center">
             <h2 className="text-2xl font-bold text-white mb-3">Votre projet en ligne en quelques jours</h2>
-            <p className="text-gray-400 mb-8 max-w-md mx-auto">Audit gratuit de 30 min. On définit ensemble le scope et on vous donne un devis transparent.</p>
+            <p className="text-gray-400 mb-8 max-w-md mx-auto">Audit gratuit de 1h. On définit ensemble le scope et on vous donne un devis transparent.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
               Parler de mon projet <ArrowRight size={15} />

@@ -11,7 +11,7 @@ export function CtaSection() {
             Prêt à démarrer ?
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-5">
-            30 minutes pour cartographier<br />ce qu&apos;on peut automatiser.
+            1 heure pour cartographier<br />ce qu&apos;on peut automatiser.
           </h2>
           <p className="text-gray-400 mb-10 max-w-md mx-auto leading-relaxed">
             L&apos;audit est gratuit, sans engagement. Vous repartez avec un plan d&apos;action concret — qu&apos;on travaille ensemble ou non.

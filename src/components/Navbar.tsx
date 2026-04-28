@@ -11,6 +11,7 @@ const links = [
   { label: "Solutions", href: "/#solutions" },
   { label: "Réalisations", href: "/#realisations" },
   { label: "Tarifs", href: "/tarifs" },
+  { label: "Blog", href: "/blog" },
 ];
 
 export function Navbar() {
@@ -26,14 +27,14 @@ export function Navbar() {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white ${scrolled ? "border-b border-gray-100 shadow-sm" : ""}`}>
-      <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <nav className="max-w-6xl mx-auto px-6 h-16 grid grid-cols-3 items-center">
         <Link href="/" className="flex items-center">
-          <Logo width={72} variant="dark" />
+          <Logo width={88} variant="dark" />
         </Link>
 
-        <ul className="hidden md:flex items-center gap-8">
+        <ul className="hidden md:flex items-center justify-center gap-6">
           {links.map((l) => (
-            <li key={l.href}>
+            <li key={l.href} className="whitespace-nowrap">
               <Link href={l.href} className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
                 {l.label}
               </Link>
@@ -41,7 +42,7 @@ export function Navbar() {
           ))}
         </ul>
 
-        <div className="hidden md:flex items-center gap-3">
+        <div className="hidden md:flex items-center justify-end gap-3">
           {isSignedIn ? (
             <>
               <Link href="/dashboard" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-500 hover:text-gray-900 transition-colors px-3 py-1.5">

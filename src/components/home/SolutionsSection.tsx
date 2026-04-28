@@ -11,9 +11,9 @@ const solutions = [
   },
   {
     icon: Globe,
-    title: "Product Design & Web Apps",
-    description: "Sites Webflow, interfaces no-code, portails clients, dashboards connectés. Du design au lancement en quelques jours.",
-    tags: ["Webflow", "Framer", "Next.js", "Memberstack"],
+    title: "Vibe Coding & Web Apps",
+    description: "Sites ultra-rapides générés en vibe coding avec Claude Code, déployés sur Vercel en quelques heures. Portails clients, dashboards connectés, apps no-code.",
+    tags: ["Claude Code", "Vercel", "Next.js", "Framer"],
     color: "#0ea5e9",
     bg: "#f0f9ff",
   },

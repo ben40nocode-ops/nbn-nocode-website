@@ -4,7 +4,7 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA à Royan — NBN Nocode",
-  description: "Expert en automatisation nocode et agents IA à Royan et Charente-Maritime. Make, Zapier, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 30 min.",
+  description: "Expert en automatisation nocode et agents IA à Royan et Charente-Maritime. Make, Zapier, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 1h.",
   keywords: ["automatisation Royan", "agent IA Royan", "nocode Royan", "consultant automatisation Charente-Maritime", "Claude AI Royan", "PME Royan automatisation"],
   alternates: { canonical: "https://www.nbn-nocode.fr/automatisation-royan" },
   openGraph: {
@@ -97,7 +97,7 @@ export default function RoyanPage() {
           </div>
 
           <div className="bg-gray-900 rounded-2xl p-10 text-center">
-            <h2 className="text-2xl font-bold text-white mb-3">30 minutes pour cartographier vos process</h2>
+            <h2 className="text-2xl font-bold text-white mb-3">1 heure pour cartographier vos process</h2>
             <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;audit est gratuit, sans engagement. On se retrouve à Royan ou en visio.</p>
             <Link
               href="https://calendly.com/ben40nocode/1h"
