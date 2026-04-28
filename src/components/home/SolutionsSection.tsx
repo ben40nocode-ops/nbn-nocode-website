@@ -3,33 +3,33 @@ import { Bot, Globe, Code2, Sparkles } from "lucide-react";
 const solutions = [
   {
     icon: Bot,
-    title: "Automatisations & Agents IA",
-    description: "Flows Make/Zapier, agents Claude sur mesure, pipelines de données, notifications intelligentes. Vos tâches répétitives disparaissent.",
-    tags: ["Make", "n8n", "Claude API", "Zapier"],
+    title: "Agents IA & Systèmes Autonomes",
+    description: "Agents Claude sur mesure, orchestration multi-agents, pipelines intelligents. Des systèmes qui perçoivent, décident et agissent sans vous.",
+    tags: ["Claude API", "n8n", "Make", "Orchestration IA"],
     color: "#e8632a",
     bg: "#fff5f0",
   },
   {
     icon: Globe,
     title: "Vibe Coding & Web Apps",
-    description: "Sites ultra-rapides générés en vibe coding avec Claude Code, déployés sur Vercel en quelques heures. Portails clients, dashboards connectés, apps no-code.",
-    tags: ["Claude Code", "Vercel", "Next.js", "Framer"],
+    description: "Applications web générées en vibe coding avec Claude Code, déployées sur Vercel. Portails clients, dashboards IA, apps connectées en quelques heures.",
+    tags: ["Claude Code", "Vercel", "Next.js", "Vibe Coding"],
     color: "#0ea5e9",
     bg: "#f0f9ff",
   },
   {
     icon: Code2,
-    title: "Développement & Intégrations",
-    description: "APIs, bases de données Airtable/Supabase, webhooks, CRM custom. Le tout interconnecté et scalable.",
-    tags: ["Airtable", "Supabase", "REST API", "Stripe"],
+    title: "Intégrations & Infrastructure IA",
+    description: "APIs, bases de données, webhooks, CRM custom. L&apos;infrastructure sur laquelle vos agents IA s&apos;appuient pour opérer en autonomie.",
+    tags: ["Supabase", "REST API", "Airtable", "Stripe"],
     color: "#8b5cf6",
     bg: "#f5f3ff",
   },
   {
     icon: Sparkles,
-    title: "Motion Design & Optimisation",
-    description: "Animations, contenu social recyclé par IA, optimisation SEO, performance. Votre présence digitale qui convertit.",
-    tags: ["SEO", "Motion", "IA Content", "Analytics"],
+    title: "IA Générative & Contenu",
+    description: "Pipelines de contenu IA, recyclage automatique sur tous les canaux, optimisation SEO. Votre présence digitale qui tourne seule.",
+    tags: ["IA Générative", "SEO", "Claude", "Analytics"],
     color: "#10b981",
     bg: "#f0fdf4",
   },
@@ -46,7 +46,7 @@ export function SolutionsSection() {
             Ce qu&apos;on construit
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
-            Quatre expertises, un seul partenaire.
+            Quatre systèmes, un seul architecte.
           </h2>
         </div>
 

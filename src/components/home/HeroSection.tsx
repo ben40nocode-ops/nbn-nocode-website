@@ -8,7 +8,7 @@ export function HeroSection() {
 
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
-          Spécialiste Claude AI & Automatisation
+          Architecte de Systèmes IA Autonomes
         </div>
 
         {/* Headline */}
@@ -19,8 +19,8 @@ export function HeroSection() {
 
         {/* Subheadline */}
         <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
-          On conçoit l&apos;architecture d&apos;automatisation et les agents IA de votre business.
-          Setup unique. Abonnement mensuel. Vous ne touchez à rien.
+          Je construis des systèmes IA autonomes qui travaillent à votre place. 24h/24.
+          Agents IA, vibe coding, orchestration Claude — setup unique, zéro intervention.
         </p>
 
         {/* CTAs */}
@@ -46,7 +46,7 @@ export function HeroSection() {
         <div className="mt-16 pt-10 border-t border-gray-100 grid grid-cols-3 gap-8 max-w-lg mx-auto">
           {[
             { value: "40+", label: "automatisations" },
-            { value: "3", label: "experts certifiés" },
+            { value: "Claude AI", label: "Vibe Coding · Agents" },
             { value: "100%", label: "sur mesure" },
           ].map((s) => (
             <div key={s.label} className="text-center">

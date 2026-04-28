@@ -5,24 +5,24 @@ const plans = [
   {
     name: "Core Maintenance",
     price: "159",
-    desc: "L'essentiel pour garder vos automatisations en bonne santé.",
-    features: ["Monitoring 24/7 de 3 automatisations", "2h de maintenance / mois", "Support par email (48h)", "Rapport mensuel"],
+    desc: "L'essentiel pour garder vos systèmes IA en bonne santé.",
+    features: ["Monitoring 24/7 de 3 systèmes IA", "2h de maintenance / mois", "Support par email (48h)", "Rapport mensuel"],
     highlight: false,
     cta: "Commencer",
   },
   {
     name: "Business Logic",
     price: "290",
-    desc: "Pour les flux critiques qui font tourner votre business.",
-    features: ["Monitoring proactif de 4 flux critiques", "4h de maintenance / mois", "Optimisation continue", "Support prioritaire (24h)"],
+    desc: "Pour les systèmes IA critiques qui font tourner votre business.",
+    features: ["Monitoring proactif de 4 agents critiques", "4h de maintenance / mois", "Optimisation continue", "Support prioritaire (24h)"],
     highlight: true,
     cta: "Choisir ce plan",
   },
   {
     name: "Full Stack Partner",
     price: "490",
-    desc: "Un partenaire tech dédié à l'évolution de votre système.",
-    features: ["Monitoring illimité", "6h de dev/maintenance / mois", "Évolution constante des flux", "Accès direct Slack"],
+    desc: "Un architecte IA dédié à l'évolution de votre système.",
+    features: ["Monitoring illimité", "6h de dev/maintenance / mois", "Évolution constante des agents", "Accès direct Slack"],
     highlight: false,
     cta: "Devenir partenaire",
   },
@@ -36,7 +36,7 @@ export function PricingPreview() {
         {/* Section header */}
         <div className="text-center mb-16">
           <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">
-            Abonnements maintenance
+            Abonnements Systèmes IA
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
             Setup unique. Abonnement évolutif.

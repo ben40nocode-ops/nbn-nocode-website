@@ -13,7 +13,7 @@ export function Footer() {
               <Logo width={88} variant="light" />
             </div>
             <p className="text-sm leading-relaxed max-w-xs mb-6">
-              On construit l&apos;architecture. Vous récoltez les résultats. Automatisation & agents IA pour PME qui veulent scaler sans recruter.
+              Je construis les systèmes IA. Vous récoltez les résultats. Agents autonomes & vibe coding pour PME qui veulent scaler sans recruter.
             </p>
             <p className="text-xs text-gray-500 mb-4">Bordeaux · Royan · Arcachon · France</p>
             <Link

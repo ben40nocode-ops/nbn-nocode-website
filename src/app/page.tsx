@@ -11,7 +11,7 @@ import { CtaSection } from "@/components/home/CtaSection";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA pour PME | Bordeaux · Royan · Arcachon",
-  description: "NBN Nocode conçoit vos architectures d'automatisation et agents IA sur mesure à Bordeaux, Royan et Arcachon. Setup unique dès 450€, maintenance mensuelle. Claude AI, Make, Zapier, Airtable.",
+  description: "Je construis des systèmes IA autonomes qui travaillent à votre place. 24h/24. Agents IA Claude, vibe coding, orchestration sur mesure. Bordeaux, Royan, Arcachon et toute la France.",
   alternates: { canonical: "https://www.nbn-nocode.fr" },
 };
 

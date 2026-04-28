@@ -6,43 +6,43 @@ import { Plus, Minus } from "lucide-react";
 const faqs = [
   {
     q: "C'est quoi le modèle exactement ?",
-    a: "On facture une fois la conception et le déploiement de votre architecture (à partir de 450€). Ensuite, vous choisissez un abonnement mensuel pour la maintenance, le monitoring et l'évolution. Pas d'engagement minimum.",
+    a: "Je facture une fois la conception et le déploiement de votre système IA (à partir de 450€). Ensuite, vous choisissez un abonnement mensuel pour la maintenance, le monitoring et l'évolution. Pas d'engagement minimum.",
   },
   {
-    q: "Pourquoi Claude AI plutôt que ChatGPT ?",
-    a: "Claude (Anthropic) est aujourd'hui le modèle le plus avancé pour les cas d'usage business : raisonnement long, documents complexes, agents autonomes. On s'y est spécialisés et on utilise les dernières versions via l'API.",
+    q: "C'est quoi le vibe coding et pourquoi c'est différent ?",
+    a: "Le vibe coding, c'est construire des applications avec Claude Code en pilotant l'IA plutôt qu'en écrivant chaque ligne à la main. Résultat : des systèmes complets livrés en heures, pas en semaines. La qualité du code est là — la vélocité est décuplée.",
   },
   {
     q: "On n'a pas de compétences techniques en interne, c'est un problème ?",
-    a: "C'est justement notre valeur ajoutée. Vous n'avez pas besoin de comprendre comment ça marche — vous voyez juste les résultats. On gère tout : conception, tests, déploiement, maintenance.",
+    a: "C'est justement la valeur ajoutée. Vous n'avez pas besoin de comprendre comment ça marche — vous voyez les résultats. Je gère tout : conception, tests, déploiement, maintenance.",
   },
   {
-    q: "Combien de temps pour déployer une première automatisation ?",
-    a: "Pour une automatisation simple : 48h. Pour une architecture complète avec agents IA : 1 à 3 semaines selon la complexité.",
+    q: "Combien de temps pour déployer un premier système IA ?",
+    a: "Pour un agent IA simple : 48h. Pour une architecture complète avec orchestration multi-agents : 1 à 3 semaines selon la complexité.",
   },
   {
     q: "Est-ce que vous intervenez à Bordeaux, Royan et Arcachon ?",
-    a: "Oui, on est basés dans ce triangle et on intervient en présentiel ou en remote. On couvre aussi toute la France à distance.",
+    a: "Oui, je suis basé dans ce triangle et j'interviens en présentiel ou en remote. Je couvre aussi toute la France à distance.",
   },
   {
     q: "Est-ce que vous faites aussi du conseil sans passer par vos outils ?",
-    a: "Oui. L'audit gratuit de 1h est un vrai diagnostic — on vous dit ce qui peut être automatisé et ce qui ne le peut pas, sans obligation d'achat.",
+    a: "Oui. L'audit gratuit de 1h est un vrai diagnostic — je vous dis ce qui peut être automatisé et ce qui ne le peut pas, sans obligation d'achat.",
   },
   {
     q: "Mes données sont-elles sécurisées ?",
-    a: "Absolument. On travaille avec des infrastructures Européennes (RGPD), des connexions OAuth sécurisées et nous ne stockons jamais vos données métier sur nos propres serveurs.",
+    a: "Absolument. Je travaille avec des infrastructures Européennes (RGPD), des connexions OAuth sécurisées et je ne stocke jamais vos données métier sur mes propres serveurs.",
   },
   {
-    q: "Qu'est-ce que l'automatisation nocode exactement ?",
-    a: "L'automatisation nocode consiste à connecter vos outils métier (CRM, email, comptabilité, RH) sans écrire une seule ligne de code, via des plateformes visuelles comme Make ou n8n. Les flux s'exécutent automatiquement selon des déclencheurs : une nouvelle commande, un email reçu, une mise à jour dans votre base de données. Résultat : vos équipes se concentrent sur ce qui a de la valeur, les tâches répétitives disparaissent.",
+    q: "Qu'est-ce qu'un système IA autonome exactement ?",
+    a: "Un système IA autonome, c'est une architecture d'agents qui perçoivent des événements (un email reçu, une commande créée, une mise à jour CRM), prennent des décisions et agissent sans intervention humaine. Construit avec Claude, Make ou n8n, il peut traiter des emails, qualifier des leads, générer des documents, synchroniser des données — en continu, 24h/24.",
   },
   {
-    q: "Combien d'heures par semaine peut-on gagner avec vos automatisations ?",
-    a: "Selon les cas, entre 3h et 20h par semaine par collaborateur. Une PME type avec un flux de relances clients automatisé + un CRM synchronisé + des rapports hebdomadaires auto-générés économise en moyenne 2 équivalents temps partiel. Le ROI dépasse souvent le coût du setup dès le premier mois.",
+    q: "Combien d'heures par semaine peut-on gagner ?",
+    a: "Selon les cas, entre 3h et 20h par semaine par collaborateur. Une PME type avec un agent commercial IA + un CRM synchronisé + des rapports auto-générés économise en moyenne 2 équivalents temps partiel. Le ROI dépasse souvent le coût du setup dès le premier mois.",
   },
   {
     q: "Est-ce qu'un agent IA peut vraiment remplacer un salarié ?",
-    a: "Pas un salarié — mais il peut absorber la charge mentale et répétitive de plusieurs personnes. Un agent Claude bien configuré peut traiter des emails, qualifier des leads, rédiger des comptes-rendus, extraire des données de documents et prendre des décisions simples en autonomie, 24h/24. Ce qu'il ne remplace pas : la relation humaine, le jugement stratégique et la créativité.",
+    a: "Pas un salarié — mais il peut absorber la charge mentale et répétitive de plusieurs personnes. Un agent Claude bien configuré traite des emails, qualifie des leads, rédige des comptes-rendus, extrait des données de documents et prend des décisions simples en autonomie, 24h/24. Ce qu'il ne remplace pas : la relation humaine, le jugement stratégique et la créativité.",
   },
 ];
 
