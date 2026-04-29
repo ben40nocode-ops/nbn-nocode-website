@@ -74,6 +74,11 @@ export default function TarifsPage() {
           <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
             Un investissement unique pour construire. Un abonnement pour que ça tourne. Résiliable à tout moment.
           </p>
+          <p className="text-sm text-gray-500 mt-3">
+            Tous les systèmes sont construits avec{" "}
+            <span className="font-semibold text-[#d97757]">Claude (Anthropic)</span>
+            {" "}— le modèle IA le plus avancé pour les workflows business critiques.
+          </p>
 
           {/* ROI framing */}
           <div className="mt-10 grid sm:grid-cols-3 gap-4 max-w-3xl mx-auto">

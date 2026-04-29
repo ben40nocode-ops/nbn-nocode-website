@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/home/HeroSection";
 import { LogoBar } from "@/components/home/LogoBar";
 import { AboutSection } from "@/components/home/AboutSection";
 import { SolutionsSection } from "@/components/home/SolutionsSection";
+import { ClaudeSection } from "@/components/home/ClaudeSection";
 import { RealisationsSection } from "@/components/home/RealisationsSection";
 import { PricingPreview } from "@/components/home/PricingPreview";
 import { TestimonialsSection } from "@/components/home/TestimonialsSection";
@@ -22,6 +23,7 @@ export default function HomePage() {
       <LogoBar />
       <AboutSection />
       <SolutionsSection />
+      <ClaudeSection />
       <RealisationsSection />
       <PricingPreview />
       <TestimonialsSection />

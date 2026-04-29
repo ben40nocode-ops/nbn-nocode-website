@@ -43,6 +43,23 @@ export function AboutSection() {
           </div>
         </div>
 
+        {/* Callout Claude */}
+        <div className="mt-12 p-6 rounded-2xl bg-[#fff5f0] border border-[#e8632a]/20">
+          <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Pourquoi Claude et pas ChatGPT ?</p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {[
+              { title: "Raisonnement long", desc: "Claude analyse des documents complexes et prend des décisions sur des contextes de 200 000 tokens." },
+              { title: "Agents autonomes", desc: "Conçu pour agir, pas juste répondre. Claude exécute des workflows multi-étapes sans se perdre." },
+              { title: "Fiabilité business", desc: "Moins d'hallucinations sur les données critiques. Le choix des cas d'usage où les erreurs coûtent cher." },
+            ].map((item) => (
+              <div key={item.title}>
+                <p className="text-sm font-semibold text-gray-900 mb-1">{item.title}</p>
+                <p className="text-xs text-gray-500 leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
     </section>
   );

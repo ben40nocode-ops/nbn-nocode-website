@@ -6,9 +6,14 @@ export function HeroSection() {
     <section className="pt-32 pb-24 bg-white">
       <div className="max-w-4xl mx-auto px-6 text-center">
 
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
-          Architecte de Systèmes IA Autonomes
+        {/* Badges */}
+        <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
+          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase">
+            Architecte de Systèmes IA Autonomes
+          </div>
+          <div className="inline-flex items-center gap-2 bg-[#fff5f0] border border-[#e8632a]/20 text-[#d97757] rounded-full px-3 py-1 text-xs font-medium">
+            <span>⬡</span> Spécialisé Claude · Anthropic
+          </div>
         </div>
 
         {/* Headline */}
