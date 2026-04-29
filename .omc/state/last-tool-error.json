@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"vercel ls --limit 5\",\"description\":\"Check recent Vercel deployments\"}",
-  "error": "Exit code 1\n<claude-code-hint v=\"1\" type=\"plugin\" value=\"vercel@claude-plugins-official\" />\nError: unknown or unexpected option: --limit",
-  "timestamp": "2026-04-29T08:59:49.359Z",
-  "retry_count": 1
-}

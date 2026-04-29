@@ -101,26 +101,29 @@ export default function TarifsPage() {
 
         {/* Architecture de système */}
         <div className="mb-20">
-          <h2 className="text-xl font-bold text-gray-900 mb-2">1. Architecture de système</h2>
-          <p className="text-sm text-gray-400 mb-8">Facturé une seule fois. Comprend conception, développement, tests et formation.</p>
-          <div className="grid md:grid-cols-3 gap-5">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">1. Architecture de système</h2>
+          <p className="text-sm text-gray-500 mb-10">Facturé une seule fois. Comprend conception, développement, tests et formation.</p>
+          <div className="grid md:grid-cols-3 gap-6">
             {setup.map((p) => (
-              <div key={p.name} className="p-7 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all flex flex-col">
-                <h3 className="font-bold text-gray-900 mb-1">{p.name}</h3>
-                <p className="text-xs text-gray-400 mb-5">{p.desc}</p>
-                <div className="mb-5 pb-5 border-b border-gray-100">
-                  <span className="text-3xl font-bold text-gray-900">{p.price}</span>
-                  {p.price !== "Sur devis" && <span className="text-sm text-gray-400">€ HT</span>}
+              <div key={p.name} className="group relative p-8 rounded-3xl border border-gray-200 bg-white hover:border-[#e8632a] hover:shadow-xl hover:shadow-orange-100 hover:-translate-y-1 transition-all duration-300 flex flex-col">
+                <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#e8632a]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="relative">
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">{p.name}</h3>
+                  <p className="text-sm text-gray-500 mb-6">{p.desc}</p>
+                  <div className="mb-6 pb-6 border-b border-gray-100">
+                    <span className="text-4xl font-bold bg-gradient-to-r from-gray-900 to-[#e8632a] bg-clip-text text-transparent">{p.price}</span>
+                    {p.price !== "Sur devis" && <span className="text-sm text-gray-400 ml-2">€ HT</span>}
+                  </div>
+                  <ul className="space-y-3 flex-1 mb-8">
+                    {p.features.map((f) => (
+                      <li key={f} className="flex items-start gap-3 text-sm text-gray-600">
+                        <Check size={16} className="text-[#e8632a] flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+                        <span>{f}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <ArchitectureButton highlight={false} label="Demander un devis" />
                 </div>
-                <ul className="space-y-3 flex-1 mb-8">
-                  {p.features.map((f) => (
-                    <li key={f} className="flex items-start gap-2.5 text-sm text-gray-600">
-                      <Check size={14} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
-                      {f}
-                    </li>
-                  ))}
-                </ul>
-                <ArchitectureButton highlight={false} label="Demander un devis" />
               </div>
             ))}
           </div>
@@ -128,40 +131,43 @@ export default function TarifsPage() {
 
         {/* Maintenance */}
         <div className="mb-20">
-          <h2 className="text-xl font-bold text-gray-900 mb-2">2. Maintenance & évolution</h2>
-          <p className="text-sm text-gray-400 mb-8">Abonnement mensuel sans engagement. Résiliable à tout moment.</p>
-          <div className="grid md:grid-cols-3 gap-5">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">2. Maintenance & évolution</h2>
+          <p className="text-sm text-gray-500 mb-10">Abonnement mensuel sans engagement. Résiliable à tout moment.</p>
+          <div className="grid md:grid-cols-3 gap-6">
             {maintenance.map((p) => (
               <div
                 key={p.name}
-                className={`relative p-7 rounded-2xl flex flex-col transition-all ${
+                className={`group relative p-8 rounded-3xl flex flex-col transition-all duration-300 ${
                   p.highlight
-                    ? "border-2 border-[#e8632a] bg-white shadow-lg shadow-orange-100"
-                    : "border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm"
+                    ? "border-2 border-[#e8632a] bg-gradient-to-br from-white to-orange-50 shadow-xl shadow-orange-100 md:scale-105"
+                    : "border border-gray-200 bg-white hover:border-[#e8632a] hover:shadow-xl hover:shadow-orange-100 hover:-translate-y-1"
                 }`}
               >
                 {p.highlight && (
-                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[#e8632a] text-white text-xs font-bold px-4 py-1 rounded-full">
-                    Le plus choisi
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#e8632a] to-[#d97757] text-white text-xs font-bold px-5 py-1.5 rounded-full shadow-lg">
+                    ⭐ Le plus choisi
                   </div>
                 )}
-                <h3 className="font-bold text-gray-900 mb-1">{p.name}</h3>
-                <p className="text-xs text-gray-400 mb-5">{p.desc}</p>
-                <div className="mb-5 pb-5 border-b border-gray-100">
-                  <span className="text-3xl font-bold text-gray-900">{p.price}€</span>
-                  <span className="text-sm text-gray-400"> / mois</span>
-                </div>
-                <ul className="space-y-3 flex-1 mb-8">
-                  {p.features.map((f) => (
-                    <li key={f} className="flex items-start gap-2.5 text-sm text-gray-600">
-                      <Check size={14} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
-                      {f}
-                    </li>
-                  ))}
-                </ul>
-                <div className="text-center">
-                  <p className="text-xs text-gray-400 mb-3">Disponible après votre architecture</p>
-                  <SubscribeButton plan={p.plan} highlight={p.highlight} label={p.cta} disabled={true} />
+                <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#e8632a]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="relative">
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">{p.name}</h3>
+                  <p className="text-sm text-gray-500 mb-6">{p.desc}</p>
+                  <div className="mb-6 pb-6 border-b border-gray-100">
+                    <span className="text-4xl font-bold bg-gradient-to-r from-gray-900 to-[#e8632a] bg-clip-text text-transparent">{p.price}€</span>
+                    <span className="text-sm text-gray-400 ml-2">/ mois</span>
+                  </div>
+                  <ul className="space-y-3 flex-1 mb-8">
+                    {p.features.map((f) => (
+                      <li key={f} className="flex items-start gap-3 text-sm text-gray-600">
+                        <Check size={16} className="text-[#e8632a] flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+                        <span>{f}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="text-center">
+                    <p className="text-xs text-gray-400 mb-3">Disponible après votre architecture</p>
+                    <SubscribeButton plan={p.plan} highlight={p.highlight} label={p.cta} disabled={true} />
+                  </div>
                 </div>
               </div>
             ))}
@@ -169,16 +175,16 @@ export default function TarifsPage() {
         </div>
 
         {/* CTA */}
-        <div className="text-center bg-gray-50 rounded-2xl p-10 border border-gray-100">
-          <p className="text-gray-900 font-bold text-lg mb-2">Pas sûr de quel plan choisir ?</p>
-          <p className="text-gray-500 text-sm mb-6">L&apos;audit gratuit de 1h répond à toutes vos questions.</p>
+        <div className="text-center bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-12 border border-gray-700 shadow-xl">
+          <p className="text-white font-bold text-2xl mb-3">Pas sûr de quel plan choisir ?</p>
+          <p className="text-gray-300 text-base mb-8 max-w-md mx-auto">L&apos;audit gratuit de 1h répond à toutes vos questions et crée un plan personnalisé.</p>
           <Link
             href="https://calendly.com/ben40nocode/1h"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-[#e8632a] to-[#d97757] hover:shadow-lg hover:shadow-orange-500/50 text-white px-8 py-4 rounded-xl text-base font-semibold transition-all duration-300 hover:-translate-y-0.5"
           >
-            Réserver l&apos;audit gratuit <ArrowRight size={14} />
+            Réserver l&apos;audit gratuit <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
 
