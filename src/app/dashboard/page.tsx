@@ -8,14 +8,14 @@ export const metadata = { title: "Espace client" };
 
 const PLAN_LABELS: Record<string, string> = {
   core: "Core Maintenance — 159€/mois",
-  business: "Business Logic — 290€/mois",
-  fullstack: "Full Stack Partner — 490€/mois",
+  business: "Business Logic — 320€/mois",
+  fullstack: "Full Stack Partner — 540€/mois",
 };
 
 const PLAN_STATS: Record<string, { automations: string; hours: string }> = {
-  core: { automations: "3", hours: "2h / 2h" },
-  business: { automations: "4", hours: "2h / 4h" },
-  fullstack: { automations: "∞", hours: "2h / 6h" },
+  core: { automations: "3", hours: "2h/mois" },
+  business: { automations: "4", hours: "4h/mois" },
+  fullstack: { automations: "∞", hours: "6h/mois" },
 };
 
 export default async function DashboardPage() {
