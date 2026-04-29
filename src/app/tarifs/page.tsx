@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Check, ArrowRight } from "lucide-react";
 import { SubscribeButton } from "@/components/SubscribeButton";
+import { ArchitectureButton } from "@/components/ArchitectureButton";
 
 export const metadata: Metadata = {
   title: "Tarifs",
@@ -98,20 +99,20 @@ export default function TarifsPage() {
           <p className="text-xs text-gray-400 mt-4">Sans recrutement. Sans formation. Sans charge patronale.</p>
         </div>
 
-        {/* Setup */}
+        {/* Architecture de système */}
         <div className="mb-20">
-          <h2 className="text-xl font-bold text-gray-900 mb-2">1. Setup & conception</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-2">1. Architecture de système</h2>
           <p className="text-sm text-gray-400 mb-8">Facturé une seule fois. Comprend conception, développement, tests et formation.</p>
           <div className="grid md:grid-cols-3 gap-5">
             {setup.map((p) => (
-              <div key={p.name} className="p-7 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all">
+              <div key={p.name} className="p-7 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all flex flex-col">
                 <h3 className="font-bold text-gray-900 mb-1">{p.name}</h3>
                 <p className="text-xs text-gray-400 mb-5">{p.desc}</p>
                 <div className="mb-5 pb-5 border-b border-gray-100">
                   <span className="text-3xl font-bold text-gray-900">{p.price}</span>
                   {p.price !== "Sur devis" && <span className="text-sm text-gray-400">€ HT</span>}
                 </div>
-                <ul className="space-y-3">
+                <ul className="space-y-3 flex-1 mb-8">
                   {p.features.map((f) => (
                     <li key={f} className="flex items-start gap-2.5 text-sm text-gray-600">
                       <Check size={14} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
@@ -119,6 +120,7 @@ export default function TarifsPage() {
                     </li>
                   ))}
                 </ul>
+                <ArchitectureButton highlight={false} label="Demander un devis" />
               </div>
             ))}
           </div>
@@ -157,7 +159,10 @@ export default function TarifsPage() {
                     </li>
                   ))}
                 </ul>
-                <SubscribeButton plan={p.plan} highlight={p.highlight} label={p.cta} />
+                <div className="text-center">
+                  <p className="text-xs text-gray-400 mb-3">Disponible après votre architecture</p>
+                  <SubscribeButton plan={p.plan} highlight={p.highlight} label={p.cta} disabled={true} />
+                </div>
               </div>
             ))}
           </div>

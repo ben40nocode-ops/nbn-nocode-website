@@ -6,13 +6,15 @@ interface Props {
   plan: string;
   highlight: boolean;
   label: string;
+  disabled?: boolean;
 }
 
-export function SubscribeButton({ plan, highlight, label }: Props) {
+export function SubscribeButton({ plan, highlight, label, disabled = false }: Props) {
   const { isSignedIn } = useUser();
   const { openSignIn } = useClerk();
 
   function handleClick() {
+    if (disabled) return;
     if (!isSignedIn) {
       openSignIn();
       return;
@@ -23,8 +25,11 @@ export function SubscribeButton({ plan, highlight, label }: Props) {
   return (
     <button
       onClick={handleClick}
+      disabled={disabled}
       className={`w-full text-center py-3 rounded-xl text-sm font-bold transition-colors duration-200 ${
-        highlight
+        disabled
+          ? "bg-gray-100 text-gray-400 cursor-not-allowed"
+          : highlight
           ? "bg-[#e8632a] hover:bg-[#c4521f] text-white"
           : "border border-gray-200 hover:border-gray-300 text-gray-700 hover:bg-gray-50"
       }`}
