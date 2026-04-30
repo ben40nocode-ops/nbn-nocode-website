@@ -24,7 +24,7 @@ export function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-gray-500 leading-relaxed mb-4">
-              <strong className="text-gray-700">Benjamin Bertigny</strong> a créé NBN IA avec une équipe de développeurs spécialisés en Intelligence Artificielle. Formé chez Alegria Academy et certifié Anthropic Architecture, Benjamin dirige ce collectif basé à Bordeaux. Nous conçoivons des systèmes IA autonomes sur mesure pour les PME — des architectures qui opèrent sans intervention humaine, 24h/24, 7j/7.
+              <strong className="text-gray-700">Benjamin Bertigny</strong> a créé NBN IA avec une équipe de développeurs spécialisés en Intelligence Artificielle. Formé chez Alegria Academy et certifié Anthropic Architecture, Benjamin dirige ce collectif basé à Bordeaux. Nous concevons des systèmes IA autonomes sur mesure pour les PME — des architectures qui opèrent sans intervention humaine, 24h/24, 7j/7.
             </p>
             <p className="text-gray-500 leading-relaxed mb-4">
               Vibe coding avec Claude Code, orchestration d&apos;agents IA, intégrations API complexes — nous construisons des systèmes qui ne ressemblent ni à une agence de dev, ni à une agence nocode. Quelque chose de nouveau.
