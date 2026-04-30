@@ -5,9 +5,23 @@ import { SubscribeButton } from "@/components/SubscribeButton";
 import { ArchitectureButton } from "@/components/ArchitectureButton";
 
 export const metadata: Metadata = {
-  title: "Tarifs",
+  title: "Tarifs Automatisations IA, Sites Web & Web Apps — NBN IA Bordeaux",
   description:
-    "Setup unique à partir de 450€ + abonnement mensuel dès 159€/mois. Pas d'engagement, pas de surprise. Découvrez nos offres NBN IA.",
+    "Tarifs transparents pour automatisations IA, création websites et web apps. Setup à partir de 450€ + maintenance dès 159€/mois. Devis gratuit. Bordeaux, Royan, Arcachon.",
+  keywords: [
+    "tarifs automatisation IA",
+    "prix site web Bordeaux",
+    "tarifs web app",
+    "prix création site web",
+    "agence web Bordeaux tarifs",
+    "développement IA coût",
+    "maintenance site web Bordeaux",
+  ],
+  openGraph: {
+    title: "Tarifs — Automatisations IA, Websites, Web Apps | NBN IA",
+    description: "Transparent pricing for IA automation, websites & web apps. Starting from €450 setup + €159/month maintenance. Free audit.",
+    url: "https://www.nbn-ia.fr/tarifs",
+  },
 };
 
 const architecture = [
@@ -130,9 +144,74 @@ function PricingCard({ plan }: { plan: any }) {
   );
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      name: "Automatisations IA & Agents IA",
+      provider: { "@type": "Organization", name: "NBN IA", url: "https://www.nbn-ia.fr" },
+      areaServed: [
+        { "@type": "City", name: "Bordeaux" },
+        { "@type": "City", name: "Royan" },
+        { "@type": "City", name: "Arcachon" },
+      ],
+      description: "Architecture IA sur mesure + maintenance continue des agents IA et workflows automatisés pour PME",
+      priceRange: "€€€",
+      offers: [
+        { "@type": "Offer", name: "Starter", price: "450", priceCurrency: "EUR" },
+        { "@type": "Offer", name: "Business", price: "1200", priceCurrency: "EUR" },
+        { "@type": "Offer", name: "Enterprise", price: "Sur devis", priceCurrency: "EUR" },
+      ],
+    },
+    {
+      "@type": "Service",
+      name: "Création de Sites Web",
+      provider: { "@type": "Organization", name: "NBN IA", url: "https://www.nbn-ia.fr" },
+      areaServed: [
+        { "@type": "City", name: "Bordeaux" },
+        { "@type": "City", name: "Royan" },
+        { "@type": "City", name: "Arcachon" },
+      ],
+      description: "Création de sites web responsifs, performants et connectés à vos systèmes IA. Design moderne, SEO optimisé.",
+      priceRange: "€€",
+      offers: [
+        { "@type": "Offer", name: "Landing Page", price: "800", priceCurrency: "EUR" },
+        { "@type": "Offer", name: "Professional", price: "1800", priceCurrency: "EUR" },
+        { "@type": "Offer", name: "E-commerce", price: "3500", priceCurrency: "EUR" },
+      ],
+    },
+    {
+      "@type": "Service",
+      name: "Développement Web Apps IA",
+      provider: { "@type": "Organization", name: "NBN IA", url: "https://www.nbn-ia.fr" },
+      areaServed: [
+        { "@type": "City", name: "Bordeaux" },
+        { "@type": "City", name: "Royan" },
+        { "@type": "City", name: "Arcachon" },
+      ],
+      description: "Applications web sur mesure avec authentification, base de données et intégrations IA pour automatiser votre business.",
+      priceRange: "€€€",
+      offers: [
+        { "@type": "Offer", name: "Basic App", price: "2500", priceCurrency: "EUR" },
+        { "@type": "Offer", name: "Advanced App", price: "5000", priceCurrency: "EUR" },
+        { "@type": "Offer", name: "Enterprise", price: "Custom", priceCurrency: "EUR" },
+      ],
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.nbn-ia.fr" },
+        { "@type": "ListItem", position: 2, name: "Tarifs", item: "https://www.nbn-ia.fr/tarifs" },
+      ],
+    },
+  ],
+};
+
 export default function TarifsPage() {
   return (
     <div className="min-h-screen bg-white pt-24 pb-32">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Header */}
