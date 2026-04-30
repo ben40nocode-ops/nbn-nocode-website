@@ -14,23 +14,23 @@ export function AboutSection() {
 
         <div className="text-center mb-16">
           <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">
-            Qui je suis
+            Qui nous sommes
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-2xl mx-auto leading-snug">
-            Les PME méritent des systèmes IA qui tournent seuls. Je les construis.
+            Les PME méritent des systèmes IA qui tournent seuls. Nous les construisons.
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-gray-500 leading-relaxed mb-4">
-              Je suis <strong className="text-gray-700">Benjamin Bertigny</strong>, AI systems builder basé à Bordeaux. Je conçois des systèmes IA autonomes sur mesure pour les PME — des architectures qui opèrent sans intervention humaine, 24h/24, 7j/7.
+              <strong className="text-gray-700">Formé chez Alegria Academy et certifié Anthropic Architecture.</strong> Nous sommes un collectif centré autour de <strong className="text-gray-700">Benjamin Bertigny</strong>, AI systems builder basé à Bordeaux. Nous conçoivons des systèmes IA autonomes sur mesure pour les PME — des architectures qui opèrent sans intervention humaine, 24h/24, 7j/7.
             </p>
             <p className="text-gray-500 leading-relaxed mb-4">
-              Vibe coding avec Claude Code, orchestration d&apos;agents IA, intégrations API complexes — je construis des systèmes qui ne ressemblent ni à une agence de dev, ni à une agence nocode. Quelque chose de nouveau.
+              Vibe coding avec Claude Code, orchestration d&apos;agents IA, intégrations API complexes — nous construisons des systèmes qui ne ressemblent ni à une agence de dev, ni à une agence nocode. Quelque chose de nouveau.
             </p>
             <p className="text-gray-500 leading-relaxed">
-              Ma conviction : l&apos;IA doit travailler pour vous, pas l&apos;inverse. Je ne livre pas des workflows. Je livre un système qui tourne, s&apos;adapte, et que je maintiens dans le temps.
+              Notre conviction : l&apos;IA doit travailler pour vous, pas l&apos;inverse. Nous ne livrons pas des workflows. Nous livrons un système qui tourne, s&apos;adapte, et que nous maintenons dans le temps.
             </p>
           </div>
           <div className="flex flex-col gap-3">
