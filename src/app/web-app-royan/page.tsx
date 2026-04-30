@@ -12,6 +12,10 @@ export const metadata: Metadata = {
     "web application sur mesure Royan",
     "agence web Royan",
     "application interactive côte atlantique",
+    "web app Bordeaux Arcachon",
+    "app Soulac Montalivet Lacanau",
+    "développement Pauillac Lesparre",
+    "application IA Gironde",
   ],
   alternates: { canonical: "https://www.nbn-ia.fr/web-app-royan" },
   openGraph: {

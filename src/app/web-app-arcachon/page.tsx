@@ -12,6 +12,10 @@ export const metadata: Metadata = {
     "web application Arcachon",
     "agence web Arcachon",
     "développement app bassin d'arcachon",
+    "web app Bordeaux Royan",
+    "app Soulac Lacanau",
+    "développement Montalivet Pauillac",
+    "application Lesparre Gironde",
   ],
   alternates: { canonical: "https://www.nbn-ia.fr/web-app-arcachon" },
   openGraph: {

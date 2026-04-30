@@ -13,6 +13,10 @@ export const metadata: Metadata = {
     "app avec agents IA",
     "développement custom app",
     "application interactive Bordeaux",
+    "web app Royan Arcachon",
+    "app Soulac Pauillac",
+    "développement Lesparre Montalivet Lacanau",
+    "application côte atlantique Gironde",
   ],
   alternates: { canonical: "https://www.nbn-ia.fr/web-app-bordeaux" },
   openGraph: {
