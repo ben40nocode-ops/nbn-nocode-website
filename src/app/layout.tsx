@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | NBN IA",
   },
   description:
-    "Architecte de systèmes IA autonomes pour PME à Bordeaux, Royan et Arcachon. Agents IA Claude, vibe coding, orchestration IA. Vos systèmes tournent 24h/24 sans vous.",
+    "Benjamin Bertigny — AI systems builder à Bordeaux. Je conçois des systèmes IA autonomes sur mesure pour PME. Agents Claude, vibe coding, orchestration IA. Vos systèmes tournent 24h/24 sans intervention.",
   keywords: [
     "systèmes IA autonomes Bordeaux",
     "agent IA Bordeaux",
@@ -63,13 +63,13 @@ export const metadata: Metadata = {
     url: "https://www.nbn-ia.fr",
     siteName: "NBN IA",
     title: "NBN IA — Automatisation & Agents IA | Bordeaux · Royan · Arcachon",
-    description: "Je construis des systèmes IA autonomes qui travaillent à votre place. 24h/24. Agents IA, vibe coding, Claude Code — Bordeaux · Royan · Arcachon.",
+    description: "AI systems builder à Bordeaux. Je conçois des systèmes IA autonomes qui travaillent pour vous, 24h/24, 7j/7. Agents Claude, vibe coding, orchestration IA — pas une agence classique.",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "NBN IA — Automatisation & Agents IA" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "NBN IA — Automatisation & Agents IA",
-    description: "Architecte de systèmes IA autonomes. Agents IA & vibe coding pour PME. Bordeaux · Royan · Arcachon.",
+    description: "Benjamin Bertigny, AI systems builder. Systèmes IA autonomes qui travaillent pour vous, 24h/24. Agents Claude, orchestration IA, vibe coding. Bordeaux.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -97,7 +97,7 @@ const jsonLd = {
       url: "https://www.nbn-ia.fr",
       logo: "https://www.nbn-ia.fr/icon.svg",
       email: "contact@nbn-ia.fr",
-      description: "Architecte de systèmes IA autonomes pour PME. Agents IA Claude, vibe coding, orchestration IA. Bordeaux, Royan, Arcachon.",
+      description: "Architecte de systèmes IA autonomes pour PME. Je conçois des systèmes IA qui opèrent sans intervention humaine, 24h/24, 7j/7. Agents IA Claude, vibe coding avec Claude Code, orchestration IA. Pas une agence classique — je construis des systèmes qui tournent.",
       areaServed: ["Bordeaux", "Royan", "Arcachon", "Soulac", "Pauillac", "Lesparre", "Montalivet", "Lacanau", "Gironde", "France"],
       knowsAbout: ["Systèmes IA Autonomes", "Agents IA", "Claude AI", "Vibe Coding", "Claude Code", "Orchestration IA", "IA Générative", "Make", "n8n", "MCP", "Anthropic", "AI Systems Engineering", "Agent Orchestration", "LLM Workflows"],
     },
@@ -109,7 +109,7 @@ const jsonLd = {
       telephone: "+33640685975",
       email: "contact@nbn-ia.fr",
       image: "https://www.nbn-ia.fr/og-image.png",
-      description: "Architecte de systèmes IA autonomes pour PME. Agents IA Claude, vibe coding, orchestration sur mesure. Setup unique, abonnement maintenance. Bordeaux, Royan, Arcachon.",
+      description: "Benjamin Bertigny, AI systems builder. Je conçois des systèmes IA autonomes qui travaillent pour vous 24h/24, 7j/7. Architectures sur mesure, orchestration d'agents IA, intégrations API complexes. Maintenance continue incluse. Bordeaux, Royan, Arcachon.",
       priceRange: "€€",
       address: {
         "@type": "PostalAddress",
@@ -154,8 +154,8 @@ const jsonLd = {
       "@type": "Person",
       "@id": "https://www.nbn-ia.fr/#founder",
       name: "Benjamin Bertigny",
-      jobTitle: "AI Systems Builder & Architecte de Systèmes IA Autonomes",
-      description: "Fondateur de NBN IA. Architecte de systèmes IA autonomes pour PME. Vibe coding avec Claude Code, orchestration d'agents IA. Basé à Bordeaux.",
+      jobTitle: "AI Systems Builder",
+      description: "Benjamin Bertigny, AI systems builder basé à Bordeaux. Je conçois des systèmes IA autonomes sur mesure pour les PME — des architectures qui opèrent sans intervention humaine, 24h/24, 7j/7. Vibe coding avec Claude Code, orchestration d'agents IA, intégrations API complexes. Je construis des systèmes qui ne ressemblent ni à une agence de dev, ni à une agence nocode. Ma conviction : l'IA doit travailler pour vous, pas l'inverse. Je ne livre pas des workflows. Je livre un système qui tourne, s'adapte, et que je maintiens dans le temps.",
       url: "https://www.nbn-ia.fr",
       email: "contact@nbn-ia.fr",
       worksFor: { "@id": "https://www.nbn-ia.fr/#organization" },
