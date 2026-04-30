@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | NBN IA",
   },
   description:
-    "Benjamin Bertigny — AI systems builder à Bordeaux. Je conçois des systèmes IA autonomes sur mesure pour PME. Agents Claude, vibe coding, orchestration IA. Vos systèmes tournent 24h/24 sans intervention.",
+    "Formé chez Alegria Academy et certifié Anthropic Architecture. Benjamin Bertigny, AI systems builder à Bordeaux. Je conçois des systèmes IA autonomes sur mesure pour PME — architectures qui opèrent sans intervention humaine, 24h/24, 7j/7.",
   keywords: [
     "systèmes IA autonomes Bordeaux",
     "agent IA Bordeaux",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     url: "https://www.nbn-ia.fr",
     siteName: "NBN IA",
     title: "NBN IA — Automatisation & Agents IA | Bordeaux · Royan · Arcachon",
-    description: "AI systems builder à Bordeaux. Je conçois des systèmes IA autonomes qui travaillent pour vous, 24h/24, 7j/7. Agents Claude, vibe coding, orchestration IA — pas une agence classique.",
+    description: "Formé chez Alegria Academy et certifié Anthropic Architecture. Systèmes IA autonomes qui travaillent pour vous, 24h/24, 7j/7. Vibe coding, orchestration IA, intégrations complexes — pas une agence classique.",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "NBN IA — Automatisation & Agents IA" }],
   },
   twitter: {
@@ -155,7 +155,7 @@ const jsonLd = {
       "@id": "https://www.nbn-ia.fr/#founder",
       name: "Benjamin Bertigny",
       jobTitle: "AI Systems Builder",
-      description: "Benjamin Bertigny, AI systems builder basé à Bordeaux. Je conçois des systèmes IA autonomes sur mesure pour les PME — des architectures qui opèrent sans intervention humaine, 24h/24, 7j/7. Vibe coding avec Claude Code, orchestration d'agents IA, intégrations API complexes. Je construis des systèmes qui ne ressemblent ni à une agence de dev, ni à une agence nocode. Ma conviction : l'IA doit travailler pour vous, pas l'inverse. Je ne livre pas des workflows. Je livre un système qui tourne, s'adapte, et que je maintiens dans le temps.",
+      description: "Formé chez Alegria Academy et certifié Anthropic Architecture. Benjamin Bertigny, AI systems builder basé à Bordeaux. Je conçois des systèmes IA autonomes sur mesure pour les PME — des architectures qui opèrent sans intervention humaine, 24h/24, 7j/7. Vibe coding avec Claude Code, orchestration d'agents IA, intégrations API complexes — je construis des systèmes qui ne ressemblent ni à une agence de dev, ni à une agence nocode. Quelque chose de nouveau. Ma conviction : l'IA doit travailler pour vous, pas l'inverse. Je ne livre pas des workflows. Je livre un système qui tourne, s'adapte, et que je maintiens dans le temps.",
       url: "https://www.nbn-ia.fr",
       email: "contact@nbn-ia.fr",
       worksFor: { "@id": "https://www.nbn-ia.fr/#organization" },
