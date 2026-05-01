@@ -1,4 +1,5 @@
-import { Bot, Globe, Plug, MessageSquare } from "lucide-react";
+import { Bot, Globe, Plug, MessageSquare, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const solutions = [
   {
@@ -8,14 +9,16 @@ const solutions = [
     tags: ["Réponses clients auto", "Devis automatisés", "Relances", "Rappels RDV"],
     color: "#e8632a",
     bg: "#fff5f0",
+    href: "/automatisation-bordeaux",
   },
   {
     icon: Globe,
     title: "Sites web & Applications",
-    description: "On crée des sites modernes, rapides et bien référencés sur Google. Et si vous avez besoin d'un outil sur mesure (espace client, tableau de bord, réservation), on le développe aussi.",
+    description: "Site vitrine, e-commerce, espace client, outil de réservation — on conçoit et développe tout ce dont vous avez besoin pour avoir une présence pro sur le web et des outils qui font le travail à votre place.",
     tags: ["Site vitrine", "E-commerce", "Application métier", "Réservation en ligne"],
     color: "#0ea5e9",
     bg: "#f0f9ff",
+    href: "/creation-site-web-bordeaux",
   },
   {
     icon: Plug,
@@ -24,6 +27,7 @@ const solutions = [
     tags: ["Google Agenda", "CRM", "Facturation", "Formulaires"],
     color: "#8b5cf6",
     bg: "#f5f3ff",
+    href: "/#apropos",
   },
   {
     icon: MessageSquare,
@@ -32,6 +36,7 @@ const solutions = [
     tags: ["Réponse instantanée", "Qualification leads", "Prise de RDV", "24h/24"],
     color: "#10b981",
     bg: "#f0fdf4",
+    href: "/chatbot-ia-bordeaux",
   },
 ];
 
@@ -63,13 +68,16 @@ export function SolutionsSection() {
               </div>
               <h3 className="text-base font-bold text-gray-900 mb-2">{s.title}</h3>
               <p className="text-sm text-gray-500 leading-relaxed mb-5">{s.description}</p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 mb-5">
                 {s.tags.map((tag) => (
                   <span key={tag} className="text-xs text-gray-500 bg-gray-100 rounded-full px-3 py-1 font-medium">
                     {tag}
                   </span>
                 ))}
               </div>
+              <Link href={s.href} className="inline-flex items-center gap-1 text-xs font-semibold text-gray-400 hover:text-gray-700 transition-colors group">
+                En savoir plus <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform" />
+              </Link>
             </div>
           ))}
         </div>
