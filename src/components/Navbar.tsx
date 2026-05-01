@@ -39,7 +39,7 @@ export function Navbar() {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white ${scrolled ? "border-b border-gray-100 shadow-sm" : ""}`}>
-      <nav className="flex items-center justify-between px-5 pt-2.5 pb-2.5 h-14">
+      <nav className="flex items-center justify-between px-4 md:px-[50px] pt-2.5 pb-2.5 h-14">
 
         {/* Logo — gauche */}
         <Link href={isEN ? "/en" : "/"} className="flex items-center flex-shrink-0">
@@ -103,7 +103,7 @@ export function Navbar() {
 
       {/* Menu mobile */}
       {open && (
-        <div className="md:hidden bg-white border-t border-gray-100 px-5 py-6 flex flex-col gap-5">
+        <div className="md:hidden bg-white border-t border-gray-100 px-4 md:px-[50px] py-6 flex flex-col gap-5">
           {links.map((l) => (
             <Link key={l.href} href={l.href} onClick={() => setOpen(false)} className="text-sm text-gray-600 hover:text-gray-900">
               {l.label}
