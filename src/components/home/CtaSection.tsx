@@ -11,10 +11,10 @@ export function CtaSection() {
             Prêt à démarrer ?
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-5">
-            1 heure pour concevoir votre<br />premier système IA autonome.
+            1 heure pour identifier ce qu&apos;on peut<br />automatiser dans votre business.
           </h2>
           <p className="text-gray-400 mb-10 max-w-md mx-auto leading-relaxed">
-            L&apos;audit est gratuit, sans engagement. Vous repartez avec une architecture concrète — qu&apos;on travaille ensemble ou non.
+            L&apos;audit est gratuit, sans engagement. Vous repartez avec une liste concrète de ce qui peut être automatisé — que vous travailliez avec nous ou non.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Calendar, Bot, Globe, Code2, Sparkles, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Calendar, Bot, Globe, Plug, MessageSquare, CheckCircle2 } from "lucide-react";
 import { LogoBar } from "@/components/home/LogoBar";
-import { FaqSection } from "@/components/home/FaqSection";
 
 export const metadata: Metadata = {
-  title: "AI Automation & Autonomous Agents for SMBs | Bordeaux · France",
-  description: "Founded by Benjamin Bertigny, trained at Alegria Academy and certified Anthropic Architecture. We build autonomous AI systems that work for you 24/7. Claude AI agents, vibe coding, custom orchestration.",
+  title: "AI Automation for SMBs & Craftsmen in France | NBN IA",
+  description: "We automate the repetitive tasks in your business — client replies, quotes, reminders, follow-ups. Operational in 2 weeks. Based in Bordeaux, serving all of France. Free audit.",
   alternates: { canonical: "https://www.nbn-ia.fr/en" },
   openGraph: {
-    title: "NBN IA — AI Automation & Agents | Bordeaux · France",
-    description: "We build autonomous AI systems that work for you 24/7. Claude AI agents, vibe coding, custom orchestration — not a dev agency, not a nocode agency. Something new.",
+    title: "NBN IA — AI Automation for SMBs & Craftsmen | France",
+    description: "We handle the repetitive tasks so you can focus on your work. Client replies, quotes, reminders — automated and running in 2 weeks.",
     url: "https://www.nbn-ia.fr/en",
   },
 };
@@ -23,41 +22,35 @@ export default function HomeEnPage() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
             <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase">
-              Autonomous AI Systems Architect
+              AI Automation for SMBs & Craftsmen
             </div>
             <div className="inline-flex items-center gap-2 bg-[#fff5f0] border border-[#e8632a]/20 text-[#d97757] rounded-full px-3 py-1 text-xs font-medium">
-              <span>⬡</span> Specialized in Claude · Anthropic
+              <span>⬡</span> Bordeaux · Royan · Arcachon
             </div>
           </div>
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
-            Your processes run.{" "}
+            Your business runs.{" "}
             <span className="text-[#e8632a]">Even while you sleep.</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
-            We build autonomous AI systems that work for you. 24/7.
-            AI agents, vibe coding, Claude orchestration — one-time setup, zero intervention.
+            We handle the repetitive tasks in your business.
+            Client replies, quotes, reminders, follow-ups — automated and operational in 2 weeks.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link
-              href="https://calendly.com/ben40nocode/1h"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 shadow-lg shadow-orange-200"
-            >
+            <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
+              className="group inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 shadow-lg shadow-orange-200">
               Book a free audit
               <ArrowRight size={17} className="group-hover:translate-x-0.5 transition-transform" />
             </Link>
-            <Link
-              href="/en#work"
-              className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 hover:text-gray-900 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-gray-50"
-            >
-              See our work
+            <Link href="/en#work"
+              className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 hover:text-gray-900 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-gray-50">
+              See real examples
             </Link>
           </div>
           <div className="mt-16 pt-10 border-t border-gray-100 grid grid-cols-3 gap-8 max-w-lg mx-auto">
             {[
-              { value: "40+", label: "automations" },
-              { value: "Claude AI", label: "Vibe Coding · Agents" },
+              { value: "40+", label: "clients supported" },
+              { value: "2 to 20h", label: "saved per week" },
               { value: "100%", label: "custom-built" },
             ].map((s) => (
               <div key={s.label} className="text-center">
@@ -77,27 +70,27 @@ export default function HomeEnPage() {
           <div className="text-center mb-16">
             <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Who we are</p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-2xl mx-auto leading-snug">
-              SMBs deserve AI systems that run by themselves. We build them.
+              SMBs and craftsmen deserve tools that work for them. We build them.
             </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
               <p className="text-gray-500 leading-relaxed mb-4">
-                <strong className="text-gray-700">Benjamin Bertigny</strong> founded NBN IA with a team of developers specialized in Artificial Intelligence. Trained at Alegria Academy and certified Anthropic Architecture, Benjamin leads this collective based in Bordeaux. We design custom autonomous AI systems for SMBs — architectures that operate without human intervention, 24/7.
+                <strong className="text-gray-700">Benjamin Bertigny</strong> founded NBN IA with a team of developers specialized in Artificial Intelligence. Trained at Alegria Academy and certified Anthropic Architecture, Benjamin leads this collective based in Bordeaux.
               </p>
               <p className="text-gray-500 leading-relaxed mb-4">
-                Vibe coding with Claude Code, AI agent orchestration, complex API integrations — we build systems that look nothing like a dev agency or a nocode agency. Something new.
+                Our approach is simple: we listen to your business, identify what takes your time, and build a system that handles it for you — 24/7. No jargon, no training required on your end.
               </p>
               <p className="text-gray-500 leading-relaxed">
-                Our conviction: AI should work for you, not the other way around. We don&apos;t deliver workflows. We deliver a system that runs, adapts, and that we maintain over time.
+                Our conviction: technology should work for you, not the other way around. We don&apos;t deliver a tool. We deliver a result — and we maintain it over time.
               </p>
             </div>
             <div className="flex flex-col gap-3">
               {[
-                "Custom autonomous AI systems — never a generic template",
-                "Stack centered on Claude Code and the most advanced AI agents on the market",
-                "Transparent model: one-time setup + evolving monthly subscription",
-                "Bordeaux, Royan, Arcachon and 100% remote",
+                "Custom-built systems — never a generic template",
+                "Technology adapted to your trade, not the other way around",
+                "Transparent model: one-time setup + monthly subscription",
+                "Bordeaux, Royan, Arcachon and 100% remote across France",
               ].map((v, i) => (
                 <div key={i} className="flex items-start gap-3 p-4 rounded-xl border border-gray-100 bg-gray-50">
                   <CheckCircle2 size={16} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
@@ -107,12 +100,12 @@ export default function HomeEnPage() {
             </div>
           </div>
           <div className="mt-12 p-6 rounded-2xl bg-[#fff5f0] border border-[#e8632a]/20">
-            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Why Claude and not ChatGPT?</p>
+            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">How does it work?</p>
             <div className="grid sm:grid-cols-3 gap-4">
               {[
-                { title: "Long reasoning", desc: "Claude analyzes complex documents and makes decisions across 200,000-token contexts." },
-                { title: "Autonomous agents", desc: "Built to act, not just respond. Claude executes multi-step workflows without getting lost." },
-                { title: "Business reliability", desc: "Fewer hallucinations on critical data. The go-to for use cases where errors are costly." },
+                { title: "1. Free audit (1h)", desc: "We analyse your activity together and identify the 2–3 tasks that cost you the most time." },
+                { title: "2. We build (1–4 weeks)", desc: "Our developers set up your system. You validate at each step. No surprises." },
+                { title: "3. It runs by itself", desc: "Your system is live. We maintain and improve it every month as needed." },
               ].map((item) => (
                 <div key={item.title}>
                   <p className="text-sm font-semibold text-gray-900 mb-1">{item.title}</p>
@@ -128,39 +121,39 @@ export default function HomeEnPage() {
       <section id="solutions" className="py-24 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">What we build</p>
+            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">What we do for you</p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
-              Four systems, one architect.
+              Four ways to save time.
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 gap-5">
             {[
               {
                 icon: Bot,
-                title: "AI Agents & Autonomous Systems",
-                description: "Custom Claude agents, multi-agent orchestration, intelligent pipelines. Systems that perceive, decide and act without you.",
-                tags: ["Claude API", "n8n", "Make", "AI Orchestration"],
+                title: "Custom automations",
+                description: "We identify the tasks that take your time — email replies, quotes, follow-ups, reminders — and automate them. Your business runs without you lifting a finger.",
+                tags: ["Auto client replies", "Automated quotes", "Follow-ups", "Appointment reminders"],
                 color: "#e8632a", bg: "#fff5f0",
               },
               {
                 icon: Globe,
-                title: "Vibe Coding & Web Apps",
-                description: "Web applications generated via vibe coding with Claude Code, deployed on Vercel. Client portals, AI dashboards, connected apps in hours.",
-                tags: ["Claude Code", "Vercel", "Next.js", "Vibe Coding"],
+                title: "Websites & Applications",
+                description: "We create modern, fast, Google-optimized websites. And if you need a custom tool (client portal, dashboard, booking system), we build that too.",
+                tags: ["Business website", "E-commerce", "Custom app", "Online booking"],
                 color: "#0ea5e9", bg: "#f0f9ff",
               },
               {
-                icon: Code2,
-                title: "Integrations & AI Infrastructure",
-                description: "APIs, databases, webhooks, custom CRMs. The infrastructure your AI agents rely on to operate autonomously.",
-                tags: ["Supabase", "REST API", "Airtable", "Stripe"],
+                icon: Plug,
+                title: "Connecting your tools",
+                description: "Your calendar, CRM, invoicing software, emails — we make them talk to each other. No more double entry, no more information scattered everywhere.",
+                tags: ["Google Calendar", "CRM", "Invoicing", "Forms"],
                 color: "#8b5cf6", bg: "#f5f3ff",
               },
               {
-                icon: Sparkles,
-                title: "Generative AI & Content",
-                description: "AI content pipelines, automatic multi-channel repurposing, SEO optimization. Your digital presence running on its own.",
-                tags: ["Generative AI", "SEO", "Claude", "Analytics"],
+                icon: MessageSquare,
+                title: "Automatic client assistant",
+                description: "An assistant available 24/7 that answers your clients' questions, qualifies requests, and only transfers to you what needs your attention.",
+                tags: ["Instant reply", "Lead qualification", "Appointment booking", "24/7"],
                 color: "#10b981", bg: "#f0fdf4",
               },
             ].map((s) => (
@@ -181,29 +174,29 @@ export default function HomeEnPage() {
         </div>
       </section>
 
-      {/* CLAUDE */}
+      {/* WHY IT WORKS */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="rounded-2xl bg-gradient-to-br from-[#fff5f0] to-white border border-[#e8632a]/15 p-8 md:p-12">
             <div className="grid md:grid-cols-2 gap-10 items-center">
               <div>
-                <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">The model makes the difference</p>
+                <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Why it works</p>
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900 leading-snug mb-4">
-                  Why we work exclusively with Claude.
+                  Reliable technology. Results you can see.
                 </h2>
                 <p className="text-gray-500 leading-relaxed mb-6">
-                  ChatGPT answers. Claude <em>acts</em>. To build AI systems that make real business decisions — qualify a lead, analyze a contract, orchestrate 10 tools — Claude (Anthropic) is in a different league.
+                  We use the most advanced AI tools on the market — the same ones used by large companies. But we configure them for your trade, your way of working, your clients. Not a generic system. Yours.
                 </p>
                 <p className="text-xs text-gray-400">
-                  No French agency specializes in Claude. That&apos;s your competitive advantage — and ours.
+                  Certified Anthropic Architecture. Trained at Alegria Academy. We know what we&apos;re doing — you don&apos;t need to.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { stat: "200K", label: "context tokens", desc: "Reads an entire contract, a database, a full client history." },
-                  { stat: "↗ 3×", label: "more reliable", desc: "Fewer hallucinations on structured data vs other LLMs." },
-                  { stat: "MCP", label: "native", desc: "Most advanced AI agent protocol. Tools, memory, orchestration." },
-                  { stat: "24/7", label: "autonomous", desc: "Built to act without human supervision in critical workflows." },
+                  { stat: "48h", label: "for a first system", desc: "A client assistant or follow-up system can be running in 2 days." },
+                  { stat: "24/7", label: "it runs by itself", desc: "Nights, weekends, bank holidays — your system never stops." },
+                  { stat: "0", label: "technical skills needed", desc: "You don't need to understand how it works. You see the results." },
+                  { stat: "ROI", label: "from month one", desc: "Time saved usually exceeds the cost of the system within the first weeks." },
                 ].map((item) => (
                   <div key={item.stat} className="p-4 bg-white rounded-xl border border-gray-100">
                     <div className="text-xl font-bold text-[#e8632a] mb-0.5">{item.stat}</div>
@@ -217,22 +210,22 @@ export default function HomeEnPage() {
         </div>
       </section>
 
-      {/* WORK */}
+      {/* REAL EXAMPLES */}
       <section id="work" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Use cases</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">What we&apos;ve already built.</h2>
-            <p className="mt-4 text-gray-500 max-w-md mx-auto">Real systems, deployed for clients, with measurable results.</p>
+            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Real examples</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">What we&apos;ve already set up.</h2>
+            <p className="mt-4 text-gray-500 max-w-md mx-auto">Real systems deployed for SMBs and craftsmen, with measurable results.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
-              { emoji: "🤖", title: "AI Sales Agent", desc: "Conversational AI clone that responds to leads 24/7, qualifies them and automatically books meetings.", impact: "-80% sales time" },
-              { emoji: "📦", title: "Automated Customs Processing", desc: "AI extraction and processing of customs documents, real-time sync with ERP.", impact: "3h saved per day" },
-              { emoji: "💰", title: "AI-driven Cash Flow", desc: "Financial dashboard connected to banks, automatic cash forecasts, proactive alerts.", impact: "Decisions in 1 click" },
-              { emoji: "🏨", title: "Automated Hotel Check-in", desc: "Full welcome workflow: emails, access codes, personalized guides generated by AI.", impact: "0 manual intervention" },
-              { emoji: "🛒", title: "E-commerce Cart Recovery", desc: "Intelligent follow-up sequence with AI personalization based on purchase behavior.", impact: "+22% conversion" },
-              { emoji: "📱", title: "Social Content Recycling", desc: "Make → Claude pipeline: one blog post becomes 10 LinkedIn, Threads, Instagram posts in 1 click.", impact: "×10 on production" },
+              { emoji: "🔧", title: "Plumber — automated quotes", desc: "The client sends a WhatsApp or email. Our system replies, asks the right questions, generates a quote and follows up if no answer. The craftsman signs — without picking up the phone.", impact: "3h saved per day" },
+              { emoji: "🍽️", title: "Restaurant — bookings & reminders", desc: "Automatic booking 24/7, SMS confirmation, day-before reminder, no-show management. The owner focuses on the kitchen, not the phone.", impact: "-40% no-shows" },
+              { emoji: "🏠", title: "Real estate agency — qualified leads", desc: "Every enquiry gets a reply in under 2 minutes, 7 days a week. The agent only receives genuinely interested prospects, with all info pre-filled.", impact: "×3 signed mandates" },
+              { emoji: "🏨", title: "Hotel — frictionless check-in", desc: "Full automated welcome workflow: welcome email, access code, personalised local guide, review request on departure. Zero staff intervention per stay.", impact: "0 manual intervention" },
+              { emoji: "💇", title: "Salon — reminders & loyalty", desc: "Automatic SMS appointment reminders, follow-up message after visit, birthday offer. The waiting list manages itself. Clients come back without manual follow-up.", impact: "-35% absences" },
+              { emoji: "🛒", title: "Online shop — cart recovery & reviews", desc: "Automatic sequence after abandoned cart, review request after delivery, newsletter based on purchase history. The owner sleeps — the system works.", impact: "+22% conversion" },
             ].map((c) => (
               <div key={c.title} className="p-6 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all duration-200 flex flex-col">
                 <span className="text-3xl mb-4 block">{c.emoji}</span>
@@ -257,9 +250,9 @@ export default function HomeEnPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-5">
             {[
-              { quote: "NBN set up an AI agent that responds to our prospects in under 30 seconds. We tripled our qualified meetings in 2 months.", name: "Sophie M.", role: "Director, real estate agency — Bordeaux", initials: "SM", color: "#e8632a" },
-              { quote: "The customs processing workflow they built saves us 3 hours a day. The team is responsive, the system never crashes.", name: "Thomas L.", role: "Logistics manager, export SMB", initials: "TL", color: "#0ea5e9" },
-              { quote: "I subscribed to Full Stack Partner. In 3 months, my system evolved 4 times without me touching anything. Exactly what I wanted.", name: "Camille R.", role: "Founder, lifestyle e-commerce", initials: "CR", color: "#8b5cf6" },
+              { quote: "NBN set up an AI assistant that replies to our prospects in under 30 seconds. We tripled our qualified meetings in 2 months.", name: "Sophie M.", role: "Director, real estate agency — Bordeaux", initials: "SM", color: "#e8632a" },
+              { quote: "The automated workflow they built saves us 3 hours a day. The team is responsive, the system never crashes.", name: "Thomas L.", role: "Logistics manager, SMB", initials: "TL", color: "#0ea5e9" },
+              { quote: "In 3 months, our system evolved 4 times without us touching anything. Exactly what we wanted.", name: "Camille R.", role: "Founder, e-commerce", initials: "CR", color: "#8b5cf6" },
             ].map((t) => (
               <div key={t.name} className="p-7 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all duration-200 flex flex-col">
                 <div className="flex gap-0.5 mb-5">
@@ -285,26 +278,20 @@ export default function HomeEnPage() {
           <div className="bg-gray-900 rounded-3xl px-8 py-16 md:px-16 text-center">
             <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-4">Ready to start?</p>
             <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-5">
-              1 hour to design your first<br />autonomous AI system.
+              1 hour to identify what we can<br />automate in your business.
             </h2>
             <p className="text-gray-400 mb-10 max-w-md mx-auto leading-relaxed">
-              The audit is free, no commitment. You leave with a concrete architecture — whether we work together or not.
+              The audit is free, no commitment. You leave with a concrete list of what can be automated — whether you work with us or not.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="https://calendly.com/ben40nocode/1h"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center justify-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-all duration-200"
-              >
+              <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
+                className="group inline-flex items-center justify-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-all duration-200">
                 <Calendar size={17} />
-                Book a free audit
+                Book free audit
                 <ArrowRight size={15} className="group-hover:translate-x-0.5 transition-transform" />
               </Link>
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center gap-2 border border-gray-700 hover:border-gray-500 text-gray-300 hover:text-white px-8 py-4 rounded-xl font-semibold text-sm transition-all duration-200"
-              >
+              <Link href="/contact"
+                className="inline-flex items-center justify-center gap-2 border border-gray-700 hover:border-gray-500 text-gray-300 hover:text-white px-8 py-4 rounded-xl font-semibold text-sm transition-all duration-200">
                 Contact us
               </Link>
             </div>

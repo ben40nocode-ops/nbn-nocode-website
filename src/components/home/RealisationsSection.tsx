@@ -1,10 +1,10 @@
 const cases = [
-  { emoji: "🤖", title: "Agent commercial IA", desc: "Clone conversationnel qui répond aux leads 24/7, qualifie et planifie des RDV automatiquement.", impact: "-80% de temps commercial" },
-  { emoji: "📦", title: "Gestion douanière automatisée", desc: "Extraction et traitement des documents douaniers via IA, sync avec l'ERP en temps réel.", impact: "3h/jour économisées" },
-  { emoji: "💰", title: "Trésorerie pilotée par IA", desc: "Dashboard financier connecté aux banques, prévisions cash automatiques, alertes proactives.", impact: "Décisions en 1 clic" },
-  { emoji: "🏨", title: "Check-in hôtelier automatisé", desc: "Workflow d'accueil complet : emails, codes d'accès, guides personnalisés générés par IA.", impact: "0 intervention manuelle" },
-  { emoji: "🛒", title: "Récupération paniers e-commerce", desc: "Séquence de relance intelligente avec personnalisation IA selon le comportement d'achat.", impact: "+22% de conversion" },
-  { emoji: "📱", title: "Recyclage contenu social", desc: "Pipeline Make → Claude : un blog devient 10 posts LinkedIn, Threads, Instagram en 1 clic.", impact: "×10 sur la production" },
+  { emoji: "🔧", title: "Artisan plombier — devis automatisés", desc: "Le client envoie un message WhatsApp ou email. Notre système répond, pose les bonnes questions, génère un devis et relance si pas de réponse. L'artisan signe — sans avoir décroché son téléphone.", impact: "3h gagnées par jour" },
+  { emoji: "🍽️", title: "Restaurant — réservations & rappels", desc: "Prise de réservation automatique 24h/24, confirmation par SMS, rappel la veille, gestion des no-shows. Le restaurateur se concentre sur sa cuisine, pas sur son téléphone.", impact: "-40% de no-shows" },
+  { emoji: "🏠", title: "Agence immobilière — leads qualifiés", desc: "Chaque demande de contact reçoit une réponse en moins de 2 minutes, 7j/7. L'agent reçoit uniquement les prospects vraiment intéressés, avec toutes les infos pré-remplies.", impact: "×3 mandats signés" },
+  { emoji: "🏨", title: "Hôtel — check-in sans friction", desc: "Workflow d'accueil complet automatisé : email de bienvenue, code d'accès, guide local personnalisé, demande d'avis au départ. Zéro intervention du personnel pour chaque séjour.", impact: "0 intervention manuelle" },
+  { emoji: "💇", title: "Salon — rappels & fidélisation", desc: "Rappels RDV automatiques par SMS, message de suivi après la visite, offre anniversaire. La liste d'attente se gère toute seule. Les clients reviennent sans qu'on les relance à la main.", impact: "-35% d'absences" },
+  { emoji: "🛒", title: "Boutique en ligne — relances & avis", desc: "Séquence automatique après un panier abandonné, demande d'avis après livraison, newsletter selon les achats. Le gérant dort — le système travaille.", impact: "+22% de conversion" },
 ];
 
 export function RealisationsSection() {
@@ -12,20 +12,18 @@ export function RealisationsSection() {
     <section id="realisations" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
 
-        {/* Section header */}
         <div className="text-center mb-16">
           <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">
-            Cas d&apos;usage
+            Exemples concrets
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
-            Ce qu&apos;on a déjà construit.
+            Ce qu&apos;on a déjà mis en place.
           </h2>
           <p className="mt-4 text-gray-500 max-w-md mx-auto">
-            Des systèmes réels, déployés chez des clients, avec des résultats mesurables.
+            Des systèmes réels, déployés chez des PME et artisans, avec des résultats mesurables.
           </p>
         </div>
 
-        {/* Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {cases.map((c) => (
             <div

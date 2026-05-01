@@ -5,44 +5,40 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    q: "C'est quoi le modèle exactement ?",
-    a: "Je facture une fois la conception et le déploiement de votre système IA (à partir de 450€). Ensuite, vous choisissez un abonnement mensuel pour la maintenance, le monitoring et l'évolution. Pas d'engagement minimum.",
+    q: "Je suis artisan / restaurateur / commerçant — c'est vraiment pour moi ?",
+    a: "Oui, c'est exactement pour vous. Nos clients les plus satisfaits sont des plombiers, des restaurateurs, des agents immobiliers, des salons de coiffure, des hôteliers. Si vous avez des tâches répétitives qui vous prennent du temps (répondre aux emails, envoyer des devis, relancer des clients, confirmer des RDV), on peut les automatiser.",
   },
   {
-    q: "C'est quoi le vibe coding et pourquoi c'est différent ?",
-    a: "Le vibe coding, c'est construire des applications avec Claude Code en pilotant l'IA plutôt qu'en écrivant chaque ligne à la main. Résultat : des systèmes complets livrés en heures, pas en semaines. La qualité du code est là — la vélocité est décuplée.",
+    q: "C'est quoi le modèle exactement ?",
+    a: "On facture une fois la mise en place de votre système (à partir de 450€). Ensuite, vous choisissez un abonnement mensuel pour la maintenance et l'évolution. Pas d'engagement minimum. Si ça ne vous convient plus, vous arrêtez.",
   },
   {
     q: "On n'a pas de compétences techniques en interne, c'est un problème ?",
-    a: "C'est justement la valeur ajoutée. Vous n'avez pas besoin de comprendre comment ça marche — vous voyez les résultats. Je gère tout : conception, tests, déploiement, maintenance.",
+    a: "Pas du tout — c'est justement pour ça qu'on est là. Vous n'avez pas besoin de comprendre comment ça fonctionne. On gère tout : la conception, les tests, le déploiement, la maintenance. Vous voyez les résultats, c'est tout ce qui compte.",
   },
   {
-    q: "Combien de temps pour déployer un premier système IA ?",
-    a: "Pour un agent IA simple : 48h. Pour une architecture complète avec orchestration multi-agents : 1 à 3 semaines selon la complexité.",
-  },
-  {
-    q: "Est-ce que vous intervenez à Bordeaux, Royan et Arcachon ?",
-    a: "Oui, je suis basé dans ce triangle et j'interviens en présentiel ou en remote. Je couvre aussi toute la France à distance.",
-  },
-  {
-    q: "Est-ce que vous faites aussi du conseil sans passer par vos outils ?",
-    a: "Oui. L'audit gratuit de 1h est un vrai diagnostic — je vous dis ce qui peut être automatisé et ce qui ne le peut pas, sans obligation d'achat.",
-  },
-  {
-    q: "Mes données sont-elles sécurisées ?",
-    a: "Absolument. Je travaille avec des infrastructures Européennes (RGPD), des connexions OAuth sécurisées et je ne stocke jamais vos données métier sur mes propres serveurs.",
-  },
-  {
-    q: "Qu'est-ce qu'un système IA autonome exactement ?",
-    a: "Un système IA autonome, c'est une architecture d'agents qui perçoivent des événements (un email reçu, une commande créée, une mise à jour CRM), prennent des décisions et agissent sans intervention humaine. Construit avec Claude, Make ou n8n, il peut traiter des emails, qualifier des leads, générer des documents, synchroniser des données — en continu, 24h/24.",
+    q: "Combien de temps ça prend pour mettre en place ?",
+    a: "Pour une automatisation simple (rappels RDV, réponses clients, devis automatisés) : entre 48h et 1 semaine. Pour un système plus complet avec plusieurs automatisations connectées : 2 à 4 semaines. On démarre toujours par l'automatisation qui vous fera gagner le plus de temps.",
   },
   {
     q: "Combien d'heures par semaine peut-on gagner ?",
-    a: "Selon les cas, entre 3h et 20h par semaine par collaborateur. Une PME type avec un agent commercial IA + un CRM synchronisé + des rapports auto-générés économise en moyenne 2 équivalents temps partiel. Le ROI dépasse souvent le coût du setup dès le premier mois.",
+    a: "Entre 2h et 20h par semaine selon votre activité. Un restaurateur avec des rappels de réservation automatiques gagne en moyenne 1h30 par jour. Un artisan avec des devis automatisés arrête de passer ses soirées à rappeler des clients. Le ROI dépasse souvent le coût dès le premier mois.",
   },
   {
-    q: "Est-ce qu'un agent IA peut vraiment remplacer un salarié ?",
-    a: "Pas un salarié — mais il peut absorber la charge mentale et répétitive de plusieurs personnes. Un agent Claude bien configuré traite des emails, qualifie des leads, rédige des comptes-rendus, extrait des données de documents et prend des décisions simples en autonomie, 24h/24. Ce qu'il ne remplace pas : la relation humaine, le jugement stratégique et la créativité.",
+    q: "Et si je veux arrêter ou changer quelque chose ?",
+    a: "Vous gardez le contrôle. Pas d'engagement long terme. Si vous voulez modifier une automatisation, on le fait. Si vous voulez tout arrêter, on vous rend votre système proprement documenté. Aucun enfermement.",
+  },
+  {
+    q: "Est-ce que vous intervenez à Bordeaux, Royan et Arcachon ?",
+    a: "Oui, on est basés dans ce triangle et on intervient en présentiel si vous préférez. On couvre aussi toute la France à distance — la plupart de nos clients travaillent avec nous par visio.",
+  },
+  {
+    q: "Mes données clients sont-elles sécurisées ?",
+    a: "Absolument. On travaille avec des serveurs européens (RGPD), des connexions sécurisées, et on ne stocke jamais vos données métier sur nos propres serveurs. Votre activité reste la vôtre.",
+  },
+  {
+    q: "C'est quoi l'audit gratuit exactement ?",
+    a: "Un appel d'1 heure où on analyse ensemble votre activité : quelles tâches prennent le plus de temps, ce qui peut être automatisé, ce qui ne peut pas l'être. Vous repartez avec une recommandation concrète — que vous travailliez avec nous ou non. Zéro engagement.",
   },
 ];
 

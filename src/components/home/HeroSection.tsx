@@ -6,29 +6,25 @@ export function HeroSection() {
     <section className="pt-32 pb-24 bg-white">
       <div className="max-w-4xl mx-auto px-6 text-center">
 
-        {/* Badges */}
         <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
           <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase">
-            Architecte de Systèmes IA Autonomes
+            Automatisation pour PME & Artisans
           </div>
           <div className="inline-flex items-center gap-2 bg-[#fff5f0] border border-[#e8632a]/20 text-[#d97757] rounded-full px-3 py-1 text-xs font-medium">
-            <span>⬡</span> Spécialisé Claude · Anthropic
+            <span>⬡</span> Bordeaux · Royan · Arcachon
           </div>
         </div>
 
-        {/* Headline */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
           Vos process tournent.{" "}
           <span className="text-[#e8632a]">Même quand vous dormez.</span>
         </h1>
 
-        {/* Subheadline */}
         <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Je construis des systèmes IA autonomes qui travaillent à votre place. 24h/24.
-          Agents IA, vibe coding, orchestration Claude — setup unique, zéro intervention.
+          On prend en charge les tâches répétitives de votre business.
+          Réponses clients, devis, rappels, relances — automatisés et opérationnels en 2 semaines.
         </p>
 
-        {/* CTAs */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link
             href="https://calendly.com/ben40nocode/1h"
@@ -43,15 +39,14 @@ export function HeroSection() {
             href="/#realisations"
             className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 hover:text-gray-900 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-gray-50"
           >
-            Voir les réalisations
+            Voir des exemples concrets
           </Link>
         </div>
 
-        {/* Stats */}
         <div className="mt-16 pt-10 border-t border-gray-100 grid grid-cols-3 gap-8 max-w-lg mx-auto">
           {[
-            { value: "40+", label: "automatisations" },
-            { value: "Claude AI", label: "Vibe Coding · Agents" },
+            { value: "40+", label: "clients accompagnés" },
+            { value: "2 à 20h", label: "gagnées par semaine" },
             { value: "100%", label: "sur mesure" },
           ].map((s) => (
             <div key={s.label} className="text-center">
