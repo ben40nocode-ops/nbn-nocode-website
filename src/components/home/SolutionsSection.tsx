@@ -9,7 +9,7 @@ const solutions = [
     tags: ["Réponses clients auto", "Devis automatisés", "Relances", "Rappels RDV"],
     color: "#e8632a",
     bg: "#fff5f0",
-    href: "/automatisation-bordeaux",
+    href: "/services/automatisation-ia",
   },
   {
     icon: Globe,
@@ -18,7 +18,7 @@ const solutions = [
     tags: ["Site vitrine", "E-commerce", "Application métier", "Réservation en ligne"],
     color: "#0ea5e9",
     bg: "#f0f9ff",
-    href: "/creation-site-web-bordeaux",
+    href: "/services/sites-internet",
   },
   {
     icon: Plug,
@@ -27,7 +27,7 @@ const solutions = [
     tags: ["Google Agenda", "CRM", "Facturation", "Formulaires"],
     color: "#8b5cf6",
     bg: "#f5f3ff",
-    href: "/automatisation-bordeaux",
+    href: "/services/automatisation-ia",
   },
   {
     icon: MessageSquare,
@@ -36,7 +36,7 @@ const solutions = [
     tags: ["Réponse instantanée", "Qualification leads", "Prise de RDV", "24h/24"],
     color: "#10b981",
     bg: "#f0fdf4",
-    href: "/chatbot-ia-bordeaux",
+    href: "/services/automatisation-ia",
   },
 ];
 

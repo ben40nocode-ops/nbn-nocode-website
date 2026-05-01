@@ -11,7 +11,7 @@ export function HeroSection() {
             Automatisation pour PME & Artisans
           </div>
           <div className="inline-flex items-center gap-2 bg-[#fff5f0] border border-[#e8632a]/20 text-[#d97757] rounded-full px-3 py-1 text-xs font-medium">
-            <span>⬡</span> Bordeaux · Royan · Arcachon
+            <span>⬡</span> Gironde & toute la France
           </div>
         </div>
 

@@ -4,7 +4,7 @@ const values = [
   "Systèmes sur mesure — jamais de solution générique ou de template",
   "Technologie de pointe adaptée à votre métier, pas l'inverse",
   "Modèle transparent : mise en place unique + abonnement mensuel évolutif",
-  "Bordeaux, Royan, Arcachon et 100% à distance pour toute la France",
+  "Gironde, Charente-Maritime et 100% à distance pour toute la France",
 ];
 
 export function AboutSection() {
