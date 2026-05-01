@@ -27,7 +27,7 @@ const solutions = [
     tags: ["Google Agenda", "CRM", "Facturation", "Formulaires"],
     color: "#8b5cf6",
     bg: "#f5f3ff",
-    href: "/#apropos",
+    href: "/automatisation-bordeaux",
   },
   {
     icon: MessageSquare,
