@@ -46,11 +46,11 @@ export function Navbar() {
   return (
     <>
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white ${scrolled ? "border-b border-gray-100 shadow-sm" : ""}`}>
-        <nav className="flex items-center justify-between px-4 md:px-[50px] pt-2.5 pb-2.5 h-14">
+        <nav className="flex items-center justify-between px-4 md:px-[50px] h-16">
 
           {/* Logo — gauche */}
           <Link href={isEN ? "/en" : "/"} className="flex items-center flex-shrink-0" onClick={() => setOpen(false)}>
-            <Logo width={88} variant="dark" />
+            <Logo width={72} variant="dark" />
           </Link>
 
           {/* Liens — centre desktop */}
