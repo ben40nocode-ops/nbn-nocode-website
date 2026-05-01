@@ -4,7 +4,7 @@ import { Check, ArrowRight, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Création Site Web & Application à Bordeaux — NBN IA",
-  description: "Création de sites web et web apps IA à Bordeaux. Webflow, Next.js, vibe coding. Rapide, performant, connecté à vos automatisations IA. Devis gratuit.",
+  description: "Création de sites web et applications sur mesure à Bordeaux. Rapide, performant, connecté à vos automatisations IA. Devis gratuit.",
   keywords: ["création site web Bordeaux", "création application Bordeaux", "vibe coding Bordeaux", "Webflow Bordeaux", "web app IA Bordeaux", "site web IA Bordeaux", "Next.js Bordeaux"],
   alternates: { canonical: "https://www.nbn-ia.fr/creation-site-web-bordeaux" },
   openGraph: {
@@ -40,7 +40,7 @@ export default function CreationSiteWebBordeauxPage() {
           </h1>
 
           <p className="text-lg text-gray-500 max-w-2xl mb-10 leading-relaxed">
-            On ne fait pas juste des sites web. On conçoit des interfaces connectées à vos workflows, vos agents IA et vos données — avec Webflow, Next.js ou en vibe coding (IA-assisted development).
+            On ne fait pas juste des sites web. On conçoit des interfaces connectées à vos outils, vos automatisations et vos données — rapides, responsives, et pensées pour convertir.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-20">

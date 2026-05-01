@@ -146,7 +146,7 @@ export default function WebAppArcachonPage() {
                 {
                   step: 2,
                   title: "Développement (3-8 semaines)",
-                  desc: "Frontend + backend modernes. Vibe coding avec Claude Code (développement IA-assisté). Tests et documentation inclus.",
+                  desc: "Frontend + backend modernes. Développement sur mesure avec les dernières technologies IA. Tests et documentation inclus.",
                 },
                 {
                   step: 3,

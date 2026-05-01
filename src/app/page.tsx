@@ -12,7 +12,7 @@ import { CtaSection } from "@/components/home/CtaSection";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA pour PME | Bordeaux · Royan · Arcachon",
-  description: "Benjamin Bertigny, fondateur de NBN IA avec une équipe de développeurs IA. Systèmes autonomes qui travaillent pour vous 24h/24. Agents IA Claude, vibe coding, orchestration sur mesure. Bordeaux, Royan, Arcachon et toute la France.",
+  description: "Benjamin Bertigny, fondateur de NBN IA avec une équipe de développeurs IA. Systèmes automatisés qui travaillent pour vous 24h/24. Sur mesure pour PME et artisans. Bordeaux, Royan, Arcachon et toute la France.",
   alternates: { canonical: "https://www.nbn-ia.fr" },
 };
 

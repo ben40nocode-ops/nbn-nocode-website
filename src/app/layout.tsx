@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | NBN IA",
   },
   description:
-    "Formé chez Alegria Academy et certifié Anthropic Architecture. Benjamin Bertigny, AI systems builder à Bordeaux. Je conçois des systèmes IA autonomes sur mesure pour PME — architectures qui opèrent sans intervention humaine, 24h/24, 7j/7.",
+    "Formé chez Alegria Academy et certifié Anthropic Architecture. Benjamin Bertigny, AI systems builder à Bordeaux. Nous concevons des systèmes IA autonomes sur mesure pour PME — architectures qui opèrent sans intervention humaine, 24h/24, 7j/7.",
   keywords: [
     "systèmes IA autonomes Bordeaux",
     "agent IA Bordeaux",
@@ -97,7 +97,7 @@ const jsonLd = {
       url: "https://www.nbn-ia.fr",
       logo: "https://www.nbn-ia.fr/icon.svg",
       email: "contact@nbn-ia.fr",
-      description: "Architecte de systèmes IA autonomes pour PME. Je conçois des systèmes IA qui opèrent sans intervention humaine, 24h/24, 7j/7. Agents IA Claude, vibe coding avec Claude Code, orchestration IA. Pas une agence classique — je construis des systèmes qui tournent.",
+      description: "Architecte de systèmes IA autonomes pour PME. Nous concevons des systèmes IA qui opèrent sans intervention humaine, 24h/24, 7j/7. Agents IA Claude, vibe coding avec Claude Code, orchestration IA. Pas une agence classique — je construis des systèmes qui tournent.",
       areaServed: ["Bordeaux", "Royan", "Arcachon", "Soulac", "Pauillac", "Lesparre", "Montalivet", "Lacanau", "Gironde", "France"],
       knowsAbout: ["Systèmes IA Autonomes", "Agents IA", "Claude AI", "Vibe Coding", "Claude Code", "Orchestration IA", "IA Générative", "Make", "n8n", "MCP", "Anthropic", "AI Systems Engineering", "Agent Orchestration", "LLM Workflows"],
     },
@@ -109,7 +109,7 @@ const jsonLd = {
       telephone: "+33640685975",
       email: "contact@nbn-ia.fr",
       image: "https://www.nbn-ia.fr/og-image.png",
-      description: "Benjamin Bertigny, AI systems builder. Je conçois des systèmes IA autonomes qui travaillent pour vous 24h/24, 7j/7. Architectures sur mesure, orchestration d'agents IA, intégrations API complexes. Maintenance continue incluse. Bordeaux, Royan, Arcachon.",
+      description: "Benjamin Bertigny, AI systems builder. Nous concevons des systèmes IA autonomes qui travaillent pour vous 24h/24, 7j/7. Architectures sur mesure, orchestration d'agents IA, intégrations API complexes. Maintenance continue incluse. Bordeaux, Royan, Arcachon.",
       priceRange: "€€",
       address: {
         "@type": "PostalAddress",
@@ -155,7 +155,7 @@ const jsonLd = {
       "@id": "https://www.nbn-ia.fr/#founder",
       name: "Benjamin Bertigny",
       jobTitle: "AI Systems Builder",
-      description: "Formé chez Alegria Academy et certifié Anthropic Architecture. Benjamin Bertigny, AI systems builder basé à Bordeaux. Je conçois des systèmes IA autonomes sur mesure pour les PME — des architectures qui opèrent sans intervention humaine, 24h/24, 7j/7. Vibe coding avec Claude Code, orchestration d'agents IA, intégrations API complexes — je construis des systèmes qui ne ressemblent ni à une agence de dev, ni à une agence nocode. Quelque chose de nouveau. Ma conviction : l'IA doit travailler pour vous, pas l'inverse. Je ne livre pas des workflows. Je livre un système qui tourne, s'adapte, et que je maintiens dans le temps.",
+      description: "Formé chez Alegria Academy et certifié Anthropic Architecture. Benjamin Bertigny, AI systems builder basé à Bordeaux. Nous concevons des systèmes IA autonomes sur mesure pour les PME — des architectures qui opèrent sans intervention humaine, 24h/24, 7j/7. Vibe coding avec Claude Code, orchestration d'agents IA, intégrations API complexes — je construis des systèmes qui ne ressemblent ni à une agence de dev, ni à une agence nocode. Quelque chose de nouveau. Ma conviction : l'IA doit travailler pour vous, pas l'inverse. Je ne livre pas des workflows. Je livre un système qui tourne, s'adapte, et que je maintiens dans le temps.",
       url: "https://www.nbn-ia.fr",
       email: "contact@nbn-ia.fr",
       worksFor: { "@id": "https://www.nbn-ia.fr/#organization" },
