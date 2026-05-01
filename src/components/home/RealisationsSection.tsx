@@ -3,7 +3,7 @@ const cases = [
   { emoji: "🍽️", title: "Restaurant — réservations & rappels", desc: "Prise de réservation automatique 24h/24, confirmation par SMS, rappel la veille, gestion des no-shows. Le restaurateur se concentre sur sa cuisine, pas sur son téléphone.", impact: "-40% de no-shows" },
   { emoji: "🏠", title: "Agence immobilière — leads qualifiés", desc: "Chaque demande de contact reçoit une réponse en moins de 2 minutes, 7j/7. L'agent reçoit uniquement les prospects vraiment intéressés, avec toutes les infos pré-remplies.", impact: "×3 mandats signés" },
   { emoji: "🏨", title: "Hôtel — check-in sans friction", desc: "Workflow d'accueil complet automatisé : email de bienvenue, code d'accès, guide local personnalisé, demande d'avis au départ. Zéro intervention du personnel pour chaque séjour.", impact: "0 intervention manuelle" },
-  { emoji: "💇", title: "Salon — rappels & fidélisation", desc: "Rappels RDV automatiques par SMS, message de suivi après la visite, offre anniversaire. La liste d'attente se gère toute seule. Les clients reviennent sans qu'on les relance à la main.", impact: "-35% d'absences" },
+  { emoji: "🍷", title: "Domaine viticole — ventes & tourisme", desc: "Réponse automatique aux demandes de visites et commandes en ligne, relance des prospects après une dégustation, envoi de la newsletter saisonnière. Le vigneron se concentre sur ses vignes.", impact: "+30% de ventes directes" },
   { emoji: "🛒", title: "Boutique en ligne — relances & avis", desc: "Séquence automatique après un panier abandonné, demande d'avis après livraison, newsletter selon les achats. Le gérant dort — le système travaille.", impact: "+22% de conversion" },
 ];
 
