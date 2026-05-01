@@ -1,5 +1,4 @@
-import { Bot, Globe, Plug, MessageSquare, ArrowRight } from "lucide-react";
-import Link from "next/link";
+import { Bot, Globe, Plug, MessageSquare } from "lucide-react";
 
 const solutions = [
   {
@@ -9,7 +8,6 @@ const solutions = [
     tags: ["Réponses clients auto", "Devis automatisés", "Relances", "Rappels RDV"],
     color: "#e8632a",
     bg: "#fff5f0",
-    href: "/services/automatisation-ia",
   },
   {
     icon: Globe,
@@ -18,7 +16,6 @@ const solutions = [
     tags: ["Site vitrine", "E-commerce", "Application métier", "Réservation en ligne"],
     color: "#0ea5e9",
     bg: "#f0f9ff",
-    href: "/services/sites-internet",
   },
   {
     icon: Plug,
@@ -27,7 +24,6 @@ const solutions = [
     tags: ["Google Agenda", "CRM", "Facturation", "Formulaires"],
     color: "#8b5cf6",
     bg: "#f5f3ff",
-    href: "/services/automatisation-ia",
   },
   {
     icon: MessageSquare,
@@ -36,7 +32,6 @@ const solutions = [
     tags: ["Réponse instantanée", "Qualification leads", "Prise de RDV", "24h/24"],
     color: "#10b981",
     bg: "#f0fdf4",
-    href: "/services/automatisation-ia",
   },
 ];
 
@@ -68,16 +63,13 @@ export function SolutionsSection() {
               </div>
               <h3 className="text-base font-bold text-gray-900 mb-2">{s.title}</h3>
               <p className="text-sm text-gray-500 leading-relaxed mb-5">{s.description}</p>
-              <div className="flex flex-wrap gap-2 mb-5">
+              <div className="flex flex-wrap gap-2">
                 {s.tags.map((tag) => (
                   <span key={tag} className="text-xs text-gray-500 bg-gray-100 rounded-full px-3 py-1 font-medium">
                     {tag}
                   </span>
                 ))}
               </div>
-              <Link href={s.href} className="inline-flex items-center gap-1 text-xs font-semibold text-gray-400 hover:text-gray-700 transition-colors group">
-                En savoir plus <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform" />
-              </Link>
             </div>
           ))}
         </div>
