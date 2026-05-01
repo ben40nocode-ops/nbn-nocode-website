@@ -1,4 +1,5 @@
-import { Bot, Globe, Plug, MessageSquare } from "lucide-react";
+import { Bot, Globe, Plug, MessageSquare, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const solutions = [
   {
@@ -8,6 +9,7 @@ const solutions = [
     tags: ["Réponses clients auto", "Devis automatisés", "Relances", "Rappels RDV"],
     color: "#e8632a",
     bg: "#fff5f0",
+    href: "/services/automatisation-ia",
   },
   {
     icon: Globe,
@@ -16,6 +18,7 @@ const solutions = [
     tags: ["Site vitrine", "E-commerce", "Application métier", "Réservation en ligne"],
     color: "#0ea5e9",
     bg: "#f0f9ff",
+    href: "/services/sites-internet",
   },
   {
     icon: Plug,
@@ -24,6 +27,7 @@ const solutions = [
     tags: ["Google Agenda", "CRM", "Facturation", "Formulaires"],
     color: "#8b5cf6",
     bg: "#f5f3ff",
+    href: "/services/automatisation-ia",
   },
   {
     icon: MessageSquare,
@@ -32,6 +36,7 @@ const solutions = [
     tags: ["Réponse instantanée", "Qualification leads", "Prise de RDV", "24h/24"],
     color: "#10b981",
     bg: "#f0fdf4",
+    href: "/chatbot-ia-bordeaux",
   },
 ];
 
@@ -53,7 +58,7 @@ export function SolutionsSection() {
           {solutions.map((s) => (
             <div
               key={s.title}
-              className="p-7 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all duration-200"
+              className="p-7 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all duration-200 flex flex-col"
             >
               <div
                 className="w-11 h-11 rounded-xl flex items-center justify-center mb-5"
@@ -63,12 +68,21 @@ export function SolutionsSection() {
               </div>
               <h3 className="text-base font-bold text-gray-900 mb-2">{s.title}</h3>
               <p className="text-sm text-gray-500 leading-relaxed mb-5">{s.description}</p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 mb-5">
                 {s.tags.map((tag) => (
                   <span key={tag} className="text-xs text-gray-500 bg-gray-100 rounded-full px-3 py-1 font-medium">
                     {tag}
                   </span>
                 ))}
+              </div>
+              <div className="mt-auto">
+                <Link
+                  href={s.href}
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold transition-colors group"
+                  style={{ color: s.color }}
+                >
+                  En savoir plus <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform" />
+                </Link>
               </div>
             </div>
           ))}
