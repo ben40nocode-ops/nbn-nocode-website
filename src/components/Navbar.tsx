@@ -20,7 +20,7 @@ const linksEN = [
   { label: "Solutions", href: "/en#solutions" },
   { label: "Work", href: "/en#work" },
   { label: "Pricing", href: "/#pricing" },
-  { label: "Blog", href: "/blog" },
+  { label: "Blog", href: "/en/blog" },
 ];
 
 export function Navbar() {

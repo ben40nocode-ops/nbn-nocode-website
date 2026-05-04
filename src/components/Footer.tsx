@@ -49,7 +49,7 @@ export function Footer() {
                 { label: "Work", href: "/en#work" },
                 { label: "Pricing", href: "/#pricing" },
                 { label: "Contact", href: "/contact" },
-                { label: "Blog", href: "/blog" },
+                { label: "Blog", href: "/en/blog" },
               ] : [
                 { label: "À propos", href: "/#apropos" },
                 { label: "Solutions", href: "/#solutions" },
