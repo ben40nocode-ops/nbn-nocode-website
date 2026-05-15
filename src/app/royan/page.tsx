@@ -18,7 +18,7 @@ export default function royanPage() {
         <div className="max-w-4xl mx-auto px-6">
           <h1 className="text-4xl font-bold text-gray-900 mb-6">Royan — Services Digitaux & IA</h1>
           <p className="text-lg text-gray-500 mb-10">Agence web, web apps et automatisations IA à royan. Services digitaux pour PME, secteurs tourisme, vins, restaurants. Devis gratuit.</p>
-          <Link href="https://calendly.com/ben40nocode/1h" target="_blank" className="inline-flex items-center gap-2 bg-[#e8632a] text-white px-7 py-4 rounded-xl font-semibold">
+          <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] text-white px-7 py-4 rounded-xl font-semibold">
             Audit gratuit <ArrowRight size={17} />
           </Link>
         </div>

@@ -15,7 +15,7 @@ export default function Page() {
         <h1 className="text-4xl font-bold text-gray-900 mb-6">Bassin Arcachon Huîtres</h1>
         <p className="text-lg text-gray-500 mb-10">Marketplace huîtres Bassin. Ventes producteurs locaux.</p>
         <div className="flex gap-4">
-          <Link href="https://calendly.com/ben40nocode/1h" target="_blank" className="inline-flex items-center gap-2 bg-[#e8632a] text-white px-7 py-4 rounded-xl font-semibold">
+          <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] text-white px-7 py-4 rounded-xl font-semibold">
             Devis gratuit <ArrowRight size={17} />
           </Link>
           <Link href="/#pricing" className="inline-flex items-center gap-2 border border-gray-300 text-gray-700 px-7 py-4 rounded-xl font-semibold">
