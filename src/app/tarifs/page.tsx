@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Check, ArrowRight } from "lucide-react";
-import { SubscribeButton } from "@/components/SubscribeButton";
 import { ArchitectureButton } from "@/components/ArchitectureButton";
 
 export const metadata: Metadata = {
@@ -141,9 +140,7 @@ function PricingCard({ plan }: { plan: any }) {
             </li>
           ))}
         </ul>
-        <button className="w-full text-center py-3 rounded-xl text-sm font-bold transition-colors duration-200 border border-gray-200 hover:border-gray-300 text-gray-700 hover:bg-gray-50">
-          Demander un devis
-        </button>
+        <ArchitectureButton label="Demander un devis" highlight={false} />
       </div>
     </div>
   );
@@ -293,9 +290,7 @@ export default function TarifsPage() {
                         </li>
                       ))}
                     </ul>
-                    <button className="w-full text-center py-3 rounded-xl text-sm font-bold transition-colors duration-200 border border-gray-200 hover:border-gray-300 text-gray-700 hover:bg-gray-50">
-          Demander un devis
-        </button>
+                    <ArchitectureButton label="Demander un devis" highlight={false} />
                   </div>
                 </div>
               ))}

@@ -1,8 +1,6 @@
-import { auth } from "@clerk/nextjs/server";
+import { auth, currentUser } from "@clerk/nextjs/server";
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
-
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
 
 const PRICE_MAP: Record<string, string | undefined> = {
   core: process.env.STRIPE_PRICE_CORE,
@@ -12,20 +10,41 @@ const PRICE_MAP: Record<string, string | undefined> = {
 
 export async function GET(req: NextRequest) {
   const { userId } = await auth();
-  if (!userId) return NextResponse.redirect(new URL("/sign-in", req.url));
+  if (!userId) {
+    const signInUrl = new URL("/sign-in", req.url);
+    signInUrl.searchParams.set("redirect_url", "/dashboard");
+    return NextResponse.redirect(signInUrl);
+  }
 
   const plan = req.nextUrl.searchParams.get("plan");
   const priceId = plan ? PRICE_MAP[plan] : undefined;
-  if (!priceId) return NextResponse.redirect(new URL("/tarifs", req.url));
+  if (!priceId) return NextResponse.redirect(new URL("/dashboard", req.url));
 
-  const session = await stripe.checkout.sessions.create({
-    mode: "subscription",
-    payment_method_types: ["card"],
-    line_items: [{ price: priceId, quantity: 1 }],
-    metadata: { userId },
-    success_url: `${process.env.NEXT_PUBLIC_APP_URL ?? "https://www.nbn-ia.fr"}/dashboard?success=1`,
-    cancel_url: `${process.env.NEXT_PUBLIC_APP_URL ?? "https://www.nbn-ia.fr"}/tarifs`,
+  const clerkUser = await currentUser();
+  const email = clerkUser?.emailAddresses?.[0]?.emailAddress;
+
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+    apiVersion: "2026-03-25.dahlia",
   });
 
-  return NextResponse.redirect(session.url!);
+  const origin = req.nextUrl.origin;
+
+  try {
+    const session = await stripe.checkout.sessions.create({
+      mode: "subscription",
+      payment_method_types: ["card"],
+      line_items: [{ price: priceId, quantity: 1 }],
+      client_reference_id: userId,
+      customer_email: email,
+      metadata: { userId },
+      subscription_data: { metadata: { userId } },
+      success_url: `${origin}/dashboard?success=1`,
+      cancel_url: `${origin}/dashboard`,
+    });
+
+    return NextResponse.redirect(session.url!);
+  } catch (err) {
+    console.error("[checkout] Stripe error:", err);
+    return NextResponse.redirect(new URL("/dashboard?error=stripe", req.url));
+  }
 }

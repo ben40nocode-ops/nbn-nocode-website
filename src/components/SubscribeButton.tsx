@@ -1,7 +1,5 @@
 "use client";
 
-import { useUser, useClerk } from "@clerk/nextjs";
-
 interface Props {
   plan: string;
   highlight: boolean;
@@ -10,16 +8,11 @@ interface Props {
 }
 
 export function SubscribeButton({ plan, highlight, label, disabled = false }: Props) {
-  const { isSignedIn } = useUser();
-  const { openSignIn } = useClerk();
 
   function handleClick() {
     if (disabled) return;
-    if (!isSignedIn) {
-      openSignIn();
-      return;
-    }
-    window.open(`/api/stripe/checkout?plan=${plan}`, "_blank");
+    // Navigate to checkout; middleware redirects unauthenticated users to sign-in then back
+    window.location.href = `/api/stripe/checkout?plan=${plan}`;
   }
 
   return (

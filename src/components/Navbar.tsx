@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X, ArrowRight } from "lucide-react";
-import { useUser, UserButton, SignInButton } from "@clerk/nextjs";
+import { useUser, UserButton } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 import { Logo } from "@/components/Logo";
 
@@ -78,21 +78,14 @@ export function Navbar() {
                 <UserButton />
               </>
             ) : (
-              <>
-                <SignInButton mode="modal">
-                  <button className="text-sm text-gray-400 hover:text-gray-700 transition-colors px-2 py-1.5">
-                    {isEN ? "Login" : "Connexion"}
-                  </button>
-                </SignInButton>
-                <Link
-                  href="https://calendly.com/ben40nocode/1h"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm bg-[#e8632a] hover:bg-[#c4521f] text-white px-5 py-2 rounded-lg transition-colors font-semibold whitespace-nowrap"
-                >
-                  {isEN ? "Book audit" : "Réserver l'audit"}
-                </Link>
-              </>
+              <Link
+                href="https://calendly.com/ben40nocode/1h"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm bg-[#e8632a] hover:bg-[#c4521f] text-white px-5 py-2 rounded-lg transition-colors font-semibold whitespace-nowrap"
+              >
+                {isEN ? "Book audit" : "Réserver l'audit"}
+              </Link>
             )}
           </div>
 
@@ -150,23 +143,16 @@ export function Navbar() {
               {isEN ? "Client area" : "Espace client"}
             </Link>
           ) : (
-            <>
-              <SignInButton mode="modal">
-                <button className="text-sm text-gray-500 hover:text-gray-700 py-2 w-full">
-                  {isEN ? "Login" : "Connexion"}
-                </button>
-              </SignInButton>
-              <Link
-                href="https://calendly.com/ben40nocode/1h"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setOpen(false)}
-                className="flex items-center justify-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-4 py-3.5 rounded-xl text-sm font-bold transition-colors"
-              >
-                {isEN ? "Book free audit" : "Réserver l'audit gratuit"}
-                <ArrowRight size={15} />
-              </Link>
-            </>
+            <Link
+              href="https://calendly.com/ben40nocode/1h"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(false)}
+              className="flex items-center justify-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-4 py-3.5 rounded-xl text-sm font-bold transition-colors"
+            >
+              {isEN ? "Book free audit" : "Réserver l'audit gratuit"}
+              <ArrowRight size={15} />
+            </Link>
           )}
         </div>
       </div>
