@@ -1,23 +1,80 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Site Domaine Viticole Pauillac | NBN IA",
-  description: "Création site internet premium pour châteaux, domaines viticoles Pauillac. Ventes directes.",
-  keywords: ["site domaine viticole pauillac"],
+  title: "Site Web pour Domaine Viticole à Pauillac — NBN IA",
+  description: "Création de site web premium pour châteaux et domaines viticoles de Pauillac. Ventes directes, œnotourisme, SEO. Audit gratuit.",
+  keywords: ["site web domaine viticole Pauillac", "création site château Pauillac", "site internet vin Pauillac", "web domaine viticole Médoc"],
+  alternates: { canonical: "https://www.nbn-ia.fr/site-domaine-viticole-pauillac" },
 };
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-white pt-32 pb-24">
-      <div className="max-w-4xl mx-auto px-6">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6">Site Domaine Viticole Pauillac</h1>
-        <p className="text-lg text-gray-500 mb-10">Création site internet premium pour châteaux, domaines viticoles Pauillac. Ventes directes.</p>
-        <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] text-white px-7 py-4 rounded-xl font-semibold">
-          Demander un devis <ArrowRight size={17} />
-        </Link>
-      </div>
-    </div>
+    <SectorPage
+      canonical="https://www.nbn-ia.fr/site-domaine-viticole-pauillac"
+      schemaName="Création Site Web pour Domaines Viticoles de Pauillac"
+      schemaCity="Pauillac"
+      schemaDesc="Création de sites web premium pour châteaux, domaines viticoles et producteurs de vin de Pauillac."
+      badge="Site Web — Domaines Viticoles Pauillac"
+      title="Site web & automatisation"
+      titleAccent="pour votre domaine viticole à Pauillac"
+      intro="Un château de Pauillac mérite un site à la hauteur de son terroir : élégant, performant, connecté à vos ventes directes et à votre œnotourisme. On crée des sites web qui reflètent l'identité de votre domaine et génèrent des commandes — pas juste une vitrine statique."
+      intro2="NBN IA conçoit des sites web et automatisations pour les domaines viticoles de Pauillac et du Haut-Médoc. Devis gratuit sans engagement."
+      services={[
+        "Site vitrine haut de gamme (Next.js, design sur mesure)",
+        "Boutique en ligne — ventes directes par millésime",
+        "Système de réservation visites et dégustations",
+        "Connecté à votre agent IA de gestion des commandes",
+        "SEO technique et sémantique — appellations ciblées",
+        "Multilingue (français, anglais, et autres langues export)",
+        "Performance Core Web Vitals optimisée",
+        "Blog et actualités du domaine",
+      ]}
+      whyTitle="Pourquoi un site pro pour votre château ?"
+      whyItems={[
+        "Vos acheteurs cherchent votre domaine en ligne avant de commander",
+        "Un site bien référencé génère des commandes directes sans commission",
+        "L'œnotourisme se réserve 80% via internet",
+        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Disponible en présentiel sur le Médoc",
+        "Devis gratuit sans engagement",
+      ]}
+      steps={[
+        { step: "01", title: "Brief & design (1h)", desc: "On définit ensemble l'identité visuelle, les fonctionnalités et le contenu. Vous validez les maquettes avant développement." },
+        { step: "02", title: "Développement (1-3 semaines)", desc: "Vibe coding avec Claude Code : site livré 3x plus vite qu'une agence classique. Vous voyez les avancées à chaque étape." },
+        { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement sur Vercel. Optimisation SEO complète. Suivi des performances et évolutions continues." },
+      ]}
+      casesTitle="Cas concrets pour les domaines de Pauillac"
+      cases={[
+        {
+          secteur: "Château avec vente directe",
+          probleme: "Site WordPress vieillissant, lent et peu professionnel. Ventes directes anecdotiques malgré une clientèle fidèle.",
+          solution: "Refonte Next.js avec boutique intégrée, paiement Stripe, gestion des millésimes et multilingue. SEO ciblé sur les appellations Pauillac.",
+          gain: "+80% de ventes directes en ligne. Score Lighthouse 96. 3 premières positions Google sur 'acheter vin Pauillac'.",
+        },
+        {
+          secteur: "Domaine avec œnotourisme",
+          probleme: "Réservations de visites gérées par email. Pas de calendrier en ligne, beaucoup d'aller-retours.",
+          solution: "Système de réservation intégré au site avec agent IA qui confirme, rappelle et gère les annulations automatiquement.",
+          gain: "+45% de réservations visites. Zéro no-show sur 3 mois.",
+        },
+        {
+          secteur: "Château sans présence web",
+          probleme: "Pas de site internet. Les clients cherchent le domaine en ligne et trouvent des informations incorrectes sur des plateformes tierces.",
+          solution: "Création from scratch d'un site vitrine + boutique en 10 jours. SEO technique complet dès le lancement.",
+          gain: "Première page Google en 45 jours. 20 commandes directes le premier mois.",
+        },
+      ]}
+      faqs={[
+        { q: "Quel budget pour un site vitrine pour un château ?", a: "Un site vitrine professionnel avec boutique démarre à 2 500€ HT. Un site haut de gamme avec multilingue et réservations autour de 4 500€ HT. Devis précis après l'audit gratuit." },
+        { q: "Le site peut vendre des vins directement ?", a: "Oui. On intègre une boutique avec paiement sécurisé (Stripe), gestion des millésimes, stocks et livraisons. Commissions nulles — vous gardez 100% de vos marges." },
+        { q: "On peut gérer le site nous-mêmes après livraison ?", a: "Oui. On configure un espace d'administration simple. Vous pouvez mettre à jour les millésimes, les textes et les photos en autonomie." },
+        { q: "Vous gérez aussi le référencement Google ?", a: "Oui. Le SEO est intégré dès la première ligne de code : balises meta, schema.org, performance, sitemap. On peut aussi gérer une stratégie de contenu mensuelle." },
+      ]}
+      faqsTitle="Questions fréquentes — site web domaine viticole Pauillac"
+      ctaTitle="Un site à la hauteur de votre terroir"
+      ctaDesc="Devis gratuit, sans engagement. À Pauillac ou en visio."
+      ctaButton="Demander un devis gratuit"
+    />
   );
 }

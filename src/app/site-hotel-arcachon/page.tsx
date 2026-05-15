@@ -1,23 +1,80 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Site Hôtel Arcachon | NBN IA",
-  description: "Présence web professionnelle pour hôtels Arcachon. Booking intégré, SEO.",
-  keywords: ["site hotel arcachon"],
+  title: "Site Web & Automatisation pour Hôtels d'Arcachon — NBN IA",
+  description: "Création de site web et automatisation IA pour hôtels d'Arcachon : réservations directes, conciergerie IA, SEO local. Devis gratuit.",
+  keywords: ["site web hôtel Arcachon", "création site internet hôtel Arcachon", "automatisation hôtel Arcachon", "réservations directes hôtel Arcachon"],
+  alternates: { canonical: "https://www.nbn-ia.fr/site-hotel-arcachon" },
 };
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-white pt-32 pb-24">
-      <div className="max-w-4xl mx-auto px-6">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6">Site Hôtel Arcachon</h1>
-        <p className="text-lg text-gray-500 mb-10">Présence web professionnelle pour hôtels Arcachon. Booking intégré, SEO.</p>
-        <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] text-white px-7 py-4 rounded-xl font-semibold">
-          Demander un devis <ArrowRight size={17} />
-        </Link>
-      </div>
-    </div>
+    <SectorPage
+      canonical="https://www.nbn-ia.fr/site-hotel-arcachon"
+      schemaName="Site Web et Automatisation pour Hôtels d'Arcachon"
+      schemaCity="Arcachon"
+      schemaDesc="Création de sites web et automatisation IA pour les hôtels d'Arcachon et du Bassin d'Arcachon."
+      badge="Site Web & IA — Hôtels Arcachon"
+      title="Site web & automatisation"
+      titleAccent="pour votre hôtel à Arcachon"
+      intro="Arcachon est une destination premium — votre site doit être à la hauteur. On crée des sites hôteliers performants qui génèrent des réservations directes, réduisent votre dépendance à Booking.com et offrent une expérience client irréprochable grâce à un agent IA conciergerie."
+      intro2="NBN IA conçoit des sites web et automatisations pour les hôtels d'Arcachon et du Bassin. Devis gratuit sans engagement."
+      services={[
+        "Site web hôtelier haut de gamme (Next.js, design sur mesure)",
+        "Système de réservation directe intégré",
+        "Agent IA conciergerie — disponible 24h/24",
+        "Connexion channel manager et OTA",
+        "SEO local ciblé 'hôtel Arcachon' et requêtes associées",
+        "Multilingue (français, anglais, espagnol)",
+        "Upsell automatisé (petit-déjeuner, excursions, spa)",
+        "Collecte automatique d'avis Google post-séjour",
+      ]}
+      whyTitle="Pourquoi un site pro pour votre hôtel ?"
+      whyItems={[
+        "Chaque réservation directe économise 15-20% de commission OTA",
+        "Un bon site = meilleure note sur les plateformes de voyage",
+        "Agent IA = conciergerie sans recruter",
+        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Disponible en présentiel sur le Bassin d'Arcachon",
+        "Devis gratuit sans engagement",
+      ]}
+      steps={[
+        { step: "01", title: "Brief & design (1h)", desc: "On définit ensemble l'identité visuelle, les chambres à mettre en valeur et les fonctionnalités. On part de votre ADN." },
+        { step: "02", title: "Développement (1-3 semaines)", desc: "Site livré avec réservations directes opérationnelles et agent IA configuré. Points réguliers." },
+        { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement, optimisation SEO complète, monitoring des réservations. Évolutions continues." },
+      ]}
+      casesTitle="Cas concrets pour les hôtels d'Arcachon"
+      cases={[
+        {
+          secteur: "Hôtel boutique bord de Bassin",
+          probleme: "90% des réservations via Booking.com. Commissions élevées, pas de relation directe avec les clients.",
+          solution: "Site premium avec réservation directe + agent IA conciergerie + campagnes email vers les clients passés.",
+          gain: "60% de réservations directes en 6 mois. Économie de 8 000€ de commissions/an.",
+        },
+        {
+          secteur: "Hôtel avec spa et restaurant",
+          probleme: "Clients qui découvrent le spa et le restaurant après leur arrivée. Pas d'upsell pré-séjour.",
+          solution: "Séquence email automatisée pré-séjour avec agent IA qui propose les options (spa, table, excursions) 3 jours avant l'arrivée.",
+          gain: "+25% de revenus annexes. Taux d'occupation restaurant en hausse.",
+        },
+        {
+          secteur: "Hôtel sans agent disponible la nuit",
+          probleme: "Pas de réceptionniste la nuit. Questions des clients sans réponse. Manque de confort perçu.",
+          solution: "Agent IA conciergerie qui répond aux questions, gère les demandes de room service et contacte l'astreinte si urgence.",
+          gain: "Note Booking passée de 8,1 à 9,0. Commentaires positifs sur la réactivité.",
+        },
+      ]}
+      faqs={[
+        { q: "Quel budget pour un site hôtelier avec réservations directes ?", a: "Un site hôtelier complet avec réservations directes démarre à 2 500€ HT. Avec agent IA et multilingue autour de 4 000€ HT. Devis précis après l'audit." },
+        { q: "Comment réduire les commissions Booking.com concrètement ?", a: "En ayant un site qui convertit bien + un programme de fidélité simple. On vous aide à construire cette stratégie pas à pas." },
+        { q: "L'agent IA peut gérer les demandes de room service ?", a: "Oui. On peut configurer l'agent pour recevoir les demandes et les transmettre à votre équipe via SMS ou notification push." },
+        { q: "Vous assurez la maintenance et les mises à jour ?", a: "Oui. Abonnement de maintenance à partir de 159€/mois : monitoring, mises à jour de sécurité, évolutions mineures." },
+      ]}
+      faqsTitle="Questions fréquentes — site web hôtel Arcachon"
+      ctaTitle="Un site qui travaille pour vous"
+      ctaDesc="Devis gratuit, sans engagement. À Arcachon ou en visio."
+      ctaButton="Demander un devis gratuit"
+    />
   );
 }

@@ -1,28 +1,80 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Site Camping Montalivet | NBN IA",
-  description: "Site internet + booking pour campings Montalivet. Saison été boostée. Devis gratuit.",
-  keywords: ["site camping montalivet"],
+  title: "Site Web & Automatisation pour Campings de Montalivet — NBN IA",
+  description: "Création de site web et automatisation IA pour campings de Montalivet et Vendays-Montalivet. Réservations en ligne, agent IA. Devis gratuit.",
+  keywords: ["site web camping Montalivet", "création site internet camping Vendays-Montalivet", "automatisation camping Montalivet", "réservations en ligne camping Médoc"],
+  alternates: { canonical: "https://www.nbn-ia.fr/site-camping-montalivet" },
 };
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-white pt-32 pb-24">
-      <div className="max-w-4xl mx-auto px-6">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6">Site Camping Montalivet</h1>
-        <p className="text-lg text-gray-500 mb-10">Site internet + booking pour campings Montalivet. Saison été boostée.</p>
-        <div className="flex gap-4">
-          <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] text-white px-7 py-4 rounded-xl font-semibold">
-            Devis gratuit <ArrowRight size={17} />
-          </Link>
-          <Link href="/#pricing" className="inline-flex items-center gap-2 border border-gray-300 text-gray-700 px-7 py-4 rounded-xl font-semibold">
-            Tarifs <ArrowRight size={17} />
-          </Link>
-        </div>
-      </div>
-    </div>
+    <SectorPage
+      canonical="https://www.nbn-ia.fr/site-camping-montalivet"
+      schemaName="Site Web et Automatisation pour Campings de Montalivet"
+      schemaCity="Vendays-Montalivet"
+      schemaDesc="Création de sites web et automatisation IA pour les campings de Montalivet, Vendays-Montalivet et le Médoc atlantique."
+      badge="Site Web & IA — Campings Montalivet"
+      title="Site web & automatisation"
+      titleAccent="pour votre camping à Montalivet"
+      intro="Montalivet est une destination camping emblématique du Médoc. Un camping ici mérite un site qui valorise l'environnement naturel, capte les réservations en direct et réduit la dépendance aux plateformes. On crée des sites performants avec réservations en ligne et agents IA pour traverser la saison sereinement."
+      intro2="NBN IA conçoit des sites web et automatisations pour les campings de Montalivet, Vendays-Montalivet et le Médoc atlantique. Devis gratuit sans engagement."
+      services={[
+        "Site web responsive avec mise en valeur du cadre naturel",
+        "Système de réservation en ligne intégré",
+        "Agent IA répondant aux questions 24h/24",
+        "Gestion des disponibilités et du calendrier en temps réel",
+        "Paiement en ligne sécurisé (Stripe)",
+        "SEO local ciblé Montalivet, Médoc, naturisme",
+        "Connexion channel manager (Booking, Airbnb, etc.)",
+        "Automatisation des confirmations, rappels et avis",
+      ]}
+      whyTitle="Pourquoi un site pro à Montalivet ?"
+      whyItems={[
+        "Forte demande naturisme — clientèle spécifique à bien cibler",
+        "Réservations directes = économie sur les commissions OTA",
+        "Clientèle internationale (allemande, néerlandaise, belge)",
+        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Disponible en présentiel sur le Médoc",
+        "Devis gratuit sans engagement",
+      ]}
+      steps={[
+        { step: "01", title: "Brief & design (1h)", desc: "On définit les fonctionnalités, le ton et les visuels. Pour Montalivet, on sait valoriser le cadre naturel et la clientèle spécifique." },
+        { step: "02", title: "Développement (1-2 semaines)", desc: "Site livré avant la saison avec réservations en ligne opérationnelles. Points réguliers." },
+        { step: "03", title: "Mise en ligne & suivi", desc: "Déploiement, SEO complet, monitoring des réservations. Évolutions continues." },
+      ]}
+      casesTitle="Cas concrets pour les campings du Médoc"
+      cases={[
+        {
+          secteur: "Camping naturiste — Montalivet",
+          probleme: "Site non adapté à la clientèle naturiste. Mauvais référencement sur les requêtes spécifiques. Forte dépendance à Naturisme.com.",
+          solution: "Site refait avec SEO ciblé (naturisme Médoc, camping naturiste Gironde), galerie adaptée et système de réservation directe.",
+          gain: "+50% de réservations directes. Réduction des commissions de 4 500€/an.",
+        },
+        {
+          secteur: "Camping familial Montalivet",
+          probleme: "Clientèle européenne (néerlandais, belges, allemands) avec questions en langue étrangère sans réponse rapide.",
+          solution: "Agent IA multilingue intégré au site. Répond en néerlandais, allemand, français, anglais instantanément.",
+          gain: "Taux de conversion international +35%. Satisfaction clients en hausse.",
+        },
+        {
+          secteur: "Camping avec chalets et mobile-homes",
+          probleme: "Tarification complexe (haute/moyenne/basse saison, durée minimum, options). Erreurs de tarification fréquentes.",
+          solution: "Système de réservation avec calcul automatique selon les paramètres. Agent IA qui explique les tarifs aux clients.",
+          gain: "0 erreur de tarification sur 2 saisons. Gain de temps estimé à 3h/semaine.",
+        },
+      ]}
+      faqs={[
+        { q: "Le site peut gérer un camping naturiste spécifiquement ?", a: "Oui. On adapte le contenu, les visuels et le SEO à votre positionnement. Discrétion et respect des usages de la communauté naturiste garantis." },
+        { q: "Vous gérez aussi le référencement sur les requêtes naturisme ?", a: "Oui. On cible les requêtes spécifiques (camping naturiste Médoc, naturisme Gironde, etc.) avec une stratégie SEO dédiée." },
+        { q: "Quel budget pour un site camping complet ?", a: "Un site avec réservation en ligne démarre à 1 500€ HT. Avec agent IA multilingue autour de 2 500€ HT. Devis précis après l'audit." },
+        { q: "On peut garder notre système de réservation actuel ?", a: "On analyse votre situation lors de l'audit. Dans certains cas, on peut intégrer votre outil existant au nouveau site." },
+      ]}
+      faqsTitle="Questions fréquentes — site web camping Montalivet"
+      ctaTitle="Un site qui remplit votre camping"
+      ctaDesc="Devis gratuit, sans engagement. À Montalivet ou en visio."
+      ctaButton="Demander un devis gratuit"
+    />
   );
 }
