@@ -1,3 +1,5 @@
+export const revalidate = 3600;
+
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllArticles } from "@/lib/blog";
@@ -19,6 +21,8 @@ const categoryColors: Record<string, string> = {
   "Agents IA": "bg-purple-50 text-purple-600 border-purple-100",
   "Nocode": "bg-blue-50 text-blue-600 border-blue-100",
   "Business": "bg-green-50 text-green-600 border-green-100",
+  "Sites Web & Apps": "bg-sky-50 text-sky-600 border-sky-100",
+  "Design Web / Graphisme": "bg-pink-50 text-pink-600 border-pink-100",
   "Tutoriel": "bg-gray-100 text-gray-600 border-gray-200",
 };
 
