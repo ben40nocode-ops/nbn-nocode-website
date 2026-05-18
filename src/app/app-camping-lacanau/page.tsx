@@ -1,23 +1,80 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Web App Camping à Lacanau | NBN IA",
-  description: "Application de réservation pour campings Lacanau. Gestion calendrier, chatbot IA 24/7.",
-  keywords: ["app camping lacanau"],
+  title: "Application Web & Automatisation pour Campings de Lacanau — NBN IA",
+  description: "Web app sur mesure et automatisation IA pour campings de Lacanau : réservations, calendrier, agent IA 24/7, gestion de saison. Devis gratuit.",
+  keywords: ["application camping Lacanau", "web app camping Lacanau", "automatisation camping Lacanau", "réservation en ligne camping Lacanau"],
+  alternates: { canonical: "https://www.nbn-ia.fr/app-camping-lacanau" },
 };
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-white pt-32 pb-24">
-      <div className="max-w-4xl mx-auto px-6">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6">Web App Camping à Lacanau</h1>
-        <p className="text-lg text-gray-500 mb-10">Application de réservation pour campings Lacanau. Gestion calendrier, chatbot IA 24/7.</p>
-        <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] text-white px-7 py-4 rounded-xl font-semibold">
-          Demander un devis <ArrowRight size={17} />
-        </Link>
-      </div>
-    </div>
+    <SectorPage
+      canonical="https://www.nbn-ia.fr/app-camping-lacanau"
+      schemaName="Application Web et Automatisation pour Campings de Lacanau"
+      schemaCity="Lacanau"
+      schemaDesc="Développement d'applications web sur mesure et automatisation IA pour les campings de Lacanau et du Médoc atlantique."
+      badge="Web App & IA — Campings Lacanau"
+      title="Application web & automatisation"
+      titleAccent="pour les campings de Lacanau"
+      intro="Les campings de Lacanau ont besoin d'outils qui tiennent pendant la haute saison : réservations en temps réel, agent IA disponible 24h/24, gestion des disponibilités automatisée. On développe des web apps sur mesure connectées à vos process — pas des solutions génériques qui ne s'adaptent pas à votre réalité."
+      intro2="NBN IA développe des applications web et automatisations pour les campings de Lacanau et du Médoc océan. Devis gratuit sans engagement."
+      services={[
+        "Application de réservation en ligne sur mesure",
+        "Calendrier de disponibilités en temps réel",
+        "Agent IA qui répond aux questions campeurs 24h/24",
+        "Paiement en ligne sécurisé (Stripe)",
+        "Gestion des types d'emplacements et tarifs",
+        "Notifications automatiques (confirmation, rappel, départ)",
+        "Dashboard propriétaire avec reporting",
+        "Connexion aux OTA (Booking, Airbnb, etc.)",
+      ]}
+      whyTitle="Pourquoi une app sur mesure à Lacanau ?"
+      whyItems={[
+        "Haute saison intensive — les outils génériques ne tiennent pas",
+        "Emplacements surf/famille avec tarification complexe",
+        "Clientèle internationale à gérer en plusieurs langues",
+        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Disponible en présentiel à Lacanau",
+        "Devis gratuit sans engagement",
+      ]}
+      steps={[
+        { step: "01", title: "Audit & architecture (1h)", desc: "On analyse vos process actuels, vos outils existants et vos points de friction. On définit l'architecture et on vous donne un devis précis." },
+        { step: "02", title: "Développement (2-4 semaines)", desc: "Vibe coding avec Claude Code : app livrée avant la saison. Points hebdomadaires, vous voyez l'app évoluer." },
+        { step: "03", title: "Mise en prod & saison", desc: "Déploiement avant juin. Support pendant la haute saison. Résiliable à tout moment." },
+      ]}
+      casesTitle="Cas concrets pour les campings de Lacanau"
+      cases={[
+        {
+          secteur: "Camping surf — réservations en ligne",
+          probleme: "Réservations uniquement par téléphone. Pertes en dehors des heures d'ouverture. Dépendance à Booking.com (15-20% de commission).",
+          solution: "App de réservation directe avec agent IA disponible 24h/24 pour les questions hors horaires. Synchronisation Booking pour éviter les doublons.",
+          gain: "45% de réservations directes dès la première saison. 4 200€ de commissions économisées.",
+        },
+        {
+          secteur: "Camping avec clientèle internationale",
+          probleme: "Questions en espagnol, anglais, néerlandais sans réponse rapide. Taux d'abandon élevé sur les demandes étrangères.",
+          solution: "Agent IA multilingue intégré au site et à l'app. Détecte la langue automatiquement, répond en 30 secondes.",
+          gain: "Taux de conversion international +40%. Note Booking passée de 8,4 à 9,1.",
+        },
+        {
+          secteur: "Camping avec gestion complexe",
+          probleme: "Emplacements nus, bungalows, mobil-homes avec tarifications différentes selon la saison. Erreurs fréquentes.",
+          solution: "App sur mesure avec moteur de tarification configurable. Mise à jour des prix en 2 clics avant chaque saison.",
+          gain: "0 erreur de tarification sur 2 saisons. 2h gagnées par semaine.",
+        },
+      ]}
+      faqs={[
+        { q: "L'app peut remplacer notre logiciel de camping actuel ?", a: "Selon votre logiciel, on peut soit le remplacer, soit s'y connecter. On analyse la situation lors de l'audit gratuit." },
+        { q: "Combien coûte le développement ?", a: "Une app de réservation complète avec agent IA démarre à 2 500€ HT. Devis précis après l'audit d'1h." },
+        { q: "L'app est prête pour la saison si on démarre maintenant ?", a: "Oui. Avec un démarrage avant mai, l'app est opérationnelle pour juin. Le développement prend 2 à 4 semaines." },
+        { q: "Vous assurez le support pendant la haute saison ?", a: "Oui. Abonnement de maintenance mensuelle à partir de 89€/mois. On est joignables si besoin." },
+      ]}
+      faqsTitle="Questions fréquentes — application web campings Lacanau"
+      ctaTitle="Une app prête avant la saison"
+      ctaDesc="Devis gratuit, sans engagement. À Lacanau ou en visio."
+      ctaButton="Demander un devis gratuit"
+    />
   );
 }

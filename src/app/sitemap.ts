@@ -82,10 +82,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/camping-lacanau`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/site-camping-montalivet`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/site-camping-soulac`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
-    { url: `${base}/app-camping-lacanau`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
-    { url: `${base}/app-camping-soulac`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
-    { url: `${base}/app-hotel-arcachon`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
-    { url: `${base}/app-restaurant-bordeaux`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/app-camping-lacanau`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/app-camping-soulac`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/app-hotel-arcachon`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/app-restaurant-bordeaux`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
 
     // Niches locales
     { url: `${base}/domaines-medoc`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
@@ -108,12 +108,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  const villePages: MetadataRoute.Sitemap = villes.map((ville) => ({
-    url: `${base}/automatisation/${ville}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: 0.8,
-  }));
+  // Pages /automatisation/{ville} exclues du sitemap (noindex — contenu générique)
 
-  return [...staticPages, ...blogPages, ...villePages];
+  return [...staticPages, ...blogPages];
 }
