@@ -139,7 +139,7 @@ ${avoidList}
 Mot-clé principal : ${topic.keyword}
 
 Contraintes de fond :
-- 1000 à 1200 mots
+- 700 à 800 mots
 - Ton d'expert direct et humain, zéro jargon inutile, zéro formule creuse ("Il est essentiel de noter que...", "En conclusion, nous pouvons affirmer...")
 - Parle à la première personne naturellement ("Dans mon expérience...", "J'ai accompagné des dizaines de PME...")
 - Inclure AU MOINS un exemple concret avec des chiffres réels (temps gagné, coût, ROI, résultats mesurables)
@@ -174,7 +174,7 @@ Write a complete SEO blog article in English on: "${topic.title}"
 Primary keyword: ${topic.keyword}
 
 Content constraints:
-- 1000 to 1200 words
+- 700 to 800 words
 - Direct, human expert tone — no hollow phrases ("It is important to note that...", "In conclusion, we can affirm...")
 - First-person voice naturally ("In my experience...", "I've worked with dozens of SMBs...")
 - Include AT LEAST one concrete example with real numbers (time saved, cost, ROI, measurable results)
