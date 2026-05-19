@@ -13,6 +13,10 @@ type Topic = { keyword: string; title: string; category: string; slug: string };
 
 const TOPIC_PAIRS: Array<{ fr: Topic; en: Topic }> = [
   {
+    fr: { keyword: "GEO optimisation moteurs IA generatif", title: "GEO : comment optimiser votre contenu pour ChatGPT, Perplexity et Claude en 2026", category: "Agents IA", slug: "geo-optimisation-contenu-ia-generatif-2026" },
+    en: { keyword: "GEO generative engine optimization 2026", title: "GEO: How to Optimise Your Content for ChatGPT, Perplexity and Claude in 2026", category: "AI Agents", slug: "geo-generative-engine-optimization-2026" },
+  },
+  {
     fr: { keyword: "Make vs Zapier 2026", title: "Make vs Zapier en 2026 : lequel choisir pour automatiser votre business ?", category: "Automatisation", slug: "make-vs-zapier-2026-comparatif" },
     en: { keyword: "Make vs Zapier comparison 2026", title: "Make vs Zapier in 2026: Which Is Better for Your Business?", category: "Automation", slug: "make-vs-zapier-comparison-2026" },
   },
