@@ -54,6 +54,7 @@ export async function getAllBlogArticles(lang: "fr" | "en"): Promise<BlogArticle
   const records = await blogTable()
     .select({
       filterByFormula: `{lang} = "${lang}"`,
+      sort: [{ field: "date", direction: "desc" }],
     })
     .all();
   return records.map(parseRecord);
