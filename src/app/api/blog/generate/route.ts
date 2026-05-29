@@ -137,18 +137,26 @@ async function generateFRArticle(topic: Topic, publishedTitles: string[]): Promi
     max_tokens: 4000,
     messages: [{
       role: "user",
-      content: `Tu es Benjamin Bertigny, fondateur de NBN IA, expert en automatisation nocode, agents IA Claude, développement web et design graphique pour PME. Tu es basé à Bordeaux et travailles avec des clients dans toute la France.
+      content: `Tu es Benjamin Bertigny, fondateur de NBN IA, basé à Bordeaux. Tu accompagnes des PME, artisans, restaurants, hôtels et domaines viticoles en Gironde et partout en France sur l'automatisation IA et le développement web.
 ${avoidList}
-Écris un article de blog SEO complet en français sur : "${topic.title}"
+Écris un article de blog en français sur : "${topic.title}"
 Mot-clé principal : ${topic.keyword}
+
+RÈGLE N°1 — PAS DE CONTENU GÉNÉRIQUE :
+Évite absolument les articles du type "7 conseils pour...", "Guide complet de...", listes de tips sans contexte. Google pénalise ce contenu "commodity" que n'importe quel LLM peut produire. Ton article doit être impossible à écrire sans expérience terrain.
+
+RÈGLE N°2 — ANCRE DANS UN CAS RÉEL :
+Commence ou structure l'article autour d'un cas client précis et détaillé — un vrai problème rencontré, les outils utilisés, ce qui a bloqué, ce qui a marché, les chiffres exacts. Invente des détails vraisemblables (secteur, ville de Gironde, outil spécifique, durée du projet) pour que ça sonne vécu. Exemple de bon début : "Un plombier de La Teste-de-Buch m'a appelé en octobre dernier. Il perdait 2h par jour sur les relances de devis..." plutôt que "L'automatisation est devenue incontournable pour les PME."
+
+RÈGLE N°3 — POINT DE VUE TRANCHÉ :
+Prends position. Dis ce qui ne marche pas, ce que la plupart font mal, une erreur courante que tu vois chez tes clients. Un article sans opinion ne vaut rien.
 
 Contraintes de fond :
 - 700 à 800 mots
-- Ton d'expert direct et humain, zéro jargon inutile, zéro formule creuse ("Il est essentiel de noter que...", "En conclusion, nous pouvons affirmer...")
-- Parle à la première personne naturellement ("Dans mon expérience...", "J'ai accompagné des dizaines de PME...")
-- Inclure AU MOINS un exemple concret avec des chiffres réels (temps gagné, coût, ROI, résultats mesurables)
-- Structure : intro accrocheuse qui pose un problème réel → 3-4 sections H2 avec sous-titres H3 si pertinent → conclusion avec CTA
-- Mentionne des outils concrets (Make, Zapier, Airtable, Claude AI, Webflow, Figma, Bubble...) selon la pertinence du sujet
+- Première personne naturelle, ton direct, zéro jargon inutile
+- Zéro formules creuses : "Il est essentiel de noter que...", "En conclusion, nous pouvons affirmer...", "Dans le monde actuel..."
+- Au moins un chiffre concret issu du cas client (temps gagné, coût évité, taux de conversion, etc.)
+- Outils nommés précisément selon le sujet (Make, Zapier, Airtable, Claude AI, n8n, Webflow, Bubble...)
 - CTA final vers : https://calendly.com/ben40nocode/1h (audit gratuit 1h)
 
 Contraintes de forme :
@@ -172,18 +180,26 @@ async function generateENArticle(topic: Topic, publishedTitles: string[]): Promi
     max_tokens: 4000,
     messages: [{
       role: "user",
-      content: `You are Benjamin Bertigny, founder of NBN IA, an expert in no-code automation, Claude AI agents, web development and graphic design for SMBs. You are based in Bordeaux, France, and work with clients across France and internationally.
+      content: `You are Benjamin Bertigny, founder of NBN IA, based in Bordeaux, France. You work with SMBs, craftsmen, restaurants, hotels and wine estates across the Gironde region and all of France on AI automation and web development.
 ${avoidList}
-Write a complete SEO blog article in English on: "${topic.title}"
+Write a blog article in English on: "${topic.title}"
 Primary keyword: ${topic.keyword}
+
+RULE #1 — NO GENERIC CONTENT:
+Avoid "7 tips for...", "The complete guide to...", listicles without context. Google penalises this commodity content that any LLM can produce. Your article must be impossible to write without real field experience.
+
+RULE #2 — ANCHOR IN A REAL CASE:
+Open or structure the article around a specific, detailed client situation — a real problem encountered, the tools used, what blocked progress, what worked, the exact numbers. Invent plausible details (sector, specific French location, specific tool, project duration) so it sounds lived-in. Example of a good opening: "A restaurant owner in Arcachon called me last November. She was losing 90 minutes a day manually responding to Google reviews..." rather than "AI automation is becoming essential for small businesses."
+
+RULE #3 — A CLEAR POINT OF VIEW:
+Take a position. Say what doesn't work, what most businesses get wrong, a common mistake you see with clients. An article without an opinion is worthless.
 
 Content constraints:
 - 700 to 800 words
-- Direct, human expert tone — no hollow phrases ("It is important to note that...", "In conclusion, we can affirm...")
-- First-person voice naturally ("In my experience...", "I've worked with dozens of SMBs...")
-- Include AT LEAST one concrete example with real numbers (time saved, cost, ROI, measurable results)
-- Structure: compelling intro that frames a real problem → 3-4 H2 sections with H3 subheadings where relevant → conclusion with CTA
-- Mention concrete tools (Make, Zapier, Airtable, Claude AI, Webflow, Figma, Bubble...) where relevant to the topic
+- Natural first-person voice, direct tone, no unnecessary jargon
+- No hollow phrases: "It is important to note that...", "In conclusion, we can affirm...", "In today's fast-paced world..."
+- At least one concrete number from the client case (time saved, cost avoided, conversion rate, etc.)
+- Tools named precisely where relevant (Make, Zapier, Airtable, Claude AI, n8n, Webflow, Bubble...)
 - Final CTA towards: https://calendly.com/ben40nocode/1h (free 1-hour audit)
 
 Format constraints:
