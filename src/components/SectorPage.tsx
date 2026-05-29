@@ -53,10 +53,18 @@ export function SectorPage({
       {
         "@type": "Service",
         name: schemaName,
-        provider: { "@type": "Organization", name: "NBN IA", url: "https://www.nbn-ia.fr" },
+        provider: { "@id": "https://www.nbn-ia.fr/#organization" },
         areaServed,
         description: schemaDesc,
         url: canonical,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${canonical}#breadcrumb`,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.nbn-ia.fr" },
+          { "@type": "ListItem", "position": 2, "name": schemaName, "item": canonical },
+        ],
       },
       {
         "@type": "FAQPage",
