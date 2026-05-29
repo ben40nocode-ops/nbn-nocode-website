@@ -17,10 +17,6 @@ const TOPIC_PAIRS: Array<{ fr: Topic; en: Topic }> = [
     en: { keyword: "GEO generative engine optimization 2026", title: "GEO: How to Optimise Your Content for ChatGPT, Perplexity and Claude in 2026", category: "AI Agents", slug: "geo-generative-engine-optimization-2026" },
   },
   {
-    fr: { keyword: "Make vs Zapier 2026", title: "Make vs Zapier en 2026 : lequel choisir pour automatiser votre business ?", category: "Automatisation", slug: "make-vs-zapier-2026-comparatif" },
-    en: { keyword: "Make vs Zapier comparison 2026", title: "Make vs Zapier in 2026: Which Is Better for Your Business?", category: "Automation", slug: "make-vs-zapier-comparison-2026" },
-  },
-  {
     fr: { keyword: "agent IA Claude entreprise", title: "Comment déployer un agent IA Claude dans votre entreprise (sans coder)", category: "Agents IA", slug: "agent-ia-claude-entreprise-sans-code" },
     en: { keyword: "Claude AI agent business deployment", title: "How to Deploy a Claude AI Agent in Your Business (No Code Required)", category: "AI Agents", slug: "claude-ai-agent-business-deployment" },
   },
