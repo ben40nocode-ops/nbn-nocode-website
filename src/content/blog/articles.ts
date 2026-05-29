@@ -30,8 +30,8 @@ export const articles: Article[] = [
   },
   {
     "slug": "automatisation-nocode-pme-guide-complet",
-    "title": "Automatisation nocode pour PME : le guide complet 2026",
-    "description": "Automatisez vos process sans coder : outils, méthodes et cas concrets pour PME en 2026. Make, Airtable, agents IA — récupérez 10 à 20h par semaine.",
+    "title": "Comment un plombier de Mérignac a récupéré 10h/semaine grâce à l'IA (sans coder)",
+    "description": "Cas concrets d'automatisation IA en Gironde : restaurants, artisans, domaines viticoles. Outils, coûts réels et résultats mesurables. Par Benjamin Bertigny, NBN IA Bordeaux.",
     "date": "2026-04-24",
     "author": "Benjamin Bertigny",
     "category": "Automatisation",

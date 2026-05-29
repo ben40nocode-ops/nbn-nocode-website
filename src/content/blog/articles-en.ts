@@ -30,8 +30,8 @@ export const articlesEN: ArticleEN[] = [
   },
   {
     slug: "ai-automation-for-small-business-2026",
-    title: "AI Automation for Small Business in 2026: A Practical Guide",
-    description: "How SMBs and craftsmen can save 10+ hours per week with AI automation. No coding required. Real examples from Gironde, France.",
+    title: "AI Automation for Small Business: What Actually Works in 2026 (From Real Client Projects)",
+    description: "Most automation guides list tools. This one shows real results — restaurants cutting no-shows by 70%, craftsmen saving 2h/day. No fluff, no theory. By Benjamin Bertigny, NBN IA.",
     date: "2026-05-03",
     author: "Benjamin Bertigny",
     category: "Automation",
