@@ -67,6 +67,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.nbn-ia.fr/blog/${article.slug}` },
     keywords: article.keywords.join(", "),
+    image: {
+      "@type": "ImageObject",
+      url: "https://www.nbn-ia.fr/og-image.png",
+      width: 1200,
+      height: 630,
+    },
+    inLanguage: "fr-FR",
   };
 
   const breadcrumbLd = {
