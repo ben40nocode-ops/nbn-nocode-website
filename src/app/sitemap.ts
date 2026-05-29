@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { articles } from "@/content/blog/articles";
+import { getAllArticlesEN } from "@/lib/blog-en";
 
 const villes = [
   // Gironde
@@ -18,7 +19,7 @@ const villes = [
   "vaux-sur-mer","meschers-sur-gironde","tonnay-charente","surgeres","cozes",
 ];
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = "https://www.nbn-ia.fr";
   const staticPages: MetadataRoute.Sitemap = [
     { url: base, lastModified: new Date(), changeFrequency: "daily", priority: 1 },
@@ -49,12 +50,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/web-app-arcachon`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
 
     // Sites internet par ville
-    { url: `${base}/site-internet-bordeaux`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${base}/site-internet-royan`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/site-internet-arcachon`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
 
     // Pages géo principales
-    { url: `${base}/bordeaux`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/royan`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/arcachon`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/lacanau`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
@@ -64,8 +62,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/montalivet`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
 
     // Pages secteur
-    { url: `${base}/artisan-bordeaux`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${base}/artisan-royan`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/restaurant-arcachon`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/automatisation-restaurant-arcachon`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/site-restaurant-bordeaux`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
@@ -108,7 +104,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const enArticles = await getAllArticlesEN().catch(() => []);
+  const enPages: MetadataRoute.Sitemap = [
+    { url: `${base}/en`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/en/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
+    ...enArticles.map((a) => ({
+      url: `${base}/en/blog/${a.slug}`,
+      lastModified: new Date(a.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
+
   // Pages /automatisation/{ville} exclues du sitemap (noindex — contenu générique)
 
-  return [...staticPages, ...blogPages];
+  return [...staticPages, ...blogPages, ...enPages];
 }

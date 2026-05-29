@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Artisan Royan | NBN IA",
   description: "Site + app gestion projets artisan Royan. CRM clients. Devis gratuit.",
   keywords: ["artisan royan"],
+  robots: { index: false, follow: false },
 };
 
 export default function Page() {

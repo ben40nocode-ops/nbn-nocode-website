@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Artisan Bordeaux | NBN IA",
   description: "Site vitrine artisan Bordeaux. Portfolio, devis, contact. Devis gratuit.",
   keywords: ["artisan bordeaux"],
+  robots: { index: false, follow: false },
 };
 
 export default function Page() {

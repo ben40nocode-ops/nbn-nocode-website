@@ -20,7 +20,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: article.description,
     keywords: article.keywords,
     authors: [{ name: article.author }],
-    alternates: { canonical: `https://www.nbn-ia.fr/en/blog/${article.slug}` },
+    alternates: {
+      canonical: `https://www.nbn-ia.fr/en/blog/${slug}`,
+      languages: {
+        'fr-FR': `https://www.nbn-ia.fr/blog/${slug}`,
+        'en': `https://www.nbn-ia.fr/en/blog/${slug}`,
+        'x-default': `https://www.nbn-ia.fr/blog/${slug}`,
+      },
+    },
     openGraph: {
       title: article.title,
       description: article.description,

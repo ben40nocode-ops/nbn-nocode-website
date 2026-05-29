@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Bordeaux — Agence Web & IA | NBN IA",
   description: "Agence web, web apps et automatisations IA à bordeaux. Services digitaux pour PME, secteurs tourisme, vins, restaurants. Devis gratuit.",
   keywords: ["agence web bordeaux", "site internet bordeaux", "web app bordeaux", "automatisation bordeaux"],
+  robots: { index: false, follow: false },
 };
 
 const jsonLd = {"@context":"https://schema.org","@type":"LocalBusiness","name":"NBN IA","areaServed":"bordeaux","url":"https://www.nbn-ia.fr/bordeaux"};

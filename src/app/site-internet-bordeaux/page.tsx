@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Site Internet à Bordeaux | NBN IA",
   description: "Création de sites vitrine et e-commerce. SEO optimisé pour ranker Google à Bordeaux. Devis gratuit.",
   keywords: ["site internet bordeaux"],
+  robots: { index: false, follow: false },
 };
 
 export default function Page() {

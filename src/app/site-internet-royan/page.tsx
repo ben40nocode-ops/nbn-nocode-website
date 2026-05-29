@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Site Internet à Royan | NBN IA",
   description: "Agence web Royan. Sites internet vitrine, e-commerce, blogs. Design modern, SEO, performance.",
   keywords: ["site internet royan"],
+  robots: { index: false, follow: false },
 };
 
 export default function Page() {
