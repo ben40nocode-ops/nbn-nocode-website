@@ -2,6 +2,7 @@ export const maxDuration = 300;
 
 import { NextRequest, NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
+import { revalidatePath } from "next/cache";
 import { saveBlogArticle, getExistingSlugs, getAllBlogArticles, type BlogArticle } from "@/lib/airtable-blog";
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY2 });
@@ -284,6 +285,10 @@ export async function GET(req: NextRequest) {
         lang: "en",
       }),
     ]);
+
+    // Invalide le cache ISR immédiatement
+    revalidatePath("/blog");
+    revalidatePath("/en/blog");
 
     return NextResponse.json({ success: true, generated: [pair.fr.slug, pair.en.slug], date: today });
   } catch (err) {
