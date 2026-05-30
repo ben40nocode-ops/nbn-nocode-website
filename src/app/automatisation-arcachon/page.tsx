@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { localBusinessSchema, simpleBreadcrumb } from "@/lib/seo-schemas";
 import Link from "next/link";
 import { Check, ArrowRight, MapPin } from "lucide-react";
 
@@ -83,6 +84,13 @@ const jsonLd = {
         acceptedAnswer: { "@type": "Answer", text: faq.a },
       })),
     },
+    localBusinessSchema({
+      city: "Arcachon",
+      pageUrl: "https://www.nbn-ia.fr/automatisation-arcachon",
+      name: "NBN IA — Automatisation & Agents IA Arcachon",
+      description: "Conception d'agents IA et d'architectures d'automatisation sur mesure pour les PME du Bassin d'Arcachon. Setup à partir de 450€, maintenance mensuelle.",
+    }),
+    simpleBreadcrumb("Automatisation IA Arcachon", "https://www.nbn-ia.fr/automatisation-arcachon"),
   ],
 };
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { localBusinessSchema, simpleBreadcrumb } from "@/lib/seo-schemas";
 import Link from "next/link";
 import { Check, ArrowRight, Bot } from "lucide-react";
 
@@ -80,6 +81,13 @@ const jsonLd = {
         acceptedAnswer: { "@type": "Answer", text: faq.a },
       })),
     },
+    localBusinessSchema({
+      city: "Bordeaux",
+      pageUrl: "https://www.nbn-ia.fr/chatbot-ia-bordeaux",
+      name: "NBN IA — Chatbot IA & Agents Claude Bordeaux",
+      description: "Création de chatbots IA et d'agents Claude sur mesure pour les PME de Bordeaux. Répond aux clients 24h/24, qualifie les leads, traite les emails.",
+    }),
+    simpleBreadcrumb("Chatbot IA Bordeaux", "https://www.nbn-ia.fr/chatbot-ia-bordeaux"),
   ],
 };
 

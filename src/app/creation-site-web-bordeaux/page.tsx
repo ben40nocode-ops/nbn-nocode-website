@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { localBusinessSchema, simpleBreadcrumb } from "@/lib/seo-schemas";
 import Link from "next/link";
 import { Check, ArrowRight, Layers } from "lucide-react";
 
@@ -86,6 +87,13 @@ const jsonLd = {
         acceptedAnswer: { "@type": "Answer", text: faq.a },
       })),
     },
+    localBusinessSchema({
+      city: "Bordeaux",
+      pageUrl: "https://www.nbn-ia.fr/creation-site-web-bordeaux",
+      name: "NBN IA — Création Site Web & Web Apps IA Bordeaux",
+      description: "Création de sites web et de web apps sur mesure à Bordeaux. Next.js, Webflow, vibe coding avec Claude Code. Sites de 800€ à 15 000€.",
+    }),
+    simpleBreadcrumb("Création Site Web Bordeaux", "https://www.nbn-ia.fr/creation-site-web-bordeaux"),
   ],
 };
 

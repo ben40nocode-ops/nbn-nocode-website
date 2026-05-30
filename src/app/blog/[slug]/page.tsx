@@ -69,7 +69,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     keywords: article.keywords.join(", "),
     image: {
       "@type": "ImageObject",
-      url: "https://www.nbn-ia.fr/og-image.png",
+      url: "https://www.nbn-ia.fr/opengraph-image",
       width: 1200,
       height: 630,
     },

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { localBusinessSchema, simpleBreadcrumb } from "@/lib/seo-schemas";
 import Link from "next/link";
 import { Check, ArrowRight, MapPin } from "lucide-react";
 
@@ -83,6 +84,13 @@ const jsonLd = {
         acceptedAnswer: { "@type": "Answer", text: faq.a },
       })),
     },
+    localBusinessSchema({
+      city: "Royan",
+      pageUrl: "https://www.nbn-ia.fr/automatisation-royan",
+      name: "NBN IA — Automatisation & Agents IA Royan",
+      description: "Conception d'agents IA et d'architectures d'automatisation sur mesure pour les PME de Royan et Charente-Maritime. Setup à partir de 450€, maintenance mensuelle.",
+    }),
+    simpleBreadcrumb("Automatisation IA Royan", "https://www.nbn-ia.fr/automatisation-royan"),
   ],
 };
 
