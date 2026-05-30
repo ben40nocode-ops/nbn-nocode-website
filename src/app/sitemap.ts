@@ -36,9 +36,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${base}/automatisation-bordeaux`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/automatisation-royan`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/automatisation-arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.9 },
-    { url: `${base}/automatisation-ia-bordeaux`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.85 },
-    { url: `${base}/automatisation-ia-royan`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.85 },
-    { url: `${base}/automatisation-ia-arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.85 },
+    // /automatisation-ia-{bordeaux,royan,arcachon} retired — now 301 redirects to non-ia variants
+    // (removed from sitemap so Google deindexes them; see next.config.ts redirects)
 
     // Chatbot & création site
     { url: `${base}/chatbot-ia-bordeaux`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.85 },

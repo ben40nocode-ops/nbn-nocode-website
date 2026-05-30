@@ -29,6 +29,11 @@ const nextConfig: NextConfig = {
         destination: "https://www.nbn-ia.fr/:path*",
         permanent: true,
       },
+      // Consolidate thin "ia-" stub pages into their richer canonical equivalents
+      // (avoids doorway/duplicate-content penalty while preserving any existing backlinks)
+      { source: "/automatisation-ia-bordeaux", destination: "/automatisation-bordeaux", permanent: true },
+      { source: "/automatisation-ia-royan",    destination: "/automatisation-royan",    permanent: true },
+      { source: "/automatisation-ia-arcachon", destination: "/automatisation-arcachon", permanent: true },
     ];
   },
 };
