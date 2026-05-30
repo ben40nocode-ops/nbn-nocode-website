@@ -19,11 +19,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.nbn-ia.fr"),
   title: {
-    default: "NBN IA — Automatisation & Agents IA | Bordeaux · Royan · Arcachon",
+    default: "Automatisation & Agents IA PME — Bordeaux · Royan",
     template: "%s | NBN IA",
   },
   description:
-    "Formé chez Alegria Academy et certifié Anthropic Architecture. Benjamin Bertigny, AI systems builder à Bordeaux. Nous concevons des systèmes IA autonomes sur mesure pour PME — architectures qui opèrent sans intervention humaine, 24h/24, 7j/7.",
+    "NBN IA construit des systèmes IA autonomes pour PME et artisans : devis, relances, RDV automatisés en 2 semaines. Bordeaux, Royan, Arcachon.",
   keywords: [
     "systèmes IA autonomes Bordeaux",
     "agent IA Bordeaux",
@@ -65,13 +65,13 @@ export const metadata: Metadata = {
     siteName: "NBN IA",
     title: "NBN IA — Automatisation & Agents IA | Bordeaux · Royan · Arcachon",
     description: "Formé chez Alegria Academy et certifié Anthropic Architecture. Systèmes IA autonomes qui travaillent pour vous, 24h/24, 7j/7. Vibe coding, orchestration IA, intégrations complexes — pas une agence classique.",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "NBN IA — Automatisation & Agents IA" }],
+    // images: handled automatically by src/app/opengraph-image.tsx (dynamic OG)
   },
   twitter: {
     card: "summary_large_image",
     title: "NBN IA — Automatisation & Agents IA",
     description: "Benjamin Bertigny, AI systems builder. Systèmes IA autonomes qui travaillent pour vous, 24h/24. Agents Claude, orchestration IA, vibe coding. Bordeaux.",
-    images: ["/og-image.png"],
+    // images: Twitter falls back to og:image (the dynamic /opengraph-image)
   },
   robots: {
     index: true,
@@ -80,6 +80,11 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://www.nbn-ia.fr",
+    languages: {
+      "fr-FR": "https://www.nbn-ia.fr",
+      "en-US": "https://www.nbn-ia.fr/en",
+      "x-default": "https://www.nbn-ia.fr",
+    },
   },
   icons: {
     icon: "/icon.svg",
