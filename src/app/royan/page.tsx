@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Royan — Services Digitaux & IA | NBN IA",
   description: "Agence web, web apps et automatisations IA à royan. Services digitaux pour PME, secteurs tourisme, vins, restaurants. Devis gratuit.",
   keywords: ["agence web royan", "site internet royan", "web app royan", "automatisation royan"],
+  alternates: { canonical: "https://www.nbn-ia.fr/royan" },
 };
 
 const jsonLd = {"@context":"https://schema.org","@type":"LocalBusiness","name":"NBN IA","areaServed":"royan","url":"https://www.nbn-ia.fr/royan"};

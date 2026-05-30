@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Tarifs — Automatisations IA, Websites, Web Apps | NBN IA",
-    description: "Transparent pricing for IA automation, websites & web apps. Starting from €450 setup + €159/month maintenance. Free audit.",
+    description: "Tarifs transparents pour automatisations IA, websites et web apps. Setup à partir de 450€ + maintenance dès 159€/mois. Audit gratuit.",
     url: "https://www.nbn-ia.fr/tarifs",
   },
 };

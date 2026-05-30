@@ -107,6 +107,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const enPages: MetadataRoute.Sitemap = [
     { url: `${base}/en`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/en/blog`, lastModified: new Date("2026-05-29"), changeFrequency: "weekly", priority: 0.8 },
+    { url: `${base}/en/ai-automation`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/en/hotel-ai-automation`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/en/startup-ai-france`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/en/web-apps`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/en/websites`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/en/wine-estate-ai`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/en/bordeaux`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/en/arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/en/royan`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.7 },
     ...enArticles.map((a) => ({
       url: `${base}/en/blog/${a.slug}`,
       lastModified: new Date(a.date),

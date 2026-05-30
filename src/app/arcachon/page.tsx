@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Arcachon — Web & Automatisation IA | NBN IA",
   description: "Agence web, web apps et automatisations IA à arcachon. Services digitaux pour PME, secteurs tourisme, vins, restaurants. Devis gratuit.",
   keywords: ["agence web arcachon", "site internet arcachon", "web app arcachon", "automatisation arcachon"],
+  alternates: { canonical: "https://www.nbn-ia.fr/arcachon" },
 };
 
 const jsonLd = {"@context":"https://schema.org","@type":"LocalBusiness","name":"NBN IA","areaServed":"arcachon","url":"https://www.nbn-ia.fr/arcachon"};
