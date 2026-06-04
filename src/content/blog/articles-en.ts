@@ -10,7 +10,7 @@ export const articlesEN: ArticleEN[] = [
     slug: "bmad-agile-ai-driven-development-method",
     title: "BMAD: The Method That Stopped Me From Going in Circles With AI Agents",
     description: "BMAD (Breakthrough Method for Agile AI-Driven Development) is the open-source framework I use to structure AI projects before writing a single line of code. A concrete look at how it works.",
-    date: "2026-06-04",
+    date: "2026-06-05",
     author: "Benjamin Bertigny",
     category: "Build in Public",
     keywords: ["BMAD method", "AI-driven development", "Claude Code workflow", "agile AI framework", "AI agents development", "BMAD open source"],

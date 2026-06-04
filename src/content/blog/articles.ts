@@ -10,7 +10,7 @@ export const articles: Article[] = [
     slug: "bmad-methode-agile-agents-ia-developpement",
     title: "BMAD : la méthode qui m'a arrêté de partir dans tous les sens avec les agents IA",
     description: "BMAD (Breakthrough Method for Agile AI-Driven Development) est la méthode que j'utilise pour cadrer mes projets IA avant d'écrire la moindre ligne de code. Retour d'expérience concret.",
-    date: "2026-06-04",
+    date: "2026-06-05",
     author: "Benjamin Bertigny",
     category: "Build in Public",
     keywords: ["BMAD méthode IA", "agents IA développement", "Claude Code workflow", "agile IA PME", "BMAD framework", "développement IA structuré"],
