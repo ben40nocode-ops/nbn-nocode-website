@@ -58,6 +58,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Benjamin Bertigny", url: "https://www.nbn-ia.fr" }],
   creator: "NBN IA",
+  verification: {
+    google: "De_SUgDQvTITcUNtSm30LQKwgLxrGFkw8h0W1PcTimk",
+  },
   openGraph: {
     type: "website",
     locale: "fr_FR",
