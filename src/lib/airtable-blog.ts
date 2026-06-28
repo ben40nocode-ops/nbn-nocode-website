@@ -9,6 +9,11 @@ const base = new Airtable({
 
 const blogTable = () => base(process.env.AIRTABLE_BLOG_TABLE_ID!);
 
+// Pendant `next build`, on n'appelle JAMAIS Airtable : le build pré-rend les pages
+// avec les articles statiques bundlés, et les articles Airtable sont récupérés au
+// runtime (ISR revalidate). Évite tout blocage/échec de build lié à Airtable.
+const IS_BUILD = process.env.NEXT_PHASE === "phase-production-build";
+
 export interface BlogArticle {
   slug: string;
   title: string;
@@ -54,6 +59,7 @@ export async function saveBlogArticle(article: BlogArticle) {
 }
 
 export async function getAllBlogArticles(lang: "fr" | "en"): Promise<BlogArticle[]> {
+  if (IS_BUILD) return [];
   const records = await blogTable()
     .select({
       filterByFormula: `{lang} = "${lang}"`,
@@ -64,6 +70,7 @@ export async function getAllBlogArticles(lang: "fr" | "en"): Promise<BlogArticle
 }
 
 export async function getBlogArticleBySlug(slug: string): Promise<BlogArticle | null> {
+  if (IS_BUILD) return null;
   const records = await blogTable()
     .select({
       filterByFormula: `{slug} = "${slug}"`,
