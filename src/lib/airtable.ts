@@ -1,8 +1,10 @@
 import Airtable from "airtable";
 
-const base = new Airtable({ apiKey: process.env.AIRTABLE_PAT! }).base(
-  process.env.AIRTABLE_BASE_ID!
-);
+// requestTimeout : échec rapide plutôt qu'une attente bloquante si Airtable ne répond pas.
+const base = new Airtable({
+  apiKey: process.env.AIRTABLE_PAT!,
+  requestTimeout: 15000,
+}).base(process.env.AIRTABLE_BASE_ID!);
 
 const table = base(process.env.AIRTABLE_TABLE_ID!);
 

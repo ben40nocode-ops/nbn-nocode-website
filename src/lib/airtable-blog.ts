@@ -1,8 +1,11 @@
 import Airtable from "airtable";
 
-const base = new Airtable({ apiKey: process.env.AIRTABLE_PAT! }).base(
-  process.env.AIRTABLE_BASE_ID!
-);
+// requestTimeout évite que le build Next.js reste bloqué sur "Collecting page data"
+// si Airtable ne répond pas : la requête échoue vite et les .catch(() => []) prennent le relais.
+const base = new Airtable({
+  apiKey: process.env.AIRTABLE_PAT!,
+  requestTimeout: 15000,
+}).base(process.env.AIRTABLE_BASE_ID!);
 
 const blogTable = () => base(process.env.AIRTABLE_BLOG_TABLE_ID!);
 
