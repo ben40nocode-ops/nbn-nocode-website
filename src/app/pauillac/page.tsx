@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Pauillac — Domaines & Digitaux | NBN IA",
   description: "Sites web, web apps et agents IA pour châteaux, domaines viticoles et cavistes de Pauillac. Vente directe vin, œnotourisme, facturation B2B. Devis gratuit.",
   alternates: { canonical: "https://www.nbn-ia.fr/pauillac" },
+  robots: { index: false, follow: true },
   keywords: ["agence web pauillac", "site internet pauillac", "web app pauillac", "automatisation pauillac"],
 };
 

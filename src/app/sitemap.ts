@@ -48,17 +48,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${base}/web-app-royan`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/web-app-arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.85 },
 
-    // Sites internet par ville
-    { url: `${base}/site-internet-arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.8 },
-
-    // Pages géo principales
-    { url: `${base}/royan`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${base}/arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${base}/lacanau`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.75 },
-    { url: `${base}/soulac`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.75 },
-    { url: `${base}/pauillac`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.75 },
-    { url: `${base}/lesparre`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.75 },
-    { url: `${base}/montalivet`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.75 },
+    // NB: /site-internet-arcachon + pages géo stub (royan, arcachon, lacanau, soulac,
+    // pauillac, lesparre, montalivet) retirées du sitemap — contenu trop mince, passées
+    // en noindex. À enrichir puis réintégrer. Les intentions sont couvertes par les pages
+    // riches automatisation-{ville}, web-app-{ville}, site-hotel/camping-*, etc.
 
     // Pages secteur
     { url: `${base}/restaurant-arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.8 },
@@ -103,7 +96,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })),
   ];
 
-  const enArticles = await getAllArticlesEN().catch(() => []);
+  const enArticles = await getAllArticlesEN().catch((e) => { console.error("[sitemap] getAllArticlesEN error:", e); return []; });
   const enPages: MetadataRoute.Sitemap = [
     { url: `${base}/en`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/en/blog`, lastModified: new Date("2026-05-29"), changeFrequency: "weekly", priority: 0.8 },

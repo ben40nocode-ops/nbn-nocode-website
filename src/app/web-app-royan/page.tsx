@@ -4,7 +4,7 @@ import { Check, ArrowRight, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Développement Web App & Application IA à Royan — NBN IA",
-  description: "Web apps et applications IA sur mesure à Royan. Authentification, base de données, intégrations, APIs. Démarrage à €2,500. Audit gratuit.",
+  description: "Web apps et applications IA sur mesure à Royan. Authentification, base de données, intégrations, APIs. Démarrage à 2 500 €. Audit gratuit.",
   keywords: [
     "web app Royan",
     "développement application Royan",
@@ -46,7 +46,7 @@ export default function WebAppRoyanPage() {
           </div>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
-            Application web sur mesure<br />
+            Application web sur mesure à Royan<br />
             <span className="text-[#e8632a]">alimentée par vos agents IA</span>
           </h1>
 

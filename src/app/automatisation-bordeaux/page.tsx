@@ -5,7 +5,7 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA à Bordeaux — NBN IA",
-  description: "Expert en agents IA et automatisation IA à Bordeaux. Faites tourner vos process sans recruter. Make, Claude AI, Airtable. Audit gratuit 1h pour PME bordelaises.",
+  description: "Expert agents IA et automatisation à Bordeaux. Faites tourner vos process sans recruter. Make, Claude AI, Airtable. Audit gratuit 1h pour PME bordelaises.",
   keywords: ["automatisation Bordeaux", "agent IA Bordeaux", "consultant automatisation Bordeaux", "Claude AI Bordeaux", "PME Bordeaux automatisation", "Make Bordeaux", "automatisation process PME"],
   alternates: { canonical: "https://www.nbn-ia.fr/automatisation-bordeaux" },
   openGraph: {

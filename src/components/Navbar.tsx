@@ -8,10 +8,10 @@ import { usePathname } from "next/navigation";
 import { Logo } from "@/components/Logo";
 
 const linksFR = [
-  { label: "À propos", href: "/#apropos" },
+  { label: "À propos", href: "/a-propos" },
   { label: "Solutions", href: "/#solutions" },
   { label: "Réalisations", href: "/#realisations" },
-  { label: "Tarifs", href: "/#pricing" },
+  { label: "Tarifs", href: "/tarifs" },
   { label: "Blog", href: "/blog" },
 ];
 
@@ -19,7 +19,7 @@ const linksEN = [
   { label: "About", href: "/en#about" },
   { label: "Solutions", href: "/en#solutions" },
   { label: "Work", href: "/en#work" },
-  { label: "Pricing", href: "/#pricing" },
+  { label: "Pricing", href: "/tarifs" },
   { label: "Blog", href: "/en/blog" },
 ];
 

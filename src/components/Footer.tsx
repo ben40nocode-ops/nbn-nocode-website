@@ -51,7 +51,7 @@ export function Footer() {
                 { label: "Contact", href: "/contact" },
                 { label: "Blog", href: "/en/blog" },
               ] : [
-                { label: "À propos", href: "/#apropos" },
+                { label: "À propos", href: "/a-propos" },
                 { label: "Solutions", href: "/#solutions" },
                 { label: "Réalisations", href: "/#realisations" },
                 { label: "Tarifs", href: "/tarifs" },
@@ -83,6 +83,9 @@ export function Footer() {
                 { label: "Automatisation Arcachon", href: "/automatisation-arcachon" },
                 { label: "Chatbot IA Bordeaux", href: "/chatbot-ia-bordeaux" },
                 { label: "Création site web", href: "/creation-site-web-bordeaux" },
+                { label: "Service — Automatisation IA", href: "/services/automatisation-ia" },
+                { label: "Service — Sites internet", href: "/services/sites-internet" },
+                { label: "Service — Web apps", href: "/services/web-apps" },
               ]).map((l) => (
                 <li key={l.href}>
                   <Link href={l.href} className="text-sm hover:text-white transition-colors">{l.label}</Link>

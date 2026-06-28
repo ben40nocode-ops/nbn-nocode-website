@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Lesparre — Médoc & IA | NBN IA",
   description: "Sites web, web apps et agents IA pour domaines viticoles, caves et artisans de Lesparre-Médoc. Automatisation vente vin, œnotourisme. Devis gratuit.",
   alternates: { canonical: "https://www.nbn-ia.fr/lesparre" },
+  robots: { index: false, follow: true },
   keywords: ["agence web lesparre", "site internet lesparre", "web app lesparre", "automatisation lesparre"],
 };
 

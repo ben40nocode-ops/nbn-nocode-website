@@ -82,7 +82,9 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
   alternates: {
-    canonical: "https://www.nbn-ia.fr",
+    // canonical retiré du layout — chaque page.tsx le déclare explicitement via alternates.canonical
+    // (un canonical global ici serait hérité par toutes les pages sans canonical propre et les ferait
+    //  pointer vers la homepage, empêchant leur indexation individuelle par Google)
     languages: {
       "fr-FR": "https://www.nbn-ia.fr",
       "en-US": "https://www.nbn-ia.fr/en",
@@ -150,7 +152,12 @@ const jsonLd = {
         opens: "09:00",
         closes: "18:00",
       },
-      sameAs: ["https://www.linkedin.com/company/nbn-nocode"],
+      sameAs: [
+        "https://www.linkedin.com/company/nbn-nocode",
+        "https://www.linkedin.com/in/benjamin-bertigny-3a4b34217/",
+      ],
+      alternateName: ["NBN Nocode", "NBN"],
+      legalName: "NBN IA",
     },
     {
       "@type": "WebSite",
@@ -165,10 +172,13 @@ const jsonLd = {
       name: "Benjamin Bertigny",
       jobTitle: "AI Systems Builder",
       description: "Formé chez Alegria Academy et certifié Anthropic Architecture. Benjamin Bertigny, AI systems builder basé à Bordeaux. Nous concevons des systèmes IA autonomes sur mesure pour les PME — des architectures qui opèrent sans intervention humaine, 24h/24, 7j/7. Vibe coding avec Claude Code, orchestration d'agents IA, intégrations API complexes — je construis des systèmes qui ne ressemblent ni à une agence de dev, ni à une agence nocode. Quelque chose de nouveau. Ma conviction : l'IA doit travailler pour vous, pas l'inverse. Je ne livre pas des workflows. Je livre un système qui tourne, s'adapte, et que je maintiens dans le temps.",
-      url: "https://www.nbn-ia.fr",
+      url: "https://www.nbn-ia.fr/a-propos",
       email: "contact@nbn-ia.fr",
       worksFor: { "@id": "https://www.nbn-ia.fr/#organization" },
-      sameAs: ["https://www.linkedin.com/company/nbn-nocode"],
+      sameAs: [
+        "https://www.linkedin.com/in/benjamin-bertigny-3a4b34217/",
+        "https://www.linkedin.com/company/nbn-nocode",
+      ],
       knowsAbout: ["Claude AI", "Claude Code", "Agents IA", "Systèmes IA Autonomes", "Vibe Coding", "Orchestration IA", "IA Générative", "Make", "n8n", "Next.js", "MCP", "Anthropic", "AI Systems Engineering", "Agent Orchestration", "LLM Workflows"],
     },
     {

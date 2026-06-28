@@ -56,8 +56,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     dateModified: article.date,
     author: {
       "@type": "Person",
+      "@id": "https://www.nbn-ia.fr/#founder",
       name: article.author,
-      url: "https://www.nbn-ia.fr",
+      url: "https://www.nbn-ia.fr/a-propos",
     },
     publisher: {
       "@type": "Organization",

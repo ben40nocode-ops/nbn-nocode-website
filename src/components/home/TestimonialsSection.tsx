@@ -25,34 +25,9 @@ const testimonials = [
   },
 ];
 
-const aggregateRatingJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "NBN IA",
-  url: "https://www.nbn-ia.fr",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "5",
-    reviewCount: testimonials.length.toString(),
-    bestRating: "5",
-    worstRating: "1",
-  },
-  review: testimonials.map((t) => ({
-    "@type": "Review",
-    author: { "@type": "Person", name: t.name },
-    datePublished: t.date,
-    reviewBody: t.quote,
-    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-  })),
-};
-
 export function TestimonialsSection() {
   return (
     <section className="py-24 bg-white">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingJsonLd) }}
-      />
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="text-center mb-16">

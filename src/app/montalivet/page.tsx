@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Montalivet — Vacances & Tech | NBN IA",
   description: "Sites web, web apps et agents IA pour campings, gîtes et commerces de Montalivet et Vendays-Montalivet. Réservations en ligne, gestion de saison. Devis gratuit.",
   alternates: { canonical: "https://www.nbn-ia.fr/montalivet" },
+  robots: { index: false, follow: true },
   keywords: ["agence web montalivet", "site internet montalivet", "web app montalivet", "automatisation montalivet"],
 };
 

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description: "Sites web, web apps et agents IA pour hôtels, restaurants, pêcheurs et artisans de Royan et Charente-Maritime. Présence locale, résultats Google. Devis gratuit.",
   keywords: ["agence web royan", "site internet royan", "web app royan", "automatisation royan"],
   alternates: { canonical: "https://www.nbn-ia.fr/royan" },
+  robots: { index: false, follow: true },
 };
 
 const jsonLd = {"@context":"https://schema.org","@type":"LocalBusiness","name":"NBN IA","areaServed":"royan","url":"https://www.nbn-ia.fr/royan"};

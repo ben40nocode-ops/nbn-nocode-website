@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description: "Sites web, web apps et agents IA pour hôtels, campings, ostréiculteurs et restaurants du Bassin d'Arcachon. Spécialistes tourisme côtier. Devis gratuit.",
   keywords: ["agence web arcachon", "site internet arcachon", "web app arcachon", "automatisation arcachon"],
   alternates: { canonical: "https://www.nbn-ia.fr/arcachon" },
+  robots: { index: false, follow: true },
 };
 
 const jsonLd = {"@context":"https://schema.org","@type":"LocalBusiness","name":"NBN IA","areaServed":"arcachon","url":"https://www.nbn-ia.fr/arcachon"};

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Soulac — Tourisme & Digitalisation | NBN IA",
   description: "Sites web, web apps et agents IA pour hôtels, campings et commerces de Soulac-sur-Mer. Automatisation de saison, réservations en ligne. Devis gratuit.",
   alternates: { canonical: "https://www.nbn-ia.fr/soulac" },
+  robots: { index: false, follow: true },
   keywords: ["agence web soulac", "site internet soulac", "web app soulac", "automatisation soulac"],
 };
 

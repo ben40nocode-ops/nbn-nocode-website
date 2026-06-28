@@ -1,5 +1,7 @@
 # NBN IA
 
+> Last updated: 2026-06-28
+
 > Architecte de systèmes IA autonomes pour PME en France. Fondé par Benjamin Bertigny, AI systems builder basé à Bordeaux.
 
 Je construis des systèmes IA qui travaillent à votre place. 24h/24. Agents IA, vibe coding avec Claude Code, orchestration d'architectures autonomes — setup unique, zéro intervention humaine nécessaire.
@@ -48,6 +50,19 @@ Claude (Anthropic) excelle dans le raisonnement long, le traitement de documents
 **Combien coûte un système IA ?**
 Un setup démarre à 450€ HT pour un système simple. La maintenance mensuelle commence à 159€/mois. Le ROI moyen constaté : remplacement de 1 à 3 heures de travail manuel par jour dès le premier mois.
 
+## English version
+
+Full English content available at https://www.nbn-ia.fr/en
+
+- Blog (EN): https://www.nbn-ia.fr/en/blog
+- AI Automation: https://www.nbn-ia.fr/en/ai-automation
+- Bordeaux (EN): https://www.nbn-ia.fr/en/bordeaux
+- Arcachon (EN): https://www.nbn-ia.fr/en/arcachon
+- Royan (EN): https://www.nbn-ia.fr/en/royan
+- Hotel AI automation: https://www.nbn-ia.fr/en/hotel-ai-automation
+- Wine estate AI: https://www.nbn-ia.fr/en/wine-estate-ai
+- Startup AI France: https://www.nbn-ia.fr/en/startup-ai-france
+
 ## Contact
 
 - Site web : https://www.nbn-ia.fr
@@ -58,6 +73,7 @@ Un setup démarre à 450€ HT pour un système simple. La maintenance mensuelle
 ## Pages clés
 
 - https://www.nbn-ia.fr — Accueil
+- https://www.nbn-ia.fr/a-propos — Benjamin Bertigny, fondateur (bio, certifications)
 - https://www.nbn-ia.fr/tarifs — Offres et tarifs
 - https://www.nbn-ia.fr/contact — Contact
 - https://www.nbn-ia.fr/automatisation-bordeaux — Automatisation Bordeaux

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Site Internet à Arcachon | NBN IA",
   description: "Création de site internet à Arcachon pour hôtels, restaurants, campings et ostréiculteurs. SEO local, design moderne, réservations en ligne. Devis gratuit.",
   alternates: { canonical: "https://www.nbn-ia.fr/site-internet-arcachon" },
+  robots: { index: false, follow: true },
   keywords: ["site internet arcachon"],
 };
 
