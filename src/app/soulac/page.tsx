@@ -4,7 +4,8 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Soulac — Tourisme & Digitalisation | NBN IA",
-  description: "Agence web, web apps et automatisations IA à soulac. Services digitaux pour PME, secteurs tourisme, vins, restaurants. Devis gratuit.",
+  description: "Sites web, web apps et agents IA pour hôtels, campings et commerces de Soulac-sur-Mer. Automatisation de saison, réservations en ligne. Devis gratuit.",
+  alternates: { canonical: "https://www.nbn-ia.fr/soulac" },
   keywords: ["agence web soulac", "site internet soulac", "web app soulac", "automatisation soulac"],
 };
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Site Web & Automatisation pour Campings de Soulac-sur-Mer — NBN IA",
+  title: "Site Web & IA pour Campings de Soulac-sur-Mer | NBN IA",
   description: "Création de site web et automatisation IA pour campings de Soulac-sur-Mer : réservations en ligne, agent IA, gestion de saison. Devis gratuit.",
   keywords: ["site web camping Soulac", "création site internet camping Soulac-sur-Mer", "automatisation camping Soulac", "réservations en ligne camping Soulac"],
   alternates: { canonical: "https://www.nbn-ia.fr/site-camping-soulac" },

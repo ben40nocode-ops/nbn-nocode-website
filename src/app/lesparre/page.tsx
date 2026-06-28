@@ -4,7 +4,8 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Lesparre — Médoc & IA | NBN IA",
-  description: "Agence web, web apps et automatisations IA à lesparre. Services digitaux pour PME, secteurs tourisme, vins, restaurants. Devis gratuit.",
+  description: "Sites web, web apps et agents IA pour domaines viticoles, caves et artisans de Lesparre-Médoc. Automatisation vente vin, œnotourisme. Devis gratuit.",
+  alternates: { canonical: "https://www.nbn-ia.fr/lesparre" },
   keywords: ["agence web lesparre", "site internet lesparre", "web app lesparre", "automatisation lesparre"],
 };
 

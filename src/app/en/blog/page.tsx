@@ -7,7 +7,7 @@ import { ArrowRight, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Blog — AI Automation, Agents & Business",
-  description: "Practical guides, tutorials and insights on AI automation, no-code agents, and digital transformation for SMBs. By Benjamin Bertigny, expert based in Bordeaux, France.",
+  description: "Practical guides and tutorials on AI automation, no-code agents, and digital transformation for SMBs. By Benjamin Bertigny, based in Bordeaux, France.",
   alternates: { canonical: "https://www.nbn-ia.fr/en/blog" },
   openGraph: {
     title: "NBN IA Blog — AI Automation & Agents",

@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Site Internet à Bordeaux | NBN IA",
-  description: "Création de sites vitrine et e-commerce. SEO optimisé pour ranker Google à Bordeaux. Devis gratuit.",
+  description: "Création de sites vitrine et e-commerce à Bordeaux. Design sur mesure, SEO optimisé, mobile parfait. Classement Google pour PME bordelaises. Devis gratuit.",
   keywords: ["site internet bordeaux"],
   robots: { index: false, follow: false },
 };

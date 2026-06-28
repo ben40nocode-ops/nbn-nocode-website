@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Site Internet à Royan | NBN IA",
-  description: "Agence web Royan. Sites internet vitrine, e-commerce, blogs. Design modern, SEO, performance.",
+  description: "Création de site internet à Royan : vitrine, e-commerce, blog. SEO local, performance optimisée. Pour hôtels, restaurants et artisans. Devis gratuit.",
   keywords: ["site internet royan"],
   robots: { index: false, follow: false },
 };

@@ -5,7 +5,7 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA à Royan — NBN IA",
-  description: "Expert en agents IA et automatisation IA à Royan et Charente-Maritime. Make, Claude AI, Airtable. Setup sur mesure pour PME locales. Audit gratuit 1h sans engagement.",
+  description: "Expert agents IA et automatisation à Royan et Charente-Maritime. Claude AI, Make. Setup sur mesure pour hôtels, pêcheurs et PME locales. Audit gratuit 1h.",
   keywords: ["automatisation Royan", "agent IA Royan", "consultant automatisation Charente-Maritime", "Claude AI Royan", "PME Royan automatisation", "automatisation Saintes", "agent IA Rochefort"],
   alternates: { canonical: "https://www.nbn-ia.fr/automatisation-royan" },
   openGraph: {

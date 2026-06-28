@@ -4,7 +4,8 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Agence Content Marketing | NBN IA",
-  description: "Blog optimisé SEO + CMS pour agences. Devis gratuit.",
+  description: "Blog et espace contenu SEO avec CMS pour agences et consultants. Articles, études de cas, newsletter. Optimisé Google, facile à gérer. Devis gratuit.",
+  alternates: { canonical: "https://www.nbn-ia.fr/blog-agence" },
   keywords: ["blog agence"],
 };
 

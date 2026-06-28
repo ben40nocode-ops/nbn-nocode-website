@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Royan — Services Digitaux & IA | NBN IA",
-  description: "Agence web, web apps et automatisations IA à royan. Services digitaux pour PME, secteurs tourisme, vins, restaurants. Devis gratuit.",
+  description: "Sites web, web apps et agents IA pour hôtels, restaurants, pêcheurs et artisans de Royan et Charente-Maritime. Présence locale, résultats Google. Devis gratuit.",
   keywords: ["agence web royan", "site internet royan", "web app royan", "automatisation royan"],
   alternates: { canonical: "https://www.nbn-ia.fr/royan" },
 };

@@ -3,8 +3,8 @@ import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "AI Automation for Wine Estates & Châteaux — Bordeaux | NBN IA",
-  description: "AI systems for wine estates in Bordeaux and Médoc. Automate export sales, client follow-up, booking management, content generation. Claude AI agents. Free audit.",
+  title: "AI Automation for Wine Estates & Châteaux | NBN IA Bordeaux",
+  description: "AI systems for wine estates in Bordeaux and Médoc. Automate export sales, client follow-up, visit bookings and content generation. Claude AI agents. Free audit.",
   keywords: ["AI wine estate Bordeaux", "château automation", "AI winery France", "wine export automation", "Médoc AI agency", "Bordeaux wine AI", "château digital transformation", "wine tourism automation France"],
   alternates: { canonical: "https://www.nbn-ia.fr/en/wine-estate-ai" },
   openGraph: { title: "AI Automation for Wine Estates — Bordeaux | NBN IA", description: "Autonomous AI systems for châteaux and wine estates in Bordeaux and Médoc.", url: "https://www.nbn-ia.fr/en/wine-estate-ai" },

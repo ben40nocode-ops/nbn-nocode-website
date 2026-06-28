@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Application Web & Automatisation pour Hôtels d'Arcachon — NBN IA",
+  title: "App Web & Automatisation pour Hôtels d'Arcachon — NBN IA",
   description: "Web app sur mesure et automatisation IA pour hôtels d'Arcachon : réservations directes, conciergerie IA, gestion opérationnelle. Devis gratuit.",
   keywords: ["application hôtel Arcachon", "web app hôtel Arcachon", "automatisation hôtel Arcachon", "réservation directe hôtel Arcachon"],
   alternates: { canonical: "https://www.nbn-ia.fr/app-hotel-arcachon" },

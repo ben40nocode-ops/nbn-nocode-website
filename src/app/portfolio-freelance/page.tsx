@@ -4,7 +4,8 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Portfolio Freelance | NBN IA",
-  description: "Site portfolio freelance/consultant. CV digital. Devis gratuit.",
+  description: "Création de site portfolio pour freelances et consultants. CV digital, showcase de projets, formulaire de contact. Design élégant, SEO optimisé. Devis gratuit.",
+  alternates: { canonical: "https://www.nbn-ia.fr/portfolio-freelance" },
   keywords: ["portfolio freelance"],
 };
 

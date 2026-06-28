@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Bordeaux — Agence Web & IA | NBN IA",
-  description: "Agence web, web apps et automatisations IA à bordeaux. Services digitaux pour PME, secteurs tourisme, vins, restaurants. Devis gratuit.",
+  description: "Sites web, web apps et agents IA pour PME bordelaises. Spécialistes tourisme urbain, restaurants, startups et commerces à Bordeaux. Devis gratuit.",
   keywords: ["agence web bordeaux", "site internet bordeaux", "web app bordeaux", "automatisation bordeaux"],
   robots: { index: false, follow: false },
 };

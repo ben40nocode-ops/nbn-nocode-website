@@ -3,11 +3,12 @@ import Link from "next/link";
 import { Mail, MapPin, Calendar } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact",
-  description: "Contactez NBN IA pour un audit gratuit de 1h. Expert en systèmes IA autonomes et agents IA à Bordeaux, Royan et Arcachon. Réponse sous 24h.",
+  title: "Contact — Audit Gratuit 1h | NBN IA Bordeaux",
+  description: "Contactez NBN IA pour un audit gratuit de 1h. Expert en automatisation IA et agents Claude à Bordeaux, Royan et Arcachon. Réponse sous 24h.",
+  keywords: ["contact NBN IA", "audit gratuit automatisation", "agent IA Bordeaux contact", "devis automatisation Bordeaux"],
   alternates: { canonical: "https://www.nbn-ia.fr/contact" },
   openGraph: {
-    title: "Contact — NBN IA",
+    title: "Contact — Audit Gratuit 1h | NBN IA Bordeaux",
     description: "Audit gratuit 1h. Expert automatisation & agents IA à Bordeaux, Royan, Arcachon.",
     url: "https://www.nbn-ia.fr/contact",
   },

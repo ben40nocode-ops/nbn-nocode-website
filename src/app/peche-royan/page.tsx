@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Automatisation IA pour Pêcheurs & Poissonniers à Royan — NBN IA",
+  title: "Automatisation IA — Pêcheurs & Poissonniers à Royan | NBN IA",
   description: "Agents IA et automatisation pour la filière pêche à Royan : commandes, livraisons, facturation B2B restaurants. Audit gratuit.",
   keywords: ["automatisation pêche Royan", "agent IA poissonnerie Royan", "IA filière pêche Charente-Maritime", "automatisation criée Royan"],
   alternates: { canonical: "https://www.nbn-ia.fr/peche-royan" },

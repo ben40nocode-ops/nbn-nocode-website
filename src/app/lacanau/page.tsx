@@ -4,7 +4,8 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Lacanau — Camping & Web | NBN IA",
-  description: "Agence web, web apps et automatisations IA à lacanau. Services digitaux pour PME, secteurs tourisme, vins, restaurants. Devis gratuit.",
+  description: "Sites web, web apps et agents IA pour campings, écoles de surf et commerces de Lacanau. Automatisation de saison, réservations en ligne. Devis gratuit.",
+  alternates: { canonical: "https://www.nbn-ia.fr/lacanau" },
   keywords: ["agence web lacanau", "site internet lacanau", "web app lacanau", "automatisation lacanau"],
 };
 

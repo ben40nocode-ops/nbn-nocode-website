@@ -4,9 +4,9 @@ import { Check, ArrowRight } from "lucide-react";
 import { ArchitectureButton } from "@/components/ArchitectureButton";
 
 export const metadata: Metadata = {
-  title: "Tarifs Automatisations IA, Sites Web & Web Apps — NBN IA Bordeaux",
-  description:
-    "Tarifs transparents pour automatisations IA, création websites et web apps. Setup à partir de 450€ + maintenance dès 159€/mois. Devis gratuit. Bordeaux, Royan, Arcachon.",
+  title: "Tarifs — Automatisations IA, Sites Web & Web Apps | NBN IA",
+  description: "Tarifs : automatisations IA dès 450€, websites dès 800€, web apps dès 2 500€. Maintenance dès 159€/mois. Audit gratuit. Bordeaux, Royan, Arcachon.",
+  alternates: { canonical: "https://www.nbn-ia.fr/tarifs" },
   keywords: [
     "tarifs automatisation IA",
     "prix site web Bordeaux",

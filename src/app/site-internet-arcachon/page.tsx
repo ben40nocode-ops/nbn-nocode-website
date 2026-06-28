@@ -4,7 +4,8 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Site Internet à Arcachon | NBN IA",
-  description: "Création site internet Arcachon pour hôtels, restaurants, tourisme. Classement Google garanti.",
+  description: "Création de site internet à Arcachon pour hôtels, restaurants, campings et ostréiculteurs. SEO local, design moderne, réservations en ligne. Devis gratuit.",
+  alternates: { canonical: "https://www.nbn-ia.fr/site-internet-arcachon" },
   keywords: ["site internet arcachon"],
 };
 

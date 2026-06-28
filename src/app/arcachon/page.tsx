@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Arcachon — Web & Automatisation IA | NBN IA",
-  description: "Agence web, web apps et automatisations IA à arcachon. Services digitaux pour PME, secteurs tourisme, vins, restaurants. Devis gratuit.",
+  description: "Sites web, web apps et agents IA pour hôtels, campings, ostréiculteurs et restaurants du Bassin d'Arcachon. Spécialistes tourisme côtier. Devis gratuit.",
   keywords: ["agence web arcachon", "site internet arcachon", "web app arcachon", "automatisation arcachon"],
   alternates: { canonical: "https://www.nbn-ia.fr/arcachon" },
 };

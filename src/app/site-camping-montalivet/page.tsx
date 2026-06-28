@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Site Web & Automatisation pour Campings de Montalivet — NBN IA",
+  title: "Site Web & IA pour Campings de Montalivet | NBN IA",
   description: "Création de site web et automatisation IA pour campings de Montalivet et Vendays-Montalivet. Réservations en ligne, agent IA. Devis gratuit.",
   keywords: ["site web camping Montalivet", "création site internet camping Vendays-Montalivet", "automatisation camping Montalivet", "réservations en ligne camping Médoc"],
   alternates: { canonical: "https://www.nbn-ia.fr/site-camping-montalivet" },
