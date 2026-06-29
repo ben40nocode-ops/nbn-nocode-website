@@ -155,7 +155,7 @@ export default function ArcachonPage() {
                 {[
                   "Basé dans le triangle Bordeaux / Royan / Arcachon",
                   "Spécialisé Claude AI — le modèle IA le plus avancé",
-                  "40+ automatisations déployées pour des PME",
+                  "Certifié Anthropic — expert agents IA Claude",
                   "Expertise saisonnalité & tourisme littoral",
                   "Disponible en présentiel ou 100% remote",
                   "Audit gratuit sans engagement",

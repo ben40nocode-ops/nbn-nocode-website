@@ -14,23 +14,23 @@ export function AboutSection() {
 
         <div className="text-center mb-16">
           <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">
-            Qui nous sommes
+            Qui je suis
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-2xl mx-auto leading-snug">
-            Les PME et artisans méritent des outils qui travaillent à leur place. Nous les construisons.
+            Les PME et artisans méritent des outils qui travaillent à leur place. Je les construis.
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-gray-500 leading-relaxed mb-4">
-              <strong className="text-gray-700">Benjamin Bertigny</strong> a fondé NBN IA avec une équipe de développeurs spécialisés en Intelligence Artificielle. Formé chez Alegria Academy et certifié Anthropic Architecture, Benjamin dirige ce collectif basé à Bordeaux.
+              Moi c&apos;est <strong className="text-gray-700">Benjamin Bertigny</strong>, fondateur de NBN IA. Après un an de formation chez Alegria Academy et une certification Anthropic, j&apos;ai lancé NBN IA pour mettre l&apos;IA au service concret des PME. Vous travaillez directement avec moi — pas avec un commercial, pas avec un sous-traitant.
             </p>
             <p className="text-gray-500 leading-relaxed mb-4">
-              Notre approche est simple : on écoute votre métier, on identifie ce qui vous prend du temps, et on construit un système qui s&apos;en charge à votre place — 24h/24, 7j/7. Pas de jargon, pas de formation requise de votre côté.
+              Mon approche est simple : j&apos;écoute votre métier, j&apos;identifie ce qui vous prend du temps, et je construis un système qui s&apos;en charge à votre place — 24h/24, 7j/7. Pas de jargon, pas de formation requise de votre côté.
             </p>
             <p className="text-gray-500 leading-relaxed">
-              Notre conviction : la technologie doit travailler pour vous, pas l&apos;inverse. Nous ne livrons pas un outil. Nous livrons un résultat — que nous maintenons dans le temps.
+              Ma conviction : la technologie doit travailler pour vous, pas l&apos;inverse. Je ne livre pas un outil. Je livre un résultat — que je maintiens dans le temps.
             </p>
           </div>
           <div className="flex flex-col gap-3">
@@ -49,7 +49,7 @@ export function AboutSection() {
           <div className="grid sm:grid-cols-3 gap-4">
             {[
               { title: "1. Audit gratuit (1h)", desc: "On analyse ensemble votre activité et on identifie les 2-3 tâches qui vous coûtent le plus de temps." },
-              { title: "2. On construit (1-4 semaines)", desc: "Nos développeurs mettent en place votre système. Vous validez à chaque étape. Zéro surprise." },
+              { title: "2. Je construis (1-4 semaines)", desc: "Je mets en place votre système. Vous validez à chaque étape. Zéro surprise." },
               { title: "3. Ça tourne tout seul", desc: "Votre système est opérationnel. Nous le maintenons et l'améliorons chaque mois si nécessaire." },
             ].map((item) => (
               <div key={item.title}>

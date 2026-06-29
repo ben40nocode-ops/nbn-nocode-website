@@ -17,10 +17,10 @@ export function RealisationsSection() {
             Exemples concrets
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
-            Ce qu&apos;on a déjà mis en place.
+            Des exemples concrets de ce qu&apos;on peut construire.
           </h2>
           <p className="mt-4 text-gray-500 max-w-md mx-auto">
-            Des systèmes réels, déployés chez des PME et artisans, avec des résultats mesurables.
+            Des scénarios types, prêts à être adaptés à votre métier. Voici ce qu&apos;un système NBN IA peut faire pour vous.
           </p>
         </div>
 

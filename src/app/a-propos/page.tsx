@@ -156,7 +156,7 @@ export default function AProposPage() {
             <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
               <div className="flex items-center gap-3 mb-3">
                 <Users size={18} className="text-[#e8632a]" />
-                <h2 className="text-sm font-bold text-gray-900">40+ systèmes déployés</h2>
+                <h2 className="text-sm font-bold text-gray-900">Pensé pour votre secteur</h2>
               </div>
               <p className="text-sm text-gray-500">
                 Restaurateurs, artisans, hôteliers, agences, cabinets conseil — secteurs variés, même conviction : l&apos;IA doit être utile dès le premier mois.

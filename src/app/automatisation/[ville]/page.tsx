@@ -178,7 +178,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
                 {[
                   `Intervention à ${label} ou 100% remote`,
                   "Spécialisé Claude AI — modèle IA le plus avancé",
-                  "40+ automatisations déployées en France",
+                  "Certifié Anthropic — expert agents IA Claude",
                   "Setup unique + maintenance mensuelle",
                   "Audit gratuit sans engagement",
                 ].map((item) => (

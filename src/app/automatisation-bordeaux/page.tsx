@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "Faut-il des compétences techniques pour travailler avec vous ?",
-    a: "Non. Vous décrivez vos process en langage courant, on s'occupe de tout. Vous voyez le résultat — pas le code. La grande majorité de nos clients à Bordeaux n'ont aucune équipe technique.",
+    a: "Non. Vous décrivez vos process en langage courant, on s'occupe de tout. Vous voyez le résultat — pas le code. Vous n'avez besoin d'aucune équipe technique de votre côté.",
   },
   {
     q: "Vous intervenez en présentiel à Bordeaux ?",
@@ -159,7 +159,7 @@ export default function BordeauxPage() {
                 {[
                   "Basé dans le triangle Bordeaux / Royan / Arcachon",
                   "Spécialisé Claude AI — le modèle IA le plus avancé pour les agents",
-                  "40+ automatisations déployées pour des PME",
+                  "Certifié Anthropic — expert agents IA Claude",
                   "Disponible en présentiel ou 100% remote",
                   "Audit gratuit sans engagement",
                   "Maintenance mensuelle incluse dans l'abonnement",

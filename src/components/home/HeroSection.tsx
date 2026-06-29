@@ -45,7 +45,7 @@ export function HeroSection() {
 
         <div className="mt-16 pt-10 border-t border-gray-100 grid grid-cols-3 gap-8 max-w-lg mx-auto">
           {[
-            { value: "40+", label: "clients accompagnés" },
+            { value: "Certifié", label: "Anthropic & Alegria" },
             { value: "2 à 20h", label: "gagnées par semaine" },
             { value: "100%", label: "sur mesure" },
           ].map((s) => (

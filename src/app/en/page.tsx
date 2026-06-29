@@ -49,7 +49,7 @@ export default function HomeEnPage() {
           </div>
           <div className="mt-16 pt-10 border-t border-gray-100 grid grid-cols-3 gap-8 max-w-lg mx-auto">
             {[
-              { value: "40+", label: "clients supported" },
+              { value: "Certified", label: "Anthropic & Alegria" },
               { value: "2 to 20h", label: "saved per week" },
               { value: "100%", label: "custom-built" },
             ].map((s) => (
