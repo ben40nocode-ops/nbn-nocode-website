@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Calendar, Bot, Globe, Plug, MessageSquare, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Calendar, Bot, Globe, Plug, MessageSquare, CheckCircle2, Award, MessageCircle, ShieldCheck } from "lucide-react";
 import { LogoBar } from "@/components/home/LogoBar";
 
 export const metadata: Metadata = {
@@ -68,21 +68,21 @@ export default function HomeEnPage() {
       <section id="about" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Who we are</p>
+            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Who I am</p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-2xl mx-auto leading-snug">
-              SMBs and craftsmen deserve tools that work for them. We build them.
+              SMBs and craftsmen deserve tools that work for them. I build them.
             </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
               <p className="text-gray-500 leading-relaxed mb-4">
-                <strong className="text-gray-700">Benjamin Bertigny</strong> founded NBN IA with a team of developers specialized in Artificial Intelligence. Trained at Alegria Academy and certified Anthropic Architecture, Benjamin leads this collective based in Bordeaux.
+                I&apos;m <strong className="text-gray-700">Benjamin Bertigny</strong>, founder of NBN IA. After a year of training at Alegria Academy and an Anthropic certification, I launched NBN IA to put AI to concrete work for SMBs. You work directly with me — no salesperson, no subcontractor.
               </p>
               <p className="text-gray-500 leading-relaxed mb-4">
-                Our approach is simple: we listen to your business, identify what takes your time, and build a system that handles it for you — 24/7. No jargon, no training required on your end.
+                My approach is simple: I listen to your business, identify what takes your time, and build a system that handles it for you — 24/7. No jargon, no training required on your end.
               </p>
               <p className="text-gray-500 leading-relaxed">
-                Our conviction: technology should work for you, not the other way around. We don&apos;t deliver a tool. We deliver a result — and we maintain it over time.
+                My conviction: technology should work for you, not the other way around. I don&apos;t deliver a tool. I deliver a result — and I maintain it over time.
               </p>
             </div>
             <div className="flex flex-col gap-3">
@@ -104,8 +104,8 @@ export default function HomeEnPage() {
             <div className="grid sm:grid-cols-3 gap-4">
               {[
                 { title: "1. Free audit (1h)", desc: "We analyse your activity together and identify the 2–3 tasks that cost you the most time." },
-                { title: "2. We build (1–4 weeks)", desc: "Our developers set up your system. You validate at each step. No surprises." },
-                { title: "3. It runs by itself", desc: "Your system is live. We maintain and improve it every month as needed." },
+                { title: "2. I build (1–4 weeks)", desc: "I set up your system. You validate at each step. No surprises." },
+                { title: "3. It runs by itself", desc: "Your system is live. I maintain and improve it every month as needed." },
               ].map((item) => (
                 <div key={item.title}>
                   <p className="text-sm font-semibold text-gray-900 mb-1">{item.title}</p>
@@ -214,9 +214,9 @@ export default function HomeEnPage() {
       <section id="work" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Real examples</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">What we&apos;ve already set up.</h2>
-            <p className="mt-4 text-gray-500 max-w-md mx-auto">Real systems deployed for SMBs and craftsmen, with measurable results.</p>
+            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Concrete examples</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">Concrete examples of what we can build.</h2>
+            <p className="mt-4 text-gray-500 max-w-md mx-auto">Sample scenarios, ready to be adapted to your trade. Here&apos;s what an NBN IA system can do for you.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
@@ -241,31 +241,25 @@ export default function HomeEnPage() {
         </div>
       </section>
 
-      {/* TESTIMONIALS */}
+      {/* WHY TRUST ME */}
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Testimonials</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">What our clients say.</h2>
+            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Why trust me</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">One person, not an agency.</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-5">
             {[
-              { quote: "NBN set up an AI assistant that replies to our prospects in under 30 seconds. We tripled our qualified meetings in 2 months.", name: "Sophie M.", role: "Director, real estate agency — Bordeaux", initials: "SM", color: "#e8632a" },
-              { quote: "The automated workflow they built saves us 3 hours a day. The team is responsive, the system never crashes.", name: "Thomas L.", role: "Logistics manager, SMB", initials: "TL", color: "#0ea5e9" },
-              { quote: "In 3 months, our system evolved 4 times without us touching anything. Exactly what we wanted.", name: "Camille R.", role: "Founder, e-commerce", initials: "CR", color: "#8b5cf6" },
-            ].map((t) => (
-              <div key={t.name} className="p-7 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all duration-200 flex flex-col">
-                <div className="flex gap-0.5 mb-5">
-                  {[...Array(5)].map((_, i) => <span key={i} className="text-[#e8632a] text-base">★</span>)}
+              { icon: Award, title: "Trained & certified", text: "A year of training at Alegria Academy and an Anthropic certification. You work with someone who truly masters Claude and AI agents — not a generalist." },
+              { icon: MessageCircle, title: "You talk to the founder", text: "NBN IA is me, Benjamin. No salesperson, no middleman: you deal directly with the person who designs and builds your system." },
+              { icon: ShieldCheck, title: "Free audit, no commitment", text: "We start with a free 1-hour audit. You leave with a concrete, costed action plan — whether you work with me afterwards or not." },
+            ].map((r) => (
+              <div key={r.title} className="p-7 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all duration-200 flex flex-col">
+                <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-5 bg-orange-50">
+                  <r.icon size={20} className="text-[#e8632a]" />
                 </div>
-                <p className="text-sm text-gray-600 leading-relaxed flex-1 mb-7 italic">&ldquo;{t.quote}&rdquo;</p>
-                <div className="flex items-center gap-3 pt-5 border-t border-gray-100">
-                  <div className="w-9 h-9 rounded-full flex items-center justify-center text-xs font-bold text-white flex-shrink-0" style={{ backgroundColor: t.color }}>{t.initials}</div>
-                  <div>
-                    <p className="text-sm font-bold text-gray-900">{t.name}</p>
-                    <p className="text-xs text-gray-400">{t.role}</p>
-                  </div>
-                </div>
+                <h3 className="text-base font-bold text-gray-900 mb-2">{r.title}</h3>
+                <p className="text-sm text-gray-500 leading-relaxed flex-1">{r.text}</p>
               </div>
             ))}
           </div>
