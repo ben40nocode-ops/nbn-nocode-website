@@ -37,7 +37,7 @@ export default function Image() {
 
         {/* Sub */}
         <div style={{ fontSize: "26px", color: "#6b7280", maxWidth: "700px", lineHeight: 1.5, marginBottom: "48px" }}>
-          Automatisation nocode & agents IA pour PME — Bordeaux · Royan · Arcachon
+          Automatisation & agents IA pour PME — Bordeaux · Royan · Arcachon
         </div>
 
         {/* Bottom bar */}

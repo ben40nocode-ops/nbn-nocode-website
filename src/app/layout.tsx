@@ -156,7 +156,7 @@ const jsonLd = {
         "https://www.linkedin.com/company/nbn-nocode",
         "https://www.linkedin.com/in/benjamin-bertigny-3a4b34217/",
       ],
-      alternateName: ["NBN Nocode", "NBN"],
+      alternateName: ["NBN"],
       legalName: "NBN IA",
     },
     {

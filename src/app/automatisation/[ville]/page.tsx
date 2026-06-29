@@ -85,13 +85,13 @@ export async function generateMetadata({ params }: { params: Promise<{ ville: st
   const { dept } = villes[ville];
   return {
     title: `Automatisation & Agents IA à ${label} — NBN IA`,
-    description: `Expert automatisation nocode et agents IA à ${label} (${dept}). Make, Zapier, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 1h sans engagement.`,
-    keywords: [`automatisation ${label}`, `agent IA ${label}`, `nocode ${label}`, `Claude AI ${label}`, `automatisation PME ${dept}`],
+    description: `Expert automatisation et agents IA à ${label} (${dept}). Make, n8n, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 1h sans engagement.`,
+    keywords: [`automatisation ${label}`, `agent IA ${label}`, `automatisation IA ${label}`, `Claude AI ${label}`, `automatisation PME ${dept}`],
     alternates: { canonical: `https://www.nbn-ia.fr/automatisation/${ville}` },
     robots: { index: false, follow: false },
     openGraph: {
       title: `Automatisation & Agents IA à ${label} — NBN IA`,
-      description: `Expert nocode & Claude AI pour PME à ${label}. Audit gratuit.`,
+      description: `Expert IA & Claude AI pour PME à ${label}. Audit gratuit.`,
       url: `https://www.nbn-ia.fr/automatisation/${ville}`,
     },
   };

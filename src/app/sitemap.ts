@@ -48,10 +48,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${base}/web-app-royan`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/web-app-arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.85 },
 
-    // NB: /site-internet-arcachon + pages géo stub (royan, arcachon, lacanau, soulac,
-    // pauillac, lesparre, montalivet) retirées du sitemap — contenu trop mince, passées
-    // en noindex. À enrichir puis réintégrer. Les intentions sont couvertes par les pages
-    // riches automatisation-{ville}, web-app-{ville}, site-hotel/camping-*, etc.
+    // Pages hub de ville (contenu enrichi — liens internes vers les pages spécifiques)
+    { url: `${base}/royan`, lastModified: new Date("2026-06-29"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/arcachon`, lastModified: new Date("2026-06-29"), changeFrequency: "monthly", priority: 0.8 },
+    // NB: /site-internet-arcachon + stubs lacanau/soulac/pauillac/lesparre/montalivet
+    // restent hors sitemap (noindex, contenu trop mince — à enrichir avant réintégration).
 
     // Pages secteur
     { url: `${base}/restaurant-arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.8 },

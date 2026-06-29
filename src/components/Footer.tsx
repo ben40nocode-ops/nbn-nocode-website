@@ -26,7 +26,9 @@ export function Footer() {
                 ? "We build the AI systems. You reap the results. Autonomous agents & vibe coding for SMBs that want to scale without hiring."
                 : "Je construis les systèmes IA. Vous récoltez les résultats. Agents autonomes & vibe coding pour PME qui veulent scaler sans recruter."}
             </p>
-            <p className="text-xs text-gray-500 mb-4">Bordeaux · Royan · Arcachon · France</p>
+            <p className="text-xs text-gray-500 mb-4">
+              Bordeaux · <Link href="/royan" className="hover:text-white transition-colors">Royan</Link> · <Link href="/arcachon" className="hover:text-white transition-colors">Arcachon</Link> · France
+            </p>
             <Link
               href={isEN ? CALENDLY_EN : CALENDLY_FR}
               target="_blank"

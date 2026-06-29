@@ -216,6 +216,31 @@ const jsonLd = {
       ],
     },
     {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Combien coûte une automatisation IA ?",
+          acceptedAnswer: { "@type": "Answer", text: "Le setup d'une automatisation IA démarre à 450 € (formule Starter, pour artisans et TPE). Un système interconnecté pour PME démarre à 1 200 €. La maintenance mensuelle, optionnelle, démarre à 159 €/mois." },
+        },
+        {
+          "@type": "Question",
+          name: "Y a-t-il un engagement ?",
+          acceptedAnswer: { "@type": "Answer", text: "Non. Le setup est un paiement unique et les abonnements de maintenance sont résiliables à tout moment, sans engagement." },
+        },
+        {
+          "@type": "Question",
+          name: "Qu'est-ce qui est inclus dans le prix du setup ?",
+          acceptedAnswer: { "@type": "Answer", text: "La conception, le développement, les tests, la documentation et la formation sont inclus dans chaque setup." },
+        },
+        {
+          "@type": "Question",
+          name: "L'audit est-il vraiment gratuit ?",
+          acceptedAnswer: { "@type": "Answer", text: "Oui. L'audit d'1h est 100 % gratuit et sans engagement : vous repartez avec un plan d'action concret, que vous travailliez avec NBN IA ensuite ou non." },
+        },
+      ],
+    },
+    {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.nbn-ia.fr" },
@@ -240,6 +265,43 @@ export default function TarifsPage() {
           <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
             Un investissement unique pour construire. Un abonnement pour que ça tourne. Résiliable à tout moment.
           </p>
+        </div>
+
+        {/* Récapitulatif tarifs — tableau sémantique (lisible par Google & les moteurs IA) */}
+        <div className="max-w-4xl mx-auto mb-24 overflow-x-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Récapitulatif des tarifs</h2>
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="border-b-2 border-gray-200 text-left">
+                <th className="py-3 pr-4 font-semibold text-gray-900">Service</th>
+                <th className="py-3 pr-4 font-semibold text-gray-900">Formules</th>
+                <th className="py-3 font-semibold text-gray-900">À partir de</th>
+              </tr>
+            </thead>
+            <tbody className="text-gray-600">
+              <tr className="border-b border-gray-100">
+                <td className="py-3 pr-4 font-medium text-gray-900">Automatisation IA (setup unique)</td>
+                <td className="py-3 pr-4">Starter · Business · Enterprise</td>
+                <td className="py-3 whitespace-nowrap">450 € · 1 200 € · sur devis</td>
+              </tr>
+              <tr className="border-b border-gray-100">
+                <td className="py-3 pr-4 font-medium text-gray-900">Maintenance IA (abonnement / mois)</td>
+                <td className="py-3 pr-4">Core · Business Logic · Full Stack</td>
+                <td className="py-3 whitespace-nowrap">159 € · 320 € · 540 € /mois</td>
+              </tr>
+              <tr className="border-b border-gray-100">
+                <td className="py-3 pr-4 font-medium text-gray-900">Site web</td>
+                <td className="py-3 pr-4">Landing · Professional · E-commerce</td>
+                <td className="py-3 whitespace-nowrap">800 € · 1 800 € · 3 500 €</td>
+              </tr>
+              <tr>
+                <td className="py-3 pr-4 font-medium text-gray-900">Web app sur mesure</td>
+                <td className="py-3 pr-4">Basic · Advanced · Enterprise</td>
+                <td className="py-3 whitespace-nowrap">2 500 € · 5 000 € · sur devis</td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="text-xs text-gray-400 mt-4 text-center">Tous les setups incluent conception, développement, tests et formation. Audit gratuit 1h, sans engagement.</p>
         </div>
 
         {/* AUTOMATISATIONS IA */}
@@ -359,6 +421,24 @@ export default function TarifsPage() {
             >
               Demander un devis
             </Link>
+          </div>
+        </div>
+
+        {/* FAQ */}
+        <div className="max-w-3xl mx-auto mb-20">
+          <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">Questions fréquentes</h2>
+          <div className="space-y-4">
+            {[
+              { q: "Combien coûte une automatisation IA ?", a: "Le setup d'une automatisation IA démarre à 450 € (formule Starter, pour artisans et TPE). Un système interconnecté pour PME démarre à 1 200 €. La maintenance mensuelle, optionnelle, démarre à 159 €/mois." },
+              { q: "Y a-t-il un engagement ?", a: "Non. Le setup est un paiement unique et les abonnements de maintenance sont résiliables à tout moment, sans engagement." },
+              { q: "Qu'est-ce qui est inclus dans le prix du setup ?", a: "La conception, le développement, les tests, la documentation et la formation sont inclus dans chaque setup." },
+              { q: "L'audit est-il vraiment gratuit ?", a: "Oui. L'audit d'1h est 100 % gratuit et sans engagement : vous repartez avec un plan d'action concret, que vous travailliez avec NBN IA ensuite ou non." },
+            ].map((item) => (
+              <div key={item.q} className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
+                <h3 className="text-base font-bold text-gray-900 mb-2">{item.q}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{item.a}</p>
+              </div>
+            ))}
           </div>
         </div>
 
