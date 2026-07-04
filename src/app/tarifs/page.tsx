@@ -382,9 +382,7 @@ export default function TarifsPage() {
             <h4 className="text-lg font-bold text-gray-900 mb-2">Forfait maintenance sur mesure</h4>
             <p className="text-sm text-gray-600 mb-6">Gardez vos sites à jour, sécurisés et optimisés en permanence</p>
             <Link
-              href="https://calendly.com/ben40nocode/1h"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/contact#message"
               className="inline-block bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-3 rounded-xl text-sm font-bold transition-colors duration-200"
             >
               Demander un devis
@@ -414,9 +412,7 @@ export default function TarifsPage() {
             <h4 className="text-lg font-bold text-gray-900 mb-2">Forfait maintenance sur mesure</h4>
             <p className="text-sm text-gray-600 mb-6">Gardez vos apps à jour, sécurisées et optimisées en permanence</p>
             <Link
-              href="https://calendly.com/ben40nocode/1h"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/contact#message"
               className="inline-block bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-3 rounded-xl text-sm font-bold transition-colors duration-200"
             >
               Demander un devis

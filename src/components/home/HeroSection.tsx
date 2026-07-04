@@ -36,10 +36,10 @@ export function HeroSection() {
             <ArrowRight size={17} className="group-hover:translate-x-0.5 transition-transform" />
           </Link>
           <Link
-            href="/#realisations"
+            href="/contact#message"
             className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 hover:text-gray-900 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-gray-50"
           >
-            Voir des exemples concrets
+            Décrire mon besoin (2 min)
           </Link>
         </div>
 

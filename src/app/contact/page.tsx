@@ -68,7 +68,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="p-8 rounded-2xl border border-gray-100 bg-gray-50">
+          <div id="message" className="p-8 rounded-2xl border border-gray-100 bg-gray-50 scroll-mt-28">
             <h2 className="text-base font-bold text-gray-900 mb-6">Envoyez un message</h2>
             <ContactForm />
           </div>
