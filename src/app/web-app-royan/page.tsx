@@ -3,9 +3,11 @@ import Link from "next/link";
 import { Check, ArrowRight, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Développement Web App & Application IA à Royan — NBN IA",
-  description: "Web apps et applications IA sur mesure à Royan. Authentification, base de données, intégrations, APIs. Démarrage à 2 500 €. Audit gratuit.",
+  title: "Création d'Application Web à Royan — Web App & IA | NBN IA",
+  description: "Création d'application web sur mesure à Royan : espace client, réservation, gestion. Web apps IA dès 2 500 €. Audit gratuit 1h, sans engagement.",
   keywords: [
+    "création application Royan",
+    "création application web Royan",
     "web app Royan",
     "développement application Royan",
     "application IA Royan",
@@ -19,8 +21,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.nbn-ia.fr/web-app-royan" },
   openGraph: {
-    title: "Web App IA à Royan — NBN IA",
-    description: "Développement d'applications web et web apps IA à Royan. Sur mesure, sécurisées, performantes.",
+    title: "Création d'Application Web à Royan — NBN IA",
+    description: "Création d'applications web et web apps IA à Royan. Sur mesure, sécurisées, performantes.",
     url: "https://www.nbn-ia.fr/web-app-royan",
   },
 };
@@ -46,7 +48,7 @@ export default function WebAppRoyanPage() {
           </div>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
-            Application web sur mesure à Royan<br />
+            Création d&apos;application web sur mesure à Royan<br />
             <span className="text-[#e8632a]">alimentée par vos agents IA</span>
           </h1>
 
