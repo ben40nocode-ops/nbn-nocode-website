@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Soulac — Tourisme & Digitalisation | NBN IA",
+  title: "Soulac — Tourisme & Digitalisation",
   description: "Sites web, web apps et agents IA pour hôtels, campings et commerces de Soulac-sur-Mer. Automatisation de saison, réservations en ligne. Devis gratuit.",
   alternates: { canonical: "https://www.nbn-ia.fr/soulac" },
   robots: { index: false, follow: true },

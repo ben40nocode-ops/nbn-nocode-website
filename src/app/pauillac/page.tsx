@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Pauillac — Domaines & Digitaux | NBN IA",
+  title: "Pauillac — Domaines & Digitaux",
   description: "Sites web, web apps et agents IA pour châteaux, domaines viticoles et cavistes de Pauillac. Vente directe vin, œnotourisme, facturation B2B. Devis gratuit.",
   alternates: { canonical: "https://www.nbn-ia.fr/pauillac" },
   robots: { index: false, follow: true },

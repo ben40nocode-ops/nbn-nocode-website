@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Artisan Bordeaux | NBN IA",
+  title: "Artisan Bordeaux",
   description: "Site vitrine pour artisans à Bordeaux. Portfolio de réalisations, formulaire de devis en ligne, SEO local. Attirez plus de clients sans effort. Devis gratuit.",
   keywords: ["artisan bordeaux"],
   robots: { index: false, follow: false },

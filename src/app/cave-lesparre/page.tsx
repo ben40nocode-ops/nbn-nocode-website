@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Automatisation IA pour Caves & Domaines — Lesparre | NBN IA",
+  title: "Automatisation IA pour Caves & Domaines — Lesparre",
   description: "Agents IA et automatisation pour caves, domaines viticoles et producteurs de Lesparre-Médoc. Commandes, facturation, œnotourisme. Audit gratuit.",
   keywords: ["automatisation cave Lesparre", "agent IA vin Lesparre-Médoc", "IA domaine viticole Lesparre", "automatisation vente vin Médoc"],
   alternates: { canonical: "https://www.nbn-ia.fr/cave-lesparre" },

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Check, ArrowRight, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Création Site Web & Application à Bordeaux — NBN IA",
+  title: "Création Site Web & Application à Bordeaux",
   description: "Sites web et applications sur mesure à Bordeaux. Next.js, vibe coding avec Claude Code. Performant, connecté à vos automatisations IA. Devis gratuit.",
   keywords: ["création site web Bordeaux", "agence web Bordeaux", "développement application Bordeaux", "vibe coding Bordeaux", "Next.js Bordeaux", "site web IA Bordeaux", "web app IA Bordeaux"],
   alternates: { canonical: "https://www.nbn-ia.fr/creation-site-web-bordeaux" },

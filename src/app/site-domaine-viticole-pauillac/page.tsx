@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Site Web pour Domaine Viticole à Pauillac — NBN IA",
+  title: "Site Web pour Domaine Viticole à Pauillac",
   description: "Création de site web premium pour châteaux et domaines viticoles de Pauillac. Ventes directes, œnotourisme, SEO. Audit gratuit.",
   keywords: ["site web domaine viticole Pauillac", "création site château Pauillac", "site internet vin Pauillac", "web domaine viticole Médoc"],
   alternates: { canonical: "https://www.nbn-ia.fr/site-domaine-viticole-pauillac" },

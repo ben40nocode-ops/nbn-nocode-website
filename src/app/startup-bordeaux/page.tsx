@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Web App & Agents IA pour Startups à Bordeaux — NBN IA",
+  title: "Web App & Agents IA pour Startups à Bordeaux",
   description: "Développement web app et agents IA pour startups bordelaises. MVP en 2-3 semaines, vibe coding avec Claude Code. Devis gratuit.",
   keywords: ["startup Bordeaux", "web app startup Bordeaux", "développement MVP Bordeaux", "agents IA startup Bordeaux", "vibe coding startup Bordeaux"],
   alternates: { canonical: "https://www.nbn-ia.fr/startup-bordeaux" },

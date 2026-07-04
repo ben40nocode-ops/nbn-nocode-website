@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Automatisation IA — Châteaux & Vignobles à Pauillac | NBN IA",
+  title: "Automatisation IA — Châteaux & Vignobles à Pauillac",
   description: "Agents IA et automatisation pour les châteaux et producteurs de Pauillac : commandes, facturation B2B cavistes, gestion millésimes. Audit gratuit.",
   keywords: ["automatisation château Pauillac", "agent IA vin Pauillac", "IA domaine viticole Pauillac", "automatisation vente vin Pauillac"],
   alternates: { canonical: "https://www.nbn-ia.fr/vins-pauillac" },

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Check, ArrowRight, Bot } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Chatbot IA & Agents Claude à Bordeaux — NBN IA",
+  title: "Chatbot IA & Agents Claude à Bordeaux",
   description: "Agent IA sur mesure pour votre entreprise à Bordeaux. Répond aux clients 24h/24, traite vos emails, qualifie vos leads. Basé sur Claude AI. Audit gratuit.",
   keywords: ["chatbot IA Bordeaux", "agent IA Bordeaux", "Claude AI Bordeaux", "assistant IA entreprise Bordeaux", "chatbot PME Bordeaux", "agent Claude Bordeaux", "IA conversationnelle Bordeaux"],
   alternates: { canonical: "https://www.nbn-ia.fr/chatbot-ia-bordeaux" },

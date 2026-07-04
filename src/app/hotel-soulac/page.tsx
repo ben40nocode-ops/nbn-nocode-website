@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Automatisation IA pour Hôtels de Soulac-sur-Mer — NBN IA",
+  title: "Automatisation IA pour Hôtels de Soulac-sur-Mer",
   description: "Agents IA et automatisation pour hôtels de Soulac-sur-Mer : réservations, conciergerie IA, communication clients, gestion de saison. Audit gratuit.",
   keywords: ["automatisation hôtel Soulac", "agent IA hôtel Soulac-sur-Mer", "IA gestion hôtel Soulac", "automatisation réservations hôtel Soulac"],
   alternates: { canonical: "https://www.nbn-ia.fr/hotel-soulac" },

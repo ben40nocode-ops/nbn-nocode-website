@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Check, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Automatisation & Agents IA à Arcachon — NBN IA",
+  title: "Automatisation & Agents IA à Arcachon",
   description: "Expert agents IA et automatisation à Arcachon. Claude AI, Make, Airtable. Audit 1h pour hôtels, restaurants, ostréiculteurs et PME locales du Bassin.",
   keywords: ["automatisation Arcachon", "agent IA Arcachon", "consultant automatisation Bassin Arcachon", "Claude AI Arcachon", "PME Arcachon automatisation", "automatisation La Teste", "agent IA Gujan-Mestras"],
   alternates: { canonical: "https://www.nbn-ia.fr/automatisation-arcachon" },

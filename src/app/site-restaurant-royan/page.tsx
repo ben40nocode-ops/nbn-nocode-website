@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Site Web & Automatisation pour Restaurants à Royan — NBN IA",
+  title: "Site Web & Automatisation pour Restaurants à Royan",
   description: "Création de site web et automatisation IA pour restaurants de Royan : réservations en ligne, menu digital, agent IA, SEO local Charente-Maritime. Devis gratuit.",
   keywords: ["site web restaurant Royan", "création site internet restaurant Royan", "automatisation restaurant Royan", "réservations en ligne restaurant Charente-Maritime"],
   alternates: { canonical: "https://www.nbn-ia.fr/site-restaurant-royan" },

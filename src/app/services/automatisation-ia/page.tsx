@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Check, ArrowRight, Zap, Users, Clock, Star } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Automatisations sur mesure pour PME & Artisans | NBN IA",
+  title: "Automatisations sur mesure pour PME & Artisans",
   description: "On prend en charge vos tâches répétitives : réponses clients, devis, rappels de RDV, relances. Vous vous concentrez sur votre métier. Audit gratuit.",
   keywords: ["automatisation PME", "automatisation artisan", "réponse client automatique", "devis automatique", "rappel rendez-vous", "Bordeaux", "Gironde"],
   alternates: { canonical: "https://www.nbn-ia.fr/services/automatisation-ia" },

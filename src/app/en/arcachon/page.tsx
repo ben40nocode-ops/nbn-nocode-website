@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "AI Automation & Web Development in Arcachon, France | NBN IA",
+  title: "AI Automation & Web Development in Arcachon, France",
   description: "NBN IA builds autonomous AI systems and custom web apps for businesses in Arcachon. Claude AI agents, vibe coding, 24/7 automation. Free audit.",
   keywords: ["AI automation Arcachon", "web development Arcachon France", "AI agency Arcachon", "Claude AI Arcachon", "autonomous AI Arcachon", "web app Arcachon France", "digital agency Arcachon English", "AI consultant Arcachon"],
   alternates: { canonical: "https://www.nbn-ia.fr/en/arcachon" },

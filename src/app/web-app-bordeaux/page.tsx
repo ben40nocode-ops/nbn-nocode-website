@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Check, ArrowRight, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Développement Web App & Application IA à Bordeaux — NBN IA",
+  title: "Développement Web App & Application IA à Bordeaux",
   description: "Web apps et applications IA sur mesure à Bordeaux. Authentification, base de données, intégrations, APIs. Vibe coding avec Claude Code. Devis gratuit.",
   keywords: [
     "web app Bordeaux",

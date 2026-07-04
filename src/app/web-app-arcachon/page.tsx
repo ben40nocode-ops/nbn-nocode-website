@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Check, ArrowRight, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Développement Web App & Application IA à Arcachon — NBN IA",
+  title: "Développement Web App & Application IA à Arcachon",
   description: "Web apps et applications IA sur mesure à Arcachon. Authentification, base de données, intégrations, APIs. Démarrage à €2,500. Audit gratuit.",
   keywords: [
     "web app Arcachon",

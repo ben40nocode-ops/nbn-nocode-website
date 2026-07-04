@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Montalivet — Vacances & Tech | NBN IA",
+  title: "Montalivet — Vacances & Tech",
   description: "Sites web, web apps et agents IA pour campings, gîtes et commerces de Montalivet et Vendays-Montalivet. Réservations en ligne, gestion de saison. Devis gratuit.",
   alternates: { canonical: "https://www.nbn-ia.fr/montalivet" },
   robots: { index: false, follow: true },

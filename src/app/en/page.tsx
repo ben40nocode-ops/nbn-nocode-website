@@ -4,7 +4,7 @@ import { ArrowRight, Calendar, Bot, Globe, Plug, MessageSquare, CheckCircle2, Aw
 import { LogoBar } from "@/components/home/LogoBar";
 
 export const metadata: Metadata = {
-  title: "AI Automation for SMBs & Craftsmen in France | NBN IA",
+  title: "AI Automation for SMBs & Craftsmen in France",
   description: "We automate client replies, quotes, reminders and follow-ups for French SMBs. Operational in 2 weeks. Based in Bordeaux, serving all of France. Free audit.",
   alternates: { canonical: "https://www.nbn-ia.fr/en" },
   openGraph: {

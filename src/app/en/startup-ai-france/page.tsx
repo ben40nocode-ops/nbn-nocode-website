@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "AI Systems for Startups & Scale-ups in France | NBN IA",
+  title: "AI Systems for Startups & Scale-ups in France",
   description: "Build autonomous AI systems for your startup in France. Claude AI agents, vibe coding, SaaS development. Bordeaux-based, serving all of France. Free audit.",
   keywords: ["AI startup France", "SaaS development France", "AI agents startup Bordeaux", "vibe coding startup France", "Claude AI startup", "AI infrastructure France", "startup automation France", "AI CTO France"],
   alternates: { canonical: "https://www.nbn-ia.fr/en/startup-ai-france" },

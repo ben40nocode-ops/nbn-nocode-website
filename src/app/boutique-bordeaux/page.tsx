@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "E-commerce & IA pour Boutiques à Bordeaux | NBN IA",
+  title: "E-commerce & IA pour Boutiques à Bordeaux",
   description: "Création de boutique en ligne et automatisation IA pour commerces bordelais : catalogue, paiement, logistique, agent IA client. Devis gratuit.",
   keywords: ["e-commerce Bordeaux", "boutique en ligne Bordeaux", "création site e-commerce Bordeaux", "automatisation boutique Bordeaux", "vente en ligne Bordeaux"],
   alternates: { canonical: "https://www.nbn-ia.fr/boutique-bordeaux" },

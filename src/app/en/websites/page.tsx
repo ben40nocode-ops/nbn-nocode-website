@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Globe, Check } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Website Creation in France — AI-Powered & SEO Ready | NBN IA",
+  title: "Website Creation in France — AI-Powered & SEO Ready",
   description: "Modern, fast, SEO-optimized websites built in France. Next.js or Webflow. AI integrations available. From €800. Based in Bordeaux. Free audit.",
   keywords: ["website creation France", "web design agency France", "SEO website Bordeaux", "Next.js website France", "modern website SMB France", "English web agency France", "website Bordeaux expat", "bilingual website France"],
   alternates: { canonical: "https://www.nbn-ia.fr/en/websites" },

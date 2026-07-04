@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Automatisation IA pour Ostréiculteurs d'Arcachon — NBN IA",
+  title: "Automatisation IA pour Ostréiculteurs d'Arcachon",
   description: "Agents IA et automatisation pour ostréiculteurs d'Arcachon : commandes, livraisons, facturation B2B restaurants. Audit gratuit.",
   keywords: ["automatisation ostréiculteur Arcachon", "agent IA huîtres Arcachon", "IA producteur huîtres Arcachon", "automatisation vente huîtres Arcachon"],
   alternates: { canonical: "https://www.nbn-ia.fr/ostreiculteur-arcachon" },

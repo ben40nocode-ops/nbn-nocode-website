@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "AI Automation for Hotels & Hospitality — France | NBN IA",
+  title: "AI Automation for Hotels & Hospitality — France",
   description: "Automate check-in, guest communication, upselling and reviews for hotels in France. Claude AI agents running 24/7. Based in Bordeaux. Free audit.",
   keywords: ["hotel AI automation France", "hospitality AI Bordeaux", "hotel chatbot France", "automated check-in France", "guest experience AI", "hotel AI Arcachon Royan", "hospitality automation France"],
   alternates: { canonical: "https://www.nbn-ia.fr/en/hotel-ai-automation" },

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Automatisation IA — Filière Poisson à Arcachon | NBN IA",
+  title: "Automatisation IA — Filière Poisson à Arcachon",
   description: "Agents IA et automatisation pour poissonniers, grossistes et pêcheurs d'Arcachon : commandes B2B, facturation, gestion des stocks. Audit gratuit.",
   keywords: ["automatisation poissonnerie Arcachon", "agent IA pêche Arcachon", "IA filière poisson Arcachon", "automatisation marée Arcachon"],
   alternates: { canonical: "https://www.nbn-ia.fr/poisson-arcachon" },

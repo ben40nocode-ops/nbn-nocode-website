@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Artisan Royan | NBN IA",
+  title: "Artisan Royan",
   description: "Site vitrine et app de gestion pour artisans à Royan. CRM clients, suivi chantiers, devis en ligne. Gagnez du temps sur l'administratif. Devis gratuit.",
   keywords: ["artisan royan"],
   robots: { index: false, follow: false },

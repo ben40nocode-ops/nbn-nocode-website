@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "App Web & IA pour Restaurants à Bordeaux | NBN IA",
+  title: "App Web & IA pour Restaurants à Bordeaux",
   description: "Web app sur mesure et automatisation IA pour restaurants bordelais : commandes, réservations, stocks, agent IA client. Devis gratuit.",
   keywords: ["application restaurant Bordeaux", "web app restaurant Bordeaux", "automatisation restaurant Bordeaux", "gestion commandes restaurant Bordeaux"],
   alternates: { canonical: "https://www.nbn-ia.fr/app-restaurant-bordeaux" },

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Check, ArrowRight, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Création d'Application Web à Royan — Web App & IA | NBN IA",
+  title: "Création d'Application Web à Royan — Web App & IA",
   description: "Création d'application web sur mesure à Royan : espace client, réservation, gestion. Web apps IA dès 2 500 €. Audit gratuit 1h, sans engagement.",
   keywords: [
     "création application Royan",

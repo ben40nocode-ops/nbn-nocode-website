@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Automatisation IA pour Campings de Lacanau — NBN IA",
+  title: "Automatisation IA pour Campings de Lacanau",
   description: "Agents IA et automatisation pour campings de Lacanau : réservations, messages clients, check-in, gestion de haute saison. Audit gratuit.",
   keywords: ["automatisation camping Lacanau", "agent IA camping Lacanau", "IA gestion camping Lacanau", "automatisation réservations Lacanau"],
   alternates: { canonical: "https://www.nbn-ia.fr/camping-lacanau" },

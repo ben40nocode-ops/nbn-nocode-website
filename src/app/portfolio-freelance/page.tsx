@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Check, Globe, Zap, Search, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Site Portfolio pour Freelances & Consultants | NBN IA",
+  title: "Site Portfolio pour Freelances & Consultants",
   description: "Création de site portfolio professionnel pour freelances et consultants : CV digital, showcase de projets, formulaire de contact. Design moderne, SEO optimisé, livré rapidement. Devis gratuit.",
   alternates: { canonical: "https://www.nbn-ia.fr/portfolio-freelance" },
   keywords: ["portfolio freelance", "site portfolio consultant", "CV digital", "site vitrine freelance", "création portfolio en ligne"],

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Automatisation IA pour Domaines Viticoles du Médoc — NBN IA",
+  title: "Automatisation IA pour Domaines Viticoles du Médoc",
   description: "Agents IA et automatisation pour domaines viticoles du Médoc : commandes cavistes, facturation B2B, gestion des visites et œnotourisme. Audit gratuit.",
   keywords: ["automatisation domaine viticole Médoc", "agent IA vigne Médoc", "IA chai Médoc", "automatisation commandes vin Médoc"],
   alternates: { canonical: "https://www.nbn-ia.fr/domaines-medoc" },

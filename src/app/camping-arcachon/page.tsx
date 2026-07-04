@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Automatisation IA pour Campings — Bassin d'Arcachon | NBN IA",
+  title: "Automatisation IA pour Campings — Bassin d'Arcachon",
   description: "Agents IA et automatisation pour campings du Bassin d'Arcachon : réservations, check-in, messages clients, saison optimisée. Audit gratuit.",
   keywords: ["automatisation camping Arcachon", "agent IA camping Bassin Arcachon", "IA gestion camping Arcachon", "automatisation réservations camping Arcachon"],
   alternates: { canonical: "https://www.nbn-ia.fr/camping-arcachon" },

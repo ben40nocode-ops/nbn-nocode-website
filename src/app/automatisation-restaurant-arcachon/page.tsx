@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Automatisation IA pour Restaurants d'Arcachon — NBN IA",
+  title: "Automatisation IA pour Restaurants d'Arcachon",
   description: "Agents IA et automatisation pour restaurants d'Arcachon : réservations, commandes, stocks, fidélisation. Audit gratuit.",
   keywords: ["automatisation restaurant Arcachon", "agent IA restaurant Arcachon", "IA gestion restaurant Bassin Arcachon", "automatisation réservations restaurant Arcachon"],
   alternates: { canonical: "https://www.nbn-ia.fr/automatisation-restaurant-arcachon" },

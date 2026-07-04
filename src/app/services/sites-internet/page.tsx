@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Check, ArrowRight, Globe, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Création Site Web Professionnel — PME & Artisans | NBN IA",
+  title: "Création Site Web Professionnel — PME & Artisans",
   description: "Un site web qui donne envie de vous appeler. Design sur mesure, optimisation Google, version mobile parfaite. Devis gratuit pour PME en Gironde.",
   keywords: ["création site web", "site vitrine PME", "site e-commerce artisan", "site web Bordeaux", "Gironde", "SEO Google"],
   alternates: { canonical: "https://www.nbn-ia.fr/services/sites-internet" },

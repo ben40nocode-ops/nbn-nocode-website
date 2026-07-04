@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, MapPin, Award, Zap, Users } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "À propos — Benjamin Bertigny, AI Systems Builder | NBN IA",
+  title: "À propos — Benjamin Bertigny, AI Systems Builder",
   description:
     "Benjamin Bertigny, AI systems builder basé à Bordeaux. Formé chez Alegria Academy, certifié Anthropic Architecture. Fondateur de NBN IA — systèmes IA autonomes pour PME.",
   keywords: [

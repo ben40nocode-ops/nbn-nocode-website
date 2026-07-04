@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
-  title: "Développement SaaS & Agents IA en Gironde — NBN IA",
+  title: "Développement SaaS & Agents IA en Gironde",
   description: "Développement de SaaS et applications IA en Gironde. Architecture multi-tenant, agents IA natifs, vibe coding avec Claude Code. Devis gratuit.",
   keywords: ["développement SaaS Gironde", "SaaS Bordeaux", "application IA Gironde", "vibe coding SaaS Bordeaux", "web app multi-tenant Gironde"],
   alternates: { canonical: "https://www.nbn-ia.fr/saas-gironde" },
