@@ -1,6 +1,6 @@
 # NBN IA
 
-> Last updated: 2026-06-28
+> Last updated: 2026-07-04
 
 > Architecte de systèmes IA autonomes pour PME en France. Fondé par Benjamin Bertigny, AI systems builder basé à Bordeaux.
 
@@ -20,7 +20,9 @@ Benjamin Bertigny — AI systems builder et architecte de systèmes IA autonomes
 ## Modèle tarifaire
 
 - Setup unique : à partir de 450€ HT (système simple) jusqu'à devis (architecture complète)
-- Abonnements Systèmes IA : Core 159€/mois · Business Logic 290€/mois · Full Stack Partner 490€/mois
+- Abonnements Systèmes IA : Core 159€/mois · Business Logic 320€/mois · Full Stack Partner 540€/mois
+- Sites web : dès 800€ (landing) · 1 800€ (site complet) · 3 500€ (e-commerce)
+- Web apps sur mesure : dès 2 500€
 - Sans engagement. Résiliable à tout moment.
 
 ## Stack technologique
@@ -69,6 +71,10 @@ Full English content available at https://www.nbn-ia.fr/en
 - Email : contact@nbn-ia.fr
 - Réserver un audit gratuit (1h) : https://calendly.com/ben40nocode/1h
 - LinkedIn : https://www.linkedin.com/company/nbn-nocode
+
+## Étude de cas réelle
+
+Nortrip Toolbox — back-office IA complet pour une agence de voyage : extraction de factures par IA (Claude), rapprochement de paiements, détection de doublons, puis passation complète de l'outil au client (code, base, déploiements). Récit technique détaillé : https://www.nbn-ia.fr/blog/back-office-ia-agence-voyage-nortrip-toolbox
 
 ## Pages clés
 

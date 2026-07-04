@@ -49,7 +49,7 @@ export function Footer() {
                 { label: "About", href: "/en#about" },
                 { label: "Solutions", href: "/en#solutions" },
                 { label: "Work", href: "/en#work" },
-                { label: "Pricing", href: "/#pricing" },
+                { label: "Pricing", href: "/tarifs" },
                 { label: "Contact", href: "/contact" },
                 { label: "Blog", href: "/en/blog" },
               ] : [
@@ -77,8 +77,8 @@ export function Footer() {
                 { label: "AI Automation", href: "/en#solutions" },
                 { label: "Web Apps & Vibe Coding", href: "/en#solutions" },
                 { label: "AI Agents Claude", href: "/en#solutions" },
-                { label: "AI Chatbot", href: "/chatbot-ia-bordeaux" },
-                { label: "Website Creation", href: "/creation-site-web-bordeaux" },
+                { label: "AI Chatbot", href: "/en/ai-automation" },
+                { label: "Website Creation", href: "/en/websites" },
               ] : [
                 { label: "Automatisation Bordeaux", href: "/automatisation-bordeaux" },
                 { label: "Automatisation Royan", href: "/automatisation-royan" },
