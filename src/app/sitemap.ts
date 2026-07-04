@@ -51,8 +51,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Pages hub de ville (contenu enrichi — liens internes vers les pages spécifiques)
     { url: `${base}/royan`, lastModified: new Date("2026-06-29"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/arcachon`, lastModified: new Date("2026-06-29"), changeFrequency: "monthly", priority: 0.8 },
-    // NB: /site-internet-arcachon + stubs lacanau/soulac/pauillac/lesparre/montalivet
-    // restent hors sitemap (noindex, contenu trop mince — à enrichir avant réintégration).
+    { url: `${base}/lacanau`, lastModified: new Date("2026-07-04"), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/soulac`, lastModified: new Date("2026-07-04"), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/pauillac`, lastModified: new Date("2026-07-04"), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/lesparre`, lastModified: new Date("2026-07-04"), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/montalivet`, lastModified: new Date("2026-07-04"), changeFrequency: "monthly", priority: 0.75 },
+    // NB: /site-internet-arcachon reste hors sitemap (noindex, contenu mince).
 
     // Pages secteur
     { url: `${base}/restaurant-arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.8 },
