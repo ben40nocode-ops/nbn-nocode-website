@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Mail, MapPin, Calendar } from "lucide-react";
+import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact — Audit Gratuit 1h | NBN IA Bordeaux",
@@ -69,41 +70,7 @@ export default function ContactPage() {
 
           <div className="p-8 rounded-2xl border border-gray-100 bg-gray-50">
             <h2 className="text-base font-bold text-gray-900 mb-6">Envoyez un message</h2>
-            <form className="space-y-4" action="mailto:contact@nbn-ia.fr" method="get">
-              <div>
-                <label className="block text-xs text-gray-400 mb-2 uppercase tracking-wide font-medium">Nom</label>
-                <input
-                  type="text"
-                  name="name"
-                  className="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 placeholder-gray-300 focus:outline-none focus:border-[#e8632a]/50 transition-colors"
-                  placeholder="Votre nom"
-                />
-              </div>
-              <div>
-                <label className="block text-xs text-gray-400 mb-2 uppercase tracking-wide font-medium">Email</label>
-                <input
-                  type="email"
-                  name="email"
-                  className="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 placeholder-gray-300 focus:outline-none focus:border-[#e8632a]/50 transition-colors"
-                  placeholder="votre@email.com"
-                />
-              </div>
-              <div>
-                <label className="block text-xs text-gray-400 mb-2 uppercase tracking-wide font-medium">Message</label>
-                <textarea
-                  name="body"
-                  rows={5}
-                  className="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 placeholder-gray-300 focus:outline-none focus:border-[#e8632a]/50 transition-colors resize-none"
-                  placeholder="Décrivez votre projet..."
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-[#e8632a] hover:bg-[#c4521f] text-white py-3 rounded-lg text-sm font-semibold transition-colors"
-              >
-                Envoyer le message
-              </button>
-            </form>
+            <ContactForm />
           </div>
         </div>
       </div>
