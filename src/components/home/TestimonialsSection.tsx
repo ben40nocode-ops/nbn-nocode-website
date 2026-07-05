@@ -1,4 +1,5 @@
 import { Award, MessageCircle, ShieldCheck } from "lucide-react";
+import { GoogleRating } from "@/components/GoogleRating";
 
 const reasons = [
   {
@@ -28,6 +29,9 @@ export function TestimonialsSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
             Un interlocuteur, pas une agence.
           </h2>
+          <div className="mt-6 flex justify-center">
+            <GoogleRating />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-5">

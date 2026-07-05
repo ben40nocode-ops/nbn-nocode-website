@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { GoogleRating } from "@/components/GoogleRating";
 
 export function HeroSection() {
   return (
@@ -41,6 +42,10 @@ export function HeroSection() {
           >
             Décrire mon besoin (2 min)
           </Link>
+        </div>
+
+        <div className="mt-8 flex justify-center">
+          <GoogleRating />
         </div>
 
         <div className="mt-16 pt-10 border-t border-gray-100 grid grid-cols-3 gap-8 max-w-lg mx-auto">

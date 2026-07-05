@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Calendar, Bot, Globe, Plug, MessageSquare, CheckCircle2, Award, MessageCircle, ShieldCheck } from "lucide-react";
 import { LogoBar } from "@/components/home/LogoBar";
+import { GoogleRating } from "@/components/GoogleRating";
 
 export const metadata: Metadata = {
   title: "AI Automation for SMBs & Craftsmen in France",
@@ -46,6 +47,9 @@ export default function HomeEnPage() {
               className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 hover:text-gray-900 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-gray-50">
               Describe my project (2 min)
             </Link>
+          </div>
+          <div className="mt-8 flex justify-center">
+            <GoogleRating lang="en" />
           </div>
           <div className="mt-16 pt-10 border-t border-gray-100 grid grid-cols-3 gap-8 max-w-lg mx-auto">
             {[
