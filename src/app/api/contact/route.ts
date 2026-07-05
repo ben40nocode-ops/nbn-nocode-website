@@ -2,8 +2,7 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 // Envoi réel des messages du formulaire de contact via Resend.
-// Tant que le domaine nbn-ia.fr n'est pas vérifié chez Resend, l'expéditeur
-// doit rester onboarding@resend.dev et le destinataire l'email du compte Resend.
+// Domaine nbn-ia.fr vérifié chez Resend (DKIM/SPF) → expéditeur contact@nbn-ia.fr.
 const CONTACT_TO = "ben40nocode@gmail.com";
 
 export async function POST(req: Request) {
@@ -40,7 +39,7 @@ export async function POST(req: Request) {
   try {
     const resend = new Resend(apiKey);
     const { error } = await resend.emails.send({
-      from: "NBN IA — Formulaire <onboarding@resend.dev>",
+      from: "NBN IA — Formulaire <contact@nbn-ia.fr>",
       to: CONTACT_TO,
       replyTo: email,
       subject: `[nbn-ia.fr] Nouveau message de ${name}`,
