@@ -174,7 +174,7 @@ export default function WebAppArcachonPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-[#e8632a] to-[#d97757] hover:shadow-lg hover:shadow-orange-500/50 text-white px-8 py-4 rounded-xl text-base font-semibold transition-all duration-300 hover:-translate-y-0.5"
             >
-              Réserver l&apos;audit gratuit <ArrowRight size={16} />
+              Réserver mon appel gratuit (1h) <ArrowRight size={16} />
             </Link>
           </div>
 

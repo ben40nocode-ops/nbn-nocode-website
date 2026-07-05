@@ -35,7 +35,7 @@ export default function Page() {
         "80% des vacanciers réservent en ligne avant d'appeler",
         "Un bon site réduit les commissions OTA",
         "Agent IA = réception virtuelle disponible 24h/24",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel sur le Médoc",
         "Devis gratuit sans engagement",
       ]}
@@ -66,7 +66,7 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Quel budget pour un site camping avec réservations ?", a: "Un site complet avec réservation en ligne démarre à 1 500€ HT. Avec agent IA intégré autour de 2 500€ HT. Devis précis après l'audit gratuit." },
+        { q: "Quel budget pour un site camping avec réservations ?", a: "Un site complet avec réservation en ligne démarre à 1 500€ HT. Avec agent IA intégré autour de 2 500€ HT. Devis précis après l'appel gratuit." },
         { q: "On peut garder Booking.com en parallèle ?", a: "Oui. On peut synchroniser les disponibilités avec les OTA via un channel manager pour éviter les doublons." },
         { q: "Le site peut gérer les locations de mobil-homes et d'emplacements nus ?", a: "Oui. On peut configurer autant de types d'hébergement et de tarifications que nécessaire." },
         { q: "Vous assurez la maintenance après livraison ?", a: "Oui. Abonnement de maintenance à partir de 89€/mois : mises à jour, corrections, évolutions mineures." },

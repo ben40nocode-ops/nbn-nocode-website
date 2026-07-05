@@ -134,14 +134,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           {/* CTA */}
           <div className="mt-16 bg-gray-900 rounded-2xl p-8 text-center">
             <p className="text-white font-bold text-lg mb-2">Prêt à automatiser votre business ?</p>
-            <p className="text-gray-400 text-sm mb-6">Audit gratuit 1h — on identifie ensemble les 3 automatisations les plus rentables pour vous.</p>
+            <p className="text-gray-400 text-sm mb-6">Appel gratuit 1h — on identifie ensemble les 3 automatisations les plus rentables pour vous.</p>
             <Link
               href="https://calendly.com/ben40nocode/1h"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors"
             >
-              Réserver l&apos;audit gratuit <ArrowRight size={14} />
+              Réserver mon appel gratuit (1h) <ArrowRight size={14} />
             </Link>
           </div>
 

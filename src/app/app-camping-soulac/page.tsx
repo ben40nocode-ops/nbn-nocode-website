@@ -35,7 +35,7 @@ export default function Page() {
         "Clientèle fidèle qui revient chaque été — à chouchouter",
         "Saison courte — chaque réservation manquée est du chiffre perdu",
         "Camping souvent géré en famille, peu de personnel",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel sur le Médoc",
         "Devis gratuit sans engagement",
       ]}
@@ -67,7 +67,7 @@ export default function Page() {
       ]}
       faqs={[
         { q: "L'app peut gérer notre liste d'habitués ?", a: "Oui. On peut créer un espace dédié aux clients fidèles avec ouverture anticipée des réservations et tarifs préférentiels." },
-        { q: "Quel budget pour une app camping complète ?", a: "Une app de réservation avec agent IA démarre à 2 500€ HT. Devis précis après l'audit gratuit." },
+        { q: "Quel budget pour une app camping complète ?", a: "Une app de réservation avec agent IA démarre à 2 500€ HT. Devis précis après l'appel gratuit." },
         { q: "On peut garder Booking.com en parallèle ?", a: "Oui. On synchronise les disponibilités pour éviter les doublons. L'objectif est de réduire progressivement la dépendance aux OTA." },
         { q: "Vous intervenez aussi à Soulac en présentiel ?", a: "Oui. On peut venir sur site pour l'audit et la formation. Le reste se fait à distance." },
       ]}

@@ -37,7 +37,7 @@ export default function Page() {
         "Fidélisation des touristes difficile sans automatisation",
         "Spécialisé Claude AI — ton naturel et professionnel",
         "Disponible en présentiel sur le Bassin d'Arcachon",
-        "Audit gratuit sans engagement",
+        "Appel gratuit sans engagement",
       ]}
       steps={[
         { step: "01", title: "Audit 1h", desc: "On analyse vos flux de réservations, vos canaux de communication et vos points de friction. On identifie les gains rapides." },
@@ -69,12 +69,12 @@ export default function Page() {
         { q: "L'agent peut gérer les réservations sur plusieurs canaux ?", a: "Oui — email, SMS, WhatsApp, Instagram DM. Il centralise tout et répond depuis un seul endroit." },
         { q: "Comment ça gère les complets en haute saison ?", a: "Il propose automatiquement des créneaux alternatifs (heure différente, date suivante) et inscrit le client sur liste d'attente si souhaité." },
         { q: "Vous intervenez sur tout le Bassin ?", a: "Oui — Arcachon, La Teste, Gujan-Mestras, Andernos, Lège-Cap-Ferret. En présentiel ou à distance." },
-        { q: "Quel budget pour une première automatisation restaurant ?", a: "Un agent IA réservations + relances avis démarre à 450€. On définit ensemble le périmètre lors de l'audit gratuit." },
+        { q: "Quel budget pour une première automatisation restaurant ?", a: "Un agent IA réservations + relances avis démarre à 450€. On définit ensemble le périmètre lors de l'appel gratuit." },
       ]}
       faqsTitle="Questions fréquentes — automatisation restaurants Arcachon"
       ctaTitle="Prêt pour une saison sans débordement ?"
-      ctaDesc="Audit gratuit, sans engagement. Sur le Bassin ou en visio."
-      ctaButton="Réserver l'audit gratuit"
+      ctaDesc="Appel gratuit, sans engagement. Sur le Bassin ou en visio."
+      ctaButton="Réserver mon appel gratuit (1h)"
     />
   );
 }

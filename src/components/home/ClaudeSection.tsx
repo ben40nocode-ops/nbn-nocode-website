@@ -13,7 +13,7 @@ export function ClaudeSection() {
                 On utilise les outils d&apos;intelligence artificielle les plus avancés du marché — ceux qu&apos;utilisent les grandes entreprises. Mais on les configure pour votre métier, votre façon de travailler, vos clients à vous. Pas un système générique. Le vôtre.
               </p>
               <p className="text-xs text-gray-400">
-                Certifié Anthropic Architecture. Formé chez Alegria Academy. On sait ce qu&apos;on fait — vous n&apos;avez pas besoin de le savoir.
+                Certifié par Anthropic, les créateurs de Claude. Formé un an chez Alegria Academy. Je sais ce que je fais — vous n&apos;avez pas besoin de le savoir.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">

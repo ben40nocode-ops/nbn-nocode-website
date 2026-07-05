@@ -35,7 +35,7 @@ export default function Page() {
         "Haute saison intensive — les outils génériques ne tiennent pas",
         "Emplacements surf/famille avec tarification complexe",
         "Clientèle internationale à gérer en plusieurs langues",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel à Lacanau",
         "Devis gratuit sans engagement",
       ]}
@@ -66,8 +66,8 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "L'app peut remplacer notre logiciel de camping actuel ?", a: "Selon votre logiciel, on peut soit le remplacer, soit s'y connecter. On analyse la situation lors de l'audit gratuit." },
-        { q: "Combien coûte le développement ?", a: "Une app de réservation complète avec agent IA démarre à 2 500€ HT. Devis précis après l'audit d'1h." },
+        { q: "L'app peut remplacer notre logiciel de camping actuel ?", a: "Selon votre logiciel, on peut soit le remplacer, soit s'y connecter. On analyse la situation lors de l'appel gratuit." },
+        { q: "Combien coûte le développement ?", a: "Une app de réservation complète avec agent IA démarre à 2 500€ HT. Devis précis après l'appel d'1h." },
         { q: "L'app est prête pour la saison si on démarre maintenant ?", a: "Oui. Avec un démarrage avant mai, l'app est opérationnelle pour juin. Le développement prend 2 à 4 semaines." },
         { q: "Vous assurez le support pendant la haute saison ?", a: "Oui. Abonnement de maintenance mensuelle à partir de 89€/mois. On est joignables si besoin." },
       ]}

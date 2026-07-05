@@ -35,7 +35,7 @@ export default function Page() {
         "Réservations reçues à toute heure — réponse attendue en moins de 5 min",
         "Click & collect en forte croissance à Bordeaux",
         "Agent IA = gain de temps sans recruter",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel à Bordeaux",
         "Devis gratuit sans engagement",
       ]}
@@ -66,8 +66,8 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Quel budget pour une app restaurant complète ?", a: "Une app avec réservation + click & collect + agent IA démarre à 2 000€ HT. Devis précis après l'audit gratuit." },
-        { q: "Ça s'intègre avec notre caisse ?", a: "Dans la plupart des cas, oui. On analyse votre caisse lors de l'audit (Lightspeed, Zelty, etc.) et on conçoit l'intégration." },
+        { q: "Quel budget pour une app restaurant complète ?", a: "Une app avec réservation + click & collect + agent IA démarre à 2 000€ HT. Devis précis après l'appel gratuit." },
+        { q: "Ça s'intègre avec notre caisse ?", a: "Dans la plupart des cas, oui. On analyse votre caisse lors de l'appel (Lightspeed, Zelty, etc.) et on conçoit l'intégration." },
         { q: "L'agent IA peut prendre des réservations directement ?", a: "Oui. Il recueille les informations (date, heure, couverts, intolérances) et les valide selon votre disponibilité en temps réel." },
         { q: "Vous assurez la maintenance ?", a: "Oui. Abonnement à partir de 89€/mois : monitoring, mises à jour, évolutions mineures." },
       ]}

@@ -37,7 +37,7 @@ export default function Page() {
         "Allocations limitées — gestion fine des priorités",
         "Spécialisé Claude AI — traitement précis en français et anglais",
         "Disponible en présentiel sur le Médoc",
-        "Audit gratuit sans engagement",
+        "Appel gratuit sans engagement",
       ]}
       steps={[
         { step: "01", title: "Audit 1h", desc: "On cartographie vos flux de commandes, vos types de clients et votre processus de facturation. On identifie les points de friction." },
@@ -68,13 +68,13 @@ export default function Page() {
       faqs={[
         { q: "Ça fonctionne pour les primeurs ?", a: "Oui. On peut configurer l'agent pour gérer spécifiquement les campagnes primeurs : commandes en avant-première, confirmations, facturation différée à la livraison." },
         { q: "Est-ce que ça gère les clients à l'export ?", a: "Absolument. L'agent IA peut traiter les commandes en plusieurs langues et adapter la facturation selon le pays (TVA, incoterms)." },
-        { q: "On a déjà un logiciel de gestion — ça s'intègre ?", a: "Dans la plupart des cas, oui. On analyse vos outils lors de l'audit et on conçoit l'intégration la plus fluide possible." },
+        { q: "On a déjà un logiciel de gestion — ça s'intègre ?", a: "Dans la plupart des cas, oui. On analyse vos outils lors de l'appel et on conçoit l'intégration la plus fluide possible." },
         { q: "Quel budget prévoir pour une première automatisation ?", a: "Une première automatisation (centralisation des commandes + facturation automatique) démarre à 450€. On démarre par le point le plus douloureux." },
       ]}
       faqsTitle="Questions fréquentes — automatisation châteaux Pauillac"
       ctaTitle="1 heure pour cartographier vos process"
-      ctaDesc="Audit gratuit, sans engagement. À Pauillac ou en visio."
-      ctaButton="Réserver l'audit gratuit"
+      ctaDesc="Appel gratuit, sans engagement. À Pauillac ou en visio."
+      ctaButton="Réserver mon appel gratuit (1h)"
     />
   );
 }

@@ -35,7 +35,7 @@ export default function Page() {
         "Les touristes cherchent sur Google depuis la plage",
         "Haute saison = pics de demandes impossibles à gérer en manuel",
         "Un bon site réduit votre dépendance aux plateformes",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel sur le Bassin d'Arcachon",
         "Devis gratuit sans engagement",
       ]}
@@ -66,7 +66,7 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Quel budget pour un site restaurant à Arcachon ?", a: "Un site vitrine avec menu digital et réservation démarre à 800€ HT. Avec agent IA autour de 1 500€ HT. Devis précis après l'audit gratuit." },
+        { q: "Quel budget pour un site restaurant à Arcachon ?", a: "Un site vitrine avec menu digital et réservation démarre à 800€ HT. Avec agent IA autour de 1 500€ HT. Devis précis après l'appel gratuit." },
         { q: "On peut mettre à jour le menu du jour nous-mêmes ?", a: "Oui. Interface simple, mise à jour en 2 minutes sans aucune compétence technique." },
         { q: "L'agent IA peut gérer les demandes en haute saison ?", a: "Oui. Il répond aux questions (horaires, disponibilités, spécialités, allergènes) instantanément. Aucune limite de volume." },
         { q: "Vous travaillez aussi avec les restaurants de Gujan-Mestras et La Teste ?", a: "Oui — tout le Bassin d'Arcachon : Arcachon, La Teste, Gujan-Mestras, Andernos, Lège-Cap-Ferret. En présentiel ou à distance." },

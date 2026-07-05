@@ -37,7 +37,7 @@ export default function Page() {
         "Personnel difficile à recruter en haute saison",
         "Spécialisé Claude AI — ton professionnel et chaleureux",
         "Disponible en présentiel sur le Médoc",
-        "Audit gratuit sans engagement",
+        "Appel gratuit sans engagement",
       ]}
       steps={[
         { step: "01", title: "Audit 1h", desc: "On analyse vos flux de communication, vos demandes récurrentes et vos outils de réservation. On identifie les automatisations les plus impactantes." },
@@ -69,12 +69,12 @@ export default function Page() {
         { q: "On a déjà un channel manager — ça s'intègre ?", a: "Oui. On peut connecter l'agent IA à la plupart des channel managers (Cloudbeds, Lodgify, etc.) pour avoir les disponibilités en temps réel." },
         { q: "L'agent peut répondre en plusieurs langues ?", a: "Oui. Claude AI maîtrise le français, l'anglais, l'espagnol, l'allemand et d'autres langues. Il détecte la langue du client automatiquement." },
         { q: "Comment on personnalise le ton de l'agent ?", a: "Lors du déploiement, on configure l'agent avec votre charte de communication, votre vocabulaire et vos valeurs. Il reflète l'identité de votre hôtel." },
-        { q: "Quel budget pour démarrer ?", a: "Un agent conciergerie basique démarre à 450€. Un système complet avec upsell et automatisations autour de 900€. On définit ensemble lors de l'audit." },
+        { q: "Quel budget pour démarrer ?", a: "Un agent conciergerie basique démarre à 450€. Un système complet avec upsell et automatisations autour de 900€. On définit ensemble lors de l'appel." },
       ]}
       faqsTitle="Questions fréquentes — automatisation hôtels Soulac-sur-Mer"
       ctaTitle="1 heure pour améliorer l'expérience de vos clients"
-      ctaDesc="Audit gratuit, sans engagement. À Soulac ou en visio."
-      ctaButton="Réserver l'audit gratuit"
+      ctaDesc="Appel gratuit, sans engagement. À Soulac ou en visio."
+      ctaButton="Réserver mon appel gratuit (1h)"
     />
   );
 }

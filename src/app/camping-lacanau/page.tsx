@@ -37,7 +37,7 @@ export default function Page() {
         "Questions répétitives (surf, plage, équipements)",
         "Spécialisé Claude AI — réponses naturelles en français et anglais",
         "Disponible en présentiel à Lacanau",
-        "Audit gratuit sans engagement",
+        "Appel gratuit sans engagement",
       ]}
       steps={[
         { step: "01", title: "Audit 1h", desc: "On analyse votre saison passée : questions les plus fréquentes, pics de demandes, points de friction. On conçoit le plan d'automatisation." },
@@ -69,12 +69,12 @@ export default function Page() {
         { q: "Notre camping est ouvert seulement de mai à septembre — ça vaut le coup ?", a: "Oui. Sur une saison concentrée, le gain de temps et la réduction des erreurs sont encore plus impactants. Le système est pausé hors saison." },
         { q: "On utilise déjà Booking.com — ça s'intègre ?", a: "Oui. L'agent IA peut traiter les messages Booking, notifier votre équipe et gérer les réponses depuis une interface centralisée." },
         { q: "Comment gérer les demandes urgentes pendant la saison ?", a: "L'agent IA détecte les urgences (problème d'installation, sécurité, etc.) et alerte immédiatement votre équipe via SMS ou notification push." },
-        { q: "Quel budget pour une première automatisation ?", a: "Un agent IA FAQ + confirmation de réservation démarre à 450€. On définit ensemble le scope lors de l'audit gratuit." },
+        { q: "Quel budget pour une première automatisation ?", a: "Un agent IA FAQ + confirmation de réservation démarre à 450€. On définit ensemble le scope lors de l'appel gratuit." },
       ]}
       faqsTitle="Questions fréquentes — automatisation campings Lacanau"
       ctaTitle="Prêt pour une saison sans stress ?"
-      ctaDesc="Audit gratuit, sans engagement. À Lacanau ou en visio."
-      ctaButton="Réserver l'audit gratuit"
+      ctaDesc="Appel gratuit, sans engagement. À Lacanau ou en visio."
+      ctaButton="Réserver mon appel gratuit (1h)"
     />
   );
 }

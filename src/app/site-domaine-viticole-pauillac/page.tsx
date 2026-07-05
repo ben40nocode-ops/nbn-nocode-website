@@ -35,7 +35,7 @@ export default function Page() {
         "Vos acheteurs cherchent votre domaine en ligne avant de commander",
         "Un site bien référencé génère des commandes directes sans commission",
         "L'œnotourisme se réserve 80% via internet",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel sur le Médoc",
         "Devis gratuit sans engagement",
       ]}
@@ -66,7 +66,7 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Quel budget pour un site vitrine pour un château ?", a: "Un site vitrine professionnel avec boutique démarre à 2 500€ HT. Un site haut de gamme avec multilingue et réservations autour de 4 500€ HT. Devis précis après l'audit gratuit." },
+        { q: "Quel budget pour un site vitrine pour un château ?", a: "Un site vitrine professionnel avec boutique démarre à 2 500€ HT. Un site haut de gamme avec multilingue et réservations autour de 4 500€ HT. Devis précis après l'appel gratuit." },
         { q: "Le site peut vendre des vins directement ?", a: "Oui. On intègre une boutique avec paiement sécurisé (Stripe), gestion des millésimes, stocks et livraisons. Commissions nulles — vous gardez 100% de vos marges." },
         { q: "On peut gérer le site nous-mêmes après livraison ?", a: "Oui. On configure un espace d'administration simple. Vous pouvez mettre à jour les millésimes, les textes et les photos en autonomie." },
         { q: "Vous gérez aussi le référencement Google ?", a: "Oui. Le SEO est intégré dès la première ligne de code : balises meta, schema.org, performance, sitemap. On peut aussi gérer une stratégie de contenu mensuelle." },

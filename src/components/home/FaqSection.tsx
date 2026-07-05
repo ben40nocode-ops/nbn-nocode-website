@@ -37,7 +37,7 @@ const faqs = [
     a: "Absolument. On travaille avec des serveurs européens (RGPD), des connexions sécurisées, et on ne stocke jamais vos données métier sur nos propres serveurs. Votre activité reste la vôtre.",
   },
   {
-    q: "C'est quoi l'audit gratuit exactement ?",
+    q: "C'est quoi l'appel gratuit exactement ?",
     a: "Un appel d'1 heure où on analyse ensemble votre activité : quelles tâches prennent le plus de temps, ce qui peut être automatisé, ce qui ne peut pas l'être. Vous repartez avec une recommandation concrète — que vous travailliez avec nous ou non. Zéro engagement.",
   },
 ];

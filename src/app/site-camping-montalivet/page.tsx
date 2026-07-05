@@ -35,7 +35,7 @@ export default function Page() {
         "Forte demande naturisme — clientèle spécifique à bien cibler",
         "Réservations directes = économie sur les commissions OTA",
         "Clientèle internationale (allemande, néerlandaise, belge)",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel sur le Médoc",
         "Devis gratuit sans engagement",
       ]}
@@ -68,8 +68,8 @@ export default function Page() {
       faqs={[
         { q: "Le site peut gérer un camping naturiste spécifiquement ?", a: "Oui. On adapte le contenu, les visuels et le SEO à votre positionnement. Discrétion et respect des usages de la communauté naturiste garantis." },
         { q: "Vous gérez aussi le référencement sur les requêtes naturisme ?", a: "Oui. On cible les requêtes spécifiques (camping naturiste Médoc, naturisme Gironde, etc.) avec une stratégie SEO dédiée." },
-        { q: "Quel budget pour un site camping complet ?", a: "Un site avec réservation en ligne démarre à 1 500€ HT. Avec agent IA multilingue autour de 2 500€ HT. Devis précis après l'audit." },
-        { q: "On peut garder notre système de réservation actuel ?", a: "On analyse votre situation lors de l'audit. Dans certains cas, on peut intégrer votre outil existant au nouveau site." },
+        { q: "Quel budget pour un site camping complet ?", a: "Un site avec réservation en ligne démarre à 1 500€ HT. Avec agent IA multilingue autour de 2 500€ HT. Devis précis après l'appel." },
+        { q: "On peut garder notre système de réservation actuel ?", a: "On analyse votre situation lors de l'appel. Dans certains cas, on peut intégrer votre outil existant au nouveau site." },
       ]}
       faqsTitle="Questions fréquentes — site web camping Montalivet"
       ctaTitle="Un site qui remplit votre camping"

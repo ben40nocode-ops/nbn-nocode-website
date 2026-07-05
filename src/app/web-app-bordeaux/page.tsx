@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "Combien coûte le développement d'une web app à Bordeaux ?",
-    a: "Une web app simple (authentification + 3 à 5 fonctionnalités) démarre à 2 500€ HT. Une app avancée avec sync temps réel, agents IA et 8+ fonctionnalités démarre à 5 000€ HT. On donne un devis précis après l'audit gratuit d'1h.",
+    a: "Une web app simple (authentification + 3 à 5 fonctionnalités) démarre à 2 500€ HT. Une app avancée avec sync temps réel, agents IA et 8+ fonctionnalités démarre à 5 000€ HT. On donne un devis précis après l'appel gratuit d'1h.",
   },
   {
     q: "Qu'est-ce que le vibe coding et comment ça accélère le développement ?",
@@ -217,7 +217,7 @@ export default function WebAppBordeauxPage() {
             <p className="text-gray-400 mb-8 max-w-md mx-auto">Audit gratuit de 1h. On voit ensemble comment connecter IA et product. Zéro engagement.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
-              Réserver l&apos;audit gratuit <ArrowRight size={16} />
+              Réserver mon appel gratuit (1h) <ArrowRight size={16} />
             </Link>
           </div>
 

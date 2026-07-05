@@ -37,7 +37,7 @@ export default function Page() {
         "Réservations de dernière minute à confirmer rapidement",
         "Spécialisé Claude AI — réponses naturelles et précises",
         "Disponible en présentiel sur le Bassin d'Arcachon",
-        "Audit gratuit sans engagement",
+        "Appel gratuit sans engagement",
       ]}
       steps={[
         { step: "01", title: "Audit 1h", desc: "On analyse vos flux de réservations, les questions les plus fréquentes de vos campeurs et vos outils existants. On identifie les gains rapides." },
@@ -66,15 +66,15 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Ça fonctionne avec notre logiciel de camping existant ?", a: "Dans la plupart des cas, oui. On analyse vos outils lors de l'audit (Booking, Campings Online, logiciel propriétaire) et on conçoit l'intégration adaptée." },
+        { q: "Ça fonctionne avec notre logiciel de camping existant ?", a: "Dans la plupart des cas, oui. On analyse vos outils lors de l'appel (Booking, Campings Online, logiciel propriétaire) et on conçoit l'intégration adaptée." },
         { q: "Comment l'agent IA apprend les spécificités de notre camping ?", a: "On lui fournit votre règlement intérieur, vos FAQ, vos équipements. Il est opérationnel en 48h et s'améliore au fil des interactions." },
         { q: "Vous intervenez pendant la saison ou seulement avant ?", a: "Les deux. Idéalement on déploie avant la saison, mais on peut aussi intervenir en cours de saison pour soulager votre équipe rapidement." },
         { q: "Est-ce que l'agent peut gérer les annulations Booking ?", a: "Oui, on peut configurer des workflows d'annulation automatisés selon vos conditions. Il peut proposer des reports plutôt que des remboursements." },
       ]}
       faqsTitle="Questions fréquentes — automatisation campings Arcachon"
       ctaTitle="Prêt à aborder la saison sereinement ?"
-      ctaDesc="Audit gratuit, sans engagement. Sur le Bassin ou en visio."
-      ctaButton="Réserver l'audit gratuit"
+      ctaDesc="Appel gratuit, sans engagement. Sur le Bassin ou en visio."
+      ctaButton="Réserver mon appel gratuit (1h)"
     />
   );
 }

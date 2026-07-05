@@ -5,12 +5,12 @@ import { Check, ArrowRight, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Création Site Web & Application à Bordeaux",
-  description: "Sites web et applications sur mesure à Bordeaux. Next.js, vibe coding avec Claude Code. Performant, connecté à vos automatisations IA. Devis gratuit.",
+  description: "Sites web et applications sur mesure à Bordeaux. Next.js, développement accéléré par IA. Performant, connecté à vos automatisations IA. Devis gratuit.",
   keywords: ["création site web Bordeaux", "agence web Bordeaux", "développement application Bordeaux", "vibe coding Bordeaux", "Next.js Bordeaux", "site web IA Bordeaux", "web app IA Bordeaux"],
   alternates: { canonical: "https://www.nbn-ia.fr/creation-site-web-bordeaux" },
   openGraph: {
     title: "Création Site Web & App à Bordeaux — NBN IA",
-    description: "Sites web et web apps IA à Bordeaux. Next.js, vibe coding, Claude Code. Audit gratuit.",
+    description: "Sites web et web apps IA à Bordeaux. Next.js, Claude Code. Audit gratuit.",
     url: "https://www.nbn-ia.fr/creation-site-web-bordeaux",
   },
 };
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Combien coûte la création d'un site web à Bordeaux ?",
-    a: "Un site vitrine moderne démarre à 800€ HT. Une web app avec authentification, base de données et intégrations IA démarre à 2 500€ HT. On vous donne un devis transparent après l'audit gratuit d'1h.",
+    a: "Un site vitrine moderne démarre à 800€ HT. Une web app avec authentification, base de données et intégrations IA démarre à 2 500€ HT. On vous donne un devis transparent après l'appel gratuit d'1h.",
   },
   {
     q: "Qu'est-ce que le vibe coding et pourquoi c'est plus rapide ?",

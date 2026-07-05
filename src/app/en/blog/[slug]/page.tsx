@@ -140,7 +140,7 @@ export default async function ArticleENPage({ params }: { params: Promise<{ slug
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors"
             >
-              Book free audit <ArrowRight size={14} />
+              Book my free call <ArrowRight size={14} />
             </Link>
           </div>
 

@@ -57,11 +57,11 @@ export default function LacanauPage() {
         </p>
         <p className="text-base text-gray-500 mb-10 leading-relaxed">
           Basé dans le triangle Bordeaux · Royan · Arcachon, j&apos;interviens en présentiel à Lacanau et sur toute la
-          côte, ou 100 % à distance. Tout commence par un audit gratuit d&apos;1h.
+          côte, ou 100 % à distance. Tout commence par un appel gratuit d&apos;1h.
         </p>
 
         <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold transition-colors mb-16">
-          Audit gratuit (1h) <ArrowRight size={17} />
+          Appel gratuit (1h) <ArrowRight size={17} />
         </Link>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-8">Mes services à Lacanau</h2>

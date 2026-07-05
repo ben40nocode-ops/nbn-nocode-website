@@ -227,7 +227,7 @@ export default function ChatbotIABordeauxPage() {
             <p className="text-gray-400 mb-8 max-w-md mx-auto">Audit gratuit de 1h. On identifie le cas d&apos;usage le plus rentable pour votre entreprise à Bordeaux.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
-              Réserver l&apos;audit gratuit <ArrowRight size={15} />
+              Réserver mon appel gratuit (1h) <ArrowRight size={15} />
             </Link>
           </div>
 

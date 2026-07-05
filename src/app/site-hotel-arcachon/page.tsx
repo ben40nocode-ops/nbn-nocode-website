@@ -35,7 +35,7 @@ export default function Page() {
         "Chaque réservation directe économise 15-20% de commission OTA",
         "Un bon site = meilleure note sur les plateformes de voyage",
         "Agent IA = conciergerie sans recruter",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel sur le Bassin d'Arcachon",
         "Devis gratuit sans engagement",
       ]}
@@ -66,7 +66,7 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Quel budget pour un site hôtelier avec réservations directes ?", a: "Un site hôtelier complet avec réservations directes démarre à 2 500€ HT. Avec agent IA et multilingue autour de 4 000€ HT. Devis précis après l'audit." },
+        { q: "Quel budget pour un site hôtelier avec réservations directes ?", a: "Un site hôtelier complet avec réservations directes démarre à 2 500€ HT. Avec agent IA et multilingue autour de 4 000€ HT. Devis précis après l'appel." },
         { q: "Comment réduire les commissions Booking.com concrètement ?", a: "En ayant un site qui convertit bien + un programme de fidélité simple. On vous aide à construire cette stratégie pas à pas." },
         { q: "L'agent IA peut gérer les demandes de room service ?", a: "Oui. On peut configurer l'agent pour recevoir les demandes et les transmettre à votre équipe via SMS ou notification push." },
         { q: "Vous assurez la maintenance et les mises à jour ?", a: "Oui. Abonnement de maintenance à partir de 159€/mois : monitoring, mises à jour de sécurité, évolutions mineures." },

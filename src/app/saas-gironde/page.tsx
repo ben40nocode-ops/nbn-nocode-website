@@ -74,7 +74,7 @@ export default function Page() {
       faqsTitle="Questions fréquentes — développement SaaS en Gironde"
       ctaTitle="Votre SaaS de l'idée à la production"
       ctaDesc="Audit gratuit de 1h. On valide l'architecture et on vous donne un devis précis. Zéro engagement."
-      ctaButton="Réserver l'audit gratuit"
+      ctaButton="Réserver mon appel gratuit (1h)"
     />
   );
 }

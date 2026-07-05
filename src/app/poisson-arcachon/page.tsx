@@ -37,7 +37,7 @@ export default function Page() {
         "Zéro erreur de facturation grâce à l'automatisation",
         "Spécialisé Claude AI — traitement rapide des demandes",
         "Disponible en présentiel sur le Bassin d'Arcachon",
-        "Audit gratuit sans engagement",
+        "Appel gratuit sans engagement",
       ]}
       steps={[
         { step: "01", title: "Audit 1h", desc: "On cartographie vos process : comment arrivent les commandes, comment vous facturez, ce qui prend du temps." },
@@ -73,8 +73,8 @@ export default function Page() {
       ]}
       faqsTitle="Questions fréquentes — automatisation filière poisson Arcachon"
       ctaTitle="1 heure pour cartographier vos process"
-      ctaDesc="Audit gratuit, sans engagement. Sur le Bassin ou en visio."
-      ctaButton="Réserver l'audit gratuit"
+      ctaDesc="Appel gratuit, sans engagement. Sur le Bassin ou en visio."
+      ctaButton="Réserver mon appel gratuit (1h)"
     />
   );
 }

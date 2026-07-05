@@ -23,8 +23,8 @@ export function Footer() {
             </div>
             <p className="text-sm leading-relaxed max-w-xs mb-6">
               {isEN
-                ? "We build the AI systems. You reap the results. Autonomous agents & vibe coding for SMBs that want to scale without hiring."
-                : "Je construis les systèmes IA. Vous récoltez les résultats. Agents autonomes & vibe coding pour PME qui veulent scaler sans recruter."}
+                ? "Your quotes, client replies and follow-ups handled automatically. Custom automation for SMBs and craftsmen — no hiring, no code on your side."
+                : "Vos devis, réponses clients et relances gérés automatiquement. Des automatisations sur mesure pour PME et artisans — sans recruter, sans coder."}
             </p>
             <p className="text-xs text-gray-500 mb-4">
               Bordeaux · <Link href="/royan" className="hover:text-white transition-colors">Royan</Link> · <Link href="/arcachon" className="hover:text-white transition-colors">Arcachon</Link> · France
@@ -35,7 +35,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-colors"
             >
-              {isEN ? "Free audit →" : "Audit gratuit →"}
+              {isEN ? "Free call →" : "Appel gratuit →"}
             </Link>
           </div>
 
@@ -75,7 +75,7 @@ export function Footer() {
             <ul className="flex flex-col gap-3">
               {(isEN ? [
                 { label: "AI Automation", href: "/en#solutions" },
-                { label: "Web Apps & Vibe Coding", href: "/en#solutions" },
+                { label: "Web Apps & Custom Tools", href: "/en#solutions" },
                 { label: "AI Agents Claude", href: "/en#solutions" },
                 { label: "AI Chatbot", href: "/en/ai-automation" },
                 { label: "Website Creation", href: "/en/websites" },

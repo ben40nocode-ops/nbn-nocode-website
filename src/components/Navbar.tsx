@@ -150,7 +150,7 @@ export function Navbar() {
               onClick={() => setOpen(false)}
               className="flex items-center justify-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-4 py-3.5 rounded-xl text-sm font-bold transition-colors"
             >
-              {isEN ? "Book free audit" : "Réserver l'audit gratuit"}
+              {isEN ? "Book my free call" : "Réserver mon appel gratuit (1h)"}
               <ArrowRight size={15} />
             </Link>
           )}

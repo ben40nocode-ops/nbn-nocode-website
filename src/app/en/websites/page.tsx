@@ -58,7 +58,7 @@ export default function WebsitesEnPage() {
           <p className="text-gray-300 mb-8 max-w-md mx-auto">Free audit. We discuss your project, propose a design and timeline. No commitment.</p>
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
-            Book free audit <ArrowRight size={16} />
+            Book my free call <ArrowRight size={16} />
           </Link>
         </div>
       </div>

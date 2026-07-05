@@ -22,7 +22,7 @@ const features = [
 ];
 
 const steps = [
-  { n: "1", title: "Audit gratuit (1h)", desc: "On définit ensemble votre positionnement, vos projets à mettre en avant et l'objectif du site." },
+  { n: "1", title: "Appel gratuit (1h)", desc: "On définit ensemble votre positionnement, vos projets à mettre en avant et l'objectif du site." },
   { n: "2", title: "Conception & développement", desc: "Je conçois et développe votre portfolio sur mesure. Vous validez à chaque étape." },
   { n: "3", title: "Mise en ligne & suivi", desc: "Votre site est publié, optimisé pour Google, et je reste disponible pour le faire évoluer." },
 ];
@@ -76,7 +76,7 @@ export default function Page() {
         </p>
         <div className="flex flex-wrap gap-4 mb-16">
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold transition-colors">
-            Audit gratuit (1h) <ArrowRight size={17} />
+            Appel gratuit (1h) <ArrowRight size={17} />
           </Link>
           <Link href="/tarifs" className="inline-flex items-center gap-2 border border-gray-300 hover:border-gray-400 text-gray-700 px-7 py-4 rounded-xl font-semibold transition-colors">
             Voir les tarifs
@@ -141,9 +141,9 @@ export default function Page() {
         {/* CTA */}
         <div className="bg-gray-900 rounded-2xl p-8 text-center">
           <p className="text-white font-bold text-lg mb-2">Prêt à mettre votre travail en valeur ?</p>
-          <p className="text-gray-400 text-sm mb-6">Réservez un audit gratuit d&apos;1h — on définit ensemble le portfolio qui vous ressemble.</p>
+          <p className="text-gray-400 text-sm mb-6">Réservez un appel gratuit d&apos;1h — on définit ensemble le portfolio qui vous ressemble.</p>
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors">
-            Réserver l&apos;audit gratuit <ArrowRight size={14} />
+            Réserver mon appel gratuit (1h) <ArrowRight size={14} />
           </Link>
         </div>
 

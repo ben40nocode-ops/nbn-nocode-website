@@ -66,7 +66,7 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Quel budget pour une boutique e-commerce à Bordeaux ?", a: "Une boutique simple (jusqu'à 50 produits) démarre à 2 500€ HT. Une boutique avancée avec configurateur et agent IA autour de 4 500€ HT. Devis précis après l'audit." },
+        { q: "Quel budget pour une boutique e-commerce à Bordeaux ?", a: "Une boutique simple (jusqu'à 50 produits) démarre à 2 500€ HT. Une boutique avancée avec configurateur et agent IA autour de 4 500€ HT. Devis précis après l'appel." },
         { q: "On peut gérer le catalogue nous-mêmes ?", a: "Oui. Interface d'administration simple pour ajouter, modifier ou supprimer des produits. Formation incluse à la livraison." },
         { q: "Quels moyens de paiement sont acceptés ?", a: "Via Stripe : carte bancaire, Apple Pay, Google Pay, virement. Possibilité d'ajouter d'autres moyens de paiement selon vos besoins." },
         { q: "Comment l'agent IA gère les retours et remboursements ?", a: "On le configure selon votre politique de retour. Il peut initier la procédure, envoyer les instructions et notifier votre équipe des cas complexes." },

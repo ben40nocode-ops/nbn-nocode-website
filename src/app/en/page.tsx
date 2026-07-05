@@ -29,17 +29,17 @@ export default function HomeEnPage() {
             </div>
           </div>
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
-            Your business runs.{" "}
+            Your quotes go out, your clients get replies.{" "}
             <span className="text-[#e8632a]">Even while you sleep.</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
-            We handle the repetitive tasks in your business.
-            Client replies, quotes, reminders, follow-ups — automated and operational in 2 weeks.
+            Answering the 15th email, redoing the same quote, calling back to confirm —
+            I handle it. Automated, up and running in 2 weeks.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 shadow-lg shadow-orange-200">
-              Book a free audit
+              Book my free call (1h)
               <ArrowRight size={17} className="group-hover:translate-x-0.5 transition-transform" />
             </Link>
             <Link href="/contact#message"
@@ -63,6 +63,31 @@ export default function HomeEnPage() {
       </section>
 
       <LogoBar />
+
+      {/* PROBLEM */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10 leading-snug">
+            Does your day look like this?
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-4 text-left">
+            {[
+              "You answer the same client questions 20 times a day.",
+              "You write quotes at night, after the job — sometimes too late.",
+              "The phone rings while your hands are full.",
+              "One client in three never calls back: they found someone faster.",
+            ].map((p) => (
+              <div key={p} className="flex items-start gap-3 p-5 rounded-2xl bg-white border border-gray-100">
+                <span className="text-[#e8632a] font-bold flex-shrink-0">→</span>
+                <p className="text-sm text-gray-600 leading-relaxed">{p}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-10 text-xl font-bold text-[#e8632a]">
+            What if all of that ran itself?
+          </p>
+        </div>
+      </section>
 
       {/* ABOUT */}
       <section id="about" className="py-24 bg-white">
@@ -103,7 +128,7 @@ export default function HomeEnPage() {
             <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">How does it work?</p>
             <div className="grid sm:grid-cols-3 gap-4">
               {[
-                { title: "1. Free audit (1h)", desc: "We analyse your activity together and identify the 2–3 tasks that cost you the most time." },
+                { title: "1. Free call (1h)", desc: "We analyse your activity together and identify the 2–3 tasks that cost you the most time." },
                 { title: "2. I build (1–4 weeks)", desc: "I set up your system. You validate at each step. No surprises." },
                 { title: "3. It runs by itself", desc: "Your system is live. I maintain and improve it every month as needed." },
               ].map((item) => (
@@ -252,7 +277,7 @@ export default function HomeEnPage() {
             {[
               { icon: Award, title: "Trained & certified", text: "A year of training at Alegria Academy and an Anthropic certification. You work with someone who truly masters Claude and AI agents — not a generalist." },
               { icon: MessageCircle, title: "You talk to the founder", text: "NBN IA is me, Benjamin. No salesperson, no middleman: you deal directly with the person who designs and builds your system." },
-              { icon: ShieldCheck, title: "Free audit, no commitment", text: "We start with a free 1-hour audit. You leave with a concrete, costed action plan — whether you work with me afterwards or not." },
+              { icon: ShieldCheck, title: "Free audit, no commitment", text: "We start with a free 1-hour call. You leave with a concrete, costed action plan — whether you work with me afterwards or not." },
             ].map((r) => (
               <div key={r.title} className="p-7 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all duration-200 flex flex-col">
                 <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-5 bg-orange-50">
@@ -275,13 +300,13 @@ export default function HomeEnPage() {
               1 hour to identify what we can<br />automate in your business.
             </h2>
             <p className="text-gray-400 mb-10 max-w-md mx-auto leading-relaxed">
-              The audit is free, no commitment. You leave with a concrete list of what can be automated — whether you work with us or not.
+              The call is free, no commitment. You leave with a concrete list of what can be automated — whether you work with us or not.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-all duration-200">
                 <Calendar size={17} />
-                Book free audit
+                Book my free call
                 <ArrowRight size={15} className="group-hover:translate-x-0.5 transition-transform" />
               </Link>
               <Link href="/contact"

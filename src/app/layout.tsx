@@ -67,13 +67,13 @@ export const metadata: Metadata = {
     url: "https://www.nbn-ia.fr",
     siteName: "NBN IA",
     title: "NBN IA — Automatisation & Agents IA | Bordeaux · Royan · Arcachon",
-    description: "Formé chez Alegria Academy et certifié Anthropic Architecture. Systèmes IA autonomes qui travaillent pour vous, 24h/24, 7j/7. Vibe coding, orchestration IA, intégrations complexes — pas une agence classique.",
+    description: "Vos devis, réponses clients et relances automatisés — opérationnels en 2 semaines. Certifié Anthropic, formé chez Alegria Academy. Pas une agence classique : vous parlez au fondateur.",
     // images: handled automatically by src/app/opengraph-image.tsx (dynamic OG)
   },
   twitter: {
     card: "summary_large_image",
     title: "NBN IA — Automatisation & Agents IA",
-    description: "Benjamin Bertigny, AI systems builder. Systèmes IA autonomes qui travaillent pour vous, 24h/24. Agents Claude, orchestration IA, vibe coding. Bordeaux.",
+    description: "Benjamin Bertigny — automatisation & IA pour PME et artisans. Devis, relances et RDV automatisés. Bordeaux · Royan · Arcachon, et toute la France.",
     // images: Twitter falls back to og:image (the dynamic /opengraph-image)
   },
   robots: {

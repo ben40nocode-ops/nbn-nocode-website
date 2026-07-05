@@ -207,7 +207,7 @@ export default function AProposPage() {
               Vous avez un projet d&apos;automatisation ?
             </p>
             <p className="text-gray-400 text-sm mb-6">
-              Audit gratuit 1h — on identifie ensemble les 3 automatisations les plus rentables pour votre activité.
+              Appel gratuit 1h — on identifie ensemble les 3 automatisations les plus rentables pour votre activité.
             </p>
             <Link
               href="https://calendly.com/ben40nocode/1h"
@@ -215,7 +215,7 @@ export default function AProposPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors"
             >
-              Réserver l&apos;audit gratuit <ArrowRight size={14} />
+              Réserver mon appel gratuit (1h) <ArrowRight size={14} />
             </Link>
           </div>
 

@@ -48,7 +48,7 @@ export function AboutSection() {
           <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Comment ça se passe concrètement ?</p>
           <div className="grid sm:grid-cols-3 gap-4">
             {[
-              { title: "1. Audit gratuit (1h)", desc: "On analyse ensemble votre activité et on identifie les 2-3 tâches qui vous coûtent le plus de temps." },
+              { title: "1. Appel gratuit (1h)", desc: "On analyse ensemble votre activité et on identifie les 2-3 tâches qui vous coûtent le plus de temps." },
               { title: "2. Je construis (1-4 semaines)", desc: "Je mets en place votre système. Vous validez à chaque étape. Zéro surprise." },
               { title: "3. Ça tourne tout seul", desc: "Votre système est opérationnel. Nous le maintenons et l'améliorons chaque mois si nécessaire." },
             ].map((item) => (

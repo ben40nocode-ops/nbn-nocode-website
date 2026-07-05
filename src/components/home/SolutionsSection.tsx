@@ -24,7 +24,7 @@ const solutions = [
     icon: Plug,
     title: "Connexion de vos outils",
     description: "Votre agenda, votre CRM, votre logiciel de facturation, vos emails — on les fait parler entre eux. Fini la double saisie et les informations éparpillées partout.",
-    tags: ["Google Agenda", "CRM", "Facturation", "Formulaires"],
+    tags: ["Outlook / Microsoft 365", "Google Agenda", "CRM", "Facturation"],
     color: "#8b5cf6",
     bg: "#f5f3ff",
     href: "/services/automatisation-ia",
@@ -50,7 +50,7 @@ export function SolutionsSection() {
             Ce qu&apos;on fait pour vous
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
-            Quatre façons de gagner du temps.
+            Quatre tâches qu&apos;on fait tourner à votre place.
           </h2>
         </div>
 

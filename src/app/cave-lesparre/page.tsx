@@ -37,7 +37,7 @@ export default function Page() {
         "Facturation B2B idéale à automatiser",
         "Spécialisé Claude AI — adapté aux structures à taille humaine",
         "Disponible en présentiel sur le Médoc",
-        "Audit gratuit sans engagement",
+        "Appel gratuit sans engagement",
       ]}
       steps={[
         { step: "01", title: "Audit 1h", desc: "On comprend vos flux de commandes, votre organisation et vos outils existants. On identifie ce qui peut être automatisé rapidement." },
@@ -69,12 +69,12 @@ export default function Page() {
         { q: "C'est adapté à une petite structure avec 2-3 personnes ?", a: "Oui, c'est même là qu'on apporte le plus de valeur. Avec peu de personnel, chaque heure gagnée sur les tâches administratives est précieuse." },
         { q: "On n'a pas de logiciel de gestion — c'est un problème ?", a: "Non. On peut partir de zéro ou intégrer avec vos outils existants (tableur, email, etc.). On conçoit la solution adaptée à votre réalité." },
         { q: "Vous intervenez à Lesparre et alentours ?", a: "Oui — Lesparre-Médoc, Saint-Vivien, Pauillac, Saint-Estèphe et tout le nord du Médoc. En présentiel ou à distance." },
-        { q: "Quel est le délai de mise en place ?", a: "Une première automatisation simple (commandes + facturation) est déployée en 48h à 1 semaine après l'audit." },
+        { q: "Quel est le délai de mise en place ?", a: "Une première automatisation simple (commandes + facturation) est déployée en 48h à 1 semaine après l'appel." },
       ]}
       faqsTitle="Questions fréquentes — automatisation caves Lesparre-Médoc"
       ctaTitle="1 heure pour cartographier vos process"
-      ctaDesc="Audit gratuit, sans engagement. À Lesparre ou en visio."
-      ctaButton="Réserver l'audit gratuit"
+      ctaDesc="Appel gratuit, sans engagement. À Lesparre ou en visio."
+      ctaButton="Réserver mon appel gratuit (1h)"
     />
   );
 }

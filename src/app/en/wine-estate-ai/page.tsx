@@ -27,7 +27,7 @@ export default function WineEstateAiPage() {
         <div className="flex flex-col sm:flex-row gap-4 mb-20">
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold transition-colors">
-            Book free audit <ArrowRight size={17} />
+            Book my free call <ArrowRight size={17} />
           </Link>
         </div>
         <div className="grid md:grid-cols-2 gap-12 mb-20">
@@ -64,7 +64,7 @@ export default function WineEstateAiPage() {
           <p className="text-gray-300 mb-8 max-w-md mx-auto">Free 1-hour audit. We map your operations and propose a concrete AI architecture.</p>
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
-            Book free audit <ArrowRight size={16} />
+            Book my free call <ArrowRight size={16} />
           </Link>
         </div>
       </div>

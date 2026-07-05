@@ -161,7 +161,7 @@ export default function BordeauxPage() {
                   "Spécialisé Claude AI — le modèle IA le plus avancé pour les agents",
                   "Certifié Anthropic — expert agents IA Claude",
                   "Disponible en présentiel ou 100% remote",
-                  "Audit gratuit sans engagement",
+                  "Appel gratuit sans engagement",
                   "Maintenance mensuelle incluse dans l'abonnement",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5">
@@ -234,14 +234,14 @@ export default function BordeauxPage() {
           {/* CTA */}
           <div className="bg-gray-900 rounded-2xl p-10 text-center">
             <h2 className="text-2xl font-bold text-white mb-3">1 heure pour cartographier vos process</h2>
-            <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;audit est gratuit, sans engagement. On se retrouve à Bordeaux ou en visio.</p>
+            <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;appel est gratuit, sans engagement. On se retrouve à Bordeaux ou en visio.</p>
             <Link
               href="https://calendly.com/ben40nocode/1h"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors"
             >
-              Réserver l&apos;audit gratuit <ArrowRight size={15} />
+              Réserver mon appel gratuit (1h) <ArrowRight size={15} />
             </Link>
           </div>
 

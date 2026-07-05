@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Mail, MapPin, Calendar } from "lucide-react";
+import { Mail, MapPin, Calendar, MessageCircle, Phone } from "lucide-react";
 import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ export default function ContactPage() {
             Parlons de votre projet.
           </h1>
           <p className="text-gray-500">
-            On répond sous 24h. L&apos;audit est gratuit et sans engagement.
+            On répond sous 24h. L&apos;appel est gratuit et sans engagement.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function ContactPage() {
             <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
               <div className="flex items-center gap-3 mb-3">
                 <Calendar size={18} className="text-[#e8632a]" />
-                <h3 className="text-sm font-semibold text-gray-900">Audit gratuit (1h)</h3>
+                <h3 className="text-sm font-semibold text-gray-900">Appel gratuit (1h)</h3>
               </div>
               <p className="text-sm text-gray-500 mb-4">Réservez directement un créneau dans notre agenda. On analyse votre situation et on vous propose un plan d&apos;action.</p>
               <Link
@@ -47,6 +47,30 @@ export default function ContactPage() {
               >
                 Réserver un créneau →
               </Link>
+            </div>
+
+            <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
+              <div className="flex items-center gap-3 mb-3">
+                <MessageCircle size={18} className="text-[#e8632a]" />
+                <h3 className="text-sm font-semibold text-gray-900">WhatsApp / Téléphone</h3>
+              </div>
+              <p className="text-sm text-gray-500 mb-4">Pas fan des formulaires ? Écrivez-moi directement, je réponds vite.</p>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href="https://wa.me/33640685975"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1fb355] text-white px-4 py-2.5 rounded-lg text-sm font-semibold transition-colors"
+                >
+                  <MessageCircle size={15} /> WhatsApp
+                </a>
+                <a
+                  href="tel:+33640685975"
+                  className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 px-4 py-2.5 rounded-lg text-sm font-semibold transition-colors hover:bg-white"
+                >
+                  <Phone size={15} /> 06 40 68 59 75
+                </a>
+              </div>
             </div>
 
             <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">

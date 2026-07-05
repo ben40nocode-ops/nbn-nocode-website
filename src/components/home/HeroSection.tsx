@@ -16,13 +16,13 @@ export function HeroSection() {
         </div>
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
-          Vos process tournent.{" "}
+          Vos devis partent, vos clients sont rappelés.{" "}
           <span className="text-[#e8632a]">Même quand vous dormez.</span>
         </h1>
 
         <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
-          On prend en charge les tâches répétitives de votre business.
-          Réponses clients, devis, rappels, relances — automatisés et opérationnels en 2 semaines.
+          Répondre au 15e mail, refaire le même devis, rappeler pour confirmer un RDV — je m&apos;en charge.
+          Automatisé, opérationnel en 2 semaines.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -32,7 +32,7 @@ export function HeroSection() {
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 shadow-lg shadow-orange-200"
           >
-            Réserver l&apos;audit gratuit
+            Réserver mon appel gratuit (1h)
             <ArrowRight size={17} className="group-hover:translate-x-0.5 transition-transform" />
           </Link>
           <Link

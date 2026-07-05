@@ -66,7 +66,7 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Combien coûte un MVP pour une startup ?", a: "Un MVP simple (authentification + 3-5 fonctionnalités) démarre à 2 500€ HT. Un MVP avancé avec agents IA et marketplace autour de 6 000€ HT. Devis précis après l'audit." },
+        { q: "Combien coûte un MVP pour une startup ?", a: "Un MVP simple (authentification + 3-5 fonctionnalités) démarre à 2 500€ HT. Un MVP avancé avec agents IA et marketplace autour de 6 000€ HT. Devis précis après l'appel." },
         { q: "Qu'est-ce que le vibe coding exactement ?", a: "On pilote Claude Code (IA d'Anthropic) pour générer et affiner le code plutôt que de l'écrire ligne par ligne. Résultat : un MVP en 2-3 semaines, code propre et maintenable." },
         { q: "On peut reprendre le code après livraison ?", a: "Oui. Le code vous appartient, il est propre et documenté. Un dev peut le reprendre sans difficulté. On peut aussi assurer la maintenance." },
         { q: "Vous accompagnez aussi les startups en phase de levée ?", a: "Oui. On peut créer votre démo technique pour les investisseurs et vous aider à structurer votre product roadmap." },
@@ -74,7 +74,7 @@ export default function Page() {
       faqsTitle="Questions fréquentes — web app et agents IA startups Bordeaux"
       ctaTitle="Votre MVP en 2-3 semaines"
       ctaDesc="Audit gratuit de 1h. On définit ensemble le scope et le délai. Zéro engagement."
-      ctaButton="Réserver l'audit gratuit"
+      ctaButton="Réserver mon appel gratuit (1h)"
     />
   );
 }

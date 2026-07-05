@@ -59,7 +59,7 @@ const automations = [
 const steps = [
   {
     number: "1",
-    title: "Audit gratuit (1h)",
+    title: "Appel gratuit (1h)",
     desc: "On identifie ensemble les tâches qui vous font perdre du temps. Pas de jargon, juste des questions concrètes.",
   },
   {
@@ -105,7 +105,7 @@ export default function AutomatisationIAPage() {
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
-              Réserver l&apos;audit gratuit <ArrowRight size={17} />
+              Réserver mon appel gratuit (1h) <ArrowRight size={17} />
             </Link>
             <Link href="/tarifs" className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 px-7 py-4 rounded-xl font-semibold text-base transition-colors hover:bg-gray-50">
               Voir les tarifs
@@ -161,10 +161,10 @@ export default function AutomatisationIAPage() {
           {/* CTA final */}
           <div className="bg-gray-900 rounded-2xl p-10 text-center">
             <h2 className="text-2xl font-bold text-white mb-3">Prêt à gagner du temps chaque semaine ?</h2>
-            <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;audit est gratuit, sans engagement. On vous dit exactement ce qu&apos;on peut automatiser et combien de temps ça vous fera gagner.</p>
+            <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;appel est gratuit, sans engagement. On vous dit exactement ce qu&apos;on peut automatiser et combien de temps ça vous fera gagner.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
-              Réserver l&apos;audit gratuit <ArrowRight size={15} />
+              Réserver mon appel gratuit (1h) <ArrowRight size={15} />
             </Link>
           </div>
 

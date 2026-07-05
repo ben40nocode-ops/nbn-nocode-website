@@ -13,8 +13,8 @@ const reasons = [
   },
   {
     icon: ShieldCheck,
-    title: "Audit gratuit, sans engagement",
-    text: "On commence par 1h d'audit offert. Vous repartez avec un plan d'action concret et chiffré — que vous travailliez avec moi ensuite ou non.",
+    title: "Appel gratuit, sans engagement",
+    text: "On commence par 1h d'échange offert. Vous repartez avec un plan d'action concret et chiffré — que vous travailliez avec moi ensuite ou non.",
   },
 ];
 

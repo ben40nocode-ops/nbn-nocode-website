@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { HeroSection } from "@/components/home/HeroSection";
+import { ProblemSection } from "@/components/home/ProblemSection";
+import { DiscoveryOffers } from "@/components/home/DiscoveryOffers";
 import { LogoBar } from "@/components/home/LogoBar";
 import { AboutSection } from "@/components/home/AboutSection";
 import { SolutionsSection } from "@/components/home/SolutionsSection";
@@ -21,10 +23,12 @@ export default function HomePage() {
     <>
       <HeroSection />
       <LogoBar />
-      <AboutSection />
+      <ProblemSection />
       <SolutionsSection />
+      <AboutSection />
       <ClaudeSection />
       <RealisationsSection />
+      <DiscoveryOffers />
       <PricingPreview />
       <TestimonialsSection />
       <FaqSection />

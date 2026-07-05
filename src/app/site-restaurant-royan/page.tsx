@@ -35,7 +35,7 @@ export default function Page() {
         "Les touristes cherchent où manger sur Google dès leur arrivée",
         "Un site bien référencé = des couverts sans commission",
         "Haute saison intense — mieux gérer les réservations en amont",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel à Royan",
         "Devis gratuit sans engagement",
       ]}
@@ -66,7 +66,7 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Quel budget pour un site restaurant à Royan ?", a: "Un site vitrine avec menu digital et réservation démarre à 800€ HT. Avec agent IA autour de 1 500€ HT. Devis précis après l'audit." },
+        { q: "Quel budget pour un site restaurant à Royan ?", a: "Un site vitrine avec menu digital et réservation démarre à 800€ HT. Avec agent IA autour de 1 500€ HT. Devis précis après l'appel." },
         { q: "On peut gérer le menu du jour nous-mêmes ?", a: "Oui. Interface simple, mise à jour en 2 minutes sans aucune compétence technique." },
         { q: "Comment l'agent IA gère les demandes hors horaires ?", a: "Il répond aux questions (horaires, spécialités, allergènes, accès PMR) et peut prendre les demandes de réservation pour validation le lendemain matin." },
         { q: "Vous intervenez aussi entre les saisons ?", a: "Oui. L'abonnement de maintenance couvre les mises à jour et les évolutions. On peut aussi travailler la stratégie SEO et les campagnes fidélisation hors saison." },

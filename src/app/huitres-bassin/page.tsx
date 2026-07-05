@@ -37,7 +37,7 @@ export default function Page() {
         "Facturation B2B chronophage — idéale à automatiser",
         "Spécialisé Claude AI — traitement précis des commandes",
         "Disponible en présentiel sur le Bassin d'Arcachon",
-        "Audit gratuit sans engagement",
+        "Appel gratuit sans engagement",
       ]}
       steps={[
         { step: "01", title: "Audit 1h", desc: "On cartographie vos flux : comment arrivent les commandes, comment vous livrez et facturez. On identifie les gains rapides." },
@@ -73,8 +73,8 @@ export default function Page() {
       ]}
       faqsTitle="Questions fréquentes — automatisation ostréiculture Bassin d'Arcachon"
       ctaTitle="1 heure pour cartographier vos process"
-      ctaDesc="Audit gratuit, sans engagement. Sur le Bassin ou en visio."
-      ctaButton="Réserver l'audit gratuit"
+      ctaDesc="Appel gratuit, sans engagement. Sur le Bassin ou en visio."
+      ctaButton="Réserver mon appel gratuit (1h)"
     />
   );
 }

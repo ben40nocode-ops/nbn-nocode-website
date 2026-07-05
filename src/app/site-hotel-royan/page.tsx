@@ -35,7 +35,7 @@ export default function Page() {
         "Forte saisonnalité — capter un maximum en haute saison",
         "Réservations directes = économie sur les commissions",
         "Clientèle mixte (familles, couples, séminaires)",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel à Royan",
         "Devis gratuit sans engagement",
       ]}
@@ -66,8 +66,8 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Quel budget pour un site hôtelier à Royan ?", a: "Un site hôtelier avec réservations directes démarre à 2 500€ HT. Avec agent IA autour de 3 500€ HT. Devis précis après l'audit gratuit." },
-        { q: "Comment se positionner sur 'hôtel Royan' sur Google ?", a: "SEO technique impeccable + contenu local dense + avis Google structurés. On vous explique la stratégie lors de l'audit." },
+        { q: "Quel budget pour un site hôtelier à Royan ?", a: "Un site hôtelier avec réservations directes démarre à 2 500€ HT. Avec agent IA autour de 3 500€ HT. Devis précis après l'appel gratuit." },
+        { q: "Comment se positionner sur 'hôtel Royan' sur Google ?", a: "SEO technique impeccable + contenu local dense + avis Google structurés. On vous explique la stratégie lors de l'appel." },
         { q: "L'agent IA peut gérer les demandes de séminaires ?", a: "Oui. On peut le former sur votre offre séminaires pour qualifier les demandes et transmettre un devis automatiquement." },
         { q: "On peut commencer par juste le site, sans l'agent IA ?", a: "Absolument. On démarre par ce qui a le plus d'impact pour vous et on ajoute des fonctionnalités au fil du temps." },
       ]}

@@ -35,7 +35,7 @@ export default function Page() {
         "70% des décisions de restaurant se font via Google",
         "Un site bien référencé = des couverts sans commission TheFork",
         "Agent IA = réponse instantanée à 23h",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel à Bordeaux",
         "Devis gratuit sans engagement",
       ]}
@@ -66,7 +66,7 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Quel budget pour un site restaurant à Bordeaux ?", a: "Un site vitrine avec menu digital et réservation démarre à 800€ HT. Avec agent IA et click & collect autour de 1 500€ HT. Devis précis après l'audit." },
+        { q: "Quel budget pour un site restaurant à Bordeaux ?", a: "Un site vitrine avec menu digital et réservation démarre à 800€ HT. Avec agent IA et click & collect autour de 1 500€ HT. Devis précis après l'appel." },
         { q: "Comment mettre à jour le menu moi-même ?", a: "On configure un espace d'administration simple. Vous modifiez le menu du jour en moins de 2 minutes, sans compétence technique." },
         { q: "L'agent IA peut prendre des réservations directement ?", a: "Oui. Il peut recueillir les demandes de réservation (date, heure, couverts, intolérances) et les transmettre ou les valider selon votre disponibilité." },
         { q: "Vous gérez aussi le référencement local ?", a: "Oui. On optimise Google My Business, les avis, les balises schema.org et le contenu pour vos requêtes cibles." },

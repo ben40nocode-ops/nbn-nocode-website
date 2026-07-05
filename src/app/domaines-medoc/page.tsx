@@ -37,7 +37,7 @@ export default function Page() {
         "Facturation B2B chronophage, idéale à automatiser",
         "Spécialisé Claude AI — traitement précis des commandes",
         "Disponible en présentiel sur le Médoc",
-        "Audit gratuit sans engagement",
+        "Appel gratuit sans engagement",
       ]}
       steps={[
         { step: "01", title: "Audit 1h", desc: "On cartographie vos flux : comment arrivent les commandes, comment vous gérez les millésimes, les visites et la facturation. On identifie les gains rapides." },
@@ -69,12 +69,12 @@ export default function Page() {
         { q: "C'est adapté à un petit domaine familial ?", a: "Oui. Un domaine qui reçoit 30 commandes par mois peut déjà gagner 2h par semaine avec une automatisation simple à 450€." },
         { q: "Comment ça gère les différents millésimes et références ?", a: "L'agent IA peut gérer autant de références que vous avez. Il connaît vos stocks par millésime et alerte automatiquement si une commande dépasse les disponibilités." },
         { q: "Vous intervenez sur tout le Médoc ?", a: "Oui — Pauillac, Saint-Estèphe, Margaux, Moulis, Listrac, Lesparre et toute l'appellation. En présentiel ou à distance." },
-        { q: "Est-ce que ça s'intègre avec notre logiciel de cave existant ?", a: "Dans la majorité des cas, oui. On analyse vos outils lors de l'audit et on conçoit l'intégration adaptée." },
+        { q: "Est-ce que ça s'intègre avec notre logiciel de cave existant ?", a: "Dans la majorité des cas, oui. On analyse vos outils lors de l'appel et on conçoit l'intégration adaptée." },
       ]}
       faqsTitle="Questions fréquentes — automatisation domaines viticoles Médoc"
       ctaTitle="1 heure pour cartographier vos process"
-      ctaDesc="Audit gratuit, sans engagement. Sur le Médoc ou en visio."
-      ctaButton="Réserver l'audit gratuit"
+      ctaDesc="Appel gratuit, sans engagement. Sur le Médoc ou en visio."
+      ctaButton="Réserver mon appel gratuit (1h)"
     />
   );
 }

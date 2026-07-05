@@ -80,7 +80,7 @@ export default function WebAppsEnPage() {
             <p className="text-gray-300 mb-8 max-w-md mx-auto">Free 1-hour audit. We map your product, propose the architecture. No commitment.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
-              Book free audit <ArrowRight size={16} />
+              Book my free call <ArrowRight size={16} />
             </Link>
           </div>
         </div>

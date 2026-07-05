@@ -35,7 +35,7 @@ export default function Page() {
         "Chaque réservation directe = 15-20% de marge récupérée",
         "Agent IA = conciergerie sans recruter de nuit",
         "Upsell automatisé = revenus annexes sans effort",
-        "Spécialisé vibe coding avec Claude Code — livraison rapide",
+        "Développement accéléré par IA — livraison rapide",
         "Disponible en présentiel sur le Bassin d'Arcachon",
         "Devis gratuit sans engagement",
       ]}
@@ -66,8 +66,8 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "Quel budget pour une app hôtelière avec réservations directes ?", a: "Une app complète avec réservation directe et agent IA démarre à 3 000€ HT. Devis précis après l'audit gratuit." },
-        { q: "L'app s'intègre avec notre PMS existant ?", a: "Dans la plupart des cas, oui. On analyse votre PMS lors de l'audit et on conçoit l'intégration adaptée." },
+        { q: "Quel budget pour une app hôtelière avec réservations directes ?", a: "Une app complète avec réservation directe et agent IA démarre à 3 000€ HT. Devis précis après l'appel gratuit." },
+        { q: "L'app s'intègre avec notre PMS existant ?", a: "Dans la plupart des cas, oui. On analyse votre PMS lors de l'appel et on conçoit l'intégration adaptée." },
         { q: "Comment réduire concrètement les commissions Booking ?", a: "En ayant un canal direct qui convertit bien + en envoyant des campagnes aux clients passés. On vous aide à construire cette stratégie pas à pas." },
         { q: "Vous assurez la maintenance ?", a: "Oui. Abonnement à partir de 159€/mois : monitoring, mises à jour, évolutions mineures." },
       ]}

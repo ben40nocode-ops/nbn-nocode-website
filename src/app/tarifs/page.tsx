@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Check, ArrowRight } from "lucide-react";
 import { ArchitectureButton } from "@/components/ArchitectureButton";
+import { DiscoveryOffers } from "@/components/home/DiscoveryOffers";
 
 export const metadata: Metadata = {
   title: "Tarifs — Automatisations IA, Sites Web & Web Apps",
@@ -30,50 +31,53 @@ export const metadata: Metadata = {
 
 const architecture = [
   {
-    name: "Starter",
+    name: "Première automatisation",
     price: "450",
-    desc: "1 agent IA ou automatisation — artisans et TPE",
-    features: ["1 workflow Make/Zapier", "Connexion 2 outils", "Tests & documentation", "Onboarding 1h"],
+    badge: "",
+    desc: "Un problème réglé — artisans et TPE",
+    features: ["1 automatisation clé en main", "2 de vos outils connectés", "Tests & mode d'emploi écrit", "Prise en main 1h"],
   },
   {
-    name: "Business",
+    name: "Mon activité tourne seule",
     price: "1 200",
-    desc: "Système interconnecté sur un process clé — PME",
-    features: ["3 workflows interconnectés", "Connexion jusqu'à 6 outils", "Agent IA simple", "Formation équipe 2h"],
+    badge: "Le plus choisi",
+    desc: "Tout un pan de votre activité automatisé — PME",
+    features: ["3 automatisations reliées entre elles", "Jusqu'à 6 outils connectés", "Assistant IA simple", "Formation de votre équipe 2h"],
   },
   {
-    name: "Enterprise",
+    name: "Sur mesure",
     price: "Sur devis",
-    desc: "Architecture complète avec agents IA avancés",
-    features: ["Architecture illimitée", "Agents Claude sur mesure", "CRM & base de données", "Support dédié"],
+    badge: "",
+    desc: "Tout votre back-office automatisé",
+    features: ["Sans limite", "Assistants IA Claude sur mesure", "CRM & base de données", "Support dédié"],
   },
 ];
 
 const maintenance = [
   {
-    name: "Core Maintenance",
+    name: "Suivi Essentiel",
     price: "159",
     plan: "core",
-    desc: "L'essentiel pour garder vos systèmes IA en bonne santé.",
-    features: ["Monitoring 24/7 de 3 systèmes IA", "2h de maintenance / mois", "Support par email (48h)", "Rapport mensuel"],
+    desc: "L'essentiel pour que vos automatisations restent en bonne santé.",
+    features: ["On surveille vos automatisations jour et nuit", "2h d'entretien / mois", "Support par email (48h)", "Rapport mensuel"],
     highlight: false,
     cta: "Commencer",
   },
   {
-    name: "Business Logic",
+    name: "Suivi Pro",
     price: "320",
     plan: "business",
-    desc: "Pour les systèmes IA critiques qui font tourner votre business.",
-    features: ["Monitoring proactif de 4 agents critiques", "4h de maintenance / mois", "Optimisation continue", "Support prioritaire (24h)"],
+    desc: "Pour les automatisations critiques qui font tourner votre activité.",
+    features: ["Surveillance renforcée de vos outils critiques", "4h d'entretien / mois", "Amélioration continue", "Support prioritaire (24h)"],
     highlight: false,
     cta: "Choisir ce plan",
   },
   {
-    name: "Full Stack Partner",
+    name: "Partenaire complet",
     price: "540",
     plan: "fullstack",
-    desc: "Un architecte IA dédié à l'évolution de votre système.",
-    features: ["Monitoring illimité", "6h de dev/maintenance / mois", "Évolution constante des agents", "Accès direct Slack"],
+    desc: "Votre expert dédié qui fait évoluer vos outils en continu.",
+    features: ["Surveillance illimitée", "6h de travail sur vos outils / mois", "Vos automatisations évoluent avec vous", "Accès direct WhatsApp"],
     highlight: false,
     cta: "Devenir partenaire",
   },
@@ -102,29 +106,32 @@ const websites = [
 
 const webapps = [
   {
-    name: "Basic App",
+    name: "Application simple",
     price: "2 500",
-    desc: "Application simple avec authentification",
-    features: ["Auth utilisateur", "Base de données", "3-5 fonctionnalités", "Interface responsive"],
+    desc: "Un outil métier avec espace connecté",
+    features: ["Espace client sécurisé", "Base de données", "3-5 fonctionnalités", "Utilisable sur mobile et ordinateur"],
   },
   {
-    name: "Advanced App",
+    name: "Application avancée",
     price: "5 000",
-    desc: "Application avancée avec intégrations",
-    features: ["Auth avancée", "Sync temps réel", "8+ fonctionnalités", "Dashboard admin"],
+    desc: "Un outil complet connecté à vos logiciels",
+    features: ["Comptes et rôles avancés", "Mise à jour instantanée", "8+ fonctionnalités", "Tableau de bord"],
   },
   {
-    name: "Enterprise",
+    name: "Sur mesure",
     price: "Custom",
-    desc: "Architecture sur mesure",
-    features: ["Fonctionnalités illimitées", "Architecte dédié", "Support prioritaire", "SLA performance"],
+    desc: "Votre outil, sans limite",
+    features: ["Fonctionnalités illimitées", "Interlocuteur dédié", "Support prioritaire", "Engagement de disponibilité"],
   },
 ];
 
 function PricingCard({ plan }: { plan: any }) {
   return (
-    <div className="group relative p-8 rounded-3xl border border-gray-200 bg-white hover:border-[#e8632a] hover:shadow-xl hover:shadow-orange-100 hover:-translate-y-1 transition-all duration-300 flex flex-col">
+    <div className={`group relative p-8 rounded-3xl bg-white hover:shadow-xl hover:shadow-orange-100 hover:-translate-y-1 transition-all duration-300 flex flex-col ${plan.badge ? "border-2 border-[#e8632a]" : "border border-gray-200 hover:border-[#e8632a]"}`}>
       <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#e8632a]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      {plan.badge && (
+        <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#e8632a] text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">{plan.badge}</span>
+      )}
       <div className="relative">
         <h4 className="font-bold text-xl text-gray-900 mb-2">{plan.name}</h4>
         <p className="text-sm text-gray-500 mb-6">{plan.desc}</p>
@@ -235,8 +242,8 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "L'audit est-il vraiment gratuit ?",
-          acceptedAnswer: { "@type": "Answer", text: "Oui. L'audit d'1h est 100 % gratuit et sans engagement : vous repartez avec un plan d'action concret, que vous travailliez avec NBN IA ensuite ou non." },
+          name: "L'appel est-il vraiment gratuit ?",
+          acceptedAnswer: { "@type": "Answer", text: "Oui. L'appel d'1h est 100 % gratuit et sans engagement : vous repartez avec un plan d'action concret, que vous travailliez avec NBN IA ensuite ou non." },
         },
       ],
     },
@@ -280,13 +287,13 @@ export default function TarifsPage() {
             </thead>
             <tbody className="text-gray-600">
               <tr className="border-b border-gray-100">
-                <td className="py-3 pr-4 font-medium text-gray-900">Automatisation IA (setup unique)</td>
-                <td className="py-3 pr-4">Starter · Business · Enterprise</td>
+                <td className="py-3 pr-4 font-medium text-gray-900">Automatisation IA (paiement unique)</td>
+                <td className="py-3 pr-4">Première automatisation · Activité autonome · Sur mesure</td>
                 <td className="py-3 whitespace-nowrap">450 € · 1 200 € · sur devis</td>
               </tr>
               <tr className="border-b border-gray-100">
-                <td className="py-3 pr-4 font-medium text-gray-900">Maintenance IA (abonnement / mois)</td>
-                <td className="py-3 pr-4">Core · Business Logic · Full Stack</td>
+                <td className="py-3 pr-4 font-medium text-gray-900">Entretien (abonnement optionnel / mois)</td>
+                <td className="py-3 pr-4">Suivi Essentiel · Suivi Pro · Partenaire complet</td>
                 <td className="py-3 whitespace-nowrap">159 € · 320 € · 540 € /mois</td>
               </tr>
               <tr className="border-b border-gray-100">
@@ -295,14 +302,17 @@ export default function TarifsPage() {
                 <td className="py-3 whitespace-nowrap">800 € · 1 800 € · 3 500 €</td>
               </tr>
               <tr>
-                <td className="py-3 pr-4 font-medium text-gray-900">Web app sur mesure</td>
-                <td className="py-3 pr-4">Basic · Advanced · Enterprise</td>
+                <td className="py-3 pr-4 font-medium text-gray-900">Application sur mesure</td>
+                <td className="py-3 pr-4">Simple · Avancée · Sur mesure</td>
                 <td className="py-3 whitespace-nowrap">2 500 € · 5 000 € · sur devis</td>
               </tr>
             </tbody>
           </table>
-          <p className="text-xs text-gray-400 mt-4 text-center">Tous les setups incluent conception, développement, tests et formation. Audit gratuit 1h, sans engagement.</p>
+          <p className="text-xs text-gray-400 mt-4 text-center">Toutes les installations incluent conception, mise en place, tests et formation. Appel gratuit 1h, sans engagement.</p>
         </div>
+
+        {/* Offres découverte — prix fixe, sans abonnement */}
+        <DiscoveryOffers />
 
         {/* AUTOMATISATIONS IA */}
         <div className="mb-20">
@@ -314,9 +324,9 @@ export default function TarifsPage() {
           {/* Architecture */}
           <div className="mb-16">
             <div className="text-center mb-8">
-              <span className="inline-block bg-[#e8632a] text-white text-xs font-bold px-4 py-2 rounded-full">Étape 1</span>
-              <h3 className="text-2xl font-bold text-gray-900 mt-4">Architecture IA (Setup unique)</h3>
-              <p className="text-sm text-gray-500 mt-2">Conception, développement, tests et formation inclus</p>
+              <span className="inline-block bg-[#e8632a] text-white text-xs font-bold px-4 py-2 rounded-full">1 — Installation</span>
+              <h3 className="text-2xl font-bold text-gray-900 mt-4">Vos automatisations (paiement unique)</h3>
+              <p className="text-sm text-gray-500 mt-2">Conception, mise en place, tests et formation inclus</p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {architecture.map((p) => (
@@ -328,9 +338,9 @@ export default function TarifsPage() {
           {/* Maintenance */}
           <div className="mb-16">
             <div className="text-center mb-8">
-              <span className="inline-block bg-[#e8632a] text-white text-xs font-bold px-4 py-2 rounded-full">Étape 2</span>
-              <h3 className="text-2xl font-bold text-gray-900 mt-4">Maintenance & Évolution (Abonnement mensuel)</h3>
-              <p className="text-sm text-gray-500 mt-2">Après votre architecture, maintenez et améliorez votre système 24h/24</p>
+              <span className="inline-block bg-gray-900 text-white text-xs font-bold px-4 py-2 rounded-full">2 — Entretien (optionnel)</span>
+              <h3 className="text-2xl font-bold text-gray-900 mt-4">Entretien & évolution (abonnement optionnel)</h3>
+              <p className="text-sm text-gray-500 mt-2">Résiliable à tout moment. Vos automatisations restent à vous, avec ou sans abonnement.</p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {maintenance.map((p) => (
@@ -368,7 +378,7 @@ export default function TarifsPage() {
         {/* WEBSITES */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">Websites</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-2">Sites internet</h2>
             <p className="text-gray-500">Architecture unique + maintenance continue</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -398,7 +408,7 @@ export default function TarifsPage() {
         {/* WEB APPS */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">Web Apps</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-2">Applications sur mesure</h2>
             <p className="text-gray-500">Architecture unique + maintenance continue</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -428,7 +438,7 @@ export default function TarifsPage() {
               { q: "Combien coûte une automatisation IA ?", a: "Le setup d'une automatisation IA démarre à 450 € (formule Starter, pour artisans et TPE). Un système interconnecté pour PME démarre à 1 200 €. La maintenance mensuelle, optionnelle, démarre à 159 €/mois." },
               { q: "Y a-t-il un engagement ?", a: "Non. Le setup est un paiement unique et les abonnements de maintenance sont résiliables à tout moment, sans engagement." },
               { q: "Qu'est-ce qui est inclus dans le prix du setup ?", a: "La conception, le développement, les tests, la documentation et la formation sont inclus dans chaque setup." },
-              { q: "L'audit est-il vraiment gratuit ?", a: "Oui. L'audit d'1h est 100 % gratuit et sans engagement : vous repartez avec un plan d'action concret, que vous travailliez avec NBN IA ensuite ou non." },
+              { q: "L'appel est-il vraiment gratuit ?", a: "Oui. L'appel d'1h est 100 % gratuit et sans engagement : vous repartez avec un plan d'action concret, que vous travailliez avec NBN IA ensuite ou non." },
             ].map((item) => (
               <div key={item.q} className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
                 <h3 className="text-base font-bold text-gray-900 mb-2">{item.q}</h3>
@@ -441,14 +451,14 @@ export default function TarifsPage() {
         {/* CTA */}
         <div className="text-center bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-12 border border-gray-700 shadow-xl">
           <p className="text-white font-bold text-2xl mb-3">Pas sûr de quel plan choisir ?</p>
-          <p className="text-gray-300 text-base mb-8 max-w-md mx-auto">L&apos;audit gratuit de 1h répond à toutes vos questions et crée un plan personnalisé.</p>
+          <p className="text-gray-300 text-base mb-8 max-w-md mx-auto">L&apos;appel gratuit d&apos;1h répond à toutes vos questions et crée un plan personnalisé.</p>
           <Link
             href="https://calendly.com/ben40nocode/1h"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-[#e8632a] to-[#d97757] hover:shadow-lg hover:shadow-orange-500/50 text-white px-8 py-4 rounded-xl text-base font-semibold transition-all duration-300 hover:-translate-y-0.5"
           >
-            Réserver l&apos;audit gratuit <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+            Réserver mon appel gratuit (1h) <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
 

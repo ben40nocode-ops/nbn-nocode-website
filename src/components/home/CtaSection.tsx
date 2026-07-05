@@ -14,7 +14,7 @@ export function CtaSection() {
             1 heure pour identifier ce qu&apos;on peut<br />automatiser dans votre business.
           </h2>
           <p className="text-gray-400 mb-10 max-w-md mx-auto leading-relaxed">
-            L&apos;audit est gratuit, sans engagement. Vous repartez avec une liste concrète de ce qui peut être automatisé — que vous travailliez avec nous ou non.
+            L&apos;appel est gratuit, sans engagement. Vous repartez avec une liste concrète de ce qui peut être automatisé — que vous travailliez avec nous ou non.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -25,7 +25,7 @@ export function CtaSection() {
               className="group inline-flex items-center justify-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-all duration-200"
             >
               <Calendar size={17} />
-              Réserver l&apos;audit gratuit
+              Réserver mon appel gratuit (1h)
               <ArrowRight size={15} className="group-hover:translate-x-0.5 transition-transform" />
             </Link>
             <Link

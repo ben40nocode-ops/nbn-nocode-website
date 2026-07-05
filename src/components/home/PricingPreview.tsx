@@ -3,26 +3,26 @@ import { Check, ArrowRight } from "lucide-react";
 
 const plans = [
   {
-    name: "Core Maintenance",
+    name: "Suivi Essentiel",
     price: "159",
-    desc: "L'essentiel pour garder vos systèmes IA en bonne santé.",
-    features: ["Monitoring 24/7 de 3 systèmes IA", "2h de maintenance / mois", "Support par email (48h)", "Rapport mensuel"],
+    desc: "L'essentiel pour que vos automatisations restent en bonne santé.",
+    features: ["On surveille vos automatisations jour et nuit", "2h d'entretien / mois", "Support par email (48h)", "Rapport mensuel"],
     highlight: false,
     cta: "Commencer",
   },
   {
-    name: "Business Logic",
+    name: "Suivi Pro",
     price: "320",
-    desc: "Pour les systèmes IA critiques qui font tourner votre business.",
-    features: ["Monitoring proactif de 4 agents critiques", "4h de maintenance / mois", "Optimisation continue", "Support prioritaire (24h)"],
+    desc: "Pour les automatisations critiques qui font tourner votre activité.",
+    features: ["Surveillance renforcée de vos outils critiques", "4h d'entretien / mois", "Amélioration continue", "Support prioritaire (24h)"],
     highlight: false,
     cta: "Choisir ce plan",
   },
   {
-    name: "Full Stack Partner",
+    name: "Partenaire complet",
     price: "540",
-    desc: "Un architecte IA dédié à l'évolution de votre système.",
-    features: ["Monitoring illimité", "6h de dev/maintenance / mois", "Évolution constante des agents", "Accès direct Slack"],
+    desc: "Votre expert dédié qui fait évoluer vos outils en continu.",
+    features: ["Surveillance illimitée", "6h de travail sur vos outils / mois", "Vos automatisations évoluent avec vous", "Accès direct WhatsApp"],
     highlight: false,
     cta: "Devenir partenaire",
   },
@@ -57,49 +57,52 @@ const websites = [
 
 const webapps = [
   {
-    name: "Basic App",
+    name: "Application simple",
     price: "2 500",
-    desc: "Application simple avec authentification",
-    features: ["Auth utilisateur", "Base de données", "3-5 fonctionnalités", "Interface responsive"],
+    desc: "Un outil métier avec espace connecté",
+    features: ["Espace client sécurisé", "Base de données", "3-5 fonctionnalités", "Utilisable sur mobile et ordinateur"],
     highlight: false,
     cta: "Demander un devis",
   },
   {
-    name: "Advanced App",
+    name: "Application avancée",
     price: "5 000",
-    desc: "Application avancée avec intégrations",
-    features: ["Auth avancée", "Sync temps réel", "8+ fonctionnalités", "Dashboard admin"],
+    desc: "Un outil complet connecté à vos logiciels",
+    features: ["Comptes et rôles avancés", "Mise à jour instantanée", "8+ fonctionnalités", "Tableau de bord"],
     highlight: false,
     cta: "Demander un devis",
   },
   {
-    name: "Enterprise",
+    name: "Sur mesure",
     price: "Custom",
-    desc: "Architecture sur mesure",
-    features: ["Fonctionnalités illimitées", "Architecte dédié", "Support prioritaire", "SLA performance"],
+    desc: "Votre outil, sans limite",
+    features: ["Fonctionnalités illimitées", "Interlocuteur dédié", "Support prioritaire", "Engagement de disponibilité"],
     highlight: false,
-    cta: "Contacter nous",
+    cta: "Nous contacter",
   },
 ];
 
 const architecture = [
   {
-    name: "Starter",
+    name: "Première automatisation",
     price: "450",
-    desc: "1 agent IA ou automatisation — artisans et TPE",
-    features: ["1 workflow Make/Zapier", "Connexion 2 outils", "Tests & documentation", "Onboarding 1h"],
+    badge: "",
+    desc: "Un problème réglé — artisans et TPE",
+    features: ["1 automatisation clé en main", "2 de vos outils connectés", "Tests & mode d'emploi écrit", "Prise en main 1h"],
   },
   {
-    name: "Business",
+    name: "Mon activité tourne seule",
     price: "1 200",
-    desc: "Système interconnecté sur un process clé — PME",
-    features: ["3 workflows interconnectés", "Connexion jusqu'à 6 outils", "Agent IA simple", "Formation équipe 2h"],
+    badge: "Le plus choisi",
+    desc: "Tout un pan de votre activité automatisé — PME",
+    features: ["3 automatisations reliées entre elles", "Jusqu'à 6 outils connectés", "Assistant IA simple", "Formation de votre équipe 2h"],
   },
   {
-    name: "Enterprise",
+    name: "Sur mesure",
     price: "Sur devis",
-    desc: "Architecture complète avec agents IA avancés",
-    features: ["Architecture illimitée", "Agents Claude sur mesure", "CRM & base de données", "Support dédié"],
+    badge: "",
+    desc: "Tout votre back-office automatisé",
+    features: ["Sans limite", "Assistants IA Claude sur mesure", "CRM & base de données", "Support dédié"],
   },
 ];
 
@@ -114,23 +117,26 @@ export function PricingPreview() {
             Automatisations IA
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
-            Setup unique. Maintenance continue.
+            On installe une fois. On entretient ensuite.
           </h2>
           <p className="mt-4 text-gray-500 max-w-md mx-auto">
-            Étape 1: On conçoit votre architecture. Étape 2: On la maintient et l'améliore en continu.
+            1 : j&apos;installe vos automatisations. 2 : je les entretiens et les améliore — seulement si vous le souhaitez.
           </p>
         </div>
 
         {/* STEP 1: Architecture Setup */}
         <div className="mb-20">
           <div className="text-center mb-8">
-            <span className="inline-block bg-[#e8632a] text-white text-xs font-bold px-4 py-2 rounded-full">Étape 1</span>
-            <h3 className="text-2xl font-bold text-gray-900 mt-4">Architecture IA (Setup unique)</h3>
-            <p className="text-sm text-gray-500 mt-2">Conception, développement, tests et formation inclus</p>
+            <span className="inline-block bg-[#e8632a] text-white text-xs font-bold px-4 py-2 rounded-full">1 — Installation</span>
+            <h3 className="text-2xl font-bold text-gray-900 mt-4">Vos automatisations (paiement unique)</h3>
+            <p className="text-sm text-gray-500 mt-2">Conception, mise en place, tests et formation inclus</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {architecture.map((plan) => (
-              <div key={plan.name} className="relative p-7 rounded-2xl flex flex-col transition-all duration-200 border border-gray-200 bg-white hover:border-[#e8632a] hover:shadow-lg hover:shadow-orange-100">
+              <div key={plan.name} className={`relative p-7 rounded-2xl flex flex-col transition-all duration-200 bg-white hover:shadow-lg hover:shadow-orange-100 ${plan.badge ? "border-2 border-[#e8632a]" : "border border-gray-200 hover:border-[#e8632a]"}`}>
+                {plan.badge && (
+                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#e8632a] text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">{plan.badge}</span>
+                )}
                 <h4 className="text-sm font-bold text-gray-900 mb-1">{plan.name}</h4>
                 <p className="text-xs text-gray-400 mb-6">{plan.desc}</p>
 
@@ -162,9 +168,9 @@ export function PricingPreview() {
         {/* STEP 2: Maintenance Subscription */}
         <div className="mb-20">
           <div className="text-center mb-8">
-            <span className="inline-block bg-[#e8632a] text-white text-xs font-bold px-4 py-2 rounded-full">Étape 2</span>
-            <h3 className="text-2xl font-bold text-gray-900 mt-4">Maintenance & Évolution (Abonnement mensuel)</h3>
-            <p className="text-sm text-gray-500 mt-2">Après votre architecture, maintenez et améliorez votre système 24h/24</p>
+            <span className="inline-block bg-gray-900 text-white text-xs font-bold px-4 py-2 rounded-full">2 — Entretien (optionnel)</span>
+            <h3 className="text-2xl font-bold text-gray-900 mt-4">Entretien & évolution (abonnement optionnel)</h3>
+            <p className="text-sm text-gray-500 mt-2">Résiliable à tout moment. Vos automatisations restent à vous, avec ou sans abonnement.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {plans.map((plan) => (
@@ -206,7 +212,7 @@ export function PricingPreview() {
         {/* Websites */}
         <div className="mb-20">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-gray-900">Websites</h3>
+            <h3 className="text-2xl font-bold text-gray-900">Sites internet</h3>
             <p className="text-sm text-gray-500 mt-2">Architecture sur mesure + maintenance continue</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -260,7 +266,7 @@ export function PricingPreview() {
         {/* Web Apps */}
         <div className="mb-20">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-gray-900">Web Apps</h3>
+            <h3 className="text-2xl font-bold text-gray-900">Applications sur mesure</h3>
             <p className="text-sm text-gray-500 mt-2">Architecture sur mesure + maintenance continue</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
