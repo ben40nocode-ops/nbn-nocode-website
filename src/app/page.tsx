@@ -14,7 +14,7 @@ import { CtaSection } from "@/components/home/CtaSection";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA pour PME | Bordeaux · Royan",
-  description: "NBN IA construit des systèmes IA autonomes pour PME et artisans. Devis, relances, RDV automatisés en 2 semaines. Sur mesure. Bordeaux, Royan, Arcachon.",
+  description: "Automatisation & agents IA pour PME et artisans : devis, relances et RDV automatisés en 2 semaines. Compatible Microsoft 365. Bordeaux, Royan, Arcachon.",
   alternates: { canonical: "https://www.nbn-ia.fr" },
 };
 
