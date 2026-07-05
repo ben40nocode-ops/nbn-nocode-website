@@ -42,9 +42,9 @@ export default function HomeEnPage() {
               Book a free audit
               <ArrowRight size={17} className="group-hover:translate-x-0.5 transition-transform" />
             </Link>
-            <Link href="/en#work"
+            <Link href="/contact#message"
               className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 hover:text-gray-900 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-gray-50">
-              See real examples
+              Describe my project (2 min)
             </Link>
           </div>
           <div className="mt-16 pt-10 border-t border-gray-100 grid grid-cols-3 gap-8 max-w-lg mx-auto">
