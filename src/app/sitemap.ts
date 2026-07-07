@@ -59,6 +59,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${base}/automatisation-lesparre`, lastModified: new Date("2026-07-07"), changeFrequency: "monthly", priority: 0.85 },
 
     // Pages hub de ville (contenu enrichi — liens internes vers les pages spécifiques)
+    { url: `${base}/bordeaux`, lastModified: new Date("2026-07-07"), changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/royan`, lastModified: new Date("2026-06-29"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/arcachon`, lastModified: new Date("2026-06-29"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/lacanau`, lastModified: new Date("2026-07-04"), changeFrequency: "monthly", priority: 0.75 },

@@ -27,7 +27,7 @@ export function Footer() {
                 : "Vos devis, réponses clients et relances gérés automatiquement. Des automatisations sur mesure pour PME et artisans — sans recruter, sans coder."}
             </p>
             <p className="text-xs text-gray-500 mb-4">
-              Bordeaux · <Link href="/royan" className="hover:text-white transition-colors">Royan</Link> · <Link href="/arcachon" className="hover:text-white transition-colors">Arcachon</Link> · France
+              <Link href="/bordeaux" className="hover:text-white transition-colors">Bordeaux</Link> · <Link href="/royan" className="hover:text-white transition-colors">Royan</Link> · <Link href="/arcachon" className="hover:text-white transition-colors">Arcachon</Link> · France
             </p>
             <Link
               href={isEN ? CALENDLY_EN : CALENDLY_FR}
