@@ -10,9 +10,11 @@ export const metadata: Metadata = {
 };
 
 const services = [
+  { href: "/site-internet-lesparre", title: "Création de site internet", desc: "Sites vitrines, e-commerce et vente de vin en ligne pour les pros du Médoc." },
+  { href: "/web-app-lesparre", title: "Création d'application web", desc: "Outils sur mesure : commandes, stock, suivi de chantiers, espace client." },
+  { href: "/automatisation-lesparre", title: "Automatisation & agents IA", desc: "Devis, relances et commandes automatisés, compatible Microsoft 365 / Excel." },
   { href: "/cave-lesparre", title: "Solutions pour caves & domaines", desc: "Commandes, facturation et fidélisation automatisées pour les caves de Lesparre-Médoc." },
   { href: "/domaines-medoc", title: "Domaines du Médoc", desc: "Automatisation des visites, ventes directes et relances pour les domaines médocains." },
-  { href: "/services/sites-internet", title: "Création de site web", desc: "Sites vitrines et e-commerce optimisés Google pour les pros lesparrains." },
   { href: "/services/automatisation-ia", title: "Automatisation & agents IA", desc: "Devis, relances, prises de RDV et réponses clients automatisés, 24h/24." },
 ];
 

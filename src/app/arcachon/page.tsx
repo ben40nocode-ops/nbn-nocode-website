@@ -11,7 +11,8 @@ export const metadata: Metadata = {
 
 const services = [
   { href: "/automatisation-arcachon", title: "Automatisation & agents IA", desc: "Automatisez devis, relances, réservations et réponses clients pour votre activité sur le Bassin." },
-  { href: "/web-app-arcachon", title: "Web app sur mesure", desc: "Applications métiers à Arcachon : espace client, réservation, gestion de saison." },
+  { href: "/site-internet-arcachon", title: "Création de site internet", desc: "Sites vitrines et e-commerce pour les entreprises du Bassin d'Arcachon." },
+  { href: "/web-app-arcachon", title: "Création d'application web", desc: "Applications métiers à Arcachon : espace client, réservation, gestion de saison." },
   { href: "/site-hotel-arcachon", title: "Site web pour hôtels", desc: "Sites performants avec réservation en ligne pour l'hôtellerie du Bassin." },
   { href: "/camping-arcachon", title: "Solutions pour campings", desc: "Automatisation de la communication et des réservations pour les campings d'Arcachon." },
   { href: "/restaurant-arcachon", title: "Site web pour restaurants", desc: "Réservation, menu en ligne et agent IA pour les restaurants arcachonnais." },

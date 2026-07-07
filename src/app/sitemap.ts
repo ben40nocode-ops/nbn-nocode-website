@@ -47,6 +47,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${base}/web-app-bordeaux`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/web-app-royan`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/web-app-arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/web-app-soulac`, lastModified: new Date("2026-07-07"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/web-app-lesparre`, lastModified: new Date("2026-07-07"), changeFrequency: "monthly", priority: 0.8 },
+
+    // Villes prioritaires — couverture complète (site + auto), contenu riche
+    { url: `${base}/site-internet-royan`, lastModified: new Date("2026-07-07"), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/site-internet-arcachon`, lastModified: new Date("2026-07-07"), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/site-internet-soulac`, lastModified: new Date("2026-07-07"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/site-internet-lesparre`, lastModified: new Date("2026-07-07"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/automatisation-soulac`, lastModified: new Date("2026-07-07"), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/automatisation-lesparre`, lastModified: new Date("2026-07-07"), changeFrequency: "monthly", priority: 0.85 },
 
     // Pages hub de ville (contenu enrichi — liens internes vers les pages spécifiques)
     { url: `${base}/royan`, lastModified: new Date("2026-06-29"), changeFrequency: "monthly", priority: 0.8 },
@@ -56,7 +66,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${base}/pauillac`, lastModified: new Date("2026-07-04"), changeFrequency: "monthly", priority: 0.75 },
     { url: `${base}/lesparre`, lastModified: new Date("2026-07-04"), changeFrequency: "monthly", priority: 0.75 },
     { url: `${base}/montalivet`, lastModified: new Date("2026-07-04"), changeFrequency: "monthly", priority: 0.75 },
-    // NB: /site-internet-arcachon reste hors sitemap (noindex, contenu mince).
 
     // Pages secteur
     { url: `${base}/restaurant-arcachon`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.8 },

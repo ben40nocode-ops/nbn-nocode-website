@@ -10,7 +10,10 @@ export const metadata: Metadata = {
 };
 
 const services = [
-  { href: "/hotel-soulac", title: "Automatisation pour hôtels", desc: "Conciergerie IA, communication client et gestion des réservations pour l'hôtellerie soulacaise." },
+  { href: "/site-internet-soulac", title: "Création de site internet", desc: "Sites vitrines et réservation en ligne pour les pros de Soulac et du nord Médoc." },
+  { href: "/web-app-soulac", title: "Création d'application web", desc: "Outils sur mesure : réservation, planning de saison, espace client." },
+  { href: "/automatisation-soulac", title: "Automatisation & agents IA", desc: "Réservations, relances et réponses clients automatisées, compatible Microsoft 365." },
+  { href: "/hotel-soulac", title: "Solutions pour hôtels", desc: "Conciergerie IA, communication client et gestion des réservations pour l'hôtellerie soulacaise." },
   { href: "/site-camping-soulac", title: "Site web pour campings", desc: "Site performant avec réservation en ligne pour les campings de Soulac et du nord Médoc." },
   { href: "/app-camping-soulac", title: "App de gestion camping", desc: "Application sur mesure pour gérer les habitués, la saison et la communication." },
   { href: "/services/automatisation-ia", title: "Automatisation & agents IA", desc: "Devis, relances, prises de RDV et réponses clients automatisés, 24h/24." },

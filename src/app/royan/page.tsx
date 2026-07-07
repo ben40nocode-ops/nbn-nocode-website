@@ -11,7 +11,8 @@ export const metadata: Metadata = {
 
 const services = [
   { href: "/automatisation-royan", title: "Automatisation & agents IA", desc: "Devis, relances, RDV et réponses clients automatisés pour les PME de Royan." },
-  { href: "/web-app-royan", title: "Web app sur mesure", desc: "Applications métiers à Royan : espace client, réservation, dashboard." },
+  { href: "/site-internet-royan", title: "Création de site internet", desc: "Sites vitrines et e-commerce pour les entreprises de Royan." },
+  { href: "/web-app-royan", title: "Création d'application web", desc: "Applications métiers à Royan : espace client, réservation, dashboard." },
   { href: "/site-hotel-royan", title: "Site web pour hôtels", desc: "Sites performants avec réservation en ligne pour l'hôtellerie royannaise." },
   { href: "/site-restaurant-royan", title: "Site web pour restaurants", desc: "Réservation, menu en ligne et agent IA pour les restaurants de Royan." },
   { href: "/peche-royan", title: "Digitalisation pêche & mareyage", desc: "Outils sur mesure pour les professionnels de la pêche à Royan." },
