@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
-import { upsertSubscriber, updateSubscriberByStripeId } from "@/lib/subscribers";
+import { upsertSubscriber, upsertSubscriberByEmail, updateSubscriberByStripeId } from "@/lib/subscribers";
+import { inviteClient } from "@/lib/clerk-invite";
 
 const PLAN_MAP: Record<string, string> = {
   [process.env.STRIPE_PRICE_CORE!]: "core",
@@ -51,6 +52,42 @@ export async function POST(req: NextRequest) {
           status: "active",
           createdAt: new Date().toISOString().split("T")[0],
         });
+        break;
+      }
+
+      // TU démarres un plan côté Stripe (dashboard / facture / lien de paiement).
+      // On crée la ligne Supabase par email + on invite le client à créer son accès.
+      case "customer.subscription.created": {
+        const sub = event.data.object as Stripe.Subscription;
+        const priceId = sub.items.data[0]?.price.id;
+        const plan = PLAN_MAP[priceId];
+        if (!plan) {
+          console.error("[webhook] created: priceId inconnu:", priceId);
+          break;
+        }
+
+        const customer = await stripe.customers.retrieve(sub.customer as string);
+        const email = customer && !customer.deleted ? (customer.email ?? "") : "";
+        if (!email) {
+          console.error("[webhook] created: pas d'email sur le client Stripe", sub.customer);
+          break;
+        }
+
+        let status: "active" | "past_due" | "invited" = "active";
+        if (sub.status === "past_due" || sub.status === "unpaid") status = "past_due";
+        else if (sub.status === "incomplete" || sub.status === "incomplete_expired") status = "invited";
+
+        const { created } = await upsertSubscriberByEmail({
+          email,
+          plan,
+          stripeSubscriptionId: sub.id,
+          stripeCustomerId: sub.customer as string,
+          status,
+          createdAt: new Date().toISOString().split("T")[0],
+        });
+
+        // Nouveau client -> invitation « votre espace est prêt ».
+        if (created) await inviteClient(email);
         break;
       }
 

@@ -87,6 +87,50 @@ export async function upsertSubscriber(data: Subscriber) {
   return createSubscriber(data);
 }
 
+// Crée/met à jour une ligne à partir de l'EMAIL, sans user_id Clerk.
+// Utilisé par le webhook quand TU démarres le plan côté Stripe : le client n'a pas
+// encore de compte, il sera rattaché plus tard par email à sa 1re connexion.
+// Ne touche jamais un user_id déjà présent. Renvoie { created } pour décider l'invitation.
+export async function upsertSubscriberByEmail(
+  data: Omit<Subscriber, "userId">
+): Promise<{ created: boolean }> {
+  const db = getSupabaseAdmin();
+
+  const { data: existing, error: selErr } = await db
+    .from(TABLE)
+    .select("id")
+    .eq("email", data.email)
+    .limit(1)
+    .maybeSingle();
+  if (selErr) throw new Error(`[subscribers] upsertSubscriberByEmail(select): ${selErr.message}`);
+
+  if (existing) {
+    const { error } = await db
+      .from(TABLE)
+      .update({
+        plan: data.plan || null,
+        stripe_subscription_id: data.stripeSubscriptionId || null,
+        stripe_customer_id: data.stripeCustomerId || null,
+        status: data.status,
+      })
+      .eq("id", existing.id);
+    if (error) throw new Error(`[subscribers] upsertSubscriberByEmail(update): ${error.message}`);
+    return { created: false };
+  }
+
+  const { error } = await db.from(TABLE).insert({
+    user_id: null,
+    email: data.email,
+    plan: data.plan || null,
+    stripe_subscription_id: data.stripeSubscriptionId || null,
+    stripe_customer_id: data.stripeCustomerId || null,
+    status: data.status,
+    created_at: data.createdAt,
+  });
+  if (error) throw new Error(`[subscribers] upsertSubscriberByEmail(insert): ${error.message}`);
+  return { created: true };
+}
+
 export async function getSubscriberByUserId(userId: string): Promise<Subscriber | null> {
   const { data, error } = await getSupabaseAdmin()
     .from(TABLE)
