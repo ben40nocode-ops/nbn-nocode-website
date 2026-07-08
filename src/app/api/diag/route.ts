@@ -20,16 +20,28 @@ export async function GET(req: NextRequest) {
   };
 
   if (url && key) {
+    // 1) via supabase-js — dump complet de l'erreur
     try {
       const db = createClient(url, key, { auth: { persistSession: false } });
       const { error, count } = await db
         .from("subscribers")
         .select("*", { count: "exact", head: true });
-      diag.query = error
-        ? { error: error.message, code: error.code, details: error.details, hint: error.hint }
+      diag.viaClient = error
+        ? { full: JSON.parse(JSON.stringify(error, Object.getOwnPropertyNames(error))) }
         : { ok: true, count };
     } catch (e) {
-      diag.query = { threw: e instanceof Error ? e.message : String(e) };
+      diag.viaClient = { threw: e instanceof Error ? `${e.name}: ${e.message}` : String(e) };
+    }
+
+    // 2) appel REST brut — statut HTTP + corps
+    try {
+      const res = await fetch(`${url}/rest/v1/subscribers?select=count`, {
+        headers: { apikey: key, Authorization: `Bearer ${key}` },
+      });
+      const body = await res.text();
+      diag.viaRest = { status: res.status, statusText: res.statusText, body: body.slice(0, 300) };
+    } catch (e) {
+      diag.viaRest = { fetchThrew: e instanceof Error ? `${e.name}: ${e.message}` : String(e) };
     }
   }
 
