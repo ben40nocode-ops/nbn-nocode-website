@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"rtk curl -s https://www.nbn-ia.fr | grep -o \\\"Formé chez Alegria\\\" && echo \\\"✅ Bio updated live\\\"\",\"description\":\"Verify bio update is live\"}",
-  "error": "Exit code 1",
-  "timestamp": "2026-04-30T12:22:55.337Z",
+  "tool_input_preview": "{\"command\":\"rtk find src -name \\\"*.tsx\\\" -exec perl -pi -e \\\"\\ns/Réserver l&apos;audit gratuit/Réserver mon appel gratuit (1h)/g;\\ns/Audit gratuit \\\\(1h\\\\)/Appel gratuit (1h)/g;\\ns/L&apos;audit est gr...",
+  "error": "Exit code 1\nrtk: rtk find does not support compound predicates or actions (e.g. -not, -exec). Use `find` directly.",
+  "timestamp": "2026-07-05T07:17:44.569Z",
   "retry_count": 1
 }
