@@ -78,14 +78,19 @@ export function Navbar() {
                 <UserButton />
               </>
             ) : (
-              <Link
-                href="https://calendly.com/ben40nocode/1h"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm bg-[#e8632a] hover:bg-[#c4521f] text-white px-5 py-2 rounded-lg transition-colors font-semibold whitespace-nowrap"
-              >
-                {isEN ? "Book audit" : "Réserver l'audit"}
-              </Link>
+              <>
+                <Link href="/sign-in" className="text-sm text-gray-500 hover:text-gray-900 transition-colors px-2 py-1.5 whitespace-nowrap">
+                  {isEN ? "Log in" : "Connexion"}
+                </Link>
+                <Link
+                  href="https://calendly.com/ben40nocode/1h"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm bg-[#e8632a] hover:bg-[#c4521f] text-white px-5 py-2 rounded-lg transition-colors font-semibold whitespace-nowrap"
+                >
+                  {isEN ? "Book audit" : "Réserver l'audit"}
+                </Link>
+              </>
             )}
           </div>
 
@@ -143,16 +148,22 @@ export function Navbar() {
               {isEN ? "Client area" : "Espace client"}
             </Link>
           ) : (
-            <Link
-              href="https://calendly.com/ben40nocode/1h"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setOpen(false)}
-              className="flex items-center justify-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-4 py-3.5 rounded-xl text-sm font-bold transition-colors"
-            >
-              {isEN ? "Book my free call" : "Réserver mon appel gratuit (1h)"}
-              <ArrowRight size={15} />
-            </Link>
+            <>
+              <Link href="/sign-in" onClick={() => setOpen(false)}
+                className="text-sm text-center text-gray-600 hover:text-gray-900 py-2">
+                {isEN ? "Log in" : "Connexion"}
+              </Link>
+              <Link
+                href="https://calendly.com/ben40nocode/1h"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setOpen(false)}
+                className="flex items-center justify-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-4 py-3.5 rounded-xl text-sm font-bold transition-colors"
+              >
+                {isEN ? "Book my free call" : "Réserver mon appel gratuit (1h)"}
+                <ArrowRight size={15} />
+              </Link>
+            </>
           )}
         </div>
       </div>
