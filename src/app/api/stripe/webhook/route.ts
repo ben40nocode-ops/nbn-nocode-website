@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
-import { upsertSubscriber, updateSubscriberByStripeId } from "@/lib/airtable";
+import { upsertSubscriber, updateSubscriberByStripeId } from "@/lib/subscribers";
 
 const PLAN_MAP: Record<string, string> = {
   [process.env.STRIPE_PRICE_CORE!]: "core",

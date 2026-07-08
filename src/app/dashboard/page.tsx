@@ -1,7 +1,7 @@
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 import { Check } from "lucide-react";
-import { getSubscriberByUserId, getSubscriberByEmail, linkUserIdToSubscriber } from "@/lib/airtable";
+import { getSubscriberByUserId, getSubscriberByEmail, linkUserIdToSubscriber } from "@/lib/subscribers";
 import { DashboardClient } from "./DashboardClient";
 
 export const metadata = { title: "Espace client", robots: { index: false } };

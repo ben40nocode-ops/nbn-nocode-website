@@ -1,7 +1,7 @@
 import { auth } from "@clerk/nextjs/server";
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
-import { getSubscriberByUserId } from "@/lib/airtable";
+import { getSubscriberByUserId } from "@/lib/subscribers";
 
 export async function GET(req: NextRequest) {
   const { userId } = await auth();

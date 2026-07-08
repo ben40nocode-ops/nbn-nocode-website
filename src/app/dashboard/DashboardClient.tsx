@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ArrowRight, CheckCircle, AlertCircle, X } from "lucide-react";
-import type { Subscriber } from "@/lib/airtable";
+import type { Subscriber } from "@/lib/subscribers";
 
 const PLAN_LABELS: Record<string, string> = {
   core: "Core Maintenance — 159€/mois",
