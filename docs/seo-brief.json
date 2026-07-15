@@ -4,7 +4,6 @@
   "date": "2026-07-15",
   "projet": "nbn-ia.fr",
   "objet": "Contraintes et plan SEO/contenu, établis à partir des données réelles Google Search Console (3 mois). Ce fichier existe pour empêcher de rejouer une recette SEO générique qui a déjà échoué ici.",
-
   "contexte": {
     "business": "NBN IA — automatisation et agents IA pour PME/artisans",
     "operateur": "Benjamin Bertigny, développeur SOLO (aucune équipe, aucun salarié)",
@@ -13,21 +12,66 @@
     "role_reel_du_site": "vitrine et preuve de crédibilité pour la prospection — PAS une machine à leads",
     "livraison": "le service est livrable 100% à distance, la géographie n'est pas une contrainte métier"
   },
-
   "preuves": {
     "source": "Google Search Console, période 3 mois (mai–juil. 2026)",
-    "monde": { "clics": 36, "impressions": 1240, "ctr": "2.9%", "position_moyenne": 13.4 },
-    "france": { "clics": 28, "impressions": 390, "ctr": "7.2%", "position_moyenne": 13.2 },
-    "requete_marque_nbn_ia": { "clics": 15, "impressions": 57, "ctr": "26%", "commentaire": "la marque fonctionne bien" },
-    "clics_hors_marque_france": { "valeur": "~13 en 3 mois", "commentaire": "produits par ~70 pages locales" },
+    "monde": {
+      "clics": 36,
+      "impressions": 1240,
+      "ctr": "2.9%",
+      "position_moyenne": 13.4
+    },
+    "france": {
+      "clics": 28,
+      "impressions": 390,
+      "ctr": "7.2%",
+      "position_moyenne": 13.2
+    },
+    "requete_marque_nbn_ia": {
+      "clics": 15,
+      "impressions": 57,
+      "ctr": "26%",
+      "commentaire": "la marque fonctionne bien"
+    },
+    "clics_hors_marque_france": {
+      "valeur": "~13 en 3 mois",
+      "commentaire": "produits par ~70 pages locales"
+    },
     "requetes_hors_marque_top": [
-      { "requete": "creation application royan", "clics": 0, "impressions": 23 },
-      { "requete": "agence automatisation pme toulouse", "clics": 0, "impressions": 23 },
-      { "requete": "automatisation sur mesure entreprise", "clics": 0, "impressions": 14 },
-      { "requete": "agence n8n toulouse", "clics": 0, "impressions": 12 },
-      { "requete": "automatisation essonne", "clics": 0, "impressions": 10 },
-      { "requete": "automatisation sur mesure", "clics": 0, "impressions": 7 },
-      { "requete": "déploiement d'agent ia", "clics": 0, "impressions": 7 }
+      {
+        "requete": "creation application royan",
+        "clics": 0,
+        "impressions": 23
+      },
+      {
+        "requete": "agence automatisation pme toulouse",
+        "clics": 0,
+        "impressions": 23
+      },
+      {
+        "requete": "automatisation sur mesure entreprise",
+        "clics": 0,
+        "impressions": 14
+      },
+      {
+        "requete": "agence n8n toulouse",
+        "clics": 0,
+        "impressions": 12
+      },
+      {
+        "requete": "automatisation essonne",
+        "clics": 0,
+        "impressions": 10
+      },
+      {
+        "requete": "automatisation sur mesure",
+        "clics": 0,
+        "impressions": 7
+      },
+      {
+        "requete": "déploiement d'agent ia",
+        "clics": 0,
+        "impressions": 7
+      }
     ],
     "fiche_google_business": {
       "existe": true,
@@ -37,7 +81,6 @@
       "profil": "incomplet"
     }
   },
-
   "verdicts": [
     "Les ~70 pages 'service × ville' ont produit 0 clic hors-marque en 3 mois. Le pattern est réfuté par les données, pas par une opinion.",
     "Google positionne NBN IA THÉMATIQUEMENT, pas géographiquement : il l'affiche sur 'agence automatisation pme toulouse' SANS page Toulouse. Créer une page par ville ne pilote pas la visibilité ville.",
@@ -47,7 +90,6 @@
     "La qualité rédactionnelle des pages est bonne (contenu réellement différencié par ville). Le problème est la CIBLE, pas l'exécution.",
     "Le site remplit déjà bien sa vraie fonction : 26% de CTR sur la requête de marque. Le prospect démarché qui google 'NBN IA' te trouve. C'est ça, la valeur du site."
   ],
-
   "interdits": [
     "NE JAMAIS créer de nouvelle page 'service × ville'. Preuve : 70 pages → 0 clic en 3 mois.",
     "NE JAMAIS écrire 'nous', 'on', 'notre équipe', 'nos experts'. Benjamin est SEUL. Écrire à la première personne du singulier ou en voix de marque neutre.",
@@ -57,16 +99,18 @@
     "NE PAS supprimer les pages existantes par réflexe : le bénéfice d'une suppression n'est PAS prouvé. Voir plan P2.",
     "NE PAS présenter le SEO comme un canal d'acquisition pour ce business. Il ne l'est pas et ne le sera pas à court terme."
   ],
-
   "plan": [
     {
       "priorite": "P0",
-      "titre": "Audit de véracité des claims sur les ~70 pages",
+      "titre": "Audit de véracité des claims — FAIT le 2026-07-15",
       "pourquoi": "Risque de crédibilité, très supérieur à l'enjeu SEO. Des affirmations très spécifiques figurent en ligne ('plusieurs hôteliers travaillent déjà avec nous', 'on a travaillé avec des cabanes ostréicoles', '+15% d'avis Google en 30 jours'). Si elles ont été générées et non vécues, elles doivent disparaître.",
       "action": "Extraire TOUS les claims de preuve, résultat chiffré et référence client des pages. Les présenter en liste à Benjamin pour validation OUI/NON un par un. Supprimer ou reformuler tout ce qu'il ne valide pas.",
       "regle": "Seul Benjamin peut trancher. Ne rien supposer, ne rien 'corriger' à sa place.",
       "effort": "moyen",
-      "statut": "à faire"
+      "statut": "fait",
+      "resultat": "117 'résultats clients' chiffrés étaient FABRIQUÉS (aucun réel). Preuve : le même résultat apparaissait sur 2 pages de clients différents avec un mot changé (/huitres-bassin 'saison des fêtes' vs /ostreiculteur-arcachon 'saison estivale'). Tous supprimés et remplacés par des objectifs sans aucun chiffre. Vérifié en production.",
+      "cadrage_corrige": "Le cadrage était pire que les chiffres : 'Cas concrets', 'Exemples de systèmes DÉPLOYÉS pour des entreprises du littoral charentais', labels 'Solution déployée' / 'Résultat' = affirmation de travaux réalisés. Corrigé : 'Cas d'usage', 'systèmes que je peux concevoir', 'Solution', 'Objectif'.",
+      "garde_fou": "Le composant src/components/SectorPage.tsx gouverne 34 pages : tout cadrage y est centralisé. Vérifier ce fichier avant d'y réintroduire la moindre affirmation de résultat."
     },
     {
       "priorite": "P0",
@@ -74,7 +118,8 @@
       "pourquoi": "Contredit la réalité (Benjamin est seul) et sa propre règle éditoriale.",
       "action": "Repasser les pages pour éliminer 'nous/on/notre équipe'. Voix : première personne ou marque neutre.",
       "effort": "moyen",
-      "statut": "à faire"
+      "statut": "fait",
+      "resultat": "3 fausses références clients supprimées ('on a travaillé avec des cabanes ostréicoles', 'plusieurs hôteliers travaillent déjà avec nous') + 'on développe' -> 'je développe'."
     },
     {
       "priorite": "P1",
@@ -137,7 +182,6 @@
       "statut": "non lancé — nécessite accord explicite"
     }
   ],
-
   "metriques": {
     "a_suivre": [
       "clics hors-marque France (baseline : ~13 / 3 mois)",
@@ -150,7 +194,6 @@
       "position moyenne globale"
     ]
   },
-
   "regles_de_travail": [
     "Demander le RÉSULTAT visé avant de proposer une tactique.",
     "Vérifier avant d'affirmer. Une hypothèse plausible n'est pas un fait — dans cette analyse, 2 hypothèses confiantes (trafic australien, bug de titre dupliqué) se sont révélées FAUSSES après vérification.",
