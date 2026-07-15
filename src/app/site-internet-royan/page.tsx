@@ -50,19 +50,19 @@ export default function Page() {
           secteur: "Restaurant de bord de mer",
           probleme: "Aucun site, visible seulement sur les réseaux. Les touristes ne trouvent pas le menu ni comment réserver.",
           solution: "Site vitrine avec menu en ligne, réservation directe et agent IA qui répond aux questions fréquentes.",
-          gain: "Réservations directes en hausse dès la première saison.",
+          gain: "Capter des réservations directes dès le lancement du nouveau site.",
         },
         {
           secteur: "Artisan / commerce local",
           probleme: "Un vieux site lent, mal classé sur Google, qui ne génère aucun appel.",
           solution: "Refonte complète rapide et optimisée, avec SEO local et formulaire de devis.",
-          gain: "Apparition en page 1 sur les requêtes locales du métier.",
+          gain: "Améliorer la visibilité sur les recherches locales liées au métier.",
         },
         {
           secteur: "Activité touristique / location",
           probleme: "Dépendance totale aux plateformes qui prennent des commissions.",
           solution: "Site avec réservation en direct et paiement en ligne sécurisé.",
-          gain: "Moins de commissions, plus de marge sur chaque réservation.",
+          gain: "Réduire la dépendance aux commissions grâce à la réservation en direct.",
         },
       ]}
       faqs={[

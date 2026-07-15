@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (2-4 semaines)", desc: "App livrée avant la saison. Points réguliers, vous validez chaque étape." },
         { step: "03", title: "Mise en prod & suivi", desc: "Déploiement, formation de l'équipe en 1h. Support pendant la saison." },
       ]}
-      casesTitle="Cas concrets pour les campings du Médoc"
+      casesTitle="Cas d’usage pour les campings du Médoc"
       cases={[
         {
           secteur: "Camping familial Soulac",
           probleme: "80% des réservations via Booking. Commissions élevées. Pas de relation directe avec les clients.",
           solution: "App de réservation directe + programme fidélité simple (priorité de réservation pour les habitués). Agent IA pour les demandes hors horaires.",
-          gain: "50% de réservations directes en 2 saisons. Fidèles qui reviennent sans passer par Booking.",
+          gain: "Encourager les habitués à réserver en direct plutôt que via une plateforme.",
         },
         {
           secteur: "Camping sans outils digitaux",
           probleme: "Tout géré par téléphone et carnet papier. Erreurs, surréservations, stress en haute saison.",
           solution: "Système complet : réservations en ligne, calendrier temps réel, confirmation automatique, alertes surréservation.",
-          gain: "0 surréservation sur la première saison. 3h gagnées par semaine sur l'administratif.",
+          gain: "Éviter les doubles réservations grâce à un calendrier synchronisé en temps réel.",
         },
         {
           secteur: "Camping avec avis Google à améliorer",
           probleme: "Note Google de 3,8 malgré de bons retours en direct. Pas de process de collecte d'avis.",
           solution: "Agent IA qui envoie un SMS de remerciement au départ avec lien Google Reviews. Segmentation selon la durée de séjour.",
-          gain: "+29 avis en une saison. Note passée de 3,8 à 4,5 étoiles.",
+          gain: "Encourager les clients satisfaits à laisser un avis Google après leur séjour.",
         },
       ]}
       faqs={[

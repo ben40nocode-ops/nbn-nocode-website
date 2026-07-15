@@ -76,19 +76,19 @@ const casUsage = [
     secteur: "Restaurateur / Hôtelier",
     probleme: "Confirmation de réservations manuelle, relances oubliées, planning à jour difficile à tenir.",
     solution: "Agent IA qui confirme automatiquement par SMS/email, relance les no-shows, met à jour le planning en temps réel.",
-    gain: "1h30 gagnée par jour, zéro oubli.",
+    gain: "Confirmer chaque réservation automatiquement et relancer les absents sans y penser.",
   },
   {
     secteur: "Artisan / TPE du bâtiment",
     probleme: "Devis chronophages, prospects qui ne rappellent pas, suivi chantier dans des tableurs.",
     solution: "Système qui génère les devis depuis un formulaire, relance automatiquement à J+3 et J+7, centralise les chantiers dans un CRM simple.",
-    gain: "3 à 5 heures récupérées par semaine.",
+    gain: "Générer les devis automatiquement et relancer les prospects sans y penser.",
   },
   {
     secteur: "Agence / Cabinet de conseil",
     probleme: "Onboarding client répétitif, reporting manuel chaque semaine, emails de suivi à rédiger un par un.",
     solution: "Pipeline d'onboarding automatisé, rapport hebdomadaire généré et envoyé par IA, emails de suivi rédigés et envoyés selon des déclencheurs.",
-    gain: "L'équipe se concentre sur les missions, pas sur l'administratif.",
+    gain: "Automatiser les tâches administratives répétitives pour dégager du temps sur les missions.",
   },
 ];
 
@@ -193,8 +193,8 @@ export default function BordeauxPage() {
 
           {/* Cas d'usage */}
           <div className="mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Cas concrets à Bordeaux et en Gironde</h2>
-            <p className="text-gray-500 text-sm mb-8">Exemples de systèmes déployés pour des entreprises locales.</p>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">Cas d’usage à Bordeaux et en Gironde</h2>
+            <p className="text-gray-500 text-sm mb-8">Exemples de systèmes que je peux concevoir pour des entreprises locales.</p>
             <div className="flex flex-col gap-6">
               {casUsage.map(({ secteur, probleme, solution, gain }) => (
                 <div key={secteur} className="border border-gray-100 rounded-2xl p-7">
@@ -205,11 +205,11 @@ export default function BordeauxPage() {
                       <p className="text-gray-500">{probleme}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Solution déployée</p>
+                      <p className="font-semibold text-gray-700 mb-1">Solution</p>
                       <p className="text-gray-500">{solution}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Résultat</p>
+                      <p className="font-semibold text-gray-700 mb-1">Objectif</p>
                       <p className="text-[#e8632a] font-semibold">{gain}</p>
                     </div>
                   </div>

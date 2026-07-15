@@ -50,19 +50,19 @@ export default function Page() {
           secteur: "Cave / domaine viticole",
           probleme: "Vente au caveau uniquement, aucune commande en ligne pour les clients hors région.",
           solution: "Boutique en ligne de vente de vin avec relances après dégustation et newsletter saisonnière.",
-          gain: "Ventes directes élargies bien au-delà du Médoc.",
+          gain: "Élargir la zone de vente directe au-delà de la clientèle locale.",
         },
         {
           secteur: "Artisan du bâtiment",
           probleme: "Aucun site, demandes de devis perdues, invisible sur Google.",
           solution: "Site vitrine avec formulaire de devis et SEO local sur le métier et la commune.",
-          gain: "Demandes de devis qualifiées reçues chaque semaine.",
+          gain: "Générer des demandes de devis qualifiées grâce à un référencement local ciblé.",
         },
         {
           secteur: "Commerce / producteur local",
           probleme: "Visible uniquement au marché, aucune vente en semaine.",
           solution: "Site avec catalogue et commande en ligne, retrait sur place ou livraison locale.",
-          gain: "Ventes possibles 7j/7, plus seulement le jour de marché.",
+          gain: "Permettre la commande en ligne au-delà des seuls jours de marché.",
         },
       ]}
       faqs={[

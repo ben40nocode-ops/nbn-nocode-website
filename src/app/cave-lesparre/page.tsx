@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Déploiement", desc: "On déploie les automatisations adaptées à votre structure. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Maintenance", desc: "On suit et on ajuste. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets pour les caves de Lesparre"
+      casesTitle="Cas d’usage pour les caves de Lesparre"
       cases={[
         {
           secteur: "Cave indépendante avec vente directe",
           probleme: "Commandes reçues par téléphone et email. Pas de suivi structuré, facturation manuelle en fin de semaine.",
           solution: "Agent IA qui centralise les commandes, génère les factures automatiquement et envoie les bons de livraison au transporteur.",
-          gain: "2h gagnées par semaine. Facturation à jour tous les jours.",
+          gain: "Générer les factures et les bons de livraison directement depuis les commandes.",
         },
         {
           secteur: "Cave coopérative Lesparre",
           probleme: "Adhérents qui demandent leur solde et leurs ventes par téléphone. L'équipe passe trop de temps à répondre à des questions répétitives.",
           solution: "Espace adhérent en ligne + agent IA qui répond automatiquement aux questions fréquentes (solde, millésimes disponibles, planning).",
-          gain: "60% de moins d'appels entrants. Adhérents plus autonomes.",
+          gain: "Donner aux adhérents un accès autonome aux informations les plus demandées.",
         },
         {
           secteur: "Domaine avec œnotourisme",
           probleme: "Visites et ateliers de dégustation réservés par email. Oublis de confirmation, no-shows fréquents.",
           solution: "Système de réservation automatisé avec rappels par SMS et email 48h avant la visite.",
-          gain: "No-shows réduits de 70%. 1h gagnée par semaine sur la gestion des réservations.",
+          gain: "Réduire les absences aux visites grâce à des rappels automatiques avant la venue.",
         },
       ]}
       faqs={[

@@ -47,19 +47,19 @@ const casUsage = [
     secteur: "Cabinet de conseil / Agence",
     probleme: "Emails de qualification entrants non traités pendant les weekends, prospects qui attendent 48h une réponse et choisissent un concurrent.",
     solution: "Agent Claude qui lit les emails entrants, qualifie le prospect (budget, besoin, urgence), répond en moins de 2 minutes et prévient l'équipe si c'est chaud.",
-    gain: "Taux de réponse dans l'heure : 0% → 100%. 3 deals supplémentaires signés le premier trimestre.",
+    gain: "Ne plus laisser une demande entrante sans réponse rapide.",
   },
   {
     secteur: "E-commerce / Boutique en ligne",
     probleme: "SAV chronophage avec les mêmes questions (délais, retours, tailles) et aucune personnalisation.",
     solution: "Agent connecté au catalogue et aux commandes Shopify. Répond aux questions de suivi, gère les retours, propose des alternatives. Escalade vers un humain si nécessaire.",
-    gain: "68% des tickets SAV traités sans intervention humaine. NPS +12 points.",
+    gain: "Traiter les demandes de suivi et de retour sans intervention humaine systématique.",
   },
   {
     secteur: "Professionnel de santé / Cabinet",
     probleme: "Secrétariat débordé par les appels pour des RDV, questions de remboursement, confirmations.",
     solution: "Agent IA sur le site et par SMS qui répond aux questions fréquentes, prend les RDV dans l'agenda, envoie les rappels J-1.",
-    gain: "40% d'appels entrants en moins. Secrétariat concentré sur l'accueil physique.",
+    gain: "Réduire les appels entrants en répondant aux questions courantes et en prenant les rendez-vous.",
   },
 ];
 
@@ -184,7 +184,7 @@ export default function ChatbotIABordeauxPage() {
 
           {/* Cas d'usage */}
           <div className="mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Cas concrets d&apos;agents IA à Bordeaux</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">Cas d’usage d&apos;agents IA à Bordeaux</h2>
             <p className="text-gray-500 text-sm mb-8">Résultats réels observés chez des entreprises bordelaises et girondines.</p>
             <div className="flex flex-col gap-6">
               {casUsage.map(({ secteur, probleme, solution, gain }) => (
@@ -196,11 +196,11 @@ export default function ChatbotIABordeauxPage() {
                       <p className="text-gray-500">{probleme}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Solution déployée</p>
+                      <p className="font-semibold text-gray-700 mb-1">Solution</p>
                       <p className="text-gray-500">{solution}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Résultat</p>
+                      <p className="font-semibold text-gray-700 mb-1">Objectif</p>
                       <p className="text-[#e8632a] font-semibold">{gain}</p>
                     </div>
                   </div>

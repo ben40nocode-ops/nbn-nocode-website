@@ -50,19 +50,19 @@ export default function Page() {
           secteur: "Ostréiculteur — vente directe",
           probleme: "Vente uniquement à la cabane, aucune commande possible en ligne hors saison.",
           solution: "Boutique en ligne pour commander huîtres et colis, avec relances automatiques des clients fidèles.",
-          gain: "Ventes directes prolongées toute l'année.",
+          gain: "Prolonger la vente directe toute l'année grâce à une boutique en ligne.",
         },
         {
           secteur: "Restaurant / bar du front de mer",
           probleme: "Site inexistant ou obsolète, réservations perdues faute de visibilité.",
           solution: "Site vitrine élégant avec menu, réservation directe et avis Google mis en avant.",
-          gain: "Plus de réservations captées en direct.",
+          gain: "Capter davantage de réservations directement depuis le site du restaurant.",
         },
         {
           secteur: "Commerce / boutique déco",
           probleme: "Boutique physique dépendante de la saison, aucune vente en ligne l'hiver.",
           solution: "E-commerce simple connecté au stock, click & collect pour la clientèle locale.",
-          gain: "Chiffre d'affaires étalé sur toute l'année.",
+          gain: "Étaler les ventes sur l'année grâce à un canal en ligne complémentaire.",
         },
       ]}
       faqs={[

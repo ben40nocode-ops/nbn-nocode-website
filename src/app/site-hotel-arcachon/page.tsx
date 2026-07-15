@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (1-3 semaines)", desc: "Site livré avec réservations directes opérationnelles et agent IA configuré. Points réguliers." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement, optimisation SEO complète, monitoring des réservations. Évolutions continues." },
       ]}
-      casesTitle="Cas concrets pour les hôtels d'Arcachon"
+      casesTitle="Cas d’usage pour les hôtels d'Arcachon"
       cases={[
         {
           secteur: "Hôtel boutique bord de Bassin",
           probleme: "90% des réservations via Booking.com. Commissions élevées, pas de relation directe avec les clients.",
           solution: "Site premium avec réservation directe + agent IA conciergerie + campagnes email vers les clients passés.",
-          gain: "60% de réservations directes en 6 mois. Économie de 8 000€ de commissions/an.",
+          gain: "Développer la réservation directe et fidéliser la clientèle par email.",
         },
         {
           secteur: "Hôtel avec spa et restaurant",
           probleme: "Clients qui découvrent le spa et le restaurant après leur arrivée. Pas d'upsell pré-séjour.",
           solution: "Séquence email automatisée pré-séjour avec agent IA qui propose les options (spa, table, excursions) 3 jours avant l'arrivée.",
-          gain: "+25% de revenus annexes. Taux d'occupation restaurant en hausse.",
+          gain: "Proposer les services complémentaires au bon moment avant l'arrivée du client.",
         },
         {
           secteur: "Hôtel sans agent disponible la nuit",
           probleme: "Pas de réceptionniste la nuit. Questions des clients sans réponse. Manque de confort perçu.",
           solution: "Agent IA conciergerie qui répond aux questions, gère les demandes de room service et contacte l'astreinte si urgence.",
-          gain: "Note Booking passée de 8,1 à 9,0. Commentaires positifs sur la réactivité.",
+          gain: "Assurer une réponse rapide aux demandes des clients, y compris la nuit.",
         },
       ]}
       faqs={[

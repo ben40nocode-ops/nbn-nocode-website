@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (1-2 semaines)", desc: "Site livré avant la saison avec réservations et agent IA opérationnels." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement, SEO local complet, Google My Business optimisé. Monitoring des réservations." },
       ]}
-      casesTitle="Cas concrets pour les restaurants de Royan"
+      casesTitle="Cas d’usage pour les restaurants de Royan"
       cases={[
         {
           secteur: "Restaurant fruits de mer — Royan",
           probleme: "Haute saison surchargée. Réservations par téléphone uniquement. File d'attente incontrôlable en juillet.",
           solution: "Site avec réservation en ligne + gestion de la liste d'attente + agent IA qui répond aux questions de disponibilité.",
-          gain: "File d'attente réduite de 60%. Clients mieux orientés vers des créneaux disponibles.",
+          gain: "Orienter les clients vers des créneaux disponibles pour réduire l'attente sur place.",
         },
         {
           secteur: "Brasserie bord de mer",
           probleme: "Clientèle saisonnière difficile à fidéliser. Pas de stratégie pour faire revenir les touristes l'année suivante.",
           solution: "Collecte d'emails via le site. Campagnes automatisées en mars avec offres pré-saison pour les clients de l'été précédent.",
-          gain: "+25% de clients fidèles d'une saison sur l'autre.",
+          gain: "Relancer les clients de la saison précédente avec des offres avant la reprise.",
         },
         {
           secteur: "Restaurant gastronomique",
           probleme: "Site statique qui ne valorise pas la qualité de la carte. Pas de référencement sur 'restaurant gastronomique Royan'.",
           solution: "Site premium avec photos de plats professionnelles, menu dynamique, SEO ciblé et avis Google structurés.",
-          gain: "Position 1 sur 'restaurant gastronomique Royan'. Taux de remplissage en hausse de 20%.",
+          gain: "Améliorer la visibilité et l'attractivité du restaurant grâce à un site soigné.",
         },
       ]}
       faqs={[

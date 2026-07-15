@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (1-3 semaines)", desc: "Site livré avec réservations directes et agent IA opérationnels. Points réguliers pendant le développement." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement sur Vercel. SEO technique complet. Monitoring et évolutions continues." },
       ]}
-      casesTitle="Cas concrets pour les hôtels de Royan"
+      casesTitle="Cas d’usage pour les hôtels de Royan"
       cases={[
         {
           secteur: "Hôtel de charme bord de mer",
           probleme: "Dépendance à Booking.com pour 85% des réservations. Commissions qui grèvent la marge en haute saison.",
           solution: "Site premium avec réservation directe, programme fidélité simple et agent IA qui collecte les emails pour les campagnes futures.",
-          gain: "55% de réservations directes en première saison. 6 000€ de commissions économisées.",
+          gain: "Développer la réservation directe et construire une base de clients fidèles.",
         },
         {
           secteur: "Hôtel avec capacité séminaires",
           probleme: "Site qui ne valorise pas l'offre séminaires. Entreprises qui ne savent pas que l'hôtel a des salles de réunion.",
           solution: "Pages dédiées séminaires avec formulaire devis en ligne, agent IA qui qualifie les demandes entrantes.",
-          gain: "15 devis séminaires reçus en 3 mois. 4 convertis.",
+          gain: "Qualifier automatiquement les demandes de devis séminaires dès leur réception.",
         },
         {
           secteur: "Hôtel sans présence digitale forte",
           probleme: "Site basique, mal référencé. L'hôtel n'apparaît pas sur les premières pages Google pour 'hôtel Royan'.",
           solution: "Refonte complète avec SEO technique, contenu optimisé pour les requêtes locales et avis Google structurés.",
-          gain: "Top 3 Google sur 'hôtel Royan bord de mer' en 60 jours.",
+          gain: "Améliorer la visibilité locale sur les recherches liées à l'hôtel.",
         },
       ]}
       faqs={[

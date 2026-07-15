@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Déploiement", desc: "Agent IA et automatisations adaptés à votre appellation et vos clients. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Maintenance", desc: "On suit et on ajuste selon les campagnes primeurs et millésimes. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets pour les producteurs de Pauillac"
+      casesTitle="Cas d’usage pour les producteurs de Pauillac"
       cases={[
         {
           secteur: "Château — ventes directes et export",
           probleme: "Commandes reçues par email en français, anglais, parfois japonais. Facturation multi-devises, suivi des allocations par marché difficile.",
           solution: "Agent IA multilingue qui traite les commandes, génère les factures dans la bonne devise et langue, et met à jour les allocations en temps réel.",
-          gain: "4h gagnées par semaine. 0 erreur d'allocation sur 2 campagnes primeurs.",
+          gain: "Traiter les commandes multilingues et fiabiliser les allocations en temps réel.",
         },
         {
           secteur: "Domaine avec mailing list clients",
           probleme: "Annonces de nouveaux millésimes envoyées manuellement à 500+ contacts. Pas de segmentation, pas de suivi des réponses.",
           solution: "Système d'envoi automatisé segmenté par profil client, avec agent IA qui centralise les réponses et commandes reçues.",
-          gain: "+60% de taux d'ouverture. 3 jours gagnés sur chaque lancement de millésime.",
+          gain: "Segmenter les envois par profil client pour mieux cibler chaque lancement.",
         },
         {
           secteur: "Négociant en vins Pauillac",
           probleme: "Suivi de 200+ références chez plusieurs châteaux. Stock et prix mis à jour manuellement chaque semaine.",
           solution: "Dashboard centralisé avec mises à jour automatiques des stocks et prix. Agent IA qui répond aux demandes de disponibilités 24h/24.",
-          gain: "Catalogue toujours à jour. 5h gagnées par semaine sur la gestion stock.",
+          gain: "Maintenir le catalogue à jour automatiquement et répondre aux demandes de disponibilité à toute heure.",
         },
       ]}
       faqs={[

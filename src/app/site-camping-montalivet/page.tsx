@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (1-2 semaines)", desc: "Site livré avant la saison avec réservations en ligne opérationnelles. Points réguliers." },
         { step: "03", title: "Mise en ligne & suivi", desc: "Déploiement, SEO complet, monitoring des réservations. Évolutions continues." },
       ]}
-      casesTitle="Cas concrets pour les campings du Médoc"
+      casesTitle="Cas d’usage pour les campings du Médoc"
       cases={[
         {
           secteur: "Camping naturiste — Montalivet",
           probleme: "Site non adapté à la clientèle naturiste. Mauvais référencement sur les requêtes spécifiques. Forte dépendance à Naturisme.com.",
           solution: "Site refait avec SEO ciblé (naturisme Médoc, camping naturiste Gironde), galerie adaptée et système de réservation directe.",
-          gain: "+50% de réservations directes. Réduction des commissions de 4 500€/an.",
+          gain: "Capter davantage de réservations en direct grâce à un référencement ciblé.",
         },
         {
           secteur: "Camping familial Montalivet",
           probleme: "Clientèle européenne (néerlandais, belges, allemands) avec questions en langue étrangère sans réponse rapide.",
           solution: "Agent IA multilingue intégré au site. Répond en néerlandais, allemand, français, anglais instantanément.",
-          gain: "Taux de conversion international +35%. Satisfaction clients en hausse.",
+          gain: "Répondre instantanément aux clients étrangers dans leur propre langue.",
         },
         {
           secteur: "Camping avec chalets et mobile-homes",
           probleme: "Tarification complexe (haute/moyenne/basse saison, durée minimum, options). Erreurs de tarification fréquentes.",
           solution: "Système de réservation avec calcul automatique selon les paramètres. Agent IA qui explique les tarifs aux clients.",
-          gain: "0 erreur de tarification sur 2 saisons. Gain de temps estimé à 3h/semaine.",
+          gain: "Calculer les tarifs automatiquement pour limiter le risque d'erreur de saisie.",
         },
       ]}
       faqs={[

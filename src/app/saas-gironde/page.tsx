@@ -44,29 +44,29 @@ export default function Page() {
         { step: "02", title: "Développement (3-8 semaines)", desc: "Vibe coding avec Claude Code : MVP livré rapidement, itérations hebdomadaires. Vous voyez l'app évoluer en temps réel." },
         { step: "03", title: "Mise en prod & croissance", desc: "Déploiement, monitoring, support. On scale l'infrastructure avec votre croissance. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets de SaaS développés en Gironde"
+      casesTitle="Cas d’usage de SaaS développés en Gironde"
       cases={[
         {
           secteur: "SaaS de gestion pour agences de voyage",
           probleme: "Back-office artisanal (Google Sheets, Zapier, Apps Script). Erreurs, pertes de données, impossible à scaler.",
           solution: "Application web complète avec authentification, gestion des dossiers, agents Claude pour la ventilation comptable automatique et connexion OneDrive.",
-          gain: "3 outils remplacés par 1. 4h gagnées par semaine par conseiller. ROI en 3 mois.",
+          gain: "Remplacer plusieurs outils séparés par une application unique pour la gestion des dossiers.",
         },
         {
           secteur: "Plateforme B2B — secteur industriel",
           probleme: "Processus de commande complexe entre fabricant, distributeurs et clients finaux. Géré manuellement par email.",
           solution: "Plateforme multi-tenant avec portails séparés par rôle, agents IA qui qualifient les commandes et génèrent les devis automatiquement.",
-          gain: "Cycle de commande réduit de 5 jours à 1 jour. +40% de commandes traitées.",
+          gain: "Accélérer le traitement des commandes grâce à la qualification et aux devis automatiques.",
         },
         {
           secteur: "Outil interne — cabinet de conseil",
           probleme: "Connaissance métier dispersée dans des emails et documents. Onboarding des nouveaux consultants long et coûteux.",
           solution: "Base de connaissances avec agent IA qui répond aux questions internes, propose des ressources et aide à rédiger les livrables.",
-          gain: "Onboarding réduit de 3 semaines à 1 semaine. Rétention de connaissances améliorée.",
+          gain: "Accélérer l'intégration des nouveaux arrivants grâce à une base de connaissances accessible.",
         },
       ]}
       faqs={[
-        { q: "Quelle est la différence entre un SaaS et une web app ?", a: "Un SaaS est une web app commercialisée en abonnement avec plusieurs clients (multi-tenant). On développe les deux — parfois un outil interne évolue en SaaS commercialisable." },
+        { q: "Quelle est la différence entre un SaaS et une web app ?", a: "Un SaaS est une web app commercialisée en abonnement avec plusieurs clients (multi-tenant). Je développe les deux — parfois un outil interne évolue en SaaS commercialisable." },
         { q: "Combien coûte le développement d'un SaaS en Gironde ?", a: "Un SaaS MVP (authentification + 4-6 fonctionnalités + billing) démarre à 4 000€ HT. Un SaaS avancé avec agents IA et multi-tenant complet autour de 8 000€ HT." },
         { q: "On peut ajouter des fonctionnalités après la livraison ?", a: "Oui, c'est prévu dans l'architecture. Le code est modulaire pour permettre des évolutions rapides sans réécriture." },
         { q: "Vous assurez la maintenance et l'hébergement ?", a: "Oui. Abonnement de maintenance à partir de 159€/mois. L'hébergement Vercel est géré par nous — vous ne vous occupez de rien." },

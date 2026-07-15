@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (2-4 semaines)", desc: "Vibe coding avec Claude Code : app livrée avant la saison. Points hebdomadaires, vous voyez l'app évoluer." },
         { step: "03", title: "Mise en prod & saison", desc: "Déploiement avant juin. Support pendant la haute saison. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets pour les campings de Lacanau"
+      casesTitle="Cas d’usage pour les campings de Lacanau"
       cases={[
         {
           secteur: "Camping surf — réservations en ligne",
           probleme: "Réservations uniquement par téléphone. Pertes en dehors des heures d'ouverture. Dépendance à Booking.com (15-20% de commission).",
           solution: "App de réservation directe avec agent IA disponible 24h/24 pour les questions hors horaires. Synchronisation Booking pour éviter les doublons.",
-          gain: "45% de réservations directes dès la première saison. 4 200€ de commissions économisées.",
+          gain: "Capter les réservations en direct et réduire la dépendance aux commissions des plateformes.",
         },
         {
           secteur: "Camping avec clientèle internationale",
           probleme: "Questions en espagnol, anglais, néerlandais sans réponse rapide. Taux d'abandon élevé sur les demandes étrangères.",
           solution: "Agent IA multilingue intégré au site et à l'app. Détecte la langue automatiquement, répond en 30 secondes.",
-          gain: "Taux de conversion international +40%. Note Booking passée de 8,4 à 9,1.",
+          gain: "Répondre aux clients étrangers dans leur langue, sans attente.",
         },
         {
           secteur: "Camping avec gestion complexe",
           probleme: "Emplacements nus, bungalows, mobil-homes avec tarifications différentes selon la saison. Erreurs fréquentes.",
           solution: "App sur mesure avec moteur de tarification configurable. Mise à jour des prix en 2 clics avant chaque saison.",
-          gain: "0 erreur de tarification sur 2 saisons. 2h gagnées par semaine.",
+          gain: "Mettre à jour les tarifs sans risque d'erreur, en quelques clics.",
         },
       ]}
       faqs={[

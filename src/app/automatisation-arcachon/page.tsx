@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: "Un ostréiculteur ou producteur local peut-il bénéficier de vos services ?",
-    a: "Oui. On a travaillé avec des cabanes ostréicoles et des producteurs locaux. Les cas d'usage les plus courants : automatisation des commandes en ligne, gestion des livraisons, communication avec les revendeurs, facturation automatique.",
+    a: "Oui. Les cas d'usage les plus courants pour une cabane ostréicole ou un producteur local : automatisation des commandes en ligne, gestion des livraisons, communication avec les revendeurs, facturation automatique.",
   },
   {
     q: "Combien ça coûte pour une PME du Bassin ?",
@@ -47,19 +47,19 @@ const casUsage = [
     secteur: "Hôtel / Résidence de tourisme",
     probleme: "Check-in manuel, emails pré-séjour à envoyer un par un, aucun suivi post-séjour systématique.",
     solution: "Agent IA qui envoie automatiquement les infos de check-in J-3, les horaires d'accueil J-1, le questionnaire de satisfaction J+1 et la demande d'avis Google J+3.",
-    gain: "1h gagnée par réservation. +20% d'avis Google en 2 mois.",
+    gain: "Automatiser les messages autour du séjour, de l'arrivée à la demande d'avis.",
   },
   {
     secteur: "Cabane ostréicole / Producteur local",
     probleme: "Commandes reçues par SMS, email et téléphone sans centralisation. Facturation en fin de semaine, erreurs fréquentes.",
     solution: "Formulaire de commande connecté à un agent IA qui centralise, valide, envoie la confirmation et génère la facture automatiquement.",
-    gain: "Zéro erreur de facturation. 3h par semaine récupérées.",
+    gain: "Fiabiliser la facturation en la générant directement depuis les commandes.",
   },
   {
     secteur: "Location nautique / Activités outdoor",
     probleme: "Réservations du matériel gérées par téléphone, disponibilités jamais à jour, relances manuelles en cas d'annulation.",
     solution: "Système de réservation connecté à un agent IA qui gère les disponibilités en temps réel, confirme automatiquement et relance en cas d'annulation.",
-    gain: "Taux d'occupation amélioré de 15%. Zéro double réservation.",
+    gain: "Gérer les disponibilités en temps réel pour éviter les doubles réservations.",
   },
 ];
 
@@ -189,8 +189,8 @@ export default function ArcachonPage() {
 
           {/* Cas d'usage */}
           <div className="mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Cas concrets sur le Bassin d&apos;Arcachon</h2>
-            <p className="text-gray-500 text-sm mb-8">Exemples de systèmes déployés pour des entreprises locales.</p>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">Cas d’usage sur le Bassin d&apos;Arcachon</h2>
+            <p className="text-gray-500 text-sm mb-8">Exemples de systèmes que je peux concevoir pour des entreprises locales.</p>
             <div className="flex flex-col gap-6">
               {casUsage.map(({ secteur, probleme, solution, gain }) => (
                 <div key={secteur} className="border border-gray-100 rounded-2xl p-7">
@@ -201,11 +201,11 @@ export default function ArcachonPage() {
                       <p className="text-gray-500">{probleme}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Solution déployée</p>
+                      <p className="font-semibold text-gray-700 mb-1">Solution</p>
                       <p className="text-gray-500">{solution}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Résultat</p>
+                      <p className="font-semibold text-gray-700 mb-1">Objectif</p>
                       <p className="text-[#e8632a] font-semibold">{gain}</p>
                     </div>
                   </div>

@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (2-4 semaines)", desc: "App livrée avec réservation directe et agent IA. Vibe coding = 3x plus rapide qu'une agence classique." },
         { step: "03", title: "Mise en prod & optimisation", desc: "Déploiement, monitoring des réservations, ajustements. On scale avec votre croissance." },
       ]}
-      casesTitle="Cas concrets pour les hôtels d'Arcachon"
+      casesTitle="Cas d’usage pour les hôtels d'Arcachon"
       cases={[
         {
           secteur: "Hôtel boutique — Arcachon",
           probleme: "90% des réservations via Booking.com. Pas de relation directe avec les clients. Impossibilité de faire de l'upsell.",
           solution: "App de réservation directe + agent IA qui propose le petit-déjeuner et les excursions 3 jours avant l'arrivée.",
-          gain: "60% de réservations directes en 6 mois. +25% de revenus annexes. 7 000€ de commissions économisées/an.",
+          gain: "Développer les réservations directes et proposer des services complémentaires au bon moment.",
         },
         {
           secteur: "Hôtel sans réceptionniste la nuit",
           probleme: "Clients qui arrivent tard sans réponse aux questions (parking, accès, wifi). Mauvaises notes sur la réactivité.",
           solution: "Agent IA conciergerie qui répond 24h/24, gère le check-in tardif et contacte l'astreinte si urgence.",
-          gain: "Note Booking passée de 8,0 à 9,2. Commentaires positifs sur la disponibilité.",
+          gain: "Assurer une réponse disponible à toute heure, même sans réceptionniste de nuit.",
         },
         {
           secteur: "Hôtel — fidélisation basse saison",
           probleme: "Taux d'occupation en octobre-mars trop faible. Les clients de l'été ne reviennent pas.",
           solution: "Campagnes email automatisées vers les clients précédents avec offres basse saison. Agent IA qui gère les demandes entrantes.",
-          gain: "+22% de taux d'occupation en basse saison.",
+          gain: "Relancer les anciens clients avec des offres ciblées pour remplir la basse saison.",
         },
       ]}
       faqs={[

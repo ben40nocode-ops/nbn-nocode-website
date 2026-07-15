@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Installation (1-4 semaines)", desc: "Je mets en place vos automatisations, prêtes avant la saison. Vous validez à chaque étape." },
         { step: "03", title: "Ça tourne tout seul", desc: "Vos systèmes sont opérationnels 24h/24. Entretien optionnel ensuite." },
       ]}
-      casesTitle="Cas concrets à Soulac-sur-Mer"
+      casesTitle="Cas d’usage à Soulac-sur-Mer"
       cases={[
         {
           secteur: "Camping en haute saison",
           probleme: "100+ emails par semaine en juillet-août : disponibilités, animaux, équipements. Réception saturée.",
           solution: "Agent IA entraîné sur le règlement et les FAQ, qui répond à 80% des demandes et transfère les cas complexes.",
-          gain: "80% des demandes traitées automatiquement.",
+          gain: "Répondre automatiquement aux questions courantes et transférer les cas plus complexes.",
         },
         {
           secteur: "Hôtel / chambres d'hôtes",
           probleme: "No-shows fréquents et clients pas relancés faute de temps.",
           solution: "Rappels automatiques avant l'arrivée + demande d'avis Google au départ.",
-          gain: "Moins de no-shows, plus d'avis positifs.",
+          gain: "Réduire les absences grâce à des rappels automatiques avant l'arrivée.",
         },
         {
           secteur: "Commerce saisonnier",
           probleme: "Fichier clients dormant hors saison, aucune relance.",
           solution: "Campagnes automatiques de réactivation avant chaque saison.",
-          gain: "Clients fidèles qui reviennent chaque année.",
+          gain: "Relancer automatiquement les clients de l'année précédente avant chaque nouvelle saison.",
         },
       ]}
       faqs={[

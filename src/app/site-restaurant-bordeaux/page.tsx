@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (1-2 semaines)", desc: "Site livré avec réservations en ligne et agent IA opérationnels. Vibe coding = 3x plus rapide qu'une agence classique." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement, SEO local complet, Google My Business optimisé. Monitoring des réservations." },
       ]}
-      casesTitle="Cas concrets pour les restaurants de Bordeaux"
+      casesTitle="Cas d’usage pour les restaurants de Bordeaux"
       cases={[
         {
           secteur: "Restaurant gastro — centre Bordeaux",
           probleme: "Site WordPress vieillissant, non mobile-friendly. 80% des réservations via TheFork avec commissions. Menu mis à jour manuellement par l'agence.",
           solution: "Refonte Next.js avec menu digital auto-géré, réservation directe et agent IA qui répond aux questions hors horaires.",
-          gain: "Score Lighthouse 98. +35% de réservations directes. Économie de 4 000€/an sur TheFork.",
+          gain: "Développer la réservation directe avec un site rapide et un menu facile à mettre à jour.",
         },
         {
           secteur: "Bistrot de quartier",
           probleme: "Pas de site internet. Clients qui trouvent des infos incorrectes sur Google (horaires, adresse). Avis non gérés.",
           solution: "Site vitrine simple avec horaires, menu du jour, réservation et agent IA pour les questions fréquentes. SEO local optimisé.",
-          gain: "Premier page Google sur 'restaurant [quartier] Bordeaux' en 45 jours.",
+          gain: "Améliorer la visibilité locale sur les recherches liées au quartier.",
         },
         {
           secteur: "Restaurant avec click & collect",
           probleme: "Commandes click & collect gérées par téléphone. Erreurs, attentes, oublis en service.",
           solution: "Système de commande en ligne intégré au site avec agent IA qui confirme et notifie à la bonne heure.",
-          gain: "+40% de commandes click & collect. 0 erreur sur 3 mois.",
+          gain: "Fiabiliser les commandes à emporter en automatisant la confirmation et la notification.",
         },
       ]}
       faqs={[

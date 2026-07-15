@@ -50,19 +50,19 @@ export default function Page() {
           secteur: "Camping — gestion de saison",
           probleme: "Réservations sur un tableur, doubles réservations et confusion en pleine saison.",
           solution: "Application de réservation et de planning centralisée, accessible par toute l'équipe.",
-          gain: "Fini les doubles réservations, une équipe alignée.",
+          gain: "Centraliser réservations et planning pour éviter les doubles réservations.",
         },
         {
           secteur: "Location saisonnière",
           probleme: "Gestion des arrivées, cautions et états des lieux dispersée entre mails et papiers.",
           solution: "Espace de gestion locative : planning, documents, communication centralisés.",
-          gain: "Chaque séjour géré sans stress ni oubli.",
+          gain: "Centraliser planning, documents et communication pour gérer chaque séjour sereinement.",
         },
         {
           secteur: "Commerce avec fidélité",
           probleme: "Aucun suivi des clients fidèles qui reviennent chaque été.",
           solution: "Application avec fiche client, historique et relances de réactivation.",
-          gain: "Des habitués reconnus et fidélisés.",
+          gain: "Reconnaître les clients habitués grâce à un historique et des relances ciblées.",
         },
       ]}
       faqs={[

@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Déploiement", desc: "Agent IA et automatisations déployés avant la saison. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Suivi de saison", desc: "On monitore et on ajuste en temps réel pendant votre haute saison. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets pour les campings du Bassin"
+      casesTitle="Cas d’usage pour les campings du Bassin"
       cases={[
         {
           secteur: "Camping 3 étoiles — Bassin d'Arcachon",
           probleme: "100+ emails par semaine en juillet-août avec des questions répétitives (animaux acceptés, horaires piscine, wifi). L'équipe réception débordée.",
           solution: "Agent IA entraîné sur le règlement et les FAQ du camping. Répond automatiquement à 80% des questions, transfère les cas complexes à l'équipe.",
-          gain: "80% des emails gérés automatiquement. L'équipe se concentre sur l'accueil en présentiel.",
+          gain: "Répondre automatiquement aux questions courantes pour libérer du temps pour l'accueil sur place.",
         },
         {
           secteur: "Camping avec emplacements premium",
           probleme: "Demandes d'emplacements spécifiques (bord de mer, ombre, grande surface) traitées manuellement. Beaucoup d'aller-retours avec les clients.",
           solution: "Système de questions guidées avec agent IA qui identifie les préférences et propose les emplacements disponibles correspondants.",
-          gain: "Temps de conversion réduit de 60%. Clients mieux orientés dès le premier contact.",
+          gain: "Orienter chaque visiteur vers l'emplacement adapté grâce à des questions guidées.",
         },
         {
           secteur: "Camping familial — gestion avis",
           probleme: "Peu d'avis Google malgré des campeurs satisfaits. Pas de process de collecte d'avis.",
           solution: "Agent IA qui envoie automatiquement un message de remerciement au départ avec lien vers Google Reviews. Segmentation selon la durée de séjour.",
-          gain: "+45 avis Google en une saison. Note passée de 3,8 à 4,5 étoiles.",
+          gain: "Encourager les avis Google en sollicitant les clients satisfaits au moment du départ.",
         },
       ]}
       faqs={[

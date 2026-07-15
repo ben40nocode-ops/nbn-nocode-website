@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Installation (1-4 semaines)", desc: "Je mets en place vos automatisations. Vous validez à chaque étape, aucune surprise." },
         { step: "03", title: "Ça tourne tout seul", desc: "Vos systèmes sont opérationnels 24h/24. Entretien optionnel ensuite." },
       ]}
-      casesTitle="Cas concrets à Lesparre-Médoc"
+      casesTitle="Cas d’usage à Lesparre-Médoc"
       cases={[
         {
           secteur: "Cave / domaine viticole",
           probleme: "Commandes traitées à la main, relances après dégustation oubliées, clients hors région perdus de vue.",
           solution: "Prise de commande automatisée, relances et newsletter saisonnière programmées, suivi des colis.",
-          gain: "Plus de ventes directes, zéro relance oubliée.",
+          gain: "Automatiser les relances et la prise de commande pour développer la vente directe.",
         },
         {
           secteur: "Artisan du bâtiment",
           probleme: "Devis rédigés le soir après le chantier — souvent trop tard, le client a signé ailleurs.",
           solution: "Le client décrit son besoin, un devis pré-rempli est prêt en minutes, avec relance automatique.",
-          gain: "Devis envoyés plus vite, plus de chantiers signés.",
+          gain: "Réduire le délai d'envoi des devis grâce à un formulaire pré-rempli automatiquement.",
         },
         {
           secteur: "Commerce / producteur local",
           probleme: "Trop de temps passé à répondre aux mêmes questions et à gérer la facturation.",
           solution: "Agent IA pour les questions fréquentes + facturation et rapprochements automatisés.",
-          gain: "Plusieurs heures récupérées chaque semaine.",
+          gain: "Automatiser les réponses aux questions fréquentes et les tâches de facturation répétitives.",
         },
       ]}
       faqs={[

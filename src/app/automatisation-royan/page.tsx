@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "Est-ce que c'est adapté à une activité saisonnière comme le tourisme ?",
-    a: "Absolument. On conçoit des systèmes qui s'adaptent à votre charge : automatisations plus actives en haute saison, alertes et reporting en basse saison. Plusieurs hôteliers et restaurateurs du littoral charentais travaillent déjà avec nous.",
+    a: "Absolument. Le système s'adapte à votre charge : automatisations plus actives en haute saison, alertes et reporting en basse saison. C'est justement sur une activité saisonnière que l'automatisation change le plus les choses.",
   },
   {
     q: "Combien de temps pour mettre en place le système ?",
@@ -47,19 +47,19 @@ const casUsage = [
     secteur: "Hôtel / Locations saisonnières",
     probleme: "Gestion manuelle des réservations, confirmations oubliées, double-saisie entre plateformes, aucun suivi post-séjour.",
     solution: "Agent IA qui centralise les réservations (Booking, Airbnb, site direct), envoie les confirmations automatiquement, relance les avis Google à la fin du séjour.",
-    gain: "2h gagnées par jour en haute saison, +15% d'avis Google en 30 jours.",
+    gain: "Centraliser les réservations de toutes les plateformes et automatiser les relances d'avis.",
   },
   {
     secteur: "Restaurant / Bar de plage",
     probleme: "Téléphone qui sonne pendant le service, réservations perdues, pas de relance pour les groupes.",
     solution: "Agent IA qui gère les demandes de réservation par SMS et email, confirme les groupes automatiquement, relance les no-shows.",
-    gain: "Zéro réservation perdue. 45 min récupérées chaque soir.",
+    gain: "Ne plus laisser une demande de réservation sans réponse, même en soirée.",
   },
   {
     secteur: "Artisan / Commerce local",
     probleme: "Devis chronophages, prospects qui ne rappellent pas, suivi clients inexistant après la vente.",
     solution: "Système qui génère les devis depuis un formulaire de contact, relance automatiquement à J+3 et J+7, envoie un suivi satisfaction 30 jours après.",
-    gain: "3 à 5h par semaine récupérées. Taux de transformation devis amélioré de 20%.",
+    gain: "Automatiser la génération des devis et les relances pour transformer davantage de contacts.",
   },
 ];
 
@@ -189,8 +189,8 @@ export default function RoyanPage() {
 
           {/* Cas d'usage */}
           <div className="mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Cas concrets à Royan et en Charente-Maritime</h2>
-            <p className="text-gray-500 text-sm mb-8">Exemples de systèmes déployés pour des entreprises du littoral charentais.</p>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">Cas d’usage à Royan et en Charente-Maritime</h2>
+            <p className="text-gray-500 text-sm mb-8">Exemples de systèmes que je peux concevoir pour des entreprises du littoral charentais.</p>
             <div className="flex flex-col gap-6">
               {casUsage.map(({ secteur, probleme, solution, gain }) => (
                 <div key={secteur} className="border border-gray-100 rounded-2xl p-7">
@@ -201,11 +201,11 @@ export default function RoyanPage() {
                       <p className="text-gray-500">{probleme}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Solution déployée</p>
+                      <p className="font-semibold text-gray-700 mb-1">Solution</p>
                       <p className="text-gray-500">{solution}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Résultat</p>
+                      <p className="font-semibold text-gray-700 mb-1">Objectif</p>
                       <p className="text-[#e8632a] font-semibold">{gain}</p>
                     </div>
                   </div>

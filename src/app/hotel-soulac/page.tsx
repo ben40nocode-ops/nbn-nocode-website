@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Déploiement", desc: "Agent IA conciergerie et automatisations déployés. Votre équipe est formée en 1h. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Optimisation continue", desc: "On monitore les conversations et on améliore l'agent au fil des saisons. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets pour les hôtels de Soulac"
+      casesTitle="Cas d’usage pour les hôtels de Soulac"
       cases={[
         {
           secteur: "Hôtel de charme bord de mer",
           probleme: "Réception ouverte seulement de 8h à 20h. Demandes et réservations reçues en dehors de ces horaires, sans réponse rapide.",
           solution: "Agent IA disponible 24h/24 qui répond aux questions, confirme les disponibilités et prend les demandes pour transmission à la réception le matin.",
-          gain: "30% de réservations supplémentaires en dehors des heures d'ouverture. Clients rassurés.",
+          gain: "Répondre aux demandes de réservation même en dehors des heures d'ouverture.",
         },
         {
           secteur: "Hôtel avec restaurant",
           probleme: "Guests qui demandent des recommandations restaurant, activités, météo. L'équipe passe du temps sur des réponses non productives.",
           solution: "Agent IA conciergerie entraîné sur le territoire (restaurants, activités, plages, transports). Répond instantanément avec des recommandations pertinentes.",
-          gain: "Satisfaction clients +0,8 point sur Booking. Équipe libérée pour l'accueil.",
+          gain: "Fournir des recommandations locales instantanées pour libérer du temps à l'accueil.",
         },
         {
           secteur: "Hôtel — optimisation basse saison",
           probleme: "Taux d'occupation en basse saison (octobre-avril) trop faible. Pas de stratégie de fidélisation des clients de l'été.",
           solution: "Campagnes email automatisées vers les clients de l'été précédent avec offres spéciales basse saison. Agent IA qui gère les demandes entrantes.",
-          gain: "+20% de taux d'occupation en septembre-octobre.",
+          gain: "Relancer les clients de l'été avec des offres pour la basse saison.",
         },
       ]}
       faqs={[

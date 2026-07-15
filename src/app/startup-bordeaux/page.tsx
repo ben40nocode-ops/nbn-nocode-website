@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (2-8 semaines)", desc: "Vibe coding avec Claude Code : vous voyez l'app évoluer en temps réel. Points hebdomadaires, itérations rapides." },
         { step: "03", title: "Mise en prod & scale", desc: "Déploiement sur Vercel. Monitoring, maintenance, nouvelles fonctionnalités. On grandit avec vous." },
       ]}
-      casesTitle="Cas concrets pour les startups bordelaises"
+      casesTitle="Cas d’usage pour les startups bordelaises"
       cases={[
         {
           secteur: "SaaS B2B — workflow automation",
           probleme: "Fondateurs avec une idée solide mais pas de CTO. Besoin d'un MVP en 3 semaines pour un démo investisseurs.",
           solution: "Web app Next.js + Supabase avec agents Claude pour l'automatisation des workflows. Authentification, dashboard, intégrations Slack et Zapier.",
-          gain: "MVP livré en 17 jours. Démo réussie. 3 premiers clients payants en 30 jours.",
+          gain: "Livrer rapidement un produit fonctionnel pour valider l'automatisation des workflows.",
         },
         {
           secteur: "Marketplace — secteur RH",
           probleme: "Pas de développeur disponible. Budget startup limité. Besoin d'une plateforme fonctionnelle rapidement.",
           solution: "Marketplace avec profils, matching IA, messagerie intégrée et paiements. Livraison 4 semaines.",
-          gain: "Budget 60% inférieur à une agence classique. MVP validé en 6 semaines avec les premiers utilisateurs.",
+          gain: "Développer une marketplace fonctionnelle à moindre coût qu'une agence classique.",
         },
         {
           secteur: "Scale-up — automatisation interne",
           probleme: "Croissance rapide mais processes internes manuels. L'équipe passe trop de temps sur des tâches répétitives à faible valeur.",
           solution: "Outil interne sur mesure avec agents IA qui automatisent les rapports, la qualification des leads et le support L1.",
-          gain: "4h gagnées par semaine par personne. ROI atteint en 2 mois.",
+          gain: "Automatiser les rapports, la qualification des leads et le support de premier niveau.",
         },
       ]}
       faqs={[

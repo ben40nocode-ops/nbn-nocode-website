@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Déploiement", desc: "Automatisations et agents IA adaptés à votre domaine. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Maintenance", desc: "On suit et on ajuste selon vos saisons et vendanges. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets pour les domaines du Médoc"
+      casesTitle="Cas d’usage pour les domaines du Médoc"
       cases={[
         {
           secteur: "Château avec vente directe & export",
           probleme: "Commandes reçues par email et téléphone de cavistes français et étrangers. Saisie manuelle, erreurs de facturation, suivi des paiements chaotique.",
           solution: "Agent IA qui centralise toutes les commandes, génère les factures par client et millésime, et relance automatiquement les impayés selon un calendrier défini.",
-          gain: "3h gagnées par semaine. 0 impayé oublié sur la saison 2023.",
+          gain: "Centraliser la facturation et relancer automatiquement les impayés selon un calendrier défini.",
         },
         {
           secteur: "Domaine avec œnotourisme",
           probleme: "Réservations de visites et dégustations reçues par email et sur plusieurs plateformes. Doubles réservations, oublis de confirmation.",
           solution: "Système centralisé avec agent IA qui confirme les réservations, envoie les rappels automatiques et gère les annulations avec proposition de report.",
-          gain: "+40% de visites converties. Zéro no-show sur 3 mois.",
+          gain: "Confirmer chaque réservation de visite et proposer un report en cas d'annulation.",
         },
         {
           secteur: "Cave coopérative / Groupement",
           probleme: "Coordination entre vignerons adhérents pour les commandes groupées difficile. Reporting ventes manuel et chronophage.",
           solution: "Tableau de bord centralisé avec agent IA qui consolide les ventes, distribue les informations aux adhérents et génère les rapports mensuels automatiquement.",
-          gain: "5h gagnées par mois sur la coordination. Reporting disponible chaque lundi matin.",
+          gain: "Consolider les ventes des adhérents et générer les rapports automatiquement.",
         },
       ]}
       faqs={[

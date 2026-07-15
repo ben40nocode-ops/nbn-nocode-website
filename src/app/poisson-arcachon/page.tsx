@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Setup sur mesure", desc: "On déploie les automatisations adaptées à votre activité. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Maintenance continue", desc: "On suit, on ajuste, on fait évoluer selon vos saisons. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets pour la filière poisson Arcachon"
+      casesTitle="Cas d’usage pour la filière poisson Arcachon"
       cases={[
         {
           secteur: "Poissonnier / Grossiste marée",
           probleme: "Commandes restaurants reçues par SMS et email entre 5h et 7h. Saisie manuelle, erreurs de livraison, facturation en retard.",
           solution: "Agent IA qui centralise les commandes, génère les bons de livraison, envoie les factures et relance les impayés.",
-          gain: "1h gagnée chaque matin. 0 erreur de livraison sur 2 mois.",
+          gain: "Centraliser les commandes reçues par plusieurs canaux pour fiabiliser les livraisons.",
         },
         {
           secteur: "Pêcheur avec vente directe",
           probleme: "Clients réguliers contactés manuellement pour les disponibilités. Pas de liste organisée, oublis fréquents.",
           solution: "Système de liste clients avec agent IA qui envoie automatiquement les disponibilités du jour par SMS selon les préférences de chaque client.",
-          gain: "40% de ventes directes en plus. 30 min gagnées par jour.",
+          gain: "Informer automatiquement chaque client des arrivages du jour selon ses préférences.",
         },
         {
           secteur: "Stand marché avec commandes en ligne",
           probleme: "Commandes click & collect reçues par plusieurs canaux. Doublons, oublis, gestion du stock épuisé non automatisée.",
           solution: "Système centralisé avec agent IA qui consolide les commandes, met à jour les stocks en temps réel et notifie les clients.",
-          gain: "Zéro commande oubliée. Stock épuisé signalé automatiquement.",
+          gain: "Mettre à jour les stocks en temps réel et prévenir les clients concernés.",
         },
       ]}
       faqs={[

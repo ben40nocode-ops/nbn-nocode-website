@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (2-4 semaines)", desc: "Boutique complète avec paiement, gestion des stocks et agent IA. Vibe coding = livraison 3x plus rapide." },
         { step: "03", title: "Mise en ligne & croissance", desc: "Déploiement, SEO e-commerce, monitoring des ventes. Évolutions continues selon vos besoins." },
       ]}
-      casesTitle="Cas concrets pour les boutiques bordelaises"
+      casesTitle="Cas d’usage pour les boutiques bordelaises"
       cases={[
         {
           secteur: "Boutique mode / accessoires",
           probleme: "Vente uniquement en boutique physique. Pas de présence en ligne. Chiffre d'affaires limité aux heures d'ouverture.",
           solution: "Boutique e-commerce avec catalogue complet, paiement sécurisé, agent IA pour les questions (tailles, délais, retours) et automatisation logistique.",
-          gain: "+35% de chiffre d'affaires avec le canal en ligne dès le 3e mois.",
+          gain: "Développer un canal de vente en ligne complet, questions et logistique incluses.",
         },
         {
           secteur: "Commerce local avec vente en ligne existante",
           probleme: "Site e-commerce basique avec taux de conversion de 0,8%. Beaucoup de trafic, peu d'achats. Service client lent.",
           solution: "Refonte UX de la boutique + agent IA service client + séquence de paniers abandonnés + optimisation SEO produits.",
-          gain: "Taux de conversion passé à 2,4%. +30% de chiffre d'affaires en ligne.",
+          gain: "Améliorer l'expérience d'achat en ligne et relancer les paniers abandonnés.",
         },
         {
           secteur: "Artisan bordelais avec vente directe",
           probleme: "Ventes sur les marchés uniquement. Demandes de commandes personnalisées reçues par Instagram, difficiles à gérer.",
           solution: "Boutique avec configurateur produit + agent IA qui recueille les détails des commandes personnalisées et envoie un devis automatique.",
-          gain: "Commandes personnalisées multipliées par 3. Gestion centralisée.",
+          gain: "Simplifier la commande de produits personnalisés avec un devis généré automatiquement.",
         },
       ]}
       faqs={[

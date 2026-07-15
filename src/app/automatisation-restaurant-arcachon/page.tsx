@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Déploiement", desc: "Agent IA et automatisations déployés avant la saison. Votre équipe formée en 1h. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Suivi de saison", desc: "On monitore et on ajuste pendant la haute saison. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets pour les restaurants du Bassin"
+      casesTitle="Cas d’usage pour les restaurants du Bassin"
       cases={[
         {
           secteur: "Restaurant fruits de mer — Arcachon",
           probleme: "En juillet, 80+ demandes de réservation par jour. L'équipe passe 2h à répondre aux messages au lieu de servir.",
           solution: "Agent IA qui traite les demandes de réservation sur WhatsApp, Instagram et email. Confirme, propose des créneaux alternatifs si complet.",
-          gain: "2h gagnées par jour en haute saison. Taux de réponse de 3min contre 4h en manuel.",
+          gain: "Répondre rapidement aux demandes de réservation reçues sur plusieurs canaux.",
         },
         {
           secteur: "Brasserie avec click & collect",
           probleme: "Commandes click & collect reçues par téléphone uniquement. Files d'attente, erreurs de commande, manque à gagner.",
           solution: "Système de commande en ligne avec agent IA qui confirme l'heure de retrait et notifie la cuisine au bon moment.",
-          gain: "+45% de commandes click & collect. 0 erreur sur la saison.",
+          gain: "Fiabiliser les commandes à emporter en automatisant la confirmation du retrait.",
         },
         {
           secteur: "Restaurant gastronomique",
           probleme: "Clients satisfaits mais peu d'avis Google (note 4,1). Pas de process de collecte post-repas.",
           solution: "Agent IA qui envoie un SMS de remerciement 2h après le repas avec lien vers Google Reviews. Segmentation selon le nombre de couverts.",
-          gain: "+38 avis en 3 mois. Note passée de 4,1 à 4,7 étoiles.",
+          gain: "Solliciter un avis Google peu après le repas, au bon moment.",
         },
       ]}
       faqs={[

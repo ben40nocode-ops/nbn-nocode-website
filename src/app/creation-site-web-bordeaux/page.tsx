@@ -47,19 +47,19 @@ const casUsage = [
     secteur: "Restaurant / Bar à Bordeaux",
     probleme: "Site WordPress vieillissant, lent, difficile à modifier, zéro intégration avec le système de réservation.",
     solution: "Refonte Next.js avec intégration du système de réservation, page menu mise à jour en un clic, agent IA pour les questions fréquentes.",
-    gain: "Score Lighthouse 98. +35% de réservations via le site en 60 jours.",
+    gain: "Concevoir un site rapide qui convertit mieux les visiteurs en réservations.",
   },
   {
     secteur: "Cabinet / Bureau d'études",
     probleme: "Pas de site ou site amateur. Prospects qui cherchent sur Google et tombent sur des concurrents.",
     solution: "Site vitrine professionnel avec pages services ciblées, blog SEO, formulaire qualifié connecté à un CRM simple.",
-    gain: "Première page Google sur 3 requêtes ciblées en 90 jours. 5 leads entrants par mois.",
+    gain: "Améliorer la visibilité sur des requêtes ciblées et qualifier les demandes entrantes.",
   },
   {
     secteur: "Startup / SaaS Bordeaux",
     probleme: "Besoin d'une web app complète rapidement : authentification, dashboard, API, paiement. Budget limité.",
     solution: "Web app Next.js + Supabase + Stripe + Claude AI. Livraison en 3 semaines avec vibe coding.",
-    gain: "MVP livré 3x plus vite qu'avec une agence classique. 40% de budget économisé.",
+    gain: "Livrer un produit fonctionnel rapidement et à moindre coût grâce au développement assisté par IA.",
   },
 ];
 
@@ -192,8 +192,8 @@ export default function CreationSiteWebBordeauxPage() {
 
           {/* Cas d'usage */}
           <div className="mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Cas concrets à Bordeaux et en Gironde</h2>
-            <p className="text-gray-500 text-sm mb-8">Exemples de projets réalisés pour des entreprises locales.</p>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">Cas d’usage à Bordeaux et en Gironde</h2>
+            <p className="text-gray-500 text-sm mb-8">Exemples de projets que je peux réaliser pour des entreprises locales.</p>
             <div className="flex flex-col gap-6">
               {casUsage.map(({ secteur, probleme, solution, gain }) => (
                 <div key={secteur} className="border border-gray-100 rounded-2xl p-7">
@@ -208,7 +208,7 @@ export default function CreationSiteWebBordeauxPage() {
                       <p className="text-gray-500">{solution}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Résultat</p>
+                      <p className="font-semibold text-gray-700 mb-1">Objectif</p>
                       <p className="text-[#e8632a] font-semibold">{gain}</p>
                     </div>
                   </div>

@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (1-2 semaines)", desc: "Site livré avant la saison avec réservations en ligne opérationnelles. Points réguliers pendant le développement." },
         { step: "03", title: "Mise en ligne & suivi", desc: "Déploiement, SEO technique complet. On monitore les réservations et on ajuste pendant la saison." },
       ]}
-      casesTitle="Cas concrets pour les campings du Médoc"
+      casesTitle="Cas d’usage pour les campings du Médoc"
       cases={[
         {
           secteur: "Camping sans site internet",
           probleme: "Réservations uniquement par téléphone. Pertes de réservations en dehors des heures d'ouverture. Forte dépendance à Booking.com.",
           solution: "Création d'un site avec réservation en ligne + agent IA qui répond aux questions hors horaires. Réduction progressive de la dépendance aux OTA.",
-          gain: "40% de réservations directes dès la première saison. Économie de 3 000€ de commissions.",
+          gain: "Créer un site de réservation directe pour réduire la dépendance aux plateformes.",
         },
         {
           secteur: "Camping avec site vieillissant",
           probleme: "Site WordPress lent, non mobile-friendly, sans réservation en ligne. Mauvaise image malgré des installations de qualité.",
           solution: "Refonte complète Next.js avec galerie photos professionnelle, réservation en ligne et SEO optimisé.",
-          gain: "Score Lighthouse 95. +60% de réservations directes. Note Google passée de 3,9 à 4,6.",
+          gain: "Moderniser le site avec une réservation en ligne et un référencement optimisé.",
         },
         {
           secteur: "Camping avec agent IA",
           probleme: "Réception fermée de 20h à 8h. Questions sur les disponibilités, équipements et accès sans réponse rapide.",
           solution: "Agent IA intégré au site qui répond aux questions, confirme les disponibilités et prend les demandes de réservation hors horaires.",
-          gain: "30% de conversions en plus sur les demandes hors horaires.",
+          gain: "Traiter les demandes de réservation reçues en dehors des horaires d'ouverture.",
         },
       ]}
       faqs={[

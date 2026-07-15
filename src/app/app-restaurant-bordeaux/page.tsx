@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (1-3 semaines)", desc: "App livrée rapidement avec vibe coding. Points hebdomadaires, vous validez chaque fonctionnalité." },
         { step: "03", title: "Mise en prod & suivi", desc: "Déploiement, formation en 1h. Monitoring et évolutions continues." },
       ]}
-      casesTitle="Cas concrets pour les restaurants bordelais"
+      casesTitle="Cas d’usage pour les restaurants bordelais"
       cases={[
         {
           secteur: "Bistrot — réservations et click & collect",
           probleme: "Réservations par téléphone, click & collect par Instagram DM. Doublons, oublis, stress en service.",
           solution: "App centralisée : réservations en ligne + commandes click & collect + agent IA qui gère les questions hors horaires.",
-          gain: "+40% de commandes click & collect. 0 oubli sur 3 mois.",
+          gain: "Centraliser les commandes à emporter pour ne plus en manquer aucune.",
         },
         {
           secteur: "Restaurant gastronomique bordelais",
           probleme: "TheFork comme seul canal de réservation (30% de commission). Pas de relation directe avec les clients.",
           solution: "App de réservation directe + séquence email de fidélisation + agent IA qui collecte les avis post-repas.",
-          gain: "60% de réservations directes en 4 mois. 5 000€ de commissions économisées/an.",
+          gain: "Développer la réservation directe et fidéliser la clientèle sur la durée.",
         },
         {
           secteur: "Dark kitchen / Livraison",
           probleme: "Commandes dispersées sur Uber Eats, Deliveroo, site propre. Gestion chaotique, erreurs fréquentes.",
           solution: "Agrégateur de commandes centralisé avec agent IA qui notifie la cuisine et génère les bons de préparation automatiquement.",
-          gain: "0 commande oubliée. Temps de préparation réduit de 20%.",
+          gain: "Regrouper les commandes de toutes les plateformes pour ne plus en perdre.",
         },
       ]}
       faqs={[

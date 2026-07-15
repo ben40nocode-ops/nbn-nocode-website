@@ -50,19 +50,19 @@ export default function Page() {
           secteur: "Camping familial",
           probleme: "Réservations uniquement par téléphone et email, saturées en juillet-août.",
           solution: "Site avec réservation en ligne directe et réponses automatiques aux questions fréquentes.",
-          gain: "Réservations captées 24h/24, réception soulagée en haute saison.",
+          gain: "Capter les réservations à toute heure sans solliciter l'accueil en continu.",
         },
         {
           secteur: "Hôtel / chambres d'hôtes",
           probleme: "Forte dépendance à Booking et aux commissions.",
           solution: "Site avec réservation directe et programme de fidélité simple pour les habitués.",
-          gain: "Plus de réservations en direct, moins de commissions versées.",
+          gain: "Développer la réservation directe et fidéliser les clients habitués.",
         },
         {
           secteur: "Commerce de bord de mer",
           probleme: "Activité concentrée sur l'été, aucune vente le reste de l'année.",
           solution: "Boutique en ligne simple + click & collect pour prolonger les ventes hors saison.",
-          gain: "Chiffre d'affaires mieux réparti sur l'année.",
+          gain: "Répartir les ventes sur l'année grâce à un canal en ligne complémentaire.",
         },
       ]}
       faqs={[

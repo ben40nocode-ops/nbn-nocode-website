@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Déploiement", desc: "Automatisations et agents IA adaptés à votre production. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Maintenance", desc: "On suit et on ajuste selon vos saisons. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets pour les ostréiculteurs d'Arcachon"
+      casesTitle="Cas d’usage pour les ostréiculteurs d'Arcachon"
       cases={[
         {
           secteur: "Cabane avec vente directe & restaurants",
           probleme: "Commandes reçues par SMS, WhatsApp et téléphone. Saisie manuelle, oublis en période chargée (Noël, été).",
           solution: "Agent IA qui centralise toutes les commandes, génère les bons de livraison et envoie les factures automatiquement. Alerte si un calibre est en rupture.",
-          gain: "0 commande oubliée sur la saison estivale. 2h gagnées par jour.",
+          gain: "Centraliser les commandes estivales et signaler les ruptures de stock à temps.",
         },
         {
           secteur: "Producteur avec vente en ligne",
           probleme: "Site de vente existant mais pas connecté à la gestion de stock. Ruptures non anticipées, clients déçus.",
           solution: "Connexion site → stock en temps réel. Agent IA qui notifie automatiquement les clients en attente quand le stock est reconstitué.",
-          gain: "+35% de ventes en ligne. Zéro déception client pour rupture non signalée.",
+          gain: "Notifier automatiquement les clients en attente dès qu'un produit est de retour en stock.",
         },
         {
           secteur: "Producteur avec abonnement huîtres",
           probleme: "Abonnés hebdomadaires gérés manuellement. Oublis, erreurs de livraison, gestion des pauses difficile.",
           solution: "Système d'abonnement automatisé avec agent IA qui gère les pauses, les modifications et les rappels de livraison.",
-          gain: "+50% d'abonnés fidélisés. Gestion des pauses 100% automatique.",
+          gain: "Permettre aux abonnés de gérer leurs pauses de livraison en toute autonomie.",
         },
       ]}
       faqs={[

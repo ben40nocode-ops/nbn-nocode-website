@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Déploiement avant saison", desc: "Agent IA et automatisations déployés avant juin. Votre équipe est formée en 1h. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Support de saison", desc: "On monitore et on ajuste pendant juillet-août. Vous pouvez nous contacter si besoin. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets pour les campings de Lacanau"
+      casesTitle="Cas d’usage pour les campings de Lacanau"
       cases={[
         {
           secteur: "Camping surf — Lacanau-Océan",
           probleme: "50% des clients sont étrangers (espagnols, britanniques, néerlandais). Questions en plusieurs langues, réponses tardives.",
           solution: "Agent IA multilingue qui répond en français, espagnol, anglais et néerlandais. Détecte la langue automatiquement.",
-          gain: "Temps de réponse moyen passé de 6h à 3 minutes. Satisfaction client en hausse.",
+          gain: "Répondre rapidement aux demandes dans la langue du client, sans délai d'attente.",
         },
         {
           secteur: "Camping familial avec activités",
           probleme: "Planning des activités (cours de surf, animations) modifié en temps réel. Clients pas informés des changements.",
           solution: "Agent IA qui diffuse les mises à jour du planning par SMS aux clients présents. Interface simple pour l'équipe.",
-          gain: "Plus de files d'attente pour des activités annulées. Équipe réception libérée.",
+          gain: "Informer directement les clients des changements de planning, sans passer par l'accueil.",
         },
         {
           secteur: "Camping avec liste d'attente",
           probleme: "Haute saison complète dès mars. Liste d'attente gérée manuellement. Annulations non converties en réservations rapides.",
           solution: "Système de liste d'attente automatisé : dès qu'une place se libère, l'agent IA notifie le premier de la liste et attend sa réponse sous 2h.",
-          gain: "Taux de remplissage passé à 99%. 0 emplacement perdu sur annulation.",
+          gain: "Réattribuer automatiquement une place libérée au premier client de la liste d'attente.",
         },
       ]}
       faqs={[

@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Déploiement", desc: "Automatisations et agents IA adaptés à votre production. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Maintenance", desc: "On suit et on ajuste selon vos saisons. Résiliable à tout moment." },
       ]}
-      casesTitle="Cas concrets pour les ostréiculteurs du Bassin"
+      casesTitle="Cas d’usage pour les ostréiculteurs du Bassin"
       cases={[
         {
           secteur: "Cabane avec vente directe & restaurants",
           probleme: "Commandes reçues par SMS, WhatsApp et téléphone. Saisie manuelle, oublis en période chargée (Noël, fêtes).",
           solution: "Agent IA qui centralise toutes les commandes, génère les bons de livraison et envoie les factures automatiquement. Alerte si un créneau est surbooké.",
-          gain: "0 commande oubliée sur la saison des fêtes. 2h gagnées par jour.",
+          gain: "Centraliser les commandes de fin d'année et signaler les créneaux surbookés.",
         },
         {
           secteur: "Producteur avec vente en ligne",
           probleme: "Site de vente existant mais pas connecté à la gestion de stock. Ruptures non anticipées, clients déçus.",
           solution: "Connexion site → stock en temps réel. Agent IA qui notifie automatiquement les clients en attente quand le stock est reconstitué.",
-          gain: "+35% de ventes en ligne. Zéro déception client pour rupture non signalée.",
+          gain: "Notifier automatiquement les clients en attente dès qu'un produit est de retour en stock.",
         },
         {
           secteur: "Groupement de producteurs",
           probleme: "Coordination entre cabanes pour les commandes groupées difficile. Facturation complexe à multi-sources.",
           solution: "Système centralisé avec agent IA qui distribue les commandes selon les capacités de chaque producteur et génère les factures consolidées.",
-          gain: "Organisation simplifiée. 5h gagnées par semaine sur la coordination.",
+          gain: "Répartir les commandes entre producteurs et consolider la facturation automatiquement.",
         },
       ]}
       faqs={[

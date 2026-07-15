@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (1-3 semaines)", desc: "Vibe coding avec Claude Code : site livré 3x plus vite qu'une agence classique. Vous voyez les avancées à chaque étape." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement sur Vercel. Optimisation SEO complète. Suivi des performances et évolutions continues." },
       ]}
-      casesTitle="Cas concrets pour les domaines de Pauillac"
+      casesTitle="Cas d’usage pour les domaines de Pauillac"
       cases={[
         {
           secteur: "Château avec vente directe",
           probleme: "Site WordPress vieillissant, lent et peu professionnel. Ventes directes anecdotiques malgré une clientèle fidèle.",
           solution: "Refonte Next.js avec boutique intégrée, paiement Stripe, gestion des millésimes et multilingue. SEO ciblé sur les appellations Pauillac.",
-          gain: "+80% de ventes directes en ligne. Score Lighthouse 96. 3 premières positions Google sur 'acheter vin Pauillac'.",
+          gain: "Développer la vente directe en ligne avec un site rapide et bien référencé.",
         },
         {
           secteur: "Domaine avec œnotourisme",
           probleme: "Réservations de visites gérées par email. Pas de calendrier en ligne, beaucoup d'aller-retours.",
           solution: "Système de réservation intégré au site avec agent IA qui confirme, rappelle et gère les annulations automatiquement.",
-          gain: "+45% de réservations visites. Zéro no-show sur 3 mois.",
+          gain: "Confirmer et rappeler chaque réservation de visite pour limiter les absences.",
         },
         {
           secteur: "Château sans présence web",
           probleme: "Pas de site internet. Les clients cherchent le domaine en ligne et trouvent des informations incorrectes sur des plateformes tierces.",
           solution: "Création from scratch d'un site vitrine + boutique en 10 jours. SEO technique complet dès le lancement.",
-          gain: "Première page Google en 45 jours. 20 commandes directes le premier mois.",
+          gain: "Lancer rapidement un site marchand avec un référencement technique soigné dès le départ.",
         },
       ]}
       faqs={[

@@ -143,7 +143,7 @@ export function SectorPage({
 
           <div className="mb-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-2">{casesTitle}</h2>
-            <p className="text-gray-500 text-sm mb-8">Exemples de systèmes déployés pour ce secteur.</p>
+            <p className="text-gray-500 text-sm mb-8">Exemples de systèmes que je peux concevoir pour ce secteur.</p>
             <div className="flex flex-col gap-6">
               {cases.map(({ secteur, probleme, solution, gain }) => (
                 <div key={secteur} className="border border-gray-100 rounded-2xl p-7">
@@ -154,11 +154,11 @@ export function SectorPage({
                       <p className="text-gray-500">{probleme}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Solution déployée</p>
+                      <p className="font-semibold text-gray-700 mb-1">Solution</p>
                       <p className="text-gray-500">{solution}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Résultat</p>
+                      <p className="font-semibold text-gray-700 mb-1">Objectif</p>
                       <p className="text-[#e8632a] font-semibold">{gain}</p>
                     </div>
                   </div>

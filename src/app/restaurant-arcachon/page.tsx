@@ -44,25 +44,25 @@ export default function Page() {
         { step: "02", title: "Développement (1-2 semaines)", desc: "Site livré avant la saison avec réservations et agent IA opérationnels." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement, SEO local complet, Google My Business optimisé. Monitoring des réservations." },
       ]}
-      casesTitle="Cas concrets pour les restaurants d'Arcachon"
+      casesTitle="Cas d’usage pour les restaurants d'Arcachon"
       cases={[
         {
           secteur: "Restaurant fruits de mer — bord de Bassin",
           probleme: "Haute saison surchargée. Réservations uniquement par téléphone. File d'attente incontrôlable en juillet-août.",
           solution: "Site avec réservation en ligne + gestion de la liste d'attente + agent IA qui répond aux questions hors horaires.",
-          gain: "File d'attente réduite de 60%. Clients mieux orientés sur des créneaux disponibles.",
+          gain: "Orienter les clients vers des créneaux disponibles pour réduire l'attente sur place.",
         },
         {
           secteur: "Brasserie du Bassin",
           probleme: "Clientèle saisonnière difficile à fidéliser. Pas de stratégie pour faire revenir les touristes ou les habitants hors saison.",
           solution: "Collecte d'emails via le site. Campagnes email automatisées en septembre et mars avec offres de rentrée et pré-saison.",
-          gain: "+30% de clients réguliers identifiés. Taux d'occupation hors saison en hausse.",
+          gain: "Identifier les clients réguliers et les relancer avant chaque saison.",
         },
         {
           secteur: "Restaurant sans site internet",
           probleme: "Pas de site internet. Infos incorrectes sur Google (horaires, fermeture). Avis non gérés. Pertes de clients.",
           solution: "Création from scratch d'un site vitrine + réservation + menu digital + SEO local. Agent IA pour les questions fréquentes.",
-          gain: "Premier page Google sur 'restaurant Arcachon huîtres' en 45 jours.",
+          gain: "Améliorer la visibilité locale sur les recherches liées au restaurant.",
         },
       ]}
       faqs={[

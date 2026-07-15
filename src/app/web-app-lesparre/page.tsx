@@ -50,19 +50,19 @@ export default function Page() {
           secteur: "Cave / domaine viticole",
           probleme: "Commandes, stocks et expéditions suivis sur plusieurs tableurs, erreurs fréquentes.",
           solution: "Application de gestion des commandes, du stock de vin et des expéditions, en un seul endroit.",
-          gain: "Zéro erreur de stock, expéditions maîtrisées.",
+          gain: "Centraliser la gestion du stock et des expéditions pour limiter les erreurs.",
         },
         {
           secteur: "Artisan du bâtiment",
           probleme: "Devis, chantiers et photos éparpillés entre mails, papiers et téléphone.",
           solution: "Application de suivi de chantiers : devis, planning, photos et documents centralisés.",
-          gain: "Chaque chantier suivi sans rien perdre.",
+          gain: "Centraliser devis, planning et documents pour suivre chaque chantier sans rien perdre.",
         },
         {
           secteur: "Producteur / commerce local",
           probleme: "Commandes des clients pros gérées à la main, sans historique.",
           solution: "Espace client avec catalogue, commande en ligne et historique par client.",
-          gain: "Commandes plus rapides, clients mieux suivis.",
+          gain: "Simplifier la commande en ligne et garder un historique par client.",
         },
       ]}
       faqs={[
