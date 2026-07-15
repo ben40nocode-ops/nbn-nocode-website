@@ -6,7 +6,14 @@ export const metadata: Metadata = {
   title: "Application Web sur Mesure pour PME",
   description: "On conçoit l'outil qui fait exactement ce dont vous avez besoin : espace client, réservations, tableau de bord, devis en ligne. Dès 2 500 €. Audit gratuit.",
   keywords: ["application web sur mesure", "outil métier PME", "espace client en ligne", "tableau de bord gestion", "Bordeaux", "Gironde"],
-  alternates: { canonical: "https://www.nbn-ia.fr/services/web-apps" },
+  alternates: {
+    canonical: "https://www.nbn-ia.fr/services/web-apps",
+    languages: {
+      fr: "https://www.nbn-ia.fr/services/web-apps",
+      en: "https://www.nbn-ia.fr/en/web-apps",
+      "x-default": "https://www.nbn-ia.fr/services/web-apps",
+    },
+  },
   openGraph: {
     title: "Application Web sur Mesure pour PME | NBN IA",
     description: "Votre outil sur mesure. Celui qui fait exactement ce dont vous avez besoin. Audit gratuit.",

@@ -6,7 +6,14 @@ export const metadata: Metadata = {
   title: "Création Site Web Professionnel — PME & Artisans",
   description: "Un site web qui donne envie de vous appeler. Design sur mesure, optimisation Google, version mobile parfaite. Devis gratuit pour PME en Gironde.",
   keywords: ["création site web", "site vitrine PME", "site e-commerce artisan", "site web Bordeaux", "Gironde", "SEO Google"],
-  alternates: { canonical: "https://www.nbn-ia.fr/services/sites-internet" },
+  alternates: {
+    canonical: "https://www.nbn-ia.fr/services/sites-internet",
+    languages: {
+      fr: "https://www.nbn-ia.fr/services/sites-internet",
+      en: "https://www.nbn-ia.fr/en/websites",
+      "x-default": "https://www.nbn-ia.fr/services/sites-internet",
+    },
+  },
   openGraph: {
     title: "Création Site Web Professionnel — PME & Artisans | NBN IA",
     description: "Un site web qui donne envie de vous appeler. Design sur mesure, optimisation Google, version mobile parfaite.",

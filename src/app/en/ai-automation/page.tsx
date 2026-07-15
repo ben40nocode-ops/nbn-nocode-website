@@ -6,7 +6,14 @@ export const metadata: Metadata = {
   title: "AI Automation Agency in France — Claude AI Agents",
   description: "Autonomous AI systems for SMBs in France. Claude AI agents, n8n/Make workflows, 24/7 automation. Based in Bordeaux, serving all of France. Free audit.",
   keywords: ["AI automation France", "Claude AI agents France", "AI agency Bordeaux", "autonomous AI systems France", "AI automation SMB France", "vibe coding France", "n8n automation France", "Make automation France", "AI consultant Bordeaux", "Anthropic partner France"],
-  alternates: { canonical: "https://www.nbn-ia.fr/en/ai-automation" },
+  alternates: {
+    canonical: "https://www.nbn-ia.fr/en/ai-automation",
+    languages: {
+      fr: "https://www.nbn-ia.fr/services/automatisation-ia",
+      en: "https://www.nbn-ia.fr/en/ai-automation",
+      "x-default": "https://www.nbn-ia.fr/services/automatisation-ia",
+    },
+  },
   openGraph: { title: "AI Automation Agency France — NBN IA", description: "Autonomous AI systems built with Claude AI. 24/7 automation for French SMBs.", url: "https://www.nbn-ia.fr/en/ai-automation" },
 };
 

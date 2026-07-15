@@ -6,7 +6,14 @@ export const metadata: Metadata = {
   title: "Web App Development with AI — France",
   description: "Custom web apps with Claude Code (vibe coding) and AI agents. Auth, database, real-time dashboards. From €2,500. Based in Bordeaux, France. Free audit.",
   keywords: ["web app development France", "vibe coding France", "Claude Code web app", "AI web application France", "custom web app Bordeaux", "SaaS development France", "Next.js web app France", "AI-powered web app"],
-  alternates: { canonical: "https://www.nbn-ia.fr/en/web-apps" },
+  alternates: {
+    canonical: "https://www.nbn-ia.fr/en/web-apps",
+    languages: {
+      fr: "https://www.nbn-ia.fr/services/web-apps",
+      en: "https://www.nbn-ia.fr/en/web-apps",
+      "x-default": "https://www.nbn-ia.fr/services/web-apps",
+    },
+  },
   openGraph: { title: "Web App Development with AI — NBN IA France", description: "Custom web apps built with vibe coding and Claude AI agents. From €2,500.", url: "https://www.nbn-ia.fr/en/web-apps" },
 };
 

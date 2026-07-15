@@ -1,0 +1,160 @@
+{
+  "$schema": "brief interne NBN IA — à passer en contexte à Claude Code avant toute tâche SEO/contenu",
+  "version": "1.0",
+  "date": "2026-07-15",
+  "projet": "nbn-ia.fr",
+  "objet": "Contraintes et plan SEO/contenu, établis à partir des données réelles Google Search Console (3 mois). Ce fichier existe pour empêcher de rejouer une recette SEO générique qui a déjà échoué ici.",
+
+  "contexte": {
+    "business": "NBN IA — automatisation et agents IA pour PME/artisans",
+    "operateur": "Benjamin Bertigny, développeur SOLO (aucune équipe, aucun salarié)",
+    "base_geographique": "Talais (Médoc, Gironde)",
+    "canal_acquisition_reel": "prospection directe (c'est ce qui amène les clients)",
+    "role_reel_du_site": "vitrine et preuve de crédibilité pour la prospection — PAS une machine à leads",
+    "livraison": "le service est livrable 100% à distance, la géographie n'est pas une contrainte métier"
+  },
+
+  "preuves": {
+    "source": "Google Search Console, période 3 mois (mai–juil. 2026)",
+    "monde": { "clics": 36, "impressions": 1240, "ctr": "2.9%", "position_moyenne": 13.4 },
+    "france": { "clics": 28, "impressions": 390, "ctr": "7.2%", "position_moyenne": 13.2 },
+    "requete_marque_nbn_ia": { "clics": 15, "impressions": 57, "ctr": "26%", "commentaire": "la marque fonctionne bien" },
+    "clics_hors_marque_france": { "valeur": "~13 en 3 mois", "commentaire": "produits par ~70 pages locales" },
+    "requetes_hors_marque_top": [
+      { "requete": "creation application royan", "clics": 0, "impressions": 23 },
+      { "requete": "agence automatisation pme toulouse", "clics": 0, "impressions": 23 },
+      { "requete": "automatisation sur mesure entreprise", "clics": 0, "impressions": 14 },
+      { "requete": "agence n8n toulouse", "clics": 0, "impressions": 12 },
+      { "requete": "automatisation essonne", "clics": 0, "impressions": 10 },
+      { "requete": "automatisation sur mesure", "clics": 0, "impressions": 7 },
+      { "requete": "déploiement d'agent ia", "clics": 0, "impressions": 7 }
+    ],
+    "fiche_google_business": {
+      "existe": true,
+      "note": "5,0 / 11 avis",
+      "zone_declaree": "Talais and nearby areas",
+      "interactions": "1 sur la période",
+      "profil": "incomplet"
+    }
+  },
+
+  "verdicts": [
+    "Les ~70 pages 'service × ville' ont produit 0 clic hors-marque en 3 mois. Le pattern est réfuté par les données, pas par une opinion.",
+    "Google positionne NBN IA THÉMATIQUEMENT, pas géographiquement : il l'affiche sur 'agence automatisation pme toulouse' SANS page Toulouse. Créer une page par ville ne pilote pas la visibilité ville.",
+    "Le pack local Google classe d'abord par proximité. Base = Talais → Bordeaux ~90 km, Arcachon ~150 km. Le pack local de ces villes est structurellement inatteignable.",
+    "Les villes réellement atteignables (Talais, Soulac, Le Verdon, Montalivet, Lesparre) ont un volume de recherche proche de zéro. Plafond du SEO local ≈ nul.",
+    "Le CTR France (7,2%) est correct. Le 2,9% global était un artefact d'impressions étrangères non qualifiées. Il n'y a PAS de problème de titres/meta.",
+    "La qualité rédactionnelle des pages est bonne (contenu réellement différencié par ville). Le problème est la CIBLE, pas l'exécution.",
+    "Le site remplit déjà bien sa vraie fonction : 26% de CTR sur la requête de marque. Le prospect démarché qui google 'NBN IA' te trouve. C'est ça, la valeur du site."
+  ],
+
+  "interdits": [
+    "NE JAMAIS créer de nouvelle page 'service × ville'. Preuve : 70 pages → 0 clic en 3 mois.",
+    "NE JAMAIS écrire 'nous', 'on', 'notre équipe', 'nos experts'. Benjamin est SEUL. Écrire à la première personne du singulier ou en voix de marque neutre.",
+    "NE JAMAIS inventer de preuve : pas de client fictif, pas de témoignage inventé, pas de chiffre de résultat non vérifié ('+15% d'avis', '3 chantiers de plus'), pas de '40+ projets'. Preuves réelles autorisées uniquement : 1 an chez Alegria, certification Anthropic, les 11 avis Google réels.",
+    "NE JAMAIS viser le pack local de Bordeaux / Arcachon / Toulouse. Géographiquement impossible depuis Talais.",
+    "NE JAMAIS produire du volume pour faire du volume. Ici, 70 pages = 0 résultat. Un livrable volumineux n'est pas un livrable utile.",
+    "NE PAS supprimer les pages existantes par réflexe : le bénéfice d'une suppression n'est PAS prouvé. Voir plan P2.",
+    "NE PAS présenter le SEO comme un canal d'acquisition pour ce business. Il ne l'est pas et ne le sera pas à court terme."
+  ],
+
+  "plan": [
+    {
+      "priorite": "P0",
+      "titre": "Audit de véracité des claims sur les ~70 pages",
+      "pourquoi": "Risque de crédibilité, très supérieur à l'enjeu SEO. Des affirmations très spécifiques figurent en ligne ('plusieurs hôteliers travaillent déjà avec nous', 'on a travaillé avec des cabanes ostréicoles', '+15% d'avis Google en 30 jours'). Si elles ont été générées et non vécues, elles doivent disparaître.",
+      "action": "Extraire TOUS les claims de preuve, résultat chiffré et référence client des pages. Les présenter en liste à Benjamin pour validation OUI/NON un par un. Supprimer ou reformuler tout ce qu'il ne valide pas.",
+      "regle": "Seul Benjamin peut trancher. Ne rien supposer, ne rien 'corriger' à sa place.",
+      "effort": "moyen",
+      "statut": "à faire"
+    },
+    {
+      "priorite": "P0",
+      "titre": "Corriger la voix 'nous/équipe' → solo",
+      "pourquoi": "Contredit la réalité (Benjamin est seul) et sa propre règle éditoriale.",
+      "action": "Repasser les pages pour éliminer 'nous/on/notre équipe'. Voix : première personne ou marque neutre.",
+      "effort": "moyen",
+      "statut": "à faire"
+    },
+    {
+      "priorite": "P1",
+      "titre": "Compléter la fiche Google Business Profile",
+      "pourquoi": "Seul quick win réel et gratuit. Profil incomplet aujourd'hui. Sert la requête de marque et le Médoc — les seules zones atteignables.",
+      "action": "Compléter à 100% : services, produits, photos, réseaux sociaux, horaires, description. Ne PAS étendre artificiellement la zone à Bordeaux/Arcachon (inefficace).",
+      "effort": "faible",
+      "statut": "à faire"
+    },
+    {
+      "priorite": "P2",
+      "titre": "Sort des ~70 pages locales — décision, pas réflexe",
+      "pourquoi": "Elles produisent 0 clic. MAIS le bénéfice de leur suppression n'est pas démontré : 'concentrer l'autorité' est une croyance SEO courante, pas un fait établi. Supprimer = travail + risque, gain spéculatif.",
+      "recommandation": "Les LAISSER en place une fois les claims assainis (P0). Simplement ARRÊTER d'investir dedans. Ne pas en créer de nouvelles.",
+      "effort": "nul si on suit la recommandation",
+      "statut": "décision de Benjamin"
+    },
+    {
+      "priorite": "P3",
+      "titre": "Pages /en — TRANCHÉ le 2026-07-15 : stratégie B",
+      "decision": "Cible = anglophones AYANT UNE ACTIVITÉ EN FRANCE (propriétaires britanniques / irlandais / américains de châteaux, domaines viticoles, hôtels, gîtes dans le Bordelais et le Médoc). PAS les entreprises basées aux USA/UK.",
+      "pourquoi_B": "Les 10 pages /en disent déjà toutes 'in France' — elles sont déjà écrites pour B. Le .fr devient un ATOUT (preuve d'expertise française). Benjamin est physiquement dans le Médoc, près de Pauillac/Margaux/Saint-Estèphe, et fait le pont FR/EN qui manque à ces propriétaires. Avantage réel et défendable.",
+      "pourquoi_pas_A": "Vendre à des boîtes basées aux USA/UK exigerait un autre domaine (.fr = signal géographique fort vers la France), une réécriture totale, et opposerait Benjamin seul à des milliers d'agences anglo-saxonnes, sans autorité ni présence locale. A et B envoient des signaux CONTRADICTOIRES : le même domaine ne peut pas crédiblement faire les deux.",
+      "sequencement_A": "A n'est PAS abandonné, il est différé. Condition de déclenchement explicite : SI B amène >= 2 clients anglophones ALORS ouvrir un domaine .com séparé pour A. Pas avant.",
+      "fait": [
+        "hreflang fr/en/x-default ajouté et VÉRIFIÉ dans le HTML rendu sur les 8 paires FR<->EN (14 pages, 3 liens chacune, réciproques) — 2026-07-15"
+      ],
+      "reste": [
+        "<html lang=\"fr\"> sur les pages /en : NON corrigé. Voir P5."
+      ],
+      "statut": "décidé — hreflang livré"
+    },
+    {
+      "priorite": "P5",
+      "titre": "lang=\"fr\" sur les pages anglaises — ne PAS surinvestir",
+      "constat": "Le layout racine rend <html lang=\"fr\"> et, en App Router, seul le layout racine peut porter la balise <html>. Aucun layout /en ne peut l'override.",
+      "impact_reel": "SEO : quasi nul — Google détermine la langue d'une page à partir du CONTENU VISIBLE et ignore l'attribut lang et les meta content-language. Le vrai signal langue/région pour Google, c'est le hreflang, qui est désormais en place. Accessibilité : réel — un lecteur d'écran lira l'anglais avec une voix française.",
+      "options": [
+        "Refactor app/[lang]/ = pattern officiel Next 16, mais préfixerait toutes les URLs FR (/bordeaux -> /fr/bordeaux) et détruirait l'indexation existante. ÉCARTÉ.",
+        "headers() dans le layout racine = rendrait tout le site dynamique et tuerait le rendu statique. ÉCARTÉ.",
+        "Petit composant client dans un layout /en qui fixe document.documentElement.lang='en' à l'hydratation. Corrige l'accessibilité, imparfait (le HTML initial reste 'fr'). Option retenue SI on y touche."
+      ],
+      "recommandation": "Laisser en l'état pour l'instant. Le coût d'une correction propre est disproportionné face à un impact SEO quasi nul. À reconsidérer seulement si l'accessibilité devient un enjeu explicite.",
+      "effort": "faible (option client) à très élevé (refactor)",
+      "statut": "documenté — non traité volontairement"
+    },
+    {
+      "priorite": "P4",
+      "titre": "Socle thématique (optionnel, pari long terme)",
+      "pourquoi": "C'est le SEUL SEO qui a une chance : Google place déjà NBN IA sur ces requêtes, sans contrainte géographique.",
+      "cibles": [
+        "automatisation sur mesure entreprise",
+        "déploiement d'agent ia",
+        "agence automatisation pme",
+        "automatisation sur mesure"
+      ],
+      "action": "Contenu thématique de fond, sans géographie. Peu de pages, très bonnes.",
+      "attentes_honnetes": "6 à 12 mois avant tout résultat. Compétitif. À ne lancer que si Benjamin l'accepte explicitement.",
+      "effort": "élevé",
+      "statut": "non lancé — nécessite accord explicite"
+    }
+  ],
+
+  "metriques": {
+    "a_suivre": [
+      "clics hors-marque France (baseline : ~13 / 3 mois)",
+      "CTR sur la requête de marque 'nbn ia' (baseline : 26% — à protéger)",
+      "avis Google (baseline : 11 réels, note 5,0)"
+    ],
+    "a_ignorer": [
+      "impressions mondiales (68% sont hors France et ne convertissent pas — bruit)",
+      "CTR global (artefact)",
+      "position moyenne globale"
+    ]
+  },
+
+  "regles_de_travail": [
+    "Demander le RÉSULTAT visé avant de proposer une tactique.",
+    "Vérifier avant d'affirmer. Une hypothèse plausible n'est pas un fait — dans cette analyse, 2 hypothèses confiantes (trafic australien, bug de titre dupliqué) se sont révélées FAUSSES après vérification.",
+    "Avoir le droit de répondre 'ne fais pas ça' ou 'ce n'est pas le bon levier'. Le meilleur livrable est parfois l'absence de livrable.",
+    "Ne jamais publier une affirmation que Benjamin n'a pas validée."
+  ]
+}

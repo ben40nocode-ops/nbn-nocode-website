@@ -6,7 +6,14 @@ export const metadata: Metadata = {
   title: "Automatisations sur mesure pour PME & Artisans",
   description: "On prend en charge vos tâches répétitives : réponses clients, devis, rappels de RDV, relances. Vous vous concentrez sur votre métier. Audit gratuit.",
   keywords: ["automatisation PME", "automatisation artisan", "réponse client automatique", "devis automatique", "rappel rendez-vous", "Bordeaux", "Gironde"],
-  alternates: { canonical: "https://www.nbn-ia.fr/services/automatisation-ia" },
+  alternates: {
+    canonical: "https://www.nbn-ia.fr/services/automatisation-ia",
+    languages: {
+      fr: "https://www.nbn-ia.fr/services/automatisation-ia",
+      en: "https://www.nbn-ia.fr/en/ai-automation",
+      "x-default": "https://www.nbn-ia.fr/services/automatisation-ia",
+    },
+  },
   openGraph: {
     title: "Automatisations sur mesure pour PME & Artisans | NBN IA",
     description: "On prend en charge vos tâches répétitives. Vous, vous vous concentrez sur votre métier. Audit gratuit 1h.",

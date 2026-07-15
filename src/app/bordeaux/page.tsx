@@ -6,7 +6,14 @@ export const metadata: Metadata = {
   title: "NBN IA à Bordeaux — Sites Web, Web Apps & Automatisation IA",
   description: "Sites web, applications web et automatisation IA pour les PME, artisans et commerces de Bordeaux et de la métropole. Certifié Anthropic. Appel gratuit 1h.",
   keywords: ["agence web Bordeaux", "création site web Bordeaux", "web app Bordeaux", "automatisation Bordeaux", "agence IA Bordeaux"],
-  alternates: { canonical: "https://www.nbn-ia.fr/bordeaux" },
+  alternates: {
+    canonical: "https://www.nbn-ia.fr/bordeaux",
+    languages: {
+      fr: "https://www.nbn-ia.fr/bordeaux",
+      en: "https://www.nbn-ia.fr/en/bordeaux",
+      "x-default": "https://www.nbn-ia.fr/bordeaux",
+    },
+  },
 };
 
 const services = [

@@ -6,7 +6,14 @@ export const metadata: Metadata = {
   title: "NBN IA à Arcachon — Sites Web, Web Apps & Automatisation IA",
   description: "Sites web, web apps et automatisation IA pour les entreprises du Bassin d'Arcachon : hôtels, campings, restaurants, ostréiculteurs. Spécialiste tourisme côtier. Audit gratuit 1h.",
   keywords: ["agence web arcachon", "site internet arcachon", "web app arcachon", "automatisation arcachon", "agence IA arcachon"],
-  alternates: { canonical: "https://www.nbn-ia.fr/arcachon" },
+  alternates: {
+    canonical: "https://www.nbn-ia.fr/arcachon",
+    languages: {
+      fr: "https://www.nbn-ia.fr/arcachon",
+      en: "https://www.nbn-ia.fr/en/arcachon",
+      "x-default": "https://www.nbn-ia.fr/arcachon",
+    },
+  },
 };
 
 const services = [

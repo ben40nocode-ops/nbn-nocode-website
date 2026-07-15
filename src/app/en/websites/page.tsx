@@ -6,7 +6,14 @@ export const metadata: Metadata = {
   title: "Website Creation in France — AI-Powered & SEO Ready",
   description: "Modern, fast, SEO-optimized websites built in France. Next.js or Webflow. AI integrations available. From €800. Based in Bordeaux. Free audit.",
   keywords: ["website creation France", "web design agency France", "SEO website Bordeaux", "Next.js website France", "modern website SMB France", "English web agency France", "website Bordeaux expat", "bilingual website France"],
-  alternates: { canonical: "https://www.nbn-ia.fr/en/websites" },
+  alternates: {
+    canonical: "https://www.nbn-ia.fr/en/websites",
+    languages: {
+      fr: "https://www.nbn-ia.fr/services/sites-internet",
+      en: "https://www.nbn-ia.fr/en/websites",
+      "x-default": "https://www.nbn-ia.fr/services/sites-internet",
+    },
+  },
   openGraph: { title: "Website Creation France — NBN IA", description: "Modern SEO-optimized websites for SMBs in France. From €800.", url: "https://www.nbn-ia.fr/en/websites" },
 };
 

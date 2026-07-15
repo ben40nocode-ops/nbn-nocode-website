@@ -6,7 +6,14 @@ export const metadata: Metadata = {
   title: "AI Automation & Web Development in Arcachon, France",
   description: "NBN IA builds autonomous AI systems and custom web apps for businesses in Arcachon. Claude AI agents, vibe coding, 24/7 automation. Free audit.",
   keywords: ["AI automation Arcachon", "web development Arcachon France", "AI agency Arcachon", "Claude AI Arcachon", "autonomous AI Arcachon", "web app Arcachon France", "digital agency Arcachon English", "AI consultant Arcachon"],
-  alternates: { canonical: "https://www.nbn-ia.fr/en/arcachon" },
+  alternates: {
+    canonical: "https://www.nbn-ia.fr/en/arcachon",
+    languages: {
+      fr: "https://www.nbn-ia.fr/arcachon",
+      en: "https://www.nbn-ia.fr/en/arcachon",
+      "x-default": "https://www.nbn-ia.fr/arcachon",
+    },
+  },
   openGraph: { title: "AI Automation in Arcachon — NBN IA", description: "Autonomous AI systems and web apps for businesses in Arcachon, France.", url: "https://www.nbn-ia.fr/en/arcachon" },
 };
 

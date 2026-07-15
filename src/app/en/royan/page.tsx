@@ -6,7 +6,14 @@ export const metadata: Metadata = {
   title: "AI Automation & Web Development in Royan, France",
   description: "NBN IA builds autonomous AI systems and custom web apps for businesses in Royan. Claude AI agents, vibe coding, 24/7 automation. Free audit.",
   keywords: ["AI automation Royan", "web development Royan France", "AI agency Royan", "Claude AI Royan", "autonomous AI Royan", "web app Royan France", "digital agency Royan English", "AI consultant Royan"],
-  alternates: { canonical: "https://www.nbn-ia.fr/en/royan" },
+  alternates: {
+    canonical: "https://www.nbn-ia.fr/en/royan",
+    languages: {
+      fr: "https://www.nbn-ia.fr/royan",
+      en: "https://www.nbn-ia.fr/en/royan",
+      "x-default": "https://www.nbn-ia.fr/royan",
+    },
+  },
   openGraph: { title: "AI Automation in Royan — NBN IA", description: "Autonomous AI systems and web apps for businesses in Royan, France.", url: "https://www.nbn-ia.fr/en/royan" },
 };
 
