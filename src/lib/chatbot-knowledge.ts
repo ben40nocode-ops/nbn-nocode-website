@@ -20,10 +20,16 @@ export const FACTS = {
     "3. Ça tourne. Je maintiens et fais évoluer le système chaque mois via un forfait de maintenance.",
   ],
   tarifs: [
-    "Une première automatisation démarre à 450€ HT. Un système interconnecté à partir de 1 200€ HT.",
-    "Une application web simple démarre à 2 500€ HT ; avancée avec intégrations à partir de 5 000€ HT.",
-    "Maintenance mensuelle sans engagement : Suivi Essentiel 159€/mois, Suivi Pro 320€/mois, Partenaire complet 540€/mois.",
-    "Le devis précis est toujours donné après l'appel gratuit — jamais avant, car ça dépend du besoin réel.",
+    "Mise en place (une fois) : une première automatisation démarre à 450€ HT ; un système interconnecté à partir de 1 200€ HT.",
+    "Sites & applications (une fois) : landing page à partir de 800€ HT, site vitrine ~1 800€ HT, e-commerce à partir de 3 500€ HT, application web simple à partir de 2 500€ HT, application avancée à partir de 5 000€ HT.",
+    "Le devis précis est toujours donné APRÈS l'appel gratuit — jamais avant, car il dépend du besoin réel. Ces montants sont des points de départ indicatifs, pas des prix fermes.",
+  ],
+  abonnement: [
+    "L'abonnement de maintenance mensuel est OPTIONNEL et SANS ENGAGEMENT (résiliable à tout moment). Il sert à faire vivre et évoluer ce qui a été mis en place — sinon un système livré finit par se dégrader.",
+    "Suivi Essentiel — 159€/mois : 2h d'entretien par mois, support par email (réponse sous 48h), rapport mensuel.",
+    "Suivi Pro — 320€/mois : 4h d'entretien par mois, support prioritaire (réponse sous 24h).",
+    "Partenaire complet — 540€/mois : 6h de travail sur vos outils par mois, support prioritaire — comme avoir un dev à disposition chaque mois.",
+    "Comment ça marche concrètement : Benjamin met en place l'abonnement quand vous démarrez. Vous recevez ensuite une invitation par email pour créer votre accès à votre espace client sur le site, où vous suivez votre abonnement et gérez la facturation. Vous ne payez la maintenance que si vous la voulez.",
   ],
   preuves: [
     "Formation : 1 an à l'Alegria Academy.",
@@ -65,8 +71,11 @@ ${FACTS.ce_que_je_fais.map((s) => "- " + s).join("\n")}
 MÉTHODE :
 ${FACTS.methode.map((s) => "- " + s).join("\n")}
 
-TARIFS INDICATIFS :
+TARIFS INDICATIFS (mise en place, une fois) :
 ${FACTS.tarifs.map((s) => "- " + s).join("\n")}
+
+L'ABONNEMENT DE MAINTENANCE (optionnel, mensuel, sans engagement) :
+${FACTS.abonnement.map((s) => "- " + s).join("\n")}
 
 PREUVES RÉELLES (les seules que tu peux citer) :
 ${FACTS.preuves.map((s) => "- " + s).join("\n")}
