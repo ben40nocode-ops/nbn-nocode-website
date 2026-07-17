@@ -5,6 +5,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
+import ChatWidget from "@/components/ChatWidget";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -270,6 +271,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="flex-1">{children}</main>
           <Footer />
           <CookieBanner />
+          <ChatWidget />
         </body>
       </html>
     </ClerkProvider>
