@@ -109,6 +109,12 @@ const jsonLd = {
       url: "https://www.nbn-ia.fr",
       logo: "https://www.nbn-ia.fr/icon.svg",
       email: "contact@nbn-ia.fr",
+      identifier: {
+        "@type": "PropertyValue",
+        propertyID: "SIRET",
+        value: "89171206900022",
+      },
+      founder: { "@id": "https://www.nbn-ia.fr/#founder" },
       description: "Architecte de systèmes IA autonomes pour PME. Nous concevons des systèmes IA qui opèrent sans intervention humaine, 24h/24, 7j/7. Agents IA Claude, vibe coding avec Claude Code, orchestration IA. Pas une agence classique — je construis des systèmes qui tournent.",
       areaServed: ["Bordeaux", "Royan", "Arcachon", "Soulac", "Pauillac", "Lesparre", "Montalivet", "Lacanau", "Gironde", "France"],
       knowsAbout: ["Systèmes IA Autonomes", "Agents IA", "Claude AI", "Vibe Coding", "Claude Code", "Orchestration IA", "IA Générative", "Make", "n8n", "MCP", "Anthropic", "AI Systems Engineering", "Agent Orchestration", "LLM Workflows"],
