@@ -250,18 +250,18 @@ export default function HomeEnPage() {
       <section id="work" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Concrete examples</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">Concrete examples of what we can build.</h2>
-            <p className="mt-4 text-gray-500 max-w-md mx-auto">Sample scenarios, ready to be adapted to your trade. Here&apos;s what an NBN IA system can do for you.</p>
+            <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Real work</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">Systems already in production.</h2>
+            <p className="mt-4 text-gray-500 max-w-md mx-auto">Real automations I&apos;ve built that are running today — transposable to your trade.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
-              { emoji: "🔧", title: "Plumber — automated quotes", desc: "The client sends a WhatsApp or email. Our system replies, asks the right questions, generates a quote and follows up if no answer. The craftsman signs — without picking up the phone.", impact: "3h saved per day" },
-              { emoji: "🍽️", title: "Restaurant — bookings & reminders", desc: "Automatic booking 24/7, SMS confirmation, day-before reminder, no-show management. The owner focuses on the kitchen, not the phone.", impact: "-40% no-shows" },
-              { emoji: "🏠", title: "Real estate agency — qualified leads", desc: "Every enquiry gets a reply in under 2 minutes, 7 days a week. The agent only receives genuinely interested prospects, with all info pre-filled.", impact: "×3 signed mandates" },
-              { emoji: "🏨", title: "Hotel — frictionless check-in", desc: "Full automated welcome workflow: welcome email, access code, personalised local guide, review request on departure. Zero staff intervention per stay.", impact: "0 manual intervention" },
-              { emoji: "🍷", title: "Wine estate — sales & tourism", desc: "Automatic replies to visit requests and online orders, follow-up after tastings, seasonal newsletter. The winemaker focuses on the vines — the system handles the rest.", impact: "+30% direct sales" },
-              { emoji: "🛒", title: "Online shop — cart recovery & reviews", desc: "Automatic sequence after abandoned cart, review request after delivery, newsletter based on purchase history. The owner sleeps — the system works.", impact: "+22% conversion" },
+              { emoji: "📟", title: "On-call — automatic call routing", desc: "On-call schedule on a single page and automatic call forwarding to the right person, day and night. No more shared spreadsheet or numbers to juggle.", impact: "Replaces Power Apps" },
+              { emoji: "🧾", title: "Accounting — automatic allocation", desc: "I drop in a PDF invoice: the AI reads it, allocates it and prepares the accounting in one click. What used to run through a fragile chain of tools happens in one go.", impact: "Replaces 3 Zapier + a homemade script" },
+              { emoji: "🗓️", title: "Leave & schedules, conflict-free", desc: "Leave requests, approval and automatic detection of clashes with the on-call rota. Impossible to be on leave AND on call the same day.", impact: "Zero double entry" },
+              { emoji: "💬", title: "Automatic client SMS", desc: "A message goes out on its own at the right moment before the client arrives, adapted to the season. No copy-paste, no oversight.", impact: "Replaces Power Apps + Excel + Zapier" },
+              { emoji: "🗂️", title: "Invoices filed automatically", desc: "Every invoice filed in the right place, an exact mirror of the accounting folder. No more manual sorting at month-end.", impact: "Always up to date, 0 manual" },
+              { emoji: "🤖", title: "Internal assistant 24/7", desc: "A chatbot that answers the team's questions — procedures, how the tools work — at any hour. Fewer interruptions, more autonomy.", impact: "Available 24/7" },
             ].map((c) => (
               <div key={c.title} className="p-6 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all duration-200 flex flex-col">
                 <span className="text-3xl mb-4 block">{c.emoji}</span>
