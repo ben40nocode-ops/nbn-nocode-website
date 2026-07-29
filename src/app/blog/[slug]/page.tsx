@@ -45,7 +45,18 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   if (!article) notFound();
 
   const allArticles = await getAllArticles();
-  const related = allArticles.filter((a) => a.slug !== slug && a.category === article.category).slice(0, 2);
+  const sameCategory = allArticles.filter((a) => a.slug !== slug && a.category === article.category);
+  const otherRecent = allArticles.filter((a) => a.slug !== slug && a.category !== article.category);
+  const related = [...sameCategory, ...otherRecent].slice(0, 4);
+
+  // Lien interne contextuel vers l'offre selon le thème (conversion + maillage interne)
+  const serviceByCategory: Record<string, { href: string; label: string }> = {
+    "Automatisation": { href: "/services/automatisation-ia", label: "mes services d'automatisation IA" },
+    "Agents IA": { href: "/services/automatisation-ia", label: "mes services d'agents IA" },
+    "Build in Public": { href: "/services/web-apps", label: "la création de web apps sur mesure" },
+    "Business": { href: "/services/automatisation-ia", label: "mes services d'automatisation IA" },
+  };
+  const service = serviceByCategory[article.category] ?? { href: "/services/automatisation-ia", label: "mes services" };
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -130,6 +141,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               prose-a:text-[#e8632a] prose-a:no-underline hover:prose-a:underline"
             dangerouslySetInnerHTML={{ __html: article.content }}
           />
+
+          {/* Lien interne contextuel — conversion + maillage */}
+          <div className="mt-10 border-l-2 border-[#e8632a] pl-4 text-sm text-gray-600 leading-relaxed">
+            Envie d&apos;appliquer ça à votre entreprise ?{" "}
+            <Link href={service.href} className="text-[#e8632a] font-medium hover:underline">Découvrez {service.label}</Link>{" "}
+            ou consultez <Link href="/tarifs" className="text-[#e8632a] font-medium hover:underline">mes tarifs</Link>.
+          </div>
 
           {/* CTA */}
           <div className="mt-16 bg-gray-900 rounded-2xl p-8 text-center">
