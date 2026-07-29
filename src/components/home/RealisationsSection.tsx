@@ -1,10 +1,10 @@
 const cases = [
-  { emoji: "🔧", title: "Artisan plombier — devis automatisés", desc: "Le client envoie un message WhatsApp ou email. Notre système répond, pose les bonnes questions, génère un devis et relance si pas de réponse. L'artisan signe — sans avoir décroché son téléphone.", impact: "3h gagnées par jour" },
-  { emoji: "🍽️", title: "Restaurant — réservations & rappels", desc: "Prise de réservation automatique 24h/24, confirmation par SMS, rappel la veille, gestion des no-shows. Le restaurateur se concentre sur sa cuisine, pas sur son téléphone.", impact: "-40% de no-shows" },
-  { emoji: "🏠", title: "Agence immobilière — leads qualifiés", desc: "Chaque demande de contact reçoit une réponse en moins de 2 minutes, 7j/7. L'agent reçoit uniquement les prospects vraiment intéressés, avec toutes les infos pré-remplies.", impact: "×3 mandats signés" },
-  { emoji: "🏨", title: "Hôtel — check-in sans friction", desc: "Tout l'accueil se fait tout seul : email de bienvenue, code d'accès, guide local personnalisé, demande d'avis au départ. Zéro intervention du personnel pour chaque séjour.", impact: "0 intervention manuelle" },
-  { emoji: "🍷", title: "Domaine viticole — ventes & tourisme", desc: "Réponse automatique aux demandes de visites et commandes en ligne, relance des prospects après une dégustation, envoi de la newsletter saisonnière. Le vigneron se concentre sur ses vignes.", impact: "+30% de ventes directes" },
-  { emoji: "🛒", title: "Boutique en ligne — relances & avis", desc: "Séquence automatique après un panier abandonné, demande d'avis après livraison, newsletter selon les achats. Le gérant dort — le système travaille.", impact: "+22% de conversion" },
+  { emoji: "📟", title: "Astreinte — transfert d'appel automatique", desc: "Planning d'astreinte sur une seule page et bascule automatique de l'appel vers la bonne personne, jour et nuit. Fini le tableur partagé et les numéros à jongler.", impact: "Remplace Power Apps + Twilio" },
+  { emoji: "🧾", title: "Compta — ventilation automatique", desc: "Je dépose une facture PDF : l'IA lit, ventile et prépare la comptabilité en un clic. Ce qui passait par une chaîne d'outils fragile se fait d'un coup.", impact: "Remplace 3 Zapier + un script maison" },
+  { emoji: "🗓️", title: "Congés & plannings sans conflit", desc: "Demandes de congés, validation et détection automatique des conflits avec l'astreinte. Impossible d'être en congé ET d'astreinte le même jour.", impact: "Zéro double-saisie" },
+  { emoji: "💬", title: "SMS clients automatiques", desc: "Un message part tout seul au bon moment avant l'arrivée du client, adapté à la saison. Aucun copier-coller, aucun oubli.", impact: "Remplace Power Apps + Excel + Zapier" },
+  { emoji: "🗂️", title: "Factures classées automatiquement", desc: "Chaque facture rangée au bon endroit, miroir exact du dossier comptable. Fini le tri manuel de fin de mois.", impact: "Toujours à jour, 0 manuel" },
+  { emoji: "🤖", title: "Assistant interne 24/7", desc: "Un chatbot qui répond aux questions des équipes — procédures, mode d'emploi des outils — à toute heure. Moins d'interruptions, plus d'autonomie.", impact: "Disponible 24h/24" },
 ];
 
 export function RealisationsSection() {
@@ -17,10 +17,10 @@ export function RealisationsSection() {
             Exemples concrets
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
-            Des exemples concrets de ce qu&apos;on peut construire.
+            Des systèmes déjà en production.
           </h2>
           <p className="mt-4 text-gray-500 max-w-md mx-auto">
-            Des scénarios types, prêts à être adaptés à votre métier. Voici ce qu&apos;un système NBN IA peut faire pour vous.
+            Des automatisations réelles que j&apos;ai construites et qui tournent aujourd&apos;hui — transposables à votre métier.
           </p>
         </div>
 

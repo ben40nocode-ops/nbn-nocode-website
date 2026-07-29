@@ -45,11 +45,10 @@ export function CookieBanner() {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 p-4 md:p-6">
-      <div className="max-w-3xl mx-auto bg-white border border-gray-200 rounded-2xl shadow-xl p-5 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-        <p className="text-sm text-gray-600 flex-1 leading-relaxed">
-          On utilise des cookies pour analyser le trafic et améliorer notre site (Google Analytics).
-          Aucune donnée n&apos;est vendue à des tiers.{" "}
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur border-t border-gray-200 shadow-[0_-4px_20px_rgba(0,0,0,0.06)]">
+      <div className="max-w-6xl mx-auto px-4 py-3 flex flex-col sm:flex-row items-center gap-3">
+        <p className="text-xs sm:text-sm text-gray-600 flex-1 leading-relaxed text-center sm:text-left">
+          On utilise des cookies pour analyser le trafic (Google Analytics). Aucune donnée n&apos;est vendue à des tiers.{" "}
           <a href="/politique-confidentialite" className="underline text-gray-800 hover:text-[#e8632a]">
             En savoir plus
           </a>
@@ -57,13 +56,13 @@ export function CookieBanner() {
         <div className="flex gap-2 shrink-0">
           <button
             onClick={decline}
-            className="px-4 py-2 text-sm text-gray-500 border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors font-medium"
+            className="px-4 py-1.5 text-sm text-gray-500 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors font-medium"
           >
             Refuser
           </button>
           <button
             onClick={accept}
-            className="px-4 py-2 text-sm text-white bg-[#e8632a] hover:bg-[#c4521f] rounded-xl transition-colors font-semibold"
+            className="px-4 py-1.5 text-sm text-white bg-[#e8632a] hover:bg-[#c4521f] rounded-lg transition-colors font-semibold"
           >
             Accepter
           </button>
