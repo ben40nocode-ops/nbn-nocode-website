@@ -3,11 +3,13 @@
 export interface ArticleEN {
   slug: string; title: string; description: string; date: string;
   author: string; category: string; keywords: string[]; readingTime: string; content: string;
+  draft?: boolean;
 }
 
 export const articlesEN: ArticleEN[] = [
   {
     slug: "ai-back-office-travel-agency-nortrip-toolbox",
+    draft: true,
     title: "An AI Back-Office for a Travel Agency: From Prototype to Full Handover",
     description: "How I built the Nortrip Toolbox: AI-powered invoice extraction (Claude), payment reconciliation, duplicate detection — and above all, the complete handover of the tool to the client. A technical case study.",
     date: "2026-06-29",

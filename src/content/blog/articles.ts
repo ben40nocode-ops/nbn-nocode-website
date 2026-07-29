@@ -3,11 +3,13 @@
 export interface Article {
   slug: string; title: string; description: string; date: string;
   author: string; category: string; keywords: string[]; readingTime: string; content: string;
+  draft?: boolean;
 }
 
 export const articles: Article[] = [
   {
     slug: "back-office-ia-agence-voyage-nortrip-toolbox",
+    draft: true,
     title: "Back-office IA pour une agence de voyage : du prototype à la passation",
     description: "Comment j'ai conçu la Nortrip Toolbox : extraction de factures par IA (Claude), rapprochement de paiements, détection de doublons — et surtout la passation complète de l'outil au client. Retour d'expérience technique.",
     date: "2026-06-29",

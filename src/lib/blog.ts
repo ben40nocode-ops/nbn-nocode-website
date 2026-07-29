@@ -6,11 +6,11 @@ export type { Article };
 // Aucun appel Airtable — la publication se fait en ajoutant l'article ici puis en déployant.
 
 export async function getAllArticles(): Promise<Article[]> {
-  return [...staticArticles].sort(
+  return [...staticArticles].filter((a) => !a.draft).sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 }
 
 export async function getArticleBySlug(slug: string): Promise<Article | undefined> {
-  return staticArticles.find((a) => a.slug === slug);
+  return staticArticles.find((a) => a.slug === slug && !a.draft);
 }
