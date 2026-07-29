@@ -6,6 +6,7 @@ import { Menu, X, ArrowRight } from "lucide-react";
 import { useUser, UserButton } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 import { Logo } from "@/components/Logo";
+import { blogSlugFrToEn, blogSlugEnToFr } from "@/content/blog/article-lang-map";
 
 const linksFR = [
   { label: "À propos", href: "/a-propos" },
@@ -30,6 +31,26 @@ export function Navbar() {
   const pathname = usePathname();
   const isEN = pathname.startsWith("/en");
   const links = isEN ? linksEN : linksFR;
+
+  // Sélecteur de langue : renvoie vers l'équivalent dans l'autre langue.
+  // - Article de blog → article correspondant s'il existe, sinon l'index du blog.
+  // - Autres pages → accueil de la langue.
+  const enArticle = pathname.match(/^\/en\/blog\/([^/?#]+)/);
+  const frArticle = pathname.match(/^\/blog\/([^/?#]+)/);
+  let frHref = "/";
+  let enHref = "/en";
+  if (enArticle) {
+    const fr = blogSlugEnToFr[enArticle[1]];
+    frHref = fr ? `/blog/${fr}` : "/blog";
+    enHref = pathname;
+  } else if (frArticle) {
+    const en = blogSlugFrToEn[frArticle[1]];
+    frHref = pathname;
+    enHref = en ? `/en/blog/${en}` : "/en/blog";
+  } else if (pathname === "/blog" || pathname === "/en/blog") {
+    frHref = "/blog";
+    enHref = "/en/blog";
+  }
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -67,8 +88,8 @@ export function Navbar() {
           {/* Actions — droite desktop */}
           <div className="hidden md:flex items-center gap-3 flex-shrink-0">
             <div className="flex items-center border border-gray-200 rounded-lg overflow-hidden text-xs font-semibold">
-              <Link href="/" className={`px-2.5 py-1.5 transition-colors ${!isEN ? "bg-gray-900 text-white" : "text-gray-400 hover:text-gray-700"}`}>FR</Link>
-              <Link href="/en" className={`px-2.5 py-1.5 transition-colors ${isEN ? "bg-gray-900 text-white" : "text-gray-400 hover:text-gray-700"}`}>EN</Link>
+              <Link href={frHref} className={`px-2.5 py-1.5 transition-colors ${!isEN ? "bg-gray-900 text-white" : "text-gray-400 hover:text-gray-700"}`}>FR</Link>
+              <Link href={enHref} className={`px-2.5 py-1.5 transition-colors ${isEN ? "bg-gray-900 text-white" : "text-gray-400 hover:text-gray-700"}`}>EN</Link>
             </div>
             {isSignedIn ? (
               <>
@@ -117,8 +138,8 @@ export function Navbar() {
         {/* Header drawer */}
         <div className="flex items-center justify-between px-6 h-14 border-b border-gray-100 flex-shrink-0">
           <div className="flex items-center border border-gray-200 rounded-lg overflow-hidden text-xs font-semibold">
-            <Link href="/" onClick={() => setOpen(false)} className={`px-3 py-1.5 transition-colors ${!isEN ? "bg-gray-900 text-white" : "text-gray-400"}`}>FR</Link>
-            <Link href="/en" onClick={() => setOpen(false)} className={`px-3 py-1.5 transition-colors ${isEN ? "bg-gray-900 text-white" : "text-gray-400"}`}>EN</Link>
+            <Link href={frHref} onClick={() => setOpen(false)} className={`px-3 py-1.5 transition-colors ${!isEN ? "bg-gray-900 text-white" : "text-gray-400"}`}>FR</Link>
+            <Link href={enHref} onClick={() => setOpen(false)} className={`px-3 py-1.5 transition-colors ${isEN ? "bg-gray-900 text-white" : "text-gray-400"}`}>EN</Link>
           </div>
           <button onClick={() => setOpen(false)} className="w-8 h-8 flex items-center justify-center rounded-lg text-gray-400 hover:bg-gray-100 transition-colors">
             <X size={18} />
