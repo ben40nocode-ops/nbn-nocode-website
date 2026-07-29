@@ -1,5 +1,5 @@
 const cases = [
-  { emoji: "📟", title: "Astreinte — transfert d'appel automatique", desc: "Planning d'astreinte sur une seule page et bascule automatique de l'appel vers la bonne personne, jour et nuit. Fini le tableur partagé et les numéros à jongler.", impact: "Remplace Power Apps + Twilio" },
+  { emoji: "📟", title: "Astreinte — transfert d'appel automatique", desc: "Planning d'astreinte sur une seule page et bascule automatique de l'appel vers la bonne personne, jour et nuit. Fini le tableur partagé et les numéros à jongler.", impact: "Remplace Power Apps" },
   { emoji: "🧾", title: "Compta — ventilation automatique", desc: "Je dépose une facture PDF : l'IA lit, ventile et prépare la comptabilité en un clic. Ce qui passait par une chaîne d'outils fragile se fait d'un coup.", impact: "Remplace 3 Zapier + un script maison" },
   { emoji: "🗓️", title: "Congés & plannings sans conflit", desc: "Demandes de congés, validation et détection automatique des conflits avec l'astreinte. Impossible d'être en congé ET d'astreinte le même jour.", impact: "Zéro double-saisie" },
   { emoji: "💬", title: "SMS clients automatiques", desc: "Un message part tout seul au bon moment avant l'arrivée du client, adapté à la saison. Aucun copier-coller, aucun oubli.", impact: "Remplace Power Apps + Excel + Zapier" },
