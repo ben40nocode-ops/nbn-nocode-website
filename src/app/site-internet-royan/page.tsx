@@ -40,7 +40,7 @@ export default function Page() {
         "Devis gratuit, sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Appel gratuit (1h)", desc: "On définit ensemble l'objectif du site, votre identité et les pages clés. Devis transparent." },
+        { step: "01", title: "Appel gratuit (30 min)", desc: "On définit ensemble l'objectif du site, votre identité et les pages clés. Devis transparent." },
         { step: "02", title: "Conception (1-2 semaines)", desc: "Je conçois et développe votre site. Vous validez à chaque étape, zéro surprise." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement, référencement local, et je reste disponible pour le faire évoluer." },
       ]}

@@ -40,8 +40,8 @@ export default function Page() {
         "Appel gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit 1h", desc: "On analyse vos flux de communication, vos demandes récurrentes et vos outils de réservation. On identifie les automatisations les plus impactantes." },
-        { step: "02", title: "Déploiement", desc: "Agent IA conciergerie et automatisations déployés. Votre équipe est formée en 1h. Livraison en 48h à 1 semaine." },
+        { step: "01", title: "Audit 30 min", desc: "On analyse vos flux de communication, vos demandes récurrentes et vos outils de réservation. On identifie les automatisations les plus impactantes." },
+        { step: "02", title: "Déploiement", desc: "Agent IA conciergerie et automatisations déployés. Votre équipe est formée en 30 min. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Optimisation continue", desc: "On monitore les conversations et on améliore l'agent au fil des saisons. Résiliable à tout moment." },
       ]}
       casesTitle="Cas d’usage pour les hôtels de Soulac"
@@ -72,9 +72,9 @@ export default function Page() {
         { q: "Quel budget pour démarrer ?", a: "Un agent conciergerie basique démarre à 450€. Un système complet avec upsell et automatisations autour de 900€. On définit ensemble lors de l'appel." },
       ]}
       faqsTitle="Questions fréquentes — automatisation hôtels Soulac-sur-Mer"
-      ctaTitle="1 heure pour améliorer l'expérience de vos clients"
+      ctaTitle="30 minutes pour améliorer l'expérience de vos clients"
       ctaDesc="Appel gratuit, sans engagement. À Soulac ou en visio."
-      ctaButton="Réserver mon appel gratuit (1h)"
+      ctaButton="Réserver mon appel gratuit (30 min)"
     />
   );
 }

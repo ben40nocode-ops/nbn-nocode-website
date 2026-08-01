@@ -40,7 +40,7 @@ export default function Page() {
         "Devis gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Brief & design (1h)", desc: "On définit ensemble l'identité visuelle, les chambres à mettre en valeur et les fonctionnalités. On part de votre ADN." },
+        { step: "01", title: "Brief & design (30 min)", desc: "On définit ensemble l'identité visuelle, les chambres à mettre en valeur et les fonctionnalités. On part de votre ADN." },
         { step: "02", title: "Développement (1-3 semaines)", desc: "Site livré avec réservations directes opérationnelles et agent IA configuré. Points réguliers." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement, optimisation SEO complète, monitoring des réservations. Évolutions continues." },
       ]}

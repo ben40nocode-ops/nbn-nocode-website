@@ -40,7 +40,7 @@ export default function Page() {
         "Devis gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Brief & design (1h)", desc: "On définit ensemble l'ambiance, le menu à mettre en valeur et les fonctionnalités. Vous repartez avec un devis transparent." },
+        { step: "01", title: "Brief & design (30 min)", desc: "On définit ensemble l'ambiance, le menu à mettre en valeur et les fonctionnalités. Vous repartez avec un devis transparent." },
         { step: "02", title: "Développement (1-2 semaines)", desc: "Site livré avec réservations en ligne et agent IA opérationnels. Vibe coding = 3x plus rapide qu'une agence classique." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement, SEO local complet, Google My Business optimisé. Monitoring des réservations." },
       ]}

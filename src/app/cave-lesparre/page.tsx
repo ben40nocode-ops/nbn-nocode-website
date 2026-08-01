@@ -40,7 +40,7 @@ export default function Page() {
         "Appel gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit 1h", desc: "On comprend vos flux de commandes, votre organisation et vos outils existants. On identifie ce qui peut être automatisé rapidement." },
+        { step: "01", title: "Audit 30 min", desc: "On comprend vos flux de commandes, votre organisation et vos outils existants. On identifie ce qui peut être automatisé rapidement." },
         { step: "02", title: "Déploiement", desc: "On déploie les automatisations adaptées à votre structure. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Maintenance", desc: "On suit et on ajuste. Résiliable à tout moment." },
       ]}
@@ -72,9 +72,9 @@ export default function Page() {
         { q: "Quel est le délai de mise en place ?", a: "Une première automatisation simple (commandes + facturation) est déployée en 48h à 1 semaine après l'appel." },
       ]}
       faqsTitle="Questions fréquentes — automatisation caves Lesparre-Médoc"
-      ctaTitle="1 heure pour cartographier vos process"
+      ctaTitle="30 minutes pour cartographier vos process"
       ctaDesc="Appel gratuit, sans engagement. À Lesparre ou en visio."
-      ctaButton="Réserver mon appel gratuit (1h)"
+      ctaButton="Réserver mon appel gratuit (30 min)"
     />
   );
 }

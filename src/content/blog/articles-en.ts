@@ -175,6 +175,6 @@ In 6 months, you'll have a robust, layered system built on solid foundations. Th
 
 <p>Whether you're based in Bordeaux, on the Bassin d'Arcachon, in the Médoc, or anywhere else in France — we can work together in person or via video call.</p>
 
-<p><strong><a href="https://calendly.com/ben40nocode/1h">Book your free 1-hour audit here</a></strong> and discover what AI automation can do for your business in 2026.</p>`
+<p><strong><a href="https://calendly.com/ben40nocode/1h">Book your free 30-minute audit here</a></strong> and discover what AI automation can do for your business in 2026.</p>`
   }
 ];

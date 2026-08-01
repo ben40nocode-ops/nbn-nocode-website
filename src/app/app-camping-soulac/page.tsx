@@ -40,9 +40,9 @@ export default function Page() {
         "Devis gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit & architecture (1h)", desc: "On analyse vos process, votre clientèle et vos outils existants. Devis précis en fin de séance." },
+        { step: "01", title: "Audit & architecture (30 min)", desc: "On analyse vos process, votre clientèle et vos outils existants. Devis précis en fin de séance." },
         { step: "02", title: "Développement (2-4 semaines)", desc: "App livrée avant la saison. Points réguliers, vous validez chaque étape." },
-        { step: "03", title: "Mise en prod & suivi", desc: "Déploiement, formation de l'équipe en 1h. Support pendant la saison." },
+        { step: "03", title: "Mise en prod & suivi", desc: "Déploiement, formation de l'équipe en 30 min. Support pendant la saison." },
       ]}
       casesTitle="Cas d’usage pour les campings du Médoc"
       cases={[

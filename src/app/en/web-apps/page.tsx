@@ -84,7 +84,7 @@ export default function WebAppsEnPage() {
           </div>
           <div className="bg-gray-900 rounded-3xl p-12 text-center">
             <h2 className="text-white font-bold text-2xl mb-3">Ready to build your AI web app?</h2>
-            <p className="text-gray-300 mb-8 max-w-md mx-auto">Free 1-hour audit. We map your product, propose the architecture. No commitment.</p>
+            <p className="text-gray-300 mb-8 max-w-md mx-auto">Free 30-minute audit. We map your product, propose the architecture. No commitment.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
               Book my free call <ArrowRight size={16} />

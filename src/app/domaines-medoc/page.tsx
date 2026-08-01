@@ -40,7 +40,7 @@ export default function Page() {
         "Appel gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit 1h", desc: "On cartographie vos flux : comment arrivent les commandes, comment vous gérez les millésimes, les visites et la facturation. On identifie les gains rapides." },
+        { step: "01", title: "Audit 30 min", desc: "On cartographie vos flux : comment arrivent les commandes, comment vous gérez les millésimes, les visites et la facturation. On identifie les gains rapides." },
         { step: "02", title: "Déploiement", desc: "Automatisations et agents IA adaptés à votre domaine. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Maintenance", desc: "On suit et on ajuste selon vos saisons et vendanges. Résiliable à tout moment." },
       ]}
@@ -72,9 +72,9 @@ export default function Page() {
         { q: "Est-ce que ça s'intègre avec notre logiciel de cave existant ?", a: "Dans la majorité des cas, oui. On analyse vos outils lors de l'appel et on conçoit l'intégration adaptée." },
       ]}
       faqsTitle="Questions fréquentes — automatisation domaines viticoles Médoc"
-      ctaTitle="1 heure pour cartographier vos process"
+      ctaTitle="30 minutes pour cartographier vos process"
       ctaDesc="Appel gratuit, sans engagement. Sur le Médoc ou en visio."
-      ctaButton="Réserver mon appel gratuit (1h)"
+      ctaButton="Réserver mon appel gratuit (30 min)"
     />
   );
 }

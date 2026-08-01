@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "Combien coûte le développement d'une web app à Bordeaux ?",
-    a: "Une web app simple (authentification + 3 à 5 fonctionnalités) démarre à 2 500€ HT. Une app avancée avec sync temps réel, agents IA et 8+ fonctionnalités démarre à 5 000€ HT. On donne un devis précis après l'appel gratuit d'1h.",
+    a: "Une web app simple (authentification + 3 à 5 fonctionnalités) démarre à 2 500€ HT. Une app avancée avec sync temps réel, agents IA et 8+ fonctionnalités démarre à 5 000€ HT. On donne un devis précis après l'appel gratuit de 30 min.",
   },
   {
     q: "Qu'est-ce que le vibe coding et comment ça accélère le développement ?",
@@ -214,10 +214,10 @@ export default function WebAppBordeauxPage() {
 
           <div className="bg-[#0E1116] rounded-[26px] p-10 shadow-[0_40px_100px_rgba(14,17,22,.4)] text-center">
             <h2 className="text-2xl font-bold text-white mb-3">Prêt à démarrer votre web app IA ?</h2>
-            <p className="text-gray-400 mb-8 max-w-md mx-auto">Audit gratuit de 1h. On voit ensemble comment connecter IA et product. Zéro engagement.</p>
+            <p className="text-gray-400 mb-8 max-w-md mx-auto">Audit gratuit de 30 min. On voit ensemble comment connecter IA et product. Zéro engagement.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-8 py-4 rounded-xl font-bold text-sm transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
-              Réserver mon appel gratuit (1h) <ArrowRight size={16} />
+              Réserver mon appel gratuit (30 min) <ArrowRight size={16} />
             </Link>
           </div>
 

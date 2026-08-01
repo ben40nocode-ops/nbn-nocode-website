@@ -40,7 +40,7 @@ export default function Page() {
         "Appel gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit 1h", desc: "On cartographie vos process : comment arrivent les commandes, comment vous facturez, ce qui prend du temps." },
+        { step: "01", title: "Audit 30 min", desc: "On cartographie vos process : comment arrivent les commandes, comment vous facturez, ce qui prend du temps." },
         { step: "02", title: "Setup sur mesure", desc: "On déploie les automatisations adaptées à votre activité. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Maintenance continue", desc: "On suit, on ajuste, on fait évoluer selon vos saisons. Résiliable à tout moment." },
       ]}
@@ -67,14 +67,14 @@ export default function Page() {
       ]}
       faqs={[
         { q: "Mon activité est très saisonnière — comment ça s'adapte ?", a: "On conçoit les systèmes pour qu'ils s'adaptent à votre charge. En haute saison les automatisations tournent à plein régime, en basse saison elles gèrent le relationnel." },
-        { q: "Est-ce que ça marche pour une petite structure ?", a: "Oui. Un poissonnier avec 10 clients restaurants réguliers peut bénéficier d'une automatisation simple à 450€ qui lui fait gagner 1h par jour." },
+        { q: "Est-ce que ça marche pour une petite structure ?", a: "Oui. Un poissonnier avec 10 clients restaurants réguliers peut bénéficier d'une automatisation simple à 450€ qui lui fait gagner 30 min par jour." },
         { q: "Vous intervenez sur tout le Bassin ?", a: "Oui — Arcachon, La Teste, Gujan-Mestras, Andernos et tout le Bassin. En présentiel ou à distance." },
         { q: "On n'est pas du tout tech — c'est un problème ?", a: "Pas du tout. On gère la technique intégralement. Vous décrivez vos process, on s'occupe de tout." },
       ]}
       faqsTitle="Questions fréquentes — automatisation filière poisson Arcachon"
-      ctaTitle="1 heure pour cartographier vos process"
+      ctaTitle="30 minutes pour cartographier vos process"
       ctaDesc="Appel gratuit, sans engagement. Sur le Bassin ou en visio."
-      ctaButton="Réserver mon appel gratuit (1h)"
+      ctaButton="Réserver mon appel gratuit (30 min)"
     />
   );
 }

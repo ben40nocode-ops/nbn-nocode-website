@@ -73,8 +73,8 @@ export default function Page() {
       ]}
       faqsTitle="Questions fréquentes — web app et agents IA startups Bordeaux"
       ctaTitle="Votre MVP en 2-3 semaines"
-      ctaDesc="Audit gratuit de 1h. On définit ensemble le scope et le délai. Zéro engagement."
-      ctaButton="Réserver mon appel gratuit (1h)"
+      ctaDesc="Audit gratuit de 30 min. On définit ensemble le scope et le délai. Zéro engagement."
+      ctaButton="Réserver mon appel gratuit (30 min)"
     />
   );
 }

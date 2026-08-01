@@ -22,13 +22,13 @@ const features = [
 ];
 
 const steps = [
-  { n: "1", title: "Appel gratuit (1h)", desc: "On définit ensemble votre positionnement, vos projets à mettre en avant et l'objectif du site." },
+  { n: "1", title: "Appel gratuit (30 min)", desc: "On définit ensemble votre positionnement, vos projets à mettre en avant et l'objectif du site." },
   { n: "2", title: "Conception & développement", desc: "Je conçois et développe votre portfolio sur mesure. Vous validez à chaque étape." },
   { n: "3", title: "Mise en ligne & suivi", desc: "Votre site est publié, optimisé pour Google, et je reste disponible pour le faire évoluer." },
 ];
 
 const faq = [
-  { q: "Combien coûte un site portfolio ?", a: "Un site portfolio professionnel démarre à 800 € (formule Landing Page). Le tarif dépend du nombre de pages et des fonctionnalités. L'audit d'1h est gratuit et sans engagement." },
+  { q: "Combien coûte un site portfolio ?", a: "Un site portfolio professionnel démarre à 800 € (formule Landing Page). Le tarif dépend du nombre de pages et des fonctionnalités. L'audit de 30 min est gratuit et sans engagement." },
   { q: "En combien de temps mon site est-il livré ?", a: "La plupart des sites portfolio sont livrés en moins de 15 jours, selon la complexité et la rapidité des retours." },
   { q: "Puis-je le mettre à jour moi-même ensuite ?", a: "Oui. Je peux intégrer un CMS simple pour que vous gériez vos projets en autonomie, ou m'occuper des mises à jour via un forfait de maintenance." },
 ];
@@ -76,7 +76,7 @@ export default function Page() {
         </p>
         <div className="flex flex-wrap gap-4 mb-16">
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-7 py-4 rounded-xl font-semibold transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
-            Appel gratuit (1h) <ArrowRight size={17} />
+            Appel gratuit (30 min) <ArrowRight size={17} />
           </Link>
           <Link href="/tarifs" className="inline-flex items-center gap-2 border border-[#E2E0DA] hover:-translate-y-0.5 text-[#2E343D] px-7 py-4 rounded-xl font-semibold transition-colors">
             Voir les tarifs
@@ -141,9 +141,9 @@ export default function Page() {
         {/* CTA */}
         <div className="bg-[#0E1116] rounded-[26px] p-8 shadow-[0_40px_100px_rgba(14,17,22,.4)] text-center">
           <p className="text-white font-bold text-lg mb-2">Prêt à mettre votre travail en valeur ?</p>
-          <p className="text-gray-400 text-sm mb-6">Réservez un appel gratuit d&apos;1h — on définit ensemble le portfolio qui vous ressemble.</p>
+          <p className="text-gray-400 text-sm mb-6">Réservez un appel gratuit d&apos;30 min — on définit ensemble le portfolio qui vous ressemble.</p>
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors">
-            Réserver mon appel gratuit (1h) <ArrowRight size={14} />
+            Réserver mon appel gratuit (30 min) <ArrowRight size={14} />
           </Link>
         </div>
 

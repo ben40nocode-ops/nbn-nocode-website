@@ -133,7 +133,7 @@ export default async function ArticleENPage({ params }: { params: Promise<{ slug
           {/* CTA */}
           <div className="mt-16 bg-gray-900 rounded-2xl p-8 text-center">
             <p className="text-white font-bold text-lg mb-2">Ready to automate your business?</p>
-            <p className="text-gray-400 text-sm mb-6">Free 1-hour audit — we identify your 3 most valuable automation opportunities together.</p>
+            <p className="text-gray-400 text-sm mb-6">Free 30-minute audit — we identify your 3 most valuable automation opportunities together.</p>
             <Link
               href="https://calendly.com/ben40nocode/1h"
               target="_blank"

@@ -15,7 +15,7 @@ const reasons = [
   {
     icon: ShieldCheck,
     title: "Appel gratuit, sans engagement",
-    text: "On commence par 1h d'échange offert. Vous repartez avec un plan d'action concret et chiffré — que vous travailliez avec moi ensuite ou non.",
+    text: "On commence par 30 min d'échange offert. Vous repartez avec un plan d'action concret et chiffré — que vous travailliez avec moi ensuite ou non.",
   },
 ];
 

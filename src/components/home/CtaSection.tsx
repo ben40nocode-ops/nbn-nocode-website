@@ -11,7 +11,7 @@ export function CtaSection() {
             Prêt à démarrer ?
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-5">
-            1 heure pour identifier ce qu&apos;on peut<br />automatiser dans votre business.
+            30 minutes pour identifier ce qu&apos;on peut<br />automatiser dans votre business.
           </h2>
           <p className="text-gray-400 mb-10 max-w-md mx-auto leading-relaxed">
             L&apos;appel est gratuit, sans engagement. Vous repartez avec une liste concrète de ce qui peut être automatisé — que vous travailliez avec nous ou non.
@@ -25,7 +25,7 @@ export function CtaSection() {
               className="group inline-flex items-center justify-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-bold text-sm transition-all duration-200"
             >
               <Calendar size={17} />
-              Réserver mon appel gratuit (1h)
+              Réserver mon appel gratuit (30 min)
               <ArrowRight size={15} className="group-hover:translate-x-0.5 transition-transform" />
             </Link>
             <Link

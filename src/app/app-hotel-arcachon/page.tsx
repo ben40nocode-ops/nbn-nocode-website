@@ -40,7 +40,7 @@ export default function Page() {
         "Devis gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit & architecture (1h)", desc: "On analyse votre mix de réservations, vos process et vos outils. On définit ce qui génère le plus de valeur rapidement." },
+        { step: "01", title: "Audit & architecture (30 min)", desc: "On analyse votre mix de réservations, vos process et vos outils. On définit ce qui génère le plus de valeur rapidement." },
         { step: "02", title: "Développement (2-4 semaines)", desc: "App livrée avec réservation directe et agent IA. Vibe coding = 3x plus rapide qu'une agence classique." },
         { step: "03", title: "Mise en prod & optimisation", desc: "Déploiement, monitoring des réservations, ajustements. On scale avec votre croissance." },
       ]}

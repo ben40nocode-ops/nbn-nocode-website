@@ -40,7 +40,7 @@ export default function Page() {
         "Devis gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Brief & design (1h)", desc: "On définit ensemble les fonctionnalités, le design et les photos à mettre en valeur. Vous validez avant développement." },
+        { step: "01", title: "Brief & design (30 min)", desc: "On définit ensemble les fonctionnalités, le design et les photos à mettre en valeur. Vous validez avant développement." },
         { step: "02", title: "Développement (1-2 semaines)", desc: "Site livré avant la saison avec réservations en ligne opérationnelles. Points réguliers pendant le développement." },
         { step: "03", title: "Mise en ligne & suivi", desc: "Déploiement, SEO technique complet. On monitore les réservations et on ajuste pendant la saison." },
       ]}

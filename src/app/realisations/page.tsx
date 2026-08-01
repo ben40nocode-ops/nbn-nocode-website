@@ -55,10 +55,10 @@ export default function RealisationsPage() {
 
         <div className="mt-16 bg-[#0E1116] rounded-[26px] p-10 text-center shadow-[0_40px_100px_rgba(14,17,22,.4)]">
           <h2 className="text-2xl font-extrabold text-white tracking-[-0.02em] mb-3">Un système comme ça pour vous ?</h2>
-          <p className="text-gray-400 mb-8 max-w-md mx-auto">Un échange de 20 minutes. On repère le premier système qui vous fait gagner du temps.</p>
+          <p className="text-gray-400 mb-8 max-w-md mx-auto">Un échange de 30 minutes. On repère le premier système qui vous fait gagner du temps.</p>
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-8 py-4 rounded-xl font-bold text-sm transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
-            Réserver mon appel gratuit (1h) <ArrowRight size={15} />
+            Réserver mon appel gratuit (30 min) <ArrowRight size={15} />
           </Link>
         </div>
 

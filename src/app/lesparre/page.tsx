@@ -4,7 +4,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Sites Web & Automatisation IA à Lesparre-Médoc",
-  description: "Sites web et automatisation IA pour les caves, domaines viticoles, artisans et commerces de Lesparre-Médoc : vente de vin en ligne, devis et relances automatisés. Audit gratuit 1h.",
+  description: "Sites web et automatisation IA pour les caves, domaines viticoles, artisans et commerces de Lesparre-Médoc : vente de vin en ligne, devis et relances automatisés. Audit gratuit 30 min.",
   keywords: ["agence web lesparre", "site internet lesparre", "automatisation lesparre", "cave lesparre médoc", "artisan lesparre digital"],
   alternates: { canonical: "https://www.nbn-ia.fr/lesparre" },
 };
@@ -59,11 +59,11 @@ export default function LesparrePage() {
         </p>
         <p className="text-base text-[#6B7280] mb-10 leading-relaxed">
           Basé dans le triangle Bordeaux · Royan · Arcachon, j&apos;interviens en présentiel à Lesparre et dans tout le
-          Médoc, ou 100 % à distance. Tout commence par un appel gratuit d&apos;1h.
+          Médoc, ou 100 % à distance. Tout commence par un appel gratuit d&apos;30 min.
         </p>
 
         <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-7 py-4 rounded-xl font-semibold transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)] mb-16">
-          Appel gratuit (1h) <ArrowRight size={17} />
+          Appel gratuit (30 min) <ArrowRight size={17} />
         </Link>
 
         <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Mes services à Lesparre-Médoc</h2>

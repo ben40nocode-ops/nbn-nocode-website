@@ -40,7 +40,7 @@ export default function Page() {
         "Appel gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit 1h", desc: "On cartographie vos flux : comment arrivent les commandes, comment vous livrez et facturez. On identifie les gains rapides." },
+        { step: "01", title: "Audit 30 min", desc: "On cartographie vos flux : comment arrivent les commandes, comment vous livrez et facturez. On identifie les gains rapides." },
         { step: "02", title: "Déploiement", desc: "Automatisations et agents IA adaptés à votre production. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Maintenance", desc: "On suit et on ajuste selon vos saisons. Résiliable à tout moment." },
       ]}
@@ -66,15 +66,15 @@ export default function Page() {
         },
       ]}
       faqs={[
-        { q: "C'est adapté à une petite cabane ostréicole ?", a: "Oui. Un producteur qui reçoit 20 commandes par semaine peut déjà gagner 1h par jour avec une automatisation simple à 450€." },
+        { q: "C'est adapté à une petite cabane ostréicole ?", a: "Oui. Un producteur qui reçoit 20 commandes par semaine peut déjà gagner 30 min par jour avec une automatisation simple à 450€." },
         { q: "Comment ça gère les commandes de dernière minute ?", a: "L'agent IA traite les commandes en temps réel, 24h/24. Même une commande à 22h pour le lendemain est prise en compte immédiatement." },
         { q: "Vous intervenez sur tout le Bassin ?", a: "Oui — Gujan-Mestras, La Teste, Lège-Cap-Ferret, Andernos, Arcachon. En présentiel ou à distance." },
         { q: "On peut commencer par juste la facturation automatique ?", a: "Absolument. On démarre par le point le plus douloureux pour vous, et on étend ensuite." },
       ]}
       faqsTitle="Questions fréquentes — automatisation ostréiculture Bassin d'Arcachon"
-      ctaTitle="1 heure pour cartographier vos process"
+      ctaTitle="30 minutes pour cartographier vos process"
       ctaDesc="Appel gratuit, sans engagement. Sur le Bassin ou en visio."
-      ctaButton="Réserver mon appel gratuit (1h)"
+      ctaButton="Réserver mon appel gratuit (30 min)"
     />
   );
 }

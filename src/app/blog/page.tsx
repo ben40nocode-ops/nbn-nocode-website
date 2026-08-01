@@ -109,14 +109,14 @@ export default async function BlogPage() {
         {/* CTA */}
         <div className="mt-20 text-center bg-gray-50 rounded-2xl p-10 border border-[#E2E0DA]">
           <p className="text-[#0E1116] font-bold text-lg mb-2">Prêt à automatiser votre business ?</p>
-          <p className="text-[#6B7280] text-sm mb-6">Appel gratuit 1h — on cartographie ce qu&apos;on peut automatiser ensemble.</p>
+          <p className="text-[#6B7280] text-sm mb-6">Appel gratuit 30 min — on cartographie ce qu&apos;on peut automatiser ensemble.</p>
           <Link
             href="https://calendly.com/ben40nocode/1h"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors"
           >
-            Réserver mon appel gratuit (1h) <ArrowRight size={14} />
+            Réserver mon appel gratuit (30 min) <ArrowRight size={14} />
           </Link>
         </div>
 

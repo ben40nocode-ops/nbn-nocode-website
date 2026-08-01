@@ -33,7 +33,7 @@ export function HeroSection() {
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 shadow-lg shadow-orange-200"
           >
-            Réserver mon appel gratuit (1h)
+            Réserver mon appel gratuit (30 min)
             <ArrowRight size={17} className="group-hover:translate-x-0.5 transition-transform" />
           </Link>
           <Link

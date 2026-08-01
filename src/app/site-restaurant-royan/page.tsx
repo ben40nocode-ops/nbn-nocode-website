@@ -40,7 +40,7 @@ export default function Page() {
         "Devis gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Brief & design (1h)", desc: "On définit ensemble l'ambiance, le menu à mettre en valeur et les fonctionnalités. Devis transparent en fin de séance." },
+        { step: "01", title: "Brief & design (30 min)", desc: "On définit ensemble l'ambiance, le menu à mettre en valeur et les fonctionnalités. Devis transparent en fin de séance." },
         { step: "02", title: "Développement (1-2 semaines)", desc: "Site livré avant la saison avec réservations et agent IA opérationnels." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement, SEO local complet, Google My Business optimisé. Monitoring des réservations." },
       ]}

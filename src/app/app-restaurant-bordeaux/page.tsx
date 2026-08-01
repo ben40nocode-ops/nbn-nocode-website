@@ -40,9 +40,9 @@ export default function Page() {
         "Devis gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit & architecture (1h)", desc: "On analyse vos flux de commandes, vos outils actuels et vos points de friction. Devis précis en fin de séance." },
+        { step: "01", title: "Audit & architecture (30 min)", desc: "On analyse vos flux de commandes, vos outils actuels et vos points de friction. Devis précis en fin de séance." },
         { step: "02", title: "Développement (1-3 semaines)", desc: "App livrée rapidement avec vibe coding. Points hebdomadaires, vous validez chaque fonctionnalité." },
-        { step: "03", title: "Mise en prod & suivi", desc: "Déploiement, formation en 1h. Monitoring et évolutions continues." },
+        { step: "03", title: "Mise en prod & suivi", desc: "Déploiement, formation en 30 min. Monitoring et évolutions continues." },
       ]}
       casesTitle="Cas d’usage pour les restaurants bordelais"
       cases={[

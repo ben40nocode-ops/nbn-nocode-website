@@ -98,7 +98,7 @@ export function SectorPage({
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-7 py-4 rounded-xl font-semibold text-base transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
-              Réserver mon appel gratuit (1h) <ArrowRight size={17} />
+              Réserver mon appel gratuit (30 min) <ArrowRight size={17} />
             </Link>
             <Link href="/tarifs" className="inline-flex items-center gap-2 border border-[#E2E0DA] hover:-translate-y-0.5 bg-white text-[#0E1116] px-7 py-4 rounded-xl font-semibold text-base transition-all">
               Voir les tarifs

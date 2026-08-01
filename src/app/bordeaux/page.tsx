@@ -4,7 +4,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "NBN IA à Bordeaux — Sites Web, Web Apps & Automatisation IA",
-  description: "Sites web, applications web et automatisation IA pour les PME, artisans et commerces de Bordeaux et de la métropole. Certifié Anthropic. Appel gratuit 1h.",
+  description: "Sites web, applications web et automatisation IA pour les PME, artisans et commerces de Bordeaux et de la métropole. Certifié Anthropic. Appel gratuit 30 min.",
   keywords: ["agence web Bordeaux", "création site web Bordeaux", "web app Bordeaux", "automatisation Bordeaux", "agence IA Bordeaux"],
   alternates: {
     canonical: "https://www.nbn-ia.fr/bordeaux",
@@ -65,11 +65,11 @@ export default function BordeauxPage() {
         <p className="text-base text-[#6B7280] mb-10 leading-relaxed">
           J&apos;accompagne les PME, artisans, commerçants et indépendants de Bordeaux et de la métropole
           (Mérignac, Pessac, Talence, Bègles…) : sites web, applications sur mesure et automatisation IA. Certifié
-          Anthropic, formé chez Alegria Academy. Tout commence par un appel gratuit d&apos;1h.
+          Anthropic, formé chez Alegria Academy. Tout commence par un appel gratuit d&apos;30 min.
         </p>
 
         <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-7 py-4 rounded-xl font-semibold transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)] mb-16">
-          Réserver mon appel gratuit (1h) <ArrowRight size={17} />
+          Réserver mon appel gratuit (30 min) <ArrowRight size={17} />
         </Link>
 
         <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Mes services à Bordeaux</h2>

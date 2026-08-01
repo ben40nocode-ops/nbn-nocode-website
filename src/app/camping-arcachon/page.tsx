@@ -40,7 +40,7 @@ export default function Page() {
         "Appel gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit 1h", desc: "On analyse vos flux de réservations, les questions les plus fréquentes de vos campeurs et vos outils existants. On identifie les gains rapides." },
+        { step: "01", title: "Audit 30 min", desc: "On analyse vos flux de réservations, les questions les plus fréquentes de vos campeurs et vos outils existants. On identifie les gains rapides." },
         { step: "02", title: "Déploiement", desc: "Agent IA et automatisations déployés avant la saison. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Suivi de saison", desc: "On monitore et on ajuste en temps réel pendant votre haute saison. Résiliable à tout moment." },
       ]}
@@ -74,7 +74,7 @@ export default function Page() {
       faqsTitle="Questions fréquentes — automatisation campings Arcachon"
       ctaTitle="Prêt à aborder la saison sereinement ?"
       ctaDesc="Appel gratuit, sans engagement. Sur le Bassin ou en visio."
-      ctaButton="Réserver mon appel gratuit (1h)"
+      ctaButton="Réserver mon appel gratuit (30 min)"
     />
   );
 }

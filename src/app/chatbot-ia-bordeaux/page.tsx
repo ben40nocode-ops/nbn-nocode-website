@@ -224,10 +224,10 @@ export default function ChatbotIABordeauxPage() {
 
           <div className="bg-[#0E1116] rounded-[26px] p-10 shadow-[0_40px_100px_rgba(14,17,22,.4)] text-center">
             <h2 className="text-2xl font-bold text-white mb-3">Votre premier agent IA en 48h</h2>
-            <p className="text-gray-400 mb-8 max-w-md mx-auto">Audit gratuit de 1h. On identifie le cas d&apos;usage le plus rentable pour votre entreprise à Bordeaux.</p>
+            <p className="text-gray-400 mb-8 max-w-md mx-auto">Audit gratuit de 30 min. On identifie le cas d&apos;usage le plus rentable pour votre entreprise à Bordeaux.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-8 py-4 rounded-xl font-bold text-sm transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
-              Réserver mon appel gratuit (1h) <ArrowRight size={15} />
+              Réserver mon appel gratuit (30 min) <ArrowRight size={15} />
             </Link>
           </div>
 

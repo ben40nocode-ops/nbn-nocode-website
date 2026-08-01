@@ -40,7 +40,7 @@ export default function Page() {
         "Appel gratuit, sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Appel gratuit (1h)", desc: "On cadre les fonctionnalités essentielles et votre façon de travailler. Devis transparent." },
+        { step: "01", title: "Appel gratuit (30 min)", desc: "On cadre les fonctionnalités essentielles et votre façon de travailler. Devis transparent." },
         { step: "02", title: "Développement (2-4 semaines)", desc: "Je développe votre application par étapes. Vous testez et validez au fur et à mesure." },
         { step: "03", title: "Mise en ligne & suivi", desc: "Déploiement sécurisé, formation à la prise en main et évolutions continues." },
       ]}

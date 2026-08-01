@@ -40,7 +40,7 @@ export default function Page() {
         "Devis gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Brief & design (1h)", desc: "On définit ensemble l'identité visuelle, les chambres à mettre en valeur et les fonctionnalités. Devis transparent." },
+        { step: "01", title: "Brief & design (30 min)", desc: "On définit ensemble l'identité visuelle, les chambres à mettre en valeur et les fonctionnalités. Devis transparent." },
         { step: "02", title: "Développement (1-3 semaines)", desc: "Site livré avec réservations directes et agent IA opérationnels. Points réguliers pendant le développement." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement sur Vercel. SEO technique complet. Monitoring et évolutions continues." },
       ]}

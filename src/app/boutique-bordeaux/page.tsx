@@ -40,7 +40,7 @@ export default function Page() {
         "Devis gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Brief & architecture (1h)", desc: "On définit ensemble le catalogue, les fonctionnalités, les intégrations logistiques et le design. Devis transparent." },
+        { step: "01", title: "Brief & architecture (30 min)", desc: "On définit ensemble le catalogue, les fonctionnalités, les intégrations logistiques et le design. Devis transparent." },
         { step: "02", title: "Développement (2-4 semaines)", desc: "Boutique complète avec paiement, gestion des stocks et agent IA. Vibe coding = livraison 3x plus rapide." },
         { step: "03", title: "Mise en ligne & croissance", desc: "Déploiement, SEO e-commerce, monitoring des ventes. Évolutions continues selon vos besoins." },
       ]}

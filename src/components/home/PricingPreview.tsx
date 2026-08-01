@@ -88,7 +88,7 @@ const architecture = [
     price: "450",
     badge: "",
     desc: "Un problème réglé — artisans et TPE",
-    features: ["1 automatisation clé en main", "2 de vos outils connectés", "Tests & mode d'emploi écrit", "Prise en main 1h"],
+    features: ["1 automatisation clé en main", "2 de vos outils connectés", "Tests & mode d'emploi écrit", "Prise en main 30 min"],
   },
   {
     name: "Mon activité tourne seule",

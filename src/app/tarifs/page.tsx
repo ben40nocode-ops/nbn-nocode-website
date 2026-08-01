@@ -35,7 +35,7 @@ const architecture = [
     price: "450",
     badge: "",
     desc: "Un problème réglé — artisans et TPE",
-    features: ["1 automatisation clé en main", "2 de vos outils connectés", "Tests & mode d'emploi écrit", "Prise en main 1h"],
+    features: ["1 automatisation clé en main", "2 de vos outils connectés", "Tests & mode d'emploi écrit", "Prise en main 30 min"],
   },
   {
     name: "Mon activité tourne seule",
@@ -243,7 +243,7 @@ const jsonLd = {
         {
           "@type": "Question",
           name: "L'appel est-il vraiment gratuit ?",
-          acceptedAnswer: { "@type": "Answer", text: "Oui. L'appel d'1h est 100 % gratuit et sans engagement : vous repartez avec un plan d'action concret, que vous travailliez avec NBN IA ensuite ou non." },
+          acceptedAnswer: { "@type": "Answer", text: "Oui. L'appel de 30 min est 100 % gratuit et sans engagement : vous repartez avec un plan d'action concret, que vous travailliez avec NBN IA ensuite ou non." },
         },
       ],
     },
@@ -308,7 +308,7 @@ export default function TarifsPage() {
               </tr>
             </tbody>
           </table>
-          <p className="text-xs text-gray-400 mt-4 text-center">Toutes les installations incluent conception, mise en place, tests et formation. Appel gratuit 1h, sans engagement.</p>
+          <p className="text-xs text-gray-400 mt-4 text-center">Toutes les installations incluent conception, mise en place, tests et formation. Appel gratuit 30 min, sans engagement.</p>
         </div>
 
         {/* Offres découverte — prix fixe, sans abonnement */}
@@ -438,7 +438,7 @@ export default function TarifsPage() {
               { q: "Combien coûte une automatisation IA ?", a: "Le setup d'une automatisation IA démarre à 450 € (formule Starter, pour artisans et TPE). Un système interconnecté pour PME démarre à 1 200 €. La maintenance mensuelle, optionnelle, démarre à 159 €/mois." },
               { q: "Y a-t-il un engagement ?", a: "Non. Le setup est un paiement unique et les abonnements de maintenance sont résiliables à tout moment, sans engagement." },
               { q: "Qu'est-ce qui est inclus dans le prix du setup ?", a: "La conception, le développement, les tests, la documentation et la formation sont inclus dans chaque setup." },
-              { q: "L'appel est-il vraiment gratuit ?", a: "Oui. L'appel d'1h est 100 % gratuit et sans engagement : vous repartez avec un plan d'action concret, que vous travailliez avec NBN IA ensuite ou non." },
+              { q: "L'appel est-il vraiment gratuit ?", a: "Oui. L'appel de 30 min est 100 % gratuit et sans engagement : vous repartez avec un plan d'action concret, que vous travailliez avec NBN IA ensuite ou non." },
             ].map((item) => (
               <div key={item.q} className="p-6 rounded-2xl border border-[#E2E0DA] bg-white shadow-[0_14px_34px_rgba(14,17,22,.06)]">
                 <h3 className="text-base font-bold text-[#0E1116] mb-2">{item.q}</h3>
@@ -451,14 +451,14 @@ export default function TarifsPage() {
         {/* CTA */}
         <div className="text-center bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-12 border border-gray-700 shadow-xl">
           <p className="text-white font-bold text-2xl mb-3">Pas sûr de quel plan choisir ?</p>
-          <p className="text-gray-300 text-base mb-8 max-w-md mx-auto">L&apos;appel gratuit d&apos;1h répond à toutes vos questions et crée un plan personnalisé.</p>
+          <p className="text-gray-300 text-base mb-8 max-w-md mx-auto">L&apos;appel gratuit d&apos;30 min répond à toutes vos questions et crée un plan personnalisé.</p>
           <Link
             href="https://calendly.com/ben40nocode/1h"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-[#FF5A1F] to-[#d97757] hover:shadow-lg hover:shadow-orange-500/50 text-white px-8 py-4 rounded-xl text-base font-semibold transition-all duration-300 hover:-translate-y-0.5"
           >
-            Réserver mon appel gratuit (1h) <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+            Réserver mon appel gratuit (30 min) <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
 

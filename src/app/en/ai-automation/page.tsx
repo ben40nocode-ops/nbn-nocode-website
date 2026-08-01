@@ -46,7 +46,7 @@ export default function AiAutomationEnPage() {
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
-              Book my free call (1h) <ArrowRight size={17} />
+              Book my free call (30 min) <ArrowRight size={17} />
             </Link>
             <Link href="/en#solutions"
               className="inline-flex items-center gap-2 border border-gray-300 hover:border-gray-400 text-gray-700 hover:bg-gray-50 px-7 py-4 rounded-xl font-semibold text-base transition-colors">
@@ -96,7 +96,7 @@ export default function AiAutomationEnPage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-8">How it works</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { step: 1, title: "Free Audit (1h)", desc: "We map your workflows, identify automation opportunities, propose a concrete AI architecture." },
+                { step: 1, title: "Free Audit (30 min)", desc: "We map your workflows, identify automation opportunities, propose a concrete AI architecture." },
                 { step: 2, title: "Build & Deploy (2–6 weeks)", desc: "We build your autonomous system with Claude AI agents, test thoroughly, deploy to production." },
                 { step: 3, title: "Maintenance & Evolution", desc: "Monthly subscription. Your system evolves, we monitor, you focus on your business." },
               ].map((p) => (
@@ -110,7 +110,7 @@ export default function AiAutomationEnPage() {
           </div>
           <div className="bg-gray-900 rounded-3xl p-12 text-center">
             <h2 className="text-white font-bold text-2xl mb-3">Ready to automate your business?</h2>
-            <p className="text-gray-300 mb-8 max-w-md mx-auto">Free 1-hour audit. Leave with a concrete AI architecture — no commitment.</p>
+            <p className="text-gray-300 mb-8 max-w-md mx-auto">Free 30-minute audit. Leave with a concrete AI architecture — no commitment.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
               Book my free call <ArrowRight size={16} />

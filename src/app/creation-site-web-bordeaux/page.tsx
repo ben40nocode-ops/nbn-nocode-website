@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Combien coûte la création d'un site web à Bordeaux ?",
-    a: "Un site vitrine moderne démarre à 800€ HT. Une web app avec authentification, base de données et intégrations IA démarre à 2 500€ HT. On vous donne un devis transparent après l'appel gratuit d'1h.",
+    a: "Un site vitrine moderne démarre à 800€ HT. Une web app avec authentification, base de données et intégrations IA démarre à 2 500€ HT. On vous donne un devis transparent après l'appel gratuit de 30 min.",
   },
   {
     q: "Qu'est-ce que le vibe coding et pourquoi c'est plus rapide ?",
@@ -177,7 +177,7 @@ export default function CreationSiteWebBordeauxPage() {
             <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Comment on travaille avec vous</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { step: "01", title: "Cadrage & devis (1h)", desc: "On définit ensemble le scope : fonctionnalités, design, intégrations. Vous repartez avec un devis transparent et un délai de livraison précis. Zéro surprise." },
+                { step: "01", title: "Cadrage & devis (30 min)", desc: "On définit ensemble le scope : fonctionnalités, design, intégrations. Vous repartez avec un devis transparent et un délai de livraison précis. Zéro surprise." },
                 { step: "02", title: "Développement & itérations", desc: "On livre par étapes avec des points réguliers. Vous voyez votre site évoluer en temps réel. Les retours sont intégrés au fur et à mesure." },
                 { step: "03", title: "Mise en ligne & suivi", desc: "Déploiement sur Vercel (infrastructure mondiale, temps de chargement <1s). Suivi SEO, analytics, et évolutions continues." },
               ].map(({ step, title, desc }) => (
@@ -232,7 +232,7 @@ export default function CreationSiteWebBordeauxPage() {
 
           <div className="bg-[#0E1116] rounded-[26px] p-10 shadow-[0_40px_100px_rgba(14,17,22,.4)] text-center">
             <h2 className="text-2xl font-bold text-white mb-3">Votre projet en ligne en quelques jours</h2>
-            <p className="text-gray-400 mb-8 max-w-md mx-auto">Audit gratuit de 1h. On définit ensemble le scope et on vous donne un devis transparent.</p>
+            <p className="text-gray-400 mb-8 max-w-md mx-auto">Audit gratuit de 30 min. On définit ensemble le scope et on vous donne un devis transparent.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-8 py-4 rounded-xl font-bold text-sm transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
               Parler de mon projet <ArrowRight size={15} />

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Automatisations sur mesure pour PME & Artisans | NBN IA",
-    description: "On prend en charge vos tâches répétitives. Vous, vous vous concentrez sur votre métier. Audit gratuit 1h.",
+    description: "On prend en charge vos tâches répétitives. Vous, vous vous concentrez sur votre métier. Audit gratuit 30 min.",
     url: "https://www.nbn-ia.fr/services/automatisation-ia",
   },
 };
@@ -66,7 +66,7 @@ const automations = [
 const steps = [
   {
     number: "1",
-    title: "Appel gratuit (1h)",
+    title: "Appel gratuit (30 min)",
     desc: "On identifie ensemble les tâches qui vous font perdre du temps. Pas de jargon, juste des questions concrètes.",
   },
   {
@@ -112,7 +112,7 @@ export default function AutomatisationIAPage() {
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
-              Réserver mon appel gratuit (1h) <ArrowRight size={17} />
+              Réserver mon appel gratuit (30 min) <ArrowRight size={17} />
             </Link>
             <Link href="/tarifs" className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 px-7 py-4 rounded-xl font-semibold text-base transition-colors hover:bg-gray-50">
               Voir les tarifs
@@ -171,7 +171,7 @@ export default function AutomatisationIAPage() {
             <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;appel est gratuit, sans engagement. On vous dit exactement ce qu&apos;on peut automatiser et combien de temps ça vous fera gagner.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
-              Réserver mon appel gratuit (1h) <ArrowRight size={15} />
+              Réserver mon appel gratuit (30 min) <ArrowRight size={15} />
             </Link>
           </div>
 

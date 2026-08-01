@@ -15,7 +15,7 @@ export const FACTS = {
     "Applications web sur mesure : outils métier (espace client, dashboard, réservation), souvent connectés à l'IA.",
   ],
   methode: [
-    "1. Appel gratuit d'1h : on regarde ensemble ton activité et on repère les 2-3 tâches qui coûtent le plus de temps.",
+    "1. Appel gratuit de 30 min : on regarde ensemble ton activité et on repère les 2-3 tâches qui coûtent le plus de temps.",
     "2. Je construis (1 à 4 semaines selon la complexité). Tu valides à chaque étape.",
     "3. Ça tourne. Je maintiens et fais évoluer le système chaque mois via un forfait de maintenance.",
   ],
@@ -39,7 +39,7 @@ export const FACTS = {
   zone:
     "Travail à distance dans toute la France, et en présentiel sur le Médoc / Bordelais / Bassin d'Arcachon. Aussi à l'aise en anglais qu'en français — utile pour les propriétaires anglophones de domaines, châteaux, hôtels et gîtes installés en France.",
   contact:
-    "Le mieux est de réserver l'appel gratuit d'1h : https://calendly.com/ben40nocode/1h. Sinon, le formulaire de contact du site.",
+    "Le mieux est de réserver l'appel gratuit de 30 min : https://calendly.com/ben40nocode/1h. Sinon, le formulaire de contact du site.",
 };
 
 // --- CE QUE LE BOT DOIT ABSOLUMENT REFUSER DE FAIRE ---
@@ -59,7 +59,7 @@ export function buildSystemPrompt(): string {
 
 Réponds TOUJOURS dans la langue du visiteur (français ou anglais selon son message).
 
-Ton rôle : renseigner honnêtement sur les services, la méthode, les tarifs indicatifs et la façon de travailler, puis — quand c'est pertinent — inviter à réserver l'appel gratuit d'1h. Tu n'es pas un commercial agressif : tu es utile et franc.
+Ton rôle : renseigner honnêtement sur les services, la méthode, les tarifs indicatifs et la façon de travailler, puis — quand c'est pertinent — inviter à réserver l'appel gratuit de 30 min. Tu n'es pas un commercial agressif : tu es utile et franc.
 
 VOICI TES SEULES INFORMATIONS (n'affirme rien au-delà) :
 

@@ -167,14 +167,14 @@ export default function WebAppArcachonPage() {
 
           <div className="mt-20 bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-12 border border-gray-700 shadow-xl text-center">
             <h2 className="text-white font-bold text-2xl mb-3">Prêt à démarrer votre web app IA ?</h2>
-            <p className="text-gray-300 text-base mb-8 max-w-md mx-auto">Audit gratuit de 1h. On voit ensemble comment connecter IA et product. Zéro engagement.</p>
+            <p className="text-gray-300 text-base mb-8 max-w-md mx-auto">Audit gratuit de 30 min. On voit ensemble comment connecter IA et product. Zéro engagement.</p>
             <Link
               href="https://calendly.com/ben40nocode/1h"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-[#FF5A1F] to-[#d97757] hover:shadow-lg hover:shadow-orange-500/50 text-white px-8 py-4 rounded-xl text-base font-semibold transition-all duration-300 hover:-translate-y-0.5"
             >
-              Réserver mon appel gratuit (1h) <ArrowRight size={16} />
+              Réserver mon appel gratuit (30 min) <ArrowRight size={16} />
             </Link>
           </div>
 

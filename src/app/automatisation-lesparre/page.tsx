@@ -3,7 +3,7 @@ import { SectorPage } from "@/components/SectorPage";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA à Lesparre-Médoc",
-  description: "Automatisation et agents IA à Lesparre-Médoc : devis, relances, commandes de vin, facturation automatisés pour artisans, caves et commerces. Compatible Microsoft 365. Appel gratuit 1h.",
+  description: "Automatisation et agents IA à Lesparre-Médoc : devis, relances, commandes de vin, facturation automatisés pour artisans, caves et commerces. Compatible Microsoft 365. Appel gratuit 30 min.",
   keywords: ["automatisation Lesparre", "agent IA Lesparre-Médoc", "automatisation cave Médoc", "automatisation artisan Médoc", "chatbot IA Lesparre"],
   alternates: { canonical: "https://www.nbn-ia.fr/automatisation-lesparre" },
 };
@@ -19,7 +19,7 @@ export default function Page() {
       title="Automatisation & agents IA"
       titleAccent="à Lesparre-Médoc"
       intro="Entre les devis à envoyer le soir, les commandes de vin à traiter et la facturation qui traîne, le temps administratif ronge vos journées. Des systèmes IA prennent ces tâches en charge — devis, relances, commandes — pour que vous restiez sur votre métier, pas sur votre ordinateur."
-      intro2="J'installe des automatisations et des agents IA pour les artisans, caves, domaines viticoles et commerces de Lesparre-Médoc et de tout le Médoc. Connectés à vos outils, y compris Microsoft 365 / Outlook. Appel gratuit 1h, sans engagement."
+      intro2="J'installe des automatisations et des agents IA pour les artisans, caves, domaines viticoles et commerces de Lesparre-Médoc et de tout le Médoc. Connectés à vos outils, y compris Microsoft 365 / Outlook. Appel gratuit 30 min, sans engagement."
       services={[
         "Devis générés et envoyés automatiquement",
         "Relances clients et impayés automatisées",
@@ -37,10 +37,10 @@ export default function Page() {
         "Compatible Microsoft 365 / Outlook et Excel",
         "Certifié Anthropic — expert agents IA Claude",
         "Présentiel possible à Lesparre et dans le Médoc",
-        "Appel gratuit 1h, sans engagement",
+        "Appel gratuit 30 min, sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Appel gratuit (1h)", desc: "On identifie les tâches répétitives qui vous coûtent le plus de temps. Devis transparent." },
+        { step: "01", title: "Appel gratuit (30 min)", desc: "On identifie les tâches répétitives qui vous coûtent le plus de temps. Devis transparent." },
         { step: "02", title: "Installation (1-4 semaines)", desc: "Je mets en place vos automatisations. Vous validez à chaque étape, aucune surprise." },
         { step: "03", title: "Ça tourne tout seul", desc: "Vos systèmes sont opérationnels 24h/24. Entretien optionnel ensuite." },
       ]}
@@ -73,7 +73,7 @@ export default function Page() {
       ]}
       faqsTitle="Questions fréquentes — automatisation Lesparre"
       ctaTitle="Récupérez vos soirées à Lesparre"
-      ctaDesc="Appel gratuit 1h. À Lesparre ou en visio, sans engagement."
+      ctaDesc="Appel gratuit 30 min. À Lesparre ou en visio, sans engagement."
       ctaButton="Réserver mon appel gratuit"
     />
   );

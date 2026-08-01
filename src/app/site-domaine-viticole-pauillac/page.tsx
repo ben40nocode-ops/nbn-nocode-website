@@ -40,7 +40,7 @@ export default function Page() {
         "Devis gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Brief & design (1h)", desc: "On définit ensemble l'identité visuelle, les fonctionnalités et le contenu. Vous validez les maquettes avant développement." },
+        { step: "01", title: "Brief & design (30 min)", desc: "On définit ensemble l'identité visuelle, les fonctionnalités et le contenu. Vous validez les maquettes avant développement." },
         { step: "02", title: "Développement (1-3 semaines)", desc: "Vibe coding avec Claude Code : site livré 3x plus vite qu'une agence classique. Vous voyez les avancées à chaque étape." },
         { step: "03", title: "Mise en ligne & SEO", desc: "Déploiement sur Vercel. Optimisation SEO complète. Suivi des performances et évolutions continues." },
       ]}

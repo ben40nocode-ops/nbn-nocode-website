@@ -109,7 +109,7 @@ export default async function BlogENPage() {
         {/* CTA */}
         <div className="mt-20 text-center bg-gray-50 rounded-2xl p-10 border border-gray-100">
           <p className="text-gray-900 font-bold text-lg mb-2">Ready to automate your business?</p>
-          <p className="text-gray-500 text-sm mb-6">Free 1-hour audit — we map out exactly what we can automate together.</p>
+          <p className="text-gray-500 text-sm mb-6">Free 30-minute audit — we map out exactly what we can automate together.</p>
           <Link
             href="https://calendly.com/ben40nocode/1h"
             target="_blank"

@@ -5,7 +5,7 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA à Royan",
-  description: "Expert agents IA et automatisation à Royan et Charente-Maritime. Claude AI, Make. Setup sur mesure pour hôtels, pêcheurs et PME locales. Audit gratuit 1h.",
+  description: "Expert agents IA et automatisation à Royan et Charente-Maritime. Claude AI, Make. Setup sur mesure pour hôtels, pêcheurs et PME locales. Audit gratuit 30 min.",
   keywords: ["automatisation Royan", "agent IA Royan", "consultant automatisation Charente-Maritime", "Claude AI Royan", "PME Royan automatisation", "automatisation Saintes", "agent IA Rochefort"],
   alternates: { canonical: "https://www.nbn-ia.fr/automatisation-royan" },
   openGraph: {
@@ -174,7 +174,7 @@ export default function RoyanPage() {
             <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Comment on travaille avec les PME de Royan</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { step: "01", title: "Audit gratuit 1h", desc: "On cartographie vos process : ce qui prend du temps, ce qui peut être automatisé. Pas de jargon, pas d'engagement. En présentiel à Royan ou en visio." },
+                { step: "01", title: "Audit gratuit 30 min", desc: "On cartographie vos process : ce qui prend du temps, ce qui peut être automatisé. Pas de jargon, pas d'engagement. En présentiel à Royan ou en visio." },
                 { step: "02", title: "Setup sur mesure", desc: "On conçoit et déploie votre architecture : agents IA, workflows Make, connexions API. Livraison en 48h à 2 semaines selon la complexité." },
                 { step: "03", title: "Maintenance continue", desc: "On surveille, on ajuste, on fait évoluer. Vous avez un accès direct pour toute modification. Résiliable à tout moment." },
               ].map(({ step, title, desc }) => (
@@ -228,11 +228,11 @@ export default function RoyanPage() {
           </div>
 
           <div className="bg-[#0E1116] rounded-[26px] p-10 shadow-[0_40px_100px_rgba(14,17,22,.4)] text-center">
-            <h2 className="text-2xl font-bold text-white mb-3">1 heure pour cartographier vos process</h2>
+            <h2 className="text-2xl font-bold text-white mb-3">30 minutes pour cartographier vos process</h2>
             <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;appel est gratuit, sans engagement. On se retrouve à Royan ou en visio.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-8 py-4 rounded-xl font-bold text-sm transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
-              Réserver mon appel gratuit (1h) <ArrowRight size={15} />
+              Réserver mon appel gratuit (30 min) <ArrowRight size={15} />
             </Link>
           </div>
 

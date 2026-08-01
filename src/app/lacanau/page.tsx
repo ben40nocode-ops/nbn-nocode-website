@@ -4,7 +4,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Sites Web & Automatisation IA à Lacanau",
-  description: "Sites web, apps et automatisation IA pour les campings, écoles de surf et commerces de Lacanau : réservations en ligne, gestion de saison, réponses clients automatisées. Audit gratuit 1h.",
+  description: "Sites web, apps et automatisation IA pour les campings, écoles de surf et commerces de Lacanau : réservations en ligne, gestion de saison, réponses clients automatisées. Audit gratuit 30 min.",
   keywords: ["agence web lacanau", "site internet lacanau", "web app lacanau", "automatisation lacanau", "camping lacanau digital"],
   alternates: { canonical: "https://www.nbn-ia.fr/lacanau" },
 };
@@ -57,11 +57,11 @@ export default function LacanauPage() {
         </p>
         <p className="text-base text-[#6B7280] mb-10 leading-relaxed">
           Basé dans le triangle Bordeaux · Royan · Arcachon, j&apos;interviens en présentiel à Lacanau et sur toute la
-          côte, ou 100 % à distance. Tout commence par un appel gratuit d&apos;1h.
+          côte, ou 100 % à distance. Tout commence par un appel gratuit d&apos;30 min.
         </p>
 
         <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-7 py-4 rounded-xl font-semibold transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)] mb-16">
-          Appel gratuit (1h) <ArrowRight size={17} />
+          Appel gratuit (30 min) <ArrowRight size={17} />
         </Link>
 
         <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Mes services à Lacanau</h2>

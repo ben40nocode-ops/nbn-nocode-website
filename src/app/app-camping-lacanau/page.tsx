@@ -40,7 +40,7 @@ export default function Page() {
         "Devis gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit & architecture (1h)", desc: "On analyse vos process actuels, vos outils existants et vos points de friction. On définit l'architecture et on vous donne un devis précis." },
+        { step: "01", title: "Audit & architecture (30 min)", desc: "On analyse vos process actuels, vos outils existants et vos points de friction. On définit l'architecture et on vous donne un devis précis." },
         { step: "02", title: "Développement (2-4 semaines)", desc: "Vibe coding avec Claude Code : app livrée avant la saison. Points hebdomadaires, vous voyez l'app évoluer." },
         { step: "03", title: "Mise en prod & saison", desc: "Déploiement avant juin. Support pendant la haute saison. Résiliable à tout moment." },
       ]}
@@ -67,7 +67,7 @@ export default function Page() {
       ]}
       faqs={[
         { q: "L'app peut remplacer notre logiciel de camping actuel ?", a: "Selon votre logiciel, on peut soit le remplacer, soit s'y connecter. On analyse la situation lors de l'appel gratuit." },
-        { q: "Combien coûte le développement ?", a: "Une app de réservation complète avec agent IA démarre à 2 500€ HT. Devis précis après l'appel d'1h." },
+        { q: "Combien coûte le développement ?", a: "Une app de réservation complète avec agent IA démarre à 2 500€ HT. Devis précis après l'appel de 30 min." },
         { q: "L'app est prête pour la saison si on démarre maintenant ?", a: "Oui. Avec un démarrage avant mai, l'app est opérationnelle pour juin. Le développement prend 2 à 4 semaines." },
         { q: "Vous assurez le support pendant la haute saison ?", a: "Oui. Abonnement de maintenance mensuelle à partir de 89€/mois. On est joignables si besoin." },
       ]}

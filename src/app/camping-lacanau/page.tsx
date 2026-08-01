@@ -40,8 +40,8 @@ export default function Page() {
         "Appel gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit 1h", desc: "On analyse votre saison passée : questions les plus fréquentes, pics de demandes, points de friction. On conçoit le plan d'automatisation." },
-        { step: "02", title: "Déploiement avant saison", desc: "Agent IA et automatisations déployés avant juin. Votre équipe est formée en 1h. Livraison en 48h à 1 semaine." },
+        { step: "01", title: "Audit 30 min", desc: "On analyse votre saison passée : questions les plus fréquentes, pics de demandes, points de friction. On conçoit le plan d'automatisation." },
+        { step: "02", title: "Déploiement avant saison", desc: "Agent IA et automatisations déployés avant juin. Votre équipe est formée en 30 min. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Support de saison", desc: "On monitore et on ajuste pendant juillet-août. Vous pouvez nous contacter si besoin. Résiliable à tout moment." },
       ]}
       casesTitle="Cas d’usage pour les campings de Lacanau"
@@ -74,7 +74,7 @@ export default function Page() {
       faqsTitle="Questions fréquentes — automatisation campings Lacanau"
       ctaTitle="Prêt pour une saison sans stress ?"
       ctaDesc="Appel gratuit, sans engagement. À Lacanau ou en visio."
-      ctaButton="Réserver mon appel gratuit (1h)"
+      ctaButton="Réserver mon appel gratuit (30 min)"
     />
   );
 }

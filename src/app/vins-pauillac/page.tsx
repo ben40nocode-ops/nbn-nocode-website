@@ -40,7 +40,7 @@ export default function Page() {
         "Appel gratuit sans engagement",
       ]}
       steps={[
-        { step: "01", title: "Audit 1h", desc: "On cartographie vos flux de commandes, vos types de clients et votre processus de facturation. On identifie les points de friction." },
+        { step: "01", title: "Audit 30 min", desc: "On cartographie vos flux de commandes, vos types de clients et votre processus de facturation. On identifie les points de friction." },
         { step: "02", title: "Déploiement", desc: "Agent IA et automatisations adaptés à votre appellation et vos clients. Livraison en 48h à 1 semaine." },
         { step: "03", title: "Maintenance", desc: "On suit et on ajuste selon les campagnes primeurs et millésimes. Résiliable à tout moment." },
       ]}
@@ -72,9 +72,9 @@ export default function Page() {
         { q: "Quel budget prévoir pour une première automatisation ?", a: "Une première automatisation (centralisation des commandes + facturation automatique) démarre à 450€. On démarre par le point le plus douloureux." },
       ]}
       faqsTitle="Questions fréquentes — automatisation châteaux Pauillac"
-      ctaTitle="1 heure pour cartographier vos process"
+      ctaTitle="30 minutes pour cartographier vos process"
       ctaDesc="Appel gratuit, sans engagement. À Pauillac ou en visio."
-      ctaButton="Réserver mon appel gratuit (1h)"
+      ctaButton="Réserver mon appel gratuit (30 min)"
     />
   );
 }

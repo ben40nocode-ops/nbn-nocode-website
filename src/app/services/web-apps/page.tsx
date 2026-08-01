@@ -127,7 +127,7 @@ export default function WebAppsPage() {
           {/* CTA final */}
           <div className="bg-gray-900 rounded-2xl p-10 text-center">
             <h2 className="text-2xl font-bold text-white mb-3">Parlons de votre projet</h2>
-            <p className="text-gray-400 mb-8 max-w-md mx-auto">En 1h, on comprend ce dont vous avez besoin et on vous dit ce qu&apos;on peut faire. C&apos;est gratuit et sans engagement.</p>
+            <p className="text-gray-400 mb-8 max-w-md mx-auto">En 30 min, on comprend ce dont vous avez besoin et on vous dit ce qu&apos;on peut faire. C&apos;est gratuit et sans engagement.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
               Discuter de mon projet <ArrowRight size={15} />

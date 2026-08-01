@@ -83,10 +83,10 @@ export default function AboutEnPage() {
 
         <div className="bg-[#0E1116] rounded-[26px] p-8 text-center shadow-[0_40px_100px_rgba(14,17,22,.4)]">
           <p className="text-white font-bold text-lg mb-2">Have an automation project?</p>
-          <p className="text-gray-400 text-sm mb-6">Free 1h call — together we identify the 3 most profitable automations for your business.</p>
+          <p className="text-gray-400 text-sm mb-6">Free 30 min call — together we identify the 3 most profitable automations for your business.</p>
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-6 py-3 rounded-xl text-sm font-semibold transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
-            Book my free call (1h) <ArrowRight size={14} />
+            Book my free call (30 min) <ArrowRight size={14} />
           </Link>
         </div>
 

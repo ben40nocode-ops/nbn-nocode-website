@@ -85,7 +85,7 @@ export async function generateMetadata({ params }: { params: Promise<{ ville: st
   const { dept } = villes[ville];
   return {
     title: `Automatisation & Agents IA à ${label} — NBN IA`,
-    description: `Expert automatisation et agents IA à ${label} (${dept}). Make, n8n, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 1h sans engagement.`,
+    description: `Expert automatisation et agents IA à ${label} (${dept}). Make, n8n, Airtable, Claude AI. Setup sur mesure pour PME. Audit gratuit 30 min sans engagement.`,
     keywords: [`automatisation ${label}`, `agent IA ${label}`, `automatisation IA ${label}`, `Claude AI ${label}`, `automatisation PME ${dept}`],
     alternates: { canonical: `https://www.nbn-ia.fr/automatisation/${ville}` },
     robots: { index: false, follow: false },
@@ -191,11 +191,11 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
           </div>
 
           <div className="bg-gray-900 rounded-2xl p-10 text-center">
-            <h2 className="text-2xl font-bold text-white mb-3">1 heure pour cartographier vos process</h2>
+            <h2 className="text-2xl font-bold text-white mb-3">30 minutes pour cartographier vos process</h2>
             <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;appel est gratuit, sans engagement. On se retrouve en visio ou à {label}.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
-              Réserver mon appel gratuit (1h) <ArrowRight size={15} />
+              Réserver mon appel gratuit (30 min) <ArrowRight size={15} />
             </Link>
           </div>
 
