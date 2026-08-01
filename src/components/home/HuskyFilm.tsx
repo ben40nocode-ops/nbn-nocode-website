@@ -145,7 +145,7 @@ export function HuskyFilm({ lang = "fr" }: { lang?: Lang }) {
       const fr = z - Math.floor(z);
       if (rings) {
         rings.style.transform = "scale(" + (1 + fr * 1.6) + ")";
-        rings.style.opacity = (0.32 + 0.32 * Math.sin(fr * Math.PI)).toFixed(3);
+        rings.style.opacity = (0.22 + 0.26 * Math.sin(fr * Math.PI)).toFixed(3);
       }
       if (grade) grade.style.backgroundColor = grd(z);
       const active = Math.round(z);
