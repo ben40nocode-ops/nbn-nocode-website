@@ -35,10 +35,10 @@
 @keyframes hf-f3{0%,100%{transform:translate(0,0)}50%{transform:translate(2vw,-2vw)}}
 .hfilm .rings{position:absolute;inset:0;z-index:1;display:grid;place-items:center;pointer-events:none;will-change:transform,opacity}
 .hfilm .ring{position:absolute;border-radius:40px}
-.hfilm .ring:nth-child(1){width:340px;height:250px;border:1px solid rgba(255,90,31,.03)}
-.hfilm .ring:nth-child(2){width:620px;height:440px;border:1px solid rgba(14,17,22,.016)}
-.hfilm .ring:nth-child(3){width:960px;height:660px;border:1px solid rgba(255,90,31,.018)}
-.hfilm .ring:nth-child(4){width:1360px;height:920px;border:1px solid rgba(14,17,22,.012)}
+.hfilm .ring:nth-child(1){width:340px;height:250px;border:1px solid rgba(255,90,31,.11)}
+.hfilm .ring:nth-child(2){width:620px;height:440px;border:1px solid rgba(14,17,22,.055)}
+.hfilm .ring:nth-child(3){width:960px;height:660px;border:1px solid rgba(255,90,31,.06)}
+.hfilm .ring:nth-child(4){width:1360px;height:920px;border:1px solid rgba(14,17,22,.04)}
 .hfilm .grade{position:absolute;inset:0;z-index:120;pointer-events:none;transition:background-color .1s linear}
 
 .hfilm .station{position:absolute;inset:0;display:grid;place-items:center;transform-origin:center center;will-change:transform,opacity,filter;padding:0 22px}
