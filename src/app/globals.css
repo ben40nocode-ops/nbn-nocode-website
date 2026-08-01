@@ -55,12 +55,9 @@ body.diving main {
   transition: transform .7s cubic-bezier(.66,0,.86,0), opacity .7s ease-in, filter .7s ease-in;
 }
 body.diving header { opacity: 0; transition: opacity .35s ease; }
-@keyframes dive-arrive { from { opacity: 0; transform: scale(1.03); } to { opacity: 1; transform: none; } }
-main.diving-arrive { animation: dive-arrive .5s ease both; }
 @media (prefers-reduced-motion: reduce) {
   body.diving main { transform: none; filter: none; transition: opacity .2s; }
   body.diving header { transition: opacity .1s; }
-  main.diving-arrive { animation: none; }
 }
 
 /* ---------- FAQ accordéon (miroir proto) ---------- */

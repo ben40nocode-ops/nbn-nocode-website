@@ -26,18 +26,10 @@ export function useDive() {
 
 export function DiveOverlay() {
   const pathname = usePathname();
-  // À chaque changement de page : on retire .diving et on joue l'arrivée en fondu.
+  // À chaque changement de page : on retire la classe .diving (fin de la plongée).
   useEffect(() => {
     if (typeof document === "undefined") return;
     document.body.classList.remove("diving");
-    window.scrollTo(0, 0);
-    const main = document.querySelector("main");
-    if (main) {
-      main.classList.remove("diving-arrive");
-      // force reflow pour rejouer l'animation
-      void (main as HTMLElement).offsetWidth;
-      main.classList.add("diving-arrive");
-    }
   }, [pathname]);
 
   return <div id="dive-overlay" aria-hidden="true" />;
