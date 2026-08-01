@@ -33,6 +33,8 @@ export function Navbar() {
   const isEN = pathname.startsWith("/en");
   const links = isEN ? linksEN : linksFR;
   const dive = useDive();
+  const homeHref = isEN ? "/en" : "/";
+  const isHome = pathname === "/" || pathname === "/en";
 
   // Sélecteur de langue : renvoie vers l'équivalent dans l'autre langue.
   // - Article de blog → article correspondant s'il existe, sinon l'index du blog.
@@ -72,7 +74,22 @@ export function Navbar() {
         <nav className="relative flex items-center justify-between px-4 md:px-[50px] h-16">
 
           {/* Logo — gauche */}
-          <Link href={isEN ? "/en" : "/"} className="flex items-center flex-shrink-0" onClick={() => setOpen(false)}>
+          <Link
+            href={homeHref}
+            aria-label={isEN ? "Home" : "Accueil"}
+            className="flex items-center flex-shrink-0"
+            onClick={(e) => {
+              setOpen(false);
+              if (isHome) {
+                // déjà sur la home (le film) : on remonte au héros (acte 0)
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              } else {
+                // depuis une sous-page : plongée retour vers la home
+                dive(e, homeHref);
+              }
+            }}
+          >
             <Logo width={72} variant="dark" />
           </Link>
 
