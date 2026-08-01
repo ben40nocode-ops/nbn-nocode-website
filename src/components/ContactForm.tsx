@@ -59,7 +59,7 @@ export function ContactForm() {
           type="text"
           name="name"
           required
-          className="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 placeholder-gray-300 focus:outline-none focus:border-[#e8632a]/50 transition-colors"
+          className="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 placeholder-gray-300 focus:outline-none focus:border-[#FF5A1F]/50 transition-colors"
           placeholder="Votre nom"
         />
       </div>
@@ -69,7 +69,7 @@ export function ContactForm() {
           type="email"
           name="email"
           required
-          className="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 placeholder-gray-300 focus:outline-none focus:border-[#e8632a]/50 transition-colors"
+          className="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 placeholder-gray-300 focus:outline-none focus:border-[#FF5A1F]/50 transition-colors"
           placeholder="votre@email.com"
         />
       </div>
@@ -79,7 +79,7 @@ export function ContactForm() {
           name="message"
           required
           rows={5}
-          className="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 placeholder-gray-300 focus:outline-none focus:border-[#e8632a]/50 transition-colors resize-none"
+          className="w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 placeholder-gray-300 focus:outline-none focus:border-[#FF5A1F]/50 transition-colors resize-none"
           placeholder="Décrivez votre projet en quelques lignes..."
         />
       </div>
@@ -89,7 +89,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={status === "sending"}
-        className="w-full bg-[#e8632a] hover:bg-[#c4521f] disabled:opacity-60 text-white py-3 rounded-lg text-sm font-semibold transition-colors"
+        className="w-full bg-[#FF5A1F] hover:bg-[#E64A12] disabled:opacity-60 text-white py-3 rounded-lg text-sm font-semibold transition-colors"
       >
         {status === "sending" ? "Envoi en cours…" : "Envoyer le message"}
       </button>

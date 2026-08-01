@@ -12,7 +12,7 @@ export default function NotFound() {
         </p>
         <Link
           href="/"
-          className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl font-semibold text-sm transition-colors"
+          className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-6 py-3 rounded-xl font-semibold text-sm transition-colors"
         >
           Retour à l&apos;accueil <ArrowRight size={15} />
         </Link>

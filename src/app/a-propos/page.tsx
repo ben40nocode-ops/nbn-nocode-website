@@ -92,85 +92,85 @@ export default function AProposPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="min-h-screen bg-white pt-24 pb-32">
+      <div className="min-h-screen pt-24 pb-32">
         <div className="max-w-3xl mx-auto px-6">
 
           {/* Header */}
           <div className="mb-12">
-            <p className="text-xs text-[#e8632a] uppercase tracking-widest mb-4 font-semibold">
+            <p className="text-xs text-[#FF5A1F] uppercase tracking-widest mb-4 font-semibold">
               À propos
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-[3.4rem] font-extrabold tracking-[-0.03em] text-[#0E1116] mb-4">
               Benjamin Bertigny
             </h1>
-            <p className="text-xl text-gray-500 leading-relaxed">
+            <p className="text-xl text-[#6B7280] leading-relaxed">
               AI Systems Builder — Fondateur de NBN IA
             </p>
           </div>
 
           {/* Bio principale */}
           <div className="prose prose-gray max-w-none mb-12">
-            <p className="text-base text-gray-600 leading-relaxed mb-4">
+            <p className="text-base text-[#2E343D] leading-relaxed mb-4">
               Je construis des systèmes IA qui travaillent à la place des PME. Pas des automatisations simples — des architectures d&apos;agents autonomes qui perçoivent, décident et agissent sans intervention humaine, 24h/24, 7j/7.
             </p>
-            <p className="text-base text-gray-600 leading-relaxed mb-4">
+            <p className="text-base text-[#2E343D] leading-relaxed mb-4">
               Basé dans le triangle <strong>Bordeaux · Royan · Arcachon</strong>, j&apos;interviens en présentiel ou à distance partout en France. Ma spécialité : utiliser <strong>Claude (Anthropic)</strong> — le modèle IA le plus avancé pour les agents — combiné à Make, n8n, et des architectures custom pour créer des systèmes qui ne ressemblent ni à une agence de dev, ni à une agence nocode.
             </p>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-base text-[#2E343D] leading-relaxed">
               Ma conviction : l&apos;IA doit travailler pour vous, pas l&apos;inverse. Je ne livre pas des workflows. Je livre un système qui tourne, s&apos;adapte, et que je maintiens dans le temps.
             </p>
           </div>
 
           {/* Credentials */}
           <div className="grid sm:grid-cols-2 gap-4 mb-12">
-            <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
+            <div className="p-6 rounded-2xl border border-[#E2E0DA] bg-white shadow-[0_14px_34px_rgba(14,17,22,.06)]">
               <div className="flex items-center gap-3 mb-3">
-                <Award size={18} className="text-[#e8632a]" />
-                <h2 className="text-sm font-bold text-gray-900">Formation Alegria Academy</h2>
+                <Award size={18} className="text-[#FF5A1F]" />
+                <h2 className="text-sm font-bold text-[#0E1116]">Formation Alegria Academy</h2>
               </div>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-[#6B7280]">
                 Formation spécialisée en conception de systèmes IA et orchestration d&apos;agents autonomes pour cas d&apos;usage business.
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
+            <div className="p-6 rounded-2xl border border-[#E2E0DA] bg-white shadow-[0_14px_34px_rgba(14,17,22,.06)]">
               <div className="flex items-center gap-3 mb-3">
-                <Award size={18} className="text-[#e8632a]" />
-                <h2 className="text-sm font-bold text-gray-900">Certifié Anthropic Architecture</h2>
+                <Award size={18} className="text-[#FF5A1F]" />
+                <h2 className="text-sm font-bold text-[#0E1116]">Certifié Anthropic Architecture</h2>
               </div>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-[#6B7280]">
                 Certification officielle Anthropic en architecture d&apos;agents Claude — conception, orchestration et déploiement de systèmes IA avancés.
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
+            <div className="p-6 rounded-2xl border border-[#E2E0DA] bg-white shadow-[0_14px_34px_rgba(14,17,22,.06)]">
               <div className="flex items-center gap-3 mb-3">
-                <Zap size={18} className="text-[#e8632a]" />
-                <h2 className="text-sm font-bold text-gray-900">Stack technique</h2>
+                <Zap size={18} className="text-[#FF5A1F]" />
+                <h2 className="text-sm font-bold text-[#0E1116]">Stack technique</h2>
               </div>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-[#6B7280]">
                 Claude AI · Claude Code · Make · n8n · Next.js · Vercel · Supabase · Airtable · MCP · APIs REST
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
+            <div className="p-6 rounded-2xl border border-[#E2E0DA] bg-white shadow-[0_14px_34px_rgba(14,17,22,.06)]">
               <div className="flex items-center gap-3 mb-3">
-                <Users size={18} className="text-[#e8632a]" />
-                <h2 className="text-sm font-bold text-gray-900">Pensé pour votre secteur</h2>
+                <Users size={18} className="text-[#FF5A1F]" />
+                <h2 className="text-sm font-bold text-[#0E1116]">Pensé pour votre secteur</h2>
               </div>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-[#6B7280]">
                 Restaurateurs, artisans, hôteliers, agences, cabinets conseil — secteurs variés, même conviction : l&apos;IA doit être utile dès le premier mois.
               </p>
             </div>
           </div>
 
           {/* Zone intervention */}
-          <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50 mb-12">
+          <div className="p-6 rounded-2xl border border-[#E2E0DA] bg-white shadow-[0_14px_34px_rgba(14,17,22,.06)] mb-12">
             <div className="flex items-center gap-3 mb-3">
-              <MapPin size={18} className="text-[#e8632a]" />
-              <h2 className="text-sm font-bold text-gray-900">Zone d&apos;intervention</h2>
+              <MapPin size={18} className="text-[#FF5A1F]" />
+              <h2 className="text-sm font-bold text-[#0E1116]">Zone d&apos;intervention</h2>
             </div>
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-[#6B7280]">
               Basé à <strong>Bordeaux</strong> — intervention en présentiel dans le triangle Bordeaux · Royan · Arcachon (Gironde, Charente-Maritime, Médoc). Et 100% remote partout en France.
             </p>
           </div>
@@ -181,7 +181,7 @@ export default function AProposPage() {
               href="https://www.linkedin.com/in/benjamin-bertigny-3a4b34217/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 px-5 py-3 rounded-xl text-sm font-semibold transition-colors hover:bg-gray-50"
+              className="inline-flex items-center gap-2 border border-[#E2E0DA] hover:-translate-y-0.5 text-[#2E343D] px-5 py-3 rounded-xl text-sm font-semibold transition-colors hover:bg-gray-50"
             >
               LinkedIn perso
             </a>
@@ -189,20 +189,20 @@ export default function AProposPage() {
               href="https://www.linkedin.com/company/nbn-nocode"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 px-5 py-3 rounded-xl text-sm font-semibold transition-colors hover:bg-gray-50"
+              className="inline-flex items-center gap-2 border border-[#E2E0DA] hover:-translate-y-0.5 text-[#2E343D] px-5 py-3 rounded-xl text-sm font-semibold transition-colors hover:bg-gray-50"
             >
               Page NBN IA
             </a>
             <a
               href="mailto:contact@nbn-ia.fr"
-              className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 px-5 py-3 rounded-xl text-sm font-semibold transition-colors hover:bg-gray-50"
+              className="inline-flex items-center gap-2 border border-[#E2E0DA] hover:-translate-y-0.5 text-[#2E343D] px-5 py-3 rounded-xl text-sm font-semibold transition-colors hover:bg-gray-50"
             >
               contact@nbn-ia.fr
             </a>
           </div>
 
           {/* CTA */}
-          <div className="bg-gray-900 rounded-2xl p-8 text-center">
+          <div className="bg-[#0E1116] rounded-[26px] p-8 shadow-[0_40px_100px_rgba(14,17,22,.4)] text-center">
             <p className="text-white font-bold text-lg mb-2">
               Vous avez un projet d&apos;automatisation ?
             </p>
@@ -213,7 +213,7 @@ export default function AProposPage() {
               href="https://calendly.com/ben40nocode/1h"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors"
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors"
             >
               Réserver mon appel gratuit (1h) <ArrowRight size={14} />
             </Link>

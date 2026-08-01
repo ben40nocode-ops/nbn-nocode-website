@@ -127,22 +127,22 @@ const webapps = [
 
 function PricingCard({ plan }: { plan: any }) {
   return (
-    <div className={`group relative p-8 rounded-3xl bg-white hover:shadow-xl hover:shadow-orange-100 hover:-translate-y-1 transition-all duration-300 flex flex-col ${plan.badge ? "border-2 border-[#e8632a]" : "border border-gray-200 hover:border-[#e8632a]"}`}>
-      <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#e8632a]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+    <div className={`group relative p-8 rounded-3xl bg-white hover:shadow-xl hover:shadow-orange-100 hover:-translate-y-1 transition-all duration-300 flex flex-col ${plan.badge ? "border-2 border-[#FF5A1F]" : "border border-[#E2E0DA] hover:border-[#FF5A1F]"}`}>
+      <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#FF5A1F]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       {plan.badge && (
-        <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#e8632a] text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">{plan.badge}</span>
+        <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#FF5A1F] text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">{plan.badge}</span>
       )}
       <div className="relative">
-        <h4 className="font-bold text-xl text-gray-900 mb-2">{plan.name}</h4>
-        <p className="text-sm text-gray-500 mb-6">{plan.desc}</p>
-        <div className="mb-6 pb-6 border-b border-gray-100">
-          <span className="text-xs text-gray-500 block mb-2">À partir de</span>
-          <span className="text-4xl font-bold text-[#e8632a]">{plan.price}{plan.price !== "Sur devis" && plan.price !== "Custom" ? "€" : ""}</span>
+        <h4 className="font-bold text-xl text-[#0E1116] mb-2">{plan.name}</h4>
+        <p className="text-sm text-[#6B7280] mb-6">{plan.desc}</p>
+        <div className="mb-6 pb-6 border-b border-[#E2E0DA]">
+          <span className="text-xs text-[#6B7280] block mb-2">À partir de</span>
+          <span className="text-4xl font-bold text-[#FF5A1F]">{plan.price}{plan.price !== "Sur devis" && plan.price !== "Custom" ? "€" : ""}</span>
         </div>
         <ul className="space-y-3 flex-1 mb-8">
           {plan.features.map((f: string) => (
-            <li key={f} className="flex items-start gap-3 text-sm text-gray-600">
-              <Check size={16} className="text-[#e8632a] flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+            <li key={f} className="flex items-start gap-3 text-sm text-[#2E343D]">
+              <Check size={16} className="text-[#FF5A1F] flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
               <span>{f}</span>
             </li>
           ))}
@@ -259,50 +259,50 @@ const jsonLd = {
 
 export default function TarifsPage() {
   return (
-    <div className="min-h-screen bg-white pt-24 pb-32">
+    <div className="min-h-screen pt-24 pb-32">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Header */}
         <div className="text-center mb-20">
-          <p className="text-xs text-[#e8632a] uppercase tracking-widest mb-4 font-semibold">Tarifs</p>
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">
+          <p className="text-xs text-[#FF5A1F] uppercase tracking-widest mb-4 font-semibold">Tarifs</p>
+          <h1 className="text-4xl md:text-[3.4rem] font-extrabold tracking-[-0.03em] text-[#0E1116] mb-6">
             Simple, transparent, sans surprise.
           </h1>
-          <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
+          <p className="text-[#6B7280] max-w-xl mx-auto leading-relaxed">
             Un investissement unique pour construire. Un abonnement pour que ça tourne. Résiliable à tout moment.
           </p>
         </div>
 
         {/* Récapitulatif tarifs — tableau sémantique (lisible par Google & les moteurs IA) */}
         <div className="max-w-4xl mx-auto mb-24 overflow-x-auto">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Récapitulatif des tarifs</h2>
+          <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-6 text-center">Récapitulatif des tarifs</h2>
           <table className="w-full text-sm border-collapse">
             <thead>
-              <tr className="border-b-2 border-gray-200 text-left">
-                <th className="py-3 pr-4 font-semibold text-gray-900">Service</th>
-                <th className="py-3 pr-4 font-semibold text-gray-900">Formules</th>
-                <th className="py-3 font-semibold text-gray-900">À partir de</th>
+              <tr className="border-b-2 border-[#E2E0DA] text-left">
+                <th className="py-3 pr-4 font-semibold text-[#0E1116]">Service</th>
+                <th className="py-3 pr-4 font-semibold text-[#0E1116]">Formules</th>
+                <th className="py-3 font-semibold text-[#0E1116]">À partir de</th>
               </tr>
             </thead>
-            <tbody className="text-gray-600">
-              <tr className="border-b border-gray-100">
-                <td className="py-3 pr-4 font-medium text-gray-900">Automatisation IA (paiement unique)</td>
+            <tbody className="text-[#2E343D]">
+              <tr className="border-b border-[#E2E0DA]">
+                <td className="py-3 pr-4 font-medium text-[#0E1116]">Automatisation IA (paiement unique)</td>
                 <td className="py-3 pr-4">Première automatisation · Activité autonome · Sur mesure</td>
                 <td className="py-3 whitespace-nowrap">450 € · 1 200 € · sur devis</td>
               </tr>
-              <tr className="border-b border-gray-100">
-                <td className="py-3 pr-4 font-medium text-gray-900">Entretien (abonnement optionnel / mois)</td>
+              <tr className="border-b border-[#E2E0DA]">
+                <td className="py-3 pr-4 font-medium text-[#0E1116]">Entretien (abonnement optionnel / mois)</td>
                 <td className="py-3 pr-4">Suivi Essentiel · Suivi Pro · Partenaire complet</td>
                 <td className="py-3 whitespace-nowrap">159 € · 320 € · 540 € /mois</td>
               </tr>
-              <tr className="border-b border-gray-100">
-                <td className="py-3 pr-4 font-medium text-gray-900">Site web</td>
+              <tr className="border-b border-[#E2E0DA]">
+                <td className="py-3 pr-4 font-medium text-[#0E1116]">Site web</td>
                 <td className="py-3 pr-4">Landing · Professional · E-commerce</td>
                 <td className="py-3 whitespace-nowrap">800 € · 1 800 € · 3 500 €</td>
               </tr>
               <tr>
-                <td className="py-3 pr-4 font-medium text-gray-900">Application sur mesure</td>
+                <td className="py-3 pr-4 font-medium text-[#0E1116]">Application sur mesure</td>
                 <td className="py-3 pr-4">Simple · Avancée · Sur mesure</td>
                 <td className="py-3 whitespace-nowrap">2 500 € · 5 000 € · sur devis</td>
               </tr>
@@ -317,16 +317,16 @@ export default function TarifsPage() {
         {/* AUTOMATISATIONS IA */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">Automatisations IA</h2>
-            <p className="text-gray-500">Architecture unique + maintenance continue</p>
+            <h2 className="text-3xl font-bold text-[#0E1116] mb-2">Automatisations IA</h2>
+            <p className="text-[#6B7280]">Architecture unique + maintenance continue</p>
           </div>
 
           {/* Architecture */}
           <div className="mb-16">
             <div className="text-center mb-8">
-              <span className="inline-block bg-[#e8632a] text-white text-xs font-bold px-4 py-2 rounded-full">1 — Installation</span>
-              <h3 className="text-2xl font-bold text-gray-900 mt-4">Vos automatisations (paiement unique)</h3>
-              <p className="text-sm text-gray-500 mt-2">Conception, mise en place, tests et formation inclus</p>
+              <span className="inline-block bg-[#FF5A1F] text-white text-xs font-bold px-4 py-2 rounded-full">1 — Installation</span>
+              <h3 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mt-4">Vos automatisations (paiement unique)</h3>
+              <p className="text-sm text-[#6B7280] mt-2">Conception, mise en place, tests et formation inclus</p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {architecture.map((p) => (
@@ -339,25 +339,25 @@ export default function TarifsPage() {
           <div className="mb-16">
             <div className="text-center mb-8">
               <span className="inline-block bg-gray-900 text-white text-xs font-bold px-4 py-2 rounded-full">2 — Entretien (optionnel)</span>
-              <h3 className="text-2xl font-bold text-gray-900 mt-4">Entretien & évolution (abonnement optionnel)</h3>
-              <p className="text-sm text-gray-500 mt-2">Résiliable à tout moment. Vos automatisations restent à vous, avec ou sans abonnement.</p>
+              <h3 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mt-4">Entretien & évolution (abonnement optionnel)</h3>
+              <p className="text-sm text-[#6B7280] mt-2">Résiliable à tout moment. Vos automatisations restent à vous, avec ou sans abonnement.</p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {maintenance.map((p) => (
-                <div key={p.name} className="group relative p-8 rounded-3xl border border-gray-200 bg-white hover:border-[#e8632a] hover:shadow-xl hover:shadow-orange-100 hover:-translate-y-1 transition-all duration-300 flex flex-col">
-                  <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#e8632a]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div key={p.name} className="group relative p-8 rounded-3xl border border-[#E2E0DA] bg-white hover:border-[#FF5A1F] hover:shadow-xl hover:shadow-orange-100 hover:-translate-y-1 transition-all duration-300 flex flex-col">
+                  <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#FF5A1F]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <div className="relative">
-                    <h4 className="font-bold text-xl text-gray-900 mb-2">{p.name}</h4>
-                    <p className="text-sm text-gray-500 mb-6">{p.desc}</p>
-                    <div className="mb-6 pb-6 border-b border-gray-100">
-                      <span className="text-xs text-gray-500 block mb-2">À partir de</span>
-                      <span className="text-4xl font-bold text-[#e8632a]">{p.price}€</span>
+                    <h4 className="font-bold text-xl text-[#0E1116] mb-2">{p.name}</h4>
+                    <p className="text-sm text-[#6B7280] mb-6">{p.desc}</p>
+                    <div className="mb-6 pb-6 border-b border-[#E2E0DA]">
+                      <span className="text-xs text-[#6B7280] block mb-2">À partir de</span>
+                      <span className="text-4xl font-bold text-[#FF5A1F]">{p.price}€</span>
                       <span className="text-sm text-gray-400 ml-2">/ mois</span>
                     </div>
                     <ul className="space-y-3 flex-1 mb-8">
                       {p.features.map((f) => (
-                        <li key={f} className="flex items-start gap-3 text-sm text-gray-600">
-                          <Check size={16} className="text-[#e8632a] flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+                        <li key={f} className="flex items-start gap-3 text-sm text-[#2E343D]">
+                          <Check size={16} className="text-[#FF5A1F] flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
                           <span>{f}</span>
                         </li>
                       ))}
@@ -372,14 +372,14 @@ export default function TarifsPage() {
 
         {/* Separator */}
         <div className="flex justify-center mb-20">
-          <div className="h-1 bg-[#e8632a] rounded-full" style={{ width: "900px" }}></div>
+          <div className="h-1 bg-[#FF5A1F] rounded-full" style={{ width: "900px" }}></div>
         </div>
 
         {/* WEBSITES */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">Sites internet</h2>
-            <p className="text-gray-500">Architecture unique + maintenance continue</p>
+            <h2 className="text-3xl font-bold text-[#0E1116] mb-2">Sites internet</h2>
+            <p className="text-[#6B7280]">Architecture unique + maintenance continue</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             {websites.map((p) => (
@@ -388,12 +388,12 @@ export default function TarifsPage() {
           </div>
 
           {/* Maintenance banner */}
-          <div className="bg-orange-50 border-2 border-[#e8632a] rounded-2xl p-8 text-center">
-            <h4 className="text-lg font-bold text-gray-900 mb-2">Forfait maintenance sur mesure</h4>
-            <p className="text-sm text-gray-600 mb-6">Gardez vos sites à jour, sécurisés et optimisés en permanence</p>
+          <div className="bg-[#FCE9DF] border-2 border-[#FF5A1F] rounded-2xl p-8 text-center">
+            <h4 className="text-lg font-extrabold text-[#0E1116] mb-2">Forfait maintenance sur mesure</h4>
+            <p className="text-sm text-[#2E343D] mb-6">Gardez vos sites à jour, sécurisés et optimisés en permanence</p>
             <Link
               href="/contact#message"
-              className="inline-block bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-3 rounded-xl text-sm font-bold transition-colors duration-200"
+              className="inline-block bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-3 rounded-xl text-sm font-bold transition-colors duration-200"
             >
               Demander un devis
             </Link>
@@ -402,14 +402,14 @@ export default function TarifsPage() {
 
         {/* Separator */}
         <div className="flex justify-center mb-20 mt-20">
-          <div className="h-1 bg-[#e8632a] rounded-full" style={{ width: "900px" }}></div>
+          <div className="h-1 bg-[#FF5A1F] rounded-full" style={{ width: "900px" }}></div>
         </div>
 
         {/* WEB APPS */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">Applications sur mesure</h2>
-            <p className="text-gray-500">Architecture unique + maintenance continue</p>
+            <h2 className="text-3xl font-bold text-[#0E1116] mb-2">Applications sur mesure</h2>
+            <p className="text-[#6B7280]">Architecture unique + maintenance continue</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             {webapps.map((p) => (
@@ -418,12 +418,12 @@ export default function TarifsPage() {
           </div>
 
           {/* Maintenance banner */}
-          <div className="bg-orange-50 border-2 border-[#e8632a] rounded-2xl p-8 text-center">
-            <h4 className="text-lg font-bold text-gray-900 mb-2">Forfait maintenance sur mesure</h4>
-            <p className="text-sm text-gray-600 mb-6">Gardez vos apps à jour, sécurisées et optimisées en permanence</p>
+          <div className="bg-[#FCE9DF] border-2 border-[#FF5A1F] rounded-2xl p-8 text-center">
+            <h4 className="text-lg font-extrabold text-[#0E1116] mb-2">Forfait maintenance sur mesure</h4>
+            <p className="text-sm text-[#2E343D] mb-6">Gardez vos apps à jour, sécurisées et optimisées en permanence</p>
             <Link
               href="/contact#message"
-              className="inline-block bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-3 rounded-xl text-sm font-bold transition-colors duration-200"
+              className="inline-block bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-3 rounded-xl text-sm font-bold transition-colors duration-200"
             >
               Demander un devis
             </Link>
@@ -432,7 +432,7 @@ export default function TarifsPage() {
 
         {/* FAQ */}
         <div className="max-w-3xl mx-auto mb-20">
-          <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">Questions fréquentes</h2>
+          <h2 className="text-3xl font-bold text-[#0E1116] mb-10 text-center">Questions fréquentes</h2>
           <div className="space-y-4">
             {[
               { q: "Combien coûte une automatisation IA ?", a: "Le setup d'une automatisation IA démarre à 450 € (formule Starter, pour artisans et TPE). Un système interconnecté pour PME démarre à 1 200 €. La maintenance mensuelle, optionnelle, démarre à 159 €/mois." },
@@ -440,9 +440,9 @@ export default function TarifsPage() {
               { q: "Qu'est-ce qui est inclus dans le prix du setup ?", a: "La conception, le développement, les tests, la documentation et la formation sont inclus dans chaque setup." },
               { q: "L'appel est-il vraiment gratuit ?", a: "Oui. L'appel d'1h est 100 % gratuit et sans engagement : vous repartez avec un plan d'action concret, que vous travailliez avec NBN IA ensuite ou non." },
             ].map((item) => (
-              <div key={item.q} className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
-                <h3 className="text-base font-bold text-gray-900 mb-2">{item.q}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{item.a}</p>
+              <div key={item.q} className="p-6 rounded-2xl border border-[#E2E0DA] bg-white shadow-[0_14px_34px_rgba(14,17,22,.06)]">
+                <h3 className="text-base font-bold text-[#0E1116] mb-2">{item.q}</h3>
+                <p className="text-sm text-[#2E343D] leading-relaxed">{item.a}</p>
               </div>
             ))}
           </div>
@@ -456,7 +456,7 @@ export default function TarifsPage() {
             href="https://calendly.com/ben40nocode/1h"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-[#e8632a] to-[#d97757] hover:shadow-lg hover:shadow-orange-500/50 text-white px-8 py-4 rounded-xl text-base font-semibold transition-all duration-300 hover:-translate-y-0.5"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-[#FF5A1F] to-[#d97757] hover:shadow-lg hover:shadow-orange-500/50 text-white px-8 py-4 rounded-xl text-base font-semibold transition-all duration-300 hover:-translate-y-0.5"
           >
             Réserver mon appel gratuit (1h) <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </Link>

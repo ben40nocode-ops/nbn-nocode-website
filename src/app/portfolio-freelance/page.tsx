@@ -60,58 +60,58 @@ const jsonLd = {
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-white pt-32 pb-24">
+    <div className="min-h-screen pt-32 pb-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="max-w-4xl mx-auto px-6">
 
         {/* Hero */}
-        <p className="text-xs text-[#e8632a] uppercase tracking-widest mb-4 font-semibold">Site portfolio</p>
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        <p className="text-xs text-[#FF5A1F] uppercase tracking-widest mb-4 font-semibold">Site portfolio</p>
+        <h1 className="text-4xl md:text-[3.4rem] font-extrabold text-[#0E1116] tracking-[-0.03em] mb-6 leading-[1.04]">
           Un site portfolio qui transforme vos visiteurs en clients
         </h1>
-        <p className="text-lg text-gray-500 mb-8 leading-relaxed">
+        <p className="text-lg text-[#6B7280] mb-8 leading-relaxed">
           Vous êtes freelance ou consultant ? Votre site est votre meilleure carte de visite. Je conçois des portfolios
           professionnels, rapides et optimisés pour Google — pensés pour mettre en valeur votre travail et déclencher
           la prise de contact.
         </p>
         <div className="flex flex-wrap gap-4 mb-16">
-          <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold transition-colors">
+          <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-7 py-4 rounded-xl font-semibold transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
             Appel gratuit (1h) <ArrowRight size={17} />
           </Link>
-          <Link href="/tarifs" className="inline-flex items-center gap-2 border border-gray-300 hover:border-gray-400 text-gray-700 px-7 py-4 rounded-xl font-semibold transition-colors">
+          <Link href="/tarifs" className="inline-flex items-center gap-2 border border-[#E2E0DA] hover:-translate-y-0.5 text-[#2E343D] px-7 py-4 rounded-xl font-semibold transition-colors">
             Voir les tarifs
           </Link>
         </div>
 
         {/* Features */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-8">Ce que votre portfolio inclut</h2>
+        <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Ce que votre portfolio inclut</h2>
         <div className="grid sm:grid-cols-2 gap-5 mb-16">
           {features.map((f) => (
-            <div key={f.title} className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
-              <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-4 bg-orange-50">
-                <f.icon size={20} className="text-[#e8632a]" />
+            <div key={f.title} className="p-6 rounded-2xl border border-[#E2E0DA] bg-white shadow-[0_14px_34px_rgba(14,17,22,.06)]">
+              <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-4 bg-[#FCE9DF]">
+                <f.icon size={20} className="text-[#FF5A1F]" />
               </div>
-              <h3 className="text-base font-bold text-gray-900 mb-2">{f.title}</h3>
-              <p className="text-sm text-gray-500 leading-relaxed">{f.desc}</p>
+              <h3 className="text-base font-bold text-[#0E1116] mb-2">{f.title}</h3>
+              <p className="text-sm text-[#6B7280] leading-relaxed">{f.desc}</p>
             </div>
           ))}
         </div>
 
         {/* Process */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-8">Comment ça se passe</h2>
+        <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Comment ça se passe</h2>
         <div className="grid sm:grid-cols-3 gap-5 mb-16">
           {steps.map((s) => (
-            <div key={s.n} className="p-6 rounded-2xl border border-gray-100 bg-white">
-              <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#e8632a] text-white text-sm font-bold mb-4">{s.n}</span>
-              <h3 className="text-base font-bold text-gray-900 mb-2">{s.title}</h3>
-              <p className="text-sm text-gray-500 leading-relaxed">{s.desc}</p>
+            <div key={s.n} className="p-6 rounded-2xl border border-[#E2E0DA] bg-white">
+              <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#FF5A1F] text-white text-sm font-bold mb-4">{s.n}</span>
+              <h3 className="text-base font-bold text-[#0E1116] mb-2">{s.title}</h3>
+              <p className="text-sm text-[#6B7280] leading-relaxed">{s.desc}</p>
             </div>
           ))}
         </div>
 
         {/* Why */}
-        <div className="p-8 rounded-2xl bg-[#fff5f0] border border-[#e8632a]/20 mb-16">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">Pourquoi confier votre portfolio à NBN IA ?</h2>
+        <div className="p-8 rounded-2xl bg-[#fff5f0] border border-[#FF5A1F]/20 mb-16">
+          <h2 className="text-xl font-bold text-[#0E1116] mb-4">Pourquoi confier votre portfolio à NBN IA ?</h2>
           <ul className="space-y-3">
             {[
               "Conception ET développement par la même personne — pas d'aller-retour entre un graphiste et un dev",
@@ -119,8 +119,8 @@ export default function Page() {
               "Optimisation Google incluse pour être trouvé localement",
               "Possibilité de connecter votre site à des automatisations IA (relances, prise de RDV…)",
             ].map((item) => (
-              <li key={item} className="flex items-start gap-3 text-sm text-gray-600">
-                <Check size={16} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+              <li key={item} className="flex items-start gap-3 text-sm text-[#2E343D]">
+                <Check size={16} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                 <span>{item}</span>
               </li>
             ))}
@@ -128,21 +128,21 @@ export default function Page() {
         </div>
 
         {/* FAQ */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-8">Questions fréquentes</h2>
+        <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Questions fréquentes</h2>
         <div className="space-y-4 mb-16">
           {faq.map((item) => (
-            <div key={item.q} className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
-              <h3 className="text-base font-bold text-gray-900 mb-2">{item.q}</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">{item.a}</p>
+            <div key={item.q} className="p-6 rounded-2xl border border-[#E2E0DA] bg-white shadow-[0_14px_34px_rgba(14,17,22,.06)]">
+              <h3 className="text-base font-bold text-[#0E1116] mb-2">{item.q}</h3>
+              <p className="text-sm text-[#2E343D] leading-relaxed">{item.a}</p>
             </div>
           ))}
         </div>
 
         {/* CTA */}
-        <div className="bg-gray-900 rounded-2xl p-8 text-center">
+        <div className="bg-[#0E1116] rounded-[26px] p-8 shadow-[0_40px_100px_rgba(14,17,22,.4)] text-center">
           <p className="text-white font-bold text-lg mb-2">Prêt à mettre votre travail en valeur ?</p>
           <p className="text-gray-400 text-sm mb-6">Réservez un appel gratuit d&apos;1h — on définit ensemble le portfolio qui vous ressemble.</p>
-          <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors">
+          <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors">
             Réserver mon appel gratuit (1h) <ArrowRight size={14} />
           </Link>
         </div>

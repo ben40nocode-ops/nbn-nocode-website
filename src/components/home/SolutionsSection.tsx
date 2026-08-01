@@ -7,7 +7,7 @@ const solutions = [
     title: "Automatisations sur mesure",
     description: "On identifie les tâches qui vous prennent du temps — réponses emails, devis, relances, rappels — et on les automatise. Votre business tourne sans que vous leviez le petit doigt.",
     tags: ["Réponses clients auto", "Devis automatisés", "Relances", "Rappels RDV"],
-    color: "#e8632a",
+    color: "#FF5A1F",
     bg: "#fff5f0",
     href: "/services/automatisation-ia",
   },
@@ -46,7 +46,7 @@ export function SolutionsSection() {
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="text-center mb-16">
-          <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">
+          <p className="text-xs font-semibold text-[#FF5A1F] uppercase tracking-widest mb-3">
             Ce qu&apos;on fait pour vous
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">

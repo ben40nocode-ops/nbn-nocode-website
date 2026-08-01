@@ -15,12 +15,12 @@ export function ProblemSection() {
         <div className="grid sm:grid-cols-2 gap-4 text-left">
           {pains.map((p) => (
             <div key={p} className="flex items-start gap-3 p-5 rounded-2xl bg-white border border-gray-100">
-              <span className="text-[#e8632a] font-bold flex-shrink-0">→</span>
+              <span className="text-[#FF5A1F] font-bold flex-shrink-0">→</span>
               <p className="text-sm text-gray-600 leading-relaxed">{p}</p>
             </div>
           ))}
         </div>
-        <p className="mt-10 text-xl font-bold text-[#e8632a]">
+        <p className="mt-10 text-xl font-bold text-[#FF5A1F]">
           Et si tout ça se faisait tout seul ?
         </p>
       </div>

@@ -5,7 +5,7 @@ import { MessageCircle, X, Send, Loader2 } from "lucide-react";
 
 type Msg = { role: "user" | "assistant"; content: string };
 
-const ORANGE = "#e8632a";
+const ORANGE = "#FF5A1F";
 
 const WELCOME =
   "Bonjour 👋 Je suis l'assistant de NBN IA. Je peux vous renseigner sur l'automatisation, les sites web, les tarifs ou la façon de travailler de Benjamin. Posez votre question !";

@@ -26,7 +26,7 @@ export default function MentionsLegalesPage() {
             <p>Ce site est hébergé par :<br />
             Vercel Inc.<br />
             440 N Barranca Ave #4133, Covina, CA 91723, USA<br />
-            <a href="https://vercel.com" className="text-[#e8632a] hover:underline" target="_blank" rel="noopener noreferrer">vercel.com</a></p>
+            <a href="https://vercel.com" className="text-[#FF5A1F] hover:underline" target="_blank" rel="noopener noreferrer">vercel.com</a></p>
           </section>
 
           <section>

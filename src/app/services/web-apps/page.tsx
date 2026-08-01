@@ -64,13 +64,13 @@ export default function WebAppsPage() {
       <div className="min-h-screen bg-white pt-32 pb-24">
         <div className="max-w-4xl mx-auto px-6">
 
-          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
+          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#FF5A1F] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
             <Layers size={12} /> Applications métier
           </div>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
             Votre outil sur mesure.<br />
-            <span className="text-[#e8632a]">Celui qui fait exactement ce dont vous avez besoin.</span>
+            <span className="text-[#FF5A1F]">Celui qui fait exactement ce dont vous avez besoin.</span>
           </h1>
 
           <p className="text-lg text-gray-500 max-w-2xl mb-10 leading-relaxed">
@@ -79,7 +79,7 @@ export default function WebAppsPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
               Discuter de mon projet <ArrowRight size={17} />
             </Link>
             <Link href="/tarifs" className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 px-7 py-4 rounded-xl font-semibold text-base transition-colors hover:bg-gray-50">
@@ -108,17 +108,17 @@ export default function WebAppsPage() {
               <ul className="space-y-3">
                 {benefits.map((item) => (
                   <li key={item} className="flex items-start gap-2.5 text-sm text-gray-600">
-                    <Check size={15} className="text-[#e8632a] flex-shrink-0 mt-0.5" />{item}
+                    <Check size={15} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />{item}
                   </li>
                 ))}
               </ul>
             </div>
             <div className="bg-orange-50 border border-orange-100 rounded-2xl p-7">
-              <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-wide mb-3">Tarif indicatif</p>
+              <p className="text-xs font-semibold text-[#FF5A1F] uppercase tracking-wide mb-3">Tarif indicatif</p>
               <p className="text-3xl font-bold text-gray-900 mb-1">Dès 2 500 €</p>
               <p className="text-sm text-gray-500 mb-5">Le prix dépend de la complexité de votre projet. On vous donne une estimation précise lors de l&apos;audit gratuit.</p>
               <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-5 py-3 rounded-xl font-semibold text-sm transition-colors">
+                className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-5 py-3 rounded-xl font-semibold text-sm transition-colors">
                 Audit gratuit pour estimer mon projet <ArrowRight size={14} />
               </Link>
             </div>
@@ -129,7 +129,7 @@ export default function WebAppsPage() {
             <h2 className="text-2xl font-bold text-white mb-3">Parlons de votre projet</h2>
             <p className="text-gray-400 mb-8 max-w-md mx-auto">En 1h, on comprend ce dont vous avez besoin et on vous dit ce qu&apos;on peut faire. C&apos;est gratuit et sans engagement.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
               Discuter de mon projet <ArrowRight size={15} />
             </Link>
           </div>

@@ -12,7 +12,7 @@ export function Footer() {
   const isEN = pathname.startsWith("/en");
 
   return (
-    <footer className="bg-gray-900 text-gray-400">
+    <footer className="bg-[#0E1116] text-gray-400">
       <div className="max-w-6xl mx-auto px-6 py-14">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
 
@@ -33,7 +33,7 @@ export function Footer() {
               href={isEN ? CALENDLY_EN : CALENDLY_FR}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-colors"
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-colors"
             >
               {isEN ? "Free call →" : "Appel gratuit →"}
             </Link>
@@ -46,16 +46,16 @@ export function Footer() {
             </h4>
             <ul className="flex flex-col gap-3">
               {(isEN ? [
-                { label: "About", href: "/en#about" },
-                { label: "Solutions", href: "/en#solutions" },
-                { label: "Work", href: "/en#work" },
+                { label: "About", href: "/en/about" },
+                { label: "Solutions", href: "/en/solutions" },
+                { label: "Work", href: "/en/work" },
                 { label: "Pricing", href: "/tarifs" },
                 { label: "Contact", href: "/contact" },
                 { label: "Blog", href: "/en/blog" },
               ] : [
                 { label: "À propos", href: "/a-propos" },
-                { label: "Solutions", href: "/#solutions" },
-                { label: "Réalisations", href: "/#realisations" },
+                { label: "Solutions", href: "/solutions" },
+                { label: "Réalisations", href: "/realisations" },
                 { label: "Tarifs", href: "/tarifs" },
                 { label: "Contact", href: "/contact" },
                 { label: "Blog", href: "/blog" },

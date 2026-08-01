@@ -113,7 +113,7 @@ export function PricingPreview() {
 
         {/* Section header */}
         <div className="text-center mb-16">
-          <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">
+          <p className="text-xs font-semibold text-[#FF5A1F] uppercase tracking-widest mb-3">
             Automatisations IA
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
@@ -127,28 +127,28 @@ export function PricingPreview() {
         {/* STEP 1: Architecture Setup */}
         <div className="mb-20">
           <div className="text-center mb-8">
-            <span className="inline-block bg-[#e8632a] text-white text-xs font-bold px-4 py-2 rounded-full">1 — Installation</span>
+            <span className="inline-block bg-[#FF5A1F] text-white text-xs font-bold px-4 py-2 rounded-full">1 — Installation</span>
             <h3 className="text-2xl font-bold text-gray-900 mt-4">Vos automatisations (paiement unique)</h3>
             <p className="text-sm text-gray-500 mt-2">Conception, mise en place, tests et formation inclus</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {architecture.map((plan) => (
-              <div key={plan.name} className={`relative p-7 rounded-2xl flex flex-col transition-all duration-200 bg-white hover:shadow-lg hover:shadow-orange-100 ${plan.badge ? "border-2 border-[#e8632a]" : "border border-gray-200 hover:border-[#e8632a]"}`}>
+              <div key={plan.name} className={`relative p-7 rounded-2xl flex flex-col transition-all duration-200 bg-white hover:shadow-lg hover:shadow-orange-100 ${plan.badge ? "border-2 border-[#FF5A1F]" : "border border-gray-200 hover:border-[#FF5A1F]"}`}>
                 {plan.badge && (
-                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#e8632a] text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">{plan.badge}</span>
+                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#FF5A1F] text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">{plan.badge}</span>
                 )}
                 <h4 className="text-sm font-bold text-gray-900 mb-1">{plan.name}</h4>
                 <p className="text-xs text-gray-400 mb-6">{plan.desc}</p>
 
                 <div className="mb-6 pb-6 border-b border-gray-100">
                   <span className="text-xs text-gray-500 block mb-2">À partir de</span>
-                  <span className="text-4xl font-bold text-[#e8632a]">{plan.price}{plan.price !== "Sur devis" ? "€" : ""}</span>
+                  <span className="text-4xl font-bold text-[#FF5A1F]">{plan.price}{plan.price !== "Sur devis" ? "€" : ""}</span>
                 </div>
 
                 <ul className="space-y-3 flex-1 mb-8">
                   {plan.features.map((f) => (
                     <li key={f} className="flex items-start gap-2.5">
-                      <Check size={15} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                      <Check size={15} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                       <span className="text-sm text-gray-600">{f}</span>
                     </li>
                   ))}
@@ -174,20 +174,20 @@ export function PricingPreview() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {plans.map((plan) => (
-              <div key={plan.name} className="relative p-7 rounded-2xl flex flex-col transition-all duration-200 border border-gray-200 bg-white hover:border-[#e8632a] hover:shadow-lg hover:shadow-orange-100">
+              <div key={plan.name} className="relative p-7 rounded-2xl flex flex-col transition-all duration-200 border border-gray-200 bg-white hover:border-[#FF5A1F] hover:shadow-lg hover:shadow-orange-100">
                 <h4 className="text-sm font-bold text-gray-900 mb-1">{plan.name}</h4>
                 <p className="text-xs text-gray-400 mb-6">{plan.desc}</p>
 
                 <div className="mb-6 pb-6 border-b border-gray-100">
                   <span className="text-xs text-gray-500 block mb-2">À partir de</span>
-                  <span className="text-4xl font-bold text-[#e8632a]">{plan.price}€</span>
+                  <span className="text-4xl font-bold text-[#FF5A1F]">{plan.price}€</span>
                   <span className="text-sm text-gray-400 ml-1">/ mois</span>
                 </div>
 
                 <ul className="space-y-3 flex-1 mb-8">
                   {plan.features.map((f) => (
                     <li key={f} className="flex items-start gap-2.5">
-                      <Check size={15} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                      <Check size={15} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                       <span className="text-sm text-gray-600">{f}</span>
                     </li>
                   ))}
@@ -206,7 +206,7 @@ export function PricingPreview() {
 
         {/* Separator */}
         <div className="flex justify-center mb-20">
-          <div className="h-1 bg-[#e8632a] rounded-full" style={{ width: "900px" }}></div>
+          <div className="h-1 bg-[#FF5A1F] rounded-full" style={{ width: "900px" }}></div>
         </div>
 
         {/* Websites */}
@@ -217,19 +217,19 @@ export function PricingPreview() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {websites.map((plan) => (
-              <div key={plan.name} className="relative p-7 rounded-2xl flex flex-col transition-all duration-200 border border-gray-200 bg-white hover:border-[#e8632a] hover:shadow-lg hover:shadow-orange-100">
+              <div key={plan.name} className="relative p-7 rounded-2xl flex flex-col transition-all duration-200 border border-gray-200 bg-white hover:border-[#FF5A1F] hover:shadow-lg hover:shadow-orange-100">
                 <h4 className="text-sm font-bold text-gray-900 mb-1">{plan.name}</h4>
                 <p className="text-xs text-gray-400 mb-6">{plan.desc}</p>
 
                 <div className="mb-6 pb-6 border-b border-gray-100">
                   <span className="text-xs text-gray-500 block mb-2">À partir de</span>
-                  <span className="text-4xl font-bold text-[#e8632a]">{plan.price}€</span>
+                  <span className="text-4xl font-bold text-[#FF5A1F]">{plan.price}€</span>
                 </div>
 
                 <ul className="space-y-3 flex-1 mb-8">
                   {plan.features.map((f) => (
                     <li key={f} className="flex items-start gap-2.5">
-                      <Check size={15} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                      <Check size={15} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                       <span className="text-sm text-gray-600">{f}</span>
                     </li>
                   ))}
@@ -246,12 +246,12 @@ export function PricingPreview() {
           </div>
 
           {/* Maintenance banner */}
-          <div className="mt-8 bg-orange-50 border-2 border-[#e8632a] rounded-2xl p-8 text-center">
+          <div className="mt-8 bg-orange-50 border-2 border-[#FF5A1F] rounded-2xl p-8 text-center">
             <h4 className="text-lg font-bold text-gray-900 mb-2">Forfait maintenance sur mesure</h4>
             <p className="text-sm text-gray-600 mb-6">Gardez vos sites à jour, sécurisés et optimisés en permanence</p>
             <Link
               href="/contact#message"
-              className="inline-block bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-3 rounded-xl text-sm font-bold transition-colors duration-200"
+              className="inline-block bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-3 rounded-xl text-sm font-bold transition-colors duration-200"
             >
               Demander un devis
             </Link>
@@ -260,7 +260,7 @@ export function PricingPreview() {
 
         {/* Separator */}
         <div className="flex justify-center mb-20 mt-20">
-          <div className="h-1 bg-[#e8632a] rounded-full" style={{ width: "900px" }}></div>
+          <div className="h-1 bg-[#FF5A1F] rounded-full" style={{ width: "900px" }}></div>
         </div>
 
         {/* Web Apps */}
@@ -271,19 +271,19 @@ export function PricingPreview() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {webapps.map((plan) => (
-              <div key={plan.name} className="relative p-7 rounded-2xl flex flex-col transition-all duration-200 border border-gray-200 bg-white hover:border-[#e8632a] hover:shadow-lg hover:shadow-orange-100">
+              <div key={plan.name} className="relative p-7 rounded-2xl flex flex-col transition-all duration-200 border border-gray-200 bg-white hover:border-[#FF5A1F] hover:shadow-lg hover:shadow-orange-100">
                 <h4 className="text-sm font-bold text-gray-900 mb-1">{plan.name}</h4>
                 <p className="text-xs text-gray-400 mb-6">{plan.desc}</p>
 
                 <div className="mb-6 pb-6 border-b border-gray-100">
                   <span className="text-xs text-gray-500 block mb-2">À partir de</span>
-                  <span className="text-4xl font-bold text-[#e8632a]">{plan.price}{plan.price !== "Custom" ? "€" : ""}</span>
+                  <span className="text-4xl font-bold text-[#FF5A1F]">{plan.price}{plan.price !== "Custom" ? "€" : ""}</span>
                 </div>
 
                 <ul className="space-y-3 flex-1 mb-8">
                   {plan.features.map((f) => (
                     <li key={f} className="flex items-start gap-2.5">
-                      <Check size={15} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                      <Check size={15} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                       <span className="text-sm text-gray-600">{f}</span>
                     </li>
                   ))}
@@ -300,12 +300,12 @@ export function PricingPreview() {
           </div>
 
           {/* Maintenance banner */}
-          <div className="mt-8 bg-orange-50 border-2 border-[#e8632a] rounded-2xl p-8 text-center">
+          <div className="mt-8 bg-orange-50 border-2 border-[#FF5A1F] rounded-2xl p-8 text-center">
             <h4 className="text-lg font-bold text-gray-900 mb-2">Forfait maintenance sur mesure</h4>
             <p className="text-sm text-gray-600 mb-6">Gardez vos apps à jour, sécurisées et optimisées en permanence</p>
             <Link
               href="/contact#message"
-              className="inline-block bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-3 rounded-xl text-sm font-bold transition-colors duration-200"
+              className="inline-block bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-3 rounded-xl text-sm font-bold transition-colors duration-200"
             >
               Demander un devis
             </Link>

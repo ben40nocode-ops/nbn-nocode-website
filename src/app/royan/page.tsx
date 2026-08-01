@@ -48,38 +48,38 @@ const jsonLd = {
 
 export default function RoyanPage() {
   return (
-    <div className="min-h-screen bg-white pt-32 pb-24">
+    <div className="min-h-screen pt-32 pb-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="max-w-4xl mx-auto px-6">
 
-        <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
+        <div className="inline-flex items-center gap-2 bg-[#FCE9DF] text-[#E64A12] rounded-full px-4 py-1.5 text-[11px] font-bold mb-8 tracking-[0.16em] uppercase">
           <MapPin size={12} /> Royan · Charente-Maritime
         </div>
 
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        <h1 className="text-4xl md:text-[3.4rem] font-extrabold text-[#0E1116] tracking-[-0.03em] mb-6 leading-[1.04]">
           NBN IA à Royan — sites web, web apps & automatisation IA
         </h1>
-        <p className="text-lg text-gray-500 mb-6 leading-relaxed">
+        <p className="text-lg text-[#6B7280] mb-6 leading-relaxed">
           Royan vit au rythme de la saison balnéaire : pics d&apos;activité l&apos;été, demandes clients en masse, équipes
           souvent réduites. J&apos;aide les entreprises royannaises — hôtels, restaurants, pêcheurs, commerces et artisans —
           à gagner du temps grâce à des sites web performants et des systèmes d&apos;automatisation IA sur mesure.
         </p>
-        <p className="text-base text-gray-500 mb-10 leading-relaxed">
+        <p className="text-base text-[#6B7280] mb-10 leading-relaxed">
           Basé dans le triangle Bordeaux · Royan · Arcachon, j&apos;interviens en présentiel sur Royan et toute la
           Charente-Maritime, ou 100 % à distance. Tout commence par un appel gratuit d&apos;1h.
         </p>
 
-        <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold transition-colors mb-16">
+        <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-7 py-4 rounded-xl font-semibold transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)] mb-16">
           Appel gratuit (1h) <ArrowRight size={17} />
         </Link>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-8">Mes services à Royan</h2>
+        <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Mes services à Royan</h2>
         <div className="grid sm:grid-cols-2 gap-5">
           {services.map((s) => (
-            <Link key={s.href} href={s.href} className="group p-6 rounded-2xl border border-gray-200 bg-white hover:border-[#e8632a] hover:shadow-sm transition-all">
-              <h3 className="text-base font-bold text-gray-900 mb-2 group-hover:text-[#e8632a] transition-colors">{s.title}</h3>
-              <p className="text-sm text-gray-500 leading-relaxed mb-3">{s.desc}</p>
-              <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#e8632a]">
+            <Link key={s.href} href={s.href} className="group p-6 rounded-2xl border border-[#E2E0DA] bg-white hover:border-[#FF5A1F] shadow-[0_14px_34px_rgba(14,17,22,.06)] hover:shadow-[0_20px_44px_rgba(14,17,22,.10)] transition-all">
+              <h3 className="text-base font-bold text-[#0E1116] mb-2 group-hover:text-[#FF5A1F] transition-colors">{s.title}</h3>
+              <p className="text-sm text-[#6B7280] leading-relaxed mb-3">{s.desc}</p>
+              <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#FF5A1F]">
                 En savoir plus <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform" />
               </span>
             </Link>

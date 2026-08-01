@@ -22,19 +22,19 @@ export default function WebAppsEnPage() {
     <>
       <div className="min-h-screen bg-white pt-32 pb-24">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
+          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#FF5A1F] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
             <Layers size={12} /> Web Apps — France
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
             Custom Web Apps Built with<br />
-            <span className="text-[#e8632a]">AI-Assisted Vibe Coding</span>
+            <span className="text-[#FF5A1F]">AI-Assisted Vibe Coding</span>
           </h1>
           <p className="text-lg text-gray-500 max-w-2xl mb-10 leading-relaxed">
             We build complete web applications — authentication, database, modern interfaces — then connect them to your AI systems to automate your business logic. Vibe coding with Claude Code means faster builds, cleaner code.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-7 py-4 rounded-xl font-semibold transition-colors">
               Free audit <ArrowRight size={17} />
             </Link>
             <Link href="/en#work"
@@ -48,7 +48,7 @@ export default function WebAppsEnPage() {
               <ul className="space-y-4">
                 {["Modern responsive interfaces (desktop, tablet, mobile)", "Secure authentication (sessions, 2FA, OAuth)", "Databases (PostgreSQL, Supabase, MongoDB)", "REST or GraphQL APIs", "Real-time dashboards & analytics", "Third-party integrations (Stripe, Slack, etc.)"].map((f) => (
                   <li key={f} className="flex items-start gap-3">
-                    <Check size={20} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                    <Check size={20} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700">{f}</span>
                   </li>
                 ))}
@@ -59,7 +59,7 @@ export default function WebAppsEnPage() {
               <ul className="space-y-4">
                 {["Claude agents that understand your business logic", "Real-time document & data processing", "Intelligent chatbots embedded in the app", "Critical workflow automation", "AI-powered recommendations & predictions", "24/7 support via autonomous agents"].map((f) => (
                   <li key={f} className="flex items-start gap-3">
-                    <Check size={20} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                    <Check size={20} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700">{f}</span>
                   </li>
                 ))}
@@ -76,7 +76,7 @@ export default function WebAppsEnPage() {
                 { title: "Maintained", desc: "Monthly subscription. Your app evolves with your business." },
               ].map((item) => (
                 <div key={item.title} className="p-4 bg-white rounded-xl border border-gray-200">
-                  <div className="font-bold text-[#e8632a] mb-1">{item.title}</div>
+                  <div className="font-bold text-[#FF5A1F] mb-1">{item.title}</div>
                   <p className="text-sm text-gray-500">{item.desc}</p>
                 </div>
               ))}
@@ -86,7 +86,7 @@ export default function WebAppsEnPage() {
             <h2 className="text-white font-bold text-2xl mb-3">Ready to build your AI web app?</h2>
             <p className="text-gray-300 mb-8 max-w-md mx-auto">Free 1-hour audit. We map your product, propose the architecture. No commitment.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
               Book my free call <ArrowRight size={16} />
             </Link>
           </div>

@@ -2,10 +2,10 @@ export function ClaudeSection() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="rounded-2xl bg-gradient-to-br from-[#fff5f0] to-white border border-[#e8632a]/15 p-8 md:p-12">
+        <div className="rounded-2xl bg-gradient-to-br from-[#fff5f0] to-white border border-[#FF5A1F]/15 p-8 md:p-12">
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div>
-              <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Pourquoi ça marche</p>
+              <p className="text-xs font-semibold text-[#FF5A1F] uppercase tracking-widest mb-3">Pourquoi ça marche</p>
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 leading-snug mb-4">
                 Une technologie fiable. Des résultats que vous voyez.
               </h2>
@@ -24,7 +24,7 @@ export function ClaudeSection() {
                 { stat: "ROI", label: "dès le 1er mois", desc: "Le temps gagné dépasse souvent le coût du système dès les premières semaines." },
               ].map((item) => (
                 <div key={item.stat} className="p-4 bg-white rounded-xl border border-gray-100">
-                  <div className="text-xl font-bold text-[#e8632a] mb-0.5">{item.stat}</div>
+                  <div className="text-xl font-bold text-[#FF5A1F] mb-0.5">{item.stat}</div>
                   <div className="text-xs font-semibold text-gray-700 mb-1">{item.label}</div>
                   <div className="text-xs text-gray-400 leading-relaxed">{item.desc}</div>
                 </div>

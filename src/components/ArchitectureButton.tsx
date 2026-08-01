@@ -13,7 +13,7 @@ export function ArchitectureButton({ highlight, label }: Props) {
       href="/contact#message"
       className={`w-full text-center py-3 rounded-xl text-sm font-bold transition-colors duration-200 block ${
         highlight
-          ? "bg-[#e8632a] hover:bg-[#c4521f] text-white"
+          ? "bg-[#FF5A1F] hover:bg-[#E64A12] text-white"
           : "border border-gray-200 hover:border-gray-300 text-gray-700 hover:bg-gray-50"
       }`}
     >

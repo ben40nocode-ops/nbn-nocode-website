@@ -48,7 +48,7 @@ export async function POST(req: Request) {
         <p><strong>Nom :</strong> ${esc(name)}</p>
         <p><strong>Email :</strong> ${esc(email)}</p>
         <p><strong>Message :</strong></p>
-        <p style="white-space:pre-wrap;border-left:3px solid #e8632a;padding-left:12px;">${esc(message)}</p>
+        <p style="white-space:pre-wrap;border-left:3px solid #FF5A1F;padding-left:12px;">${esc(message)}</p>
       `,
     });
     if (error) {

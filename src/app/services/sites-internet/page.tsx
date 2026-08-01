@@ -69,13 +69,13 @@ export default function SitesInternetPage() {
       <div className="min-h-screen bg-white pt-32 pb-24">
         <div className="max-w-4xl mx-auto px-6">
 
-          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
+          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#FF5A1F] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
             <Globe size={12} /> Sites web professionnels
           </div>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
             Un site qui donne envie<br />
-            <span className="text-[#e8632a]">de vous appeler.</span>
+            <span className="text-[#FF5A1F]">de vous appeler.</span>
           </h1>
 
           <p className="text-lg text-gray-500 max-w-2xl mb-10 leading-relaxed">
@@ -84,7 +84,7 @@ export default function SitesInternetPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
               Demander un devis gratuit <ArrowRight size={17} />
             </Link>
             <Link href="/tarifs" className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 px-7 py-4 rounded-xl font-semibold text-base transition-colors hover:bg-gray-50">
@@ -101,7 +101,7 @@ export default function SitesInternetPage() {
                 <div key={type.title} className="border border-gray-100 rounded-2xl p-6 hover:border-orange-100 transition-colors">
                   <div className="flex items-center justify-between mb-2">
                     <h3 className="font-semibold text-gray-900">{type.title}</h3>
-                    <span className="text-xs font-semibold text-[#e8632a] bg-orange-50 px-2.5 py-1 rounded-full">{type.price}</span>
+                    <span className="text-xs font-semibold text-[#FF5A1F] bg-orange-50 px-2.5 py-1 rounded-full">{type.price}</span>
                   </div>
                   <p className="text-sm text-gray-500 leading-relaxed">{type.desc}</p>
                 </div>
@@ -116,14 +116,14 @@ export default function SitesInternetPage() {
               <ul className="space-y-3">
                 {included.map((item) => (
                   <li key={item} className="flex items-start gap-2.5 text-sm text-gray-600">
-                    <Check size={15} className="text-[#e8632a] flex-shrink-0 mt-0.5" />{item}
+                    <Check size={15} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />{item}
                   </li>
                 ))}
               </ul>
             </div>
             <div className="bg-gray-50 rounded-2xl p-7">
               <div className="flex items-center gap-2 mb-4">
-                <Clock size={16} className="text-[#e8632a]" />
+                <Clock size={16} className="text-[#FF5A1F]" />
                 <h2 className="text-lg font-bold text-gray-900">Délais de livraison</h2>
               </div>
               <div className="space-y-4">
@@ -147,7 +147,7 @@ export default function SitesInternetPage() {
             <h2 className="text-2xl font-bold text-white mb-3">Votre site en ligne en quelques semaines</h2>
             <p className="text-gray-400 mb-8 max-w-md mx-auto">Devis gratuit, sans engagement. On vous explique ce qu&apos;on peut faire et combien ça coûte, clairement.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
               Demander un devis gratuit <ArrowRight size={15} />
             </Link>
           </div>

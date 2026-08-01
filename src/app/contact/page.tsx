@@ -20,7 +20,7 @@ export default function ContactPage() {
     <div className="min-h-screen bg-white pt-24 pb-32">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="text-xs text-[#e8632a] uppercase tracking-widest mb-4 font-semibold">Contact</p>
+          <p className="text-xs text-[#FF5A1F] uppercase tracking-widest mb-4 font-semibold">Contact</p>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-4">
             Parlons de votre projet.
           </h1>
@@ -35,7 +35,7 @@ export default function ContactPage() {
 
             <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
               <div className="flex items-center gap-3 mb-3">
-                <Calendar size={18} className="text-[#e8632a]" />
+                <Calendar size={18} className="text-[#FF5A1F]" />
                 <h3 className="text-sm font-semibold text-gray-900">Appel gratuit (1h)</h3>
               </div>
               <p className="text-sm text-gray-500 mb-4">Réservez directement un créneau dans notre agenda. On analyse votre situation et on vous propose un plan d&apos;action.</p>
@@ -43,7 +43,7 @@ export default function ContactPage() {
                 href="https://calendly.com/ben40nocode/1h"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-4 py-2.5 rounded-lg text-sm font-semibold transition-colors"
+                className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-4 py-2.5 rounded-lg text-sm font-semibold transition-colors"
               >
                 Réserver un créneau →
               </Link>
@@ -51,7 +51,7 @@ export default function ContactPage() {
 
             <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
               <div className="flex items-center gap-3 mb-3">
-                <MessageCircle size={18} className="text-[#e8632a]" />
+                <MessageCircle size={18} className="text-[#FF5A1F]" />
                 <h3 className="text-sm font-semibold text-gray-900">WhatsApp / Téléphone</h3>
               </div>
               <p className="text-sm text-gray-500 mb-4">Pas fan des formulaires ? Écrivez-moi directement, je réponds vite.</p>
@@ -75,7 +75,7 @@ export default function ContactPage() {
 
             <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
               <div className="flex items-center gap-3 mb-3">
-                <Mail size={18} className="text-[#e8632a]" />
+                <Mail size={18} className="text-[#FF5A1F]" />
                 <h3 className="text-sm font-semibold text-gray-900">Email</h3>
               </div>
               <a href="mailto:contact@nbn-ia.fr" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
@@ -85,7 +85,7 @@ export default function ContactPage() {
 
             <div className="p-6 rounded-2xl border border-gray-100 bg-gray-50">
               <div className="flex items-center gap-3 mb-3">
-                <MapPin size={18} className="text-[#e8632a]" />
+                <MapPin size={18} className="text-[#FF5A1F]" />
                 <h3 className="text-sm font-semibold text-gray-900">Zone d&apos;intervention</h3>
               </div>
               <p className="text-sm text-gray-500">Bordeaux · Royan · Arcachon<br />Et 100% remote partout en France</p>

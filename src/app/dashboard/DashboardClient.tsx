@@ -59,7 +59,7 @@ export function DashboardClient({ firstName, subscriber, justSubscribed, portalE
         <div className="bg-white rounded-2xl border border-gray-100 p-8 mb-6 shadow-sm">
           <div className="flex items-start justify-between flex-wrap gap-4 mb-6">
             <div>
-              <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-2">Abonnement</p>
+              <p className="text-xs font-semibold text-[#FF5A1F] uppercase tracking-widest mb-2">Abonnement</p>
               <h2 className="text-xl font-bold text-gray-900 mb-1">{PLAN_LABELS[subscriber.plan] ?? subscriber.plan}</h2>
               <p className="text-sm text-gray-400">Client depuis le {subscriber.createdAt}</p>
             </div>
@@ -72,7 +72,7 @@ export function DashboardClient({ firstName, subscriber, justSubscribed, portalE
           <div className="flex flex-wrap gap-3">
             <button
               onClick={() => setModal("change")}
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-5 py-2.5 rounded-xl text-sm font-bold transition-colors"
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-5 py-2.5 rounded-xl text-sm font-bold transition-colors"
             >
               Changer de plan
             </button>
@@ -101,7 +101,7 @@ export function DashboardClient({ firstName, subscriber, justSubscribed, portalE
             href="https://calendly.com/ben40nocode/1h"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl font-semibold text-sm transition-colors"
+            className="flex-shrink-0 inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-6 py-3 rounded-xl font-semibold text-sm transition-colors"
           >
             Prendre un rendez-vous <ArrowRight size={15} />
           </Link>
@@ -124,7 +124,7 @@ export function DashboardClient({ firstName, subscriber, justSubscribed, portalE
             </button>
             <button
               onClick={goToPortal}
-              className="px-5 py-2.5 rounded-xl text-sm font-bold bg-[#e8632a] hover:bg-[#c4521f] text-white transition-colors"
+              className="px-5 py-2.5 rounded-xl text-sm font-bold bg-[#FF5A1F] hover:bg-[#E64A12] text-white transition-colors"
             >
               Continuer
             </button>

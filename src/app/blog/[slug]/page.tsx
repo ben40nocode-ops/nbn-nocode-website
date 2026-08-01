@@ -113,7 +113,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
           {/* Header */}
           <div className="mb-10">
-            <span className="inline-block text-xs font-semibold text-[#e8632a] bg-orange-50 border border-orange-100 px-3 py-1 rounded-full mb-5">
+            <span className="inline-block text-xs font-semibold text-[#FF5A1F] bg-orange-50 border border-orange-100 px-3 py-1 rounded-full mb-5">
               {article.category}
             </span>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug mb-5">
@@ -138,15 +138,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               prose-p:text-gray-600 prose-p:leading-relaxed prose-p:mb-5
               prose-ul:my-4 prose-li:text-gray-600 prose-li:mb-2
               prose-strong:text-gray-900 prose-strong:font-semibold
-              prose-a:text-[#e8632a] prose-a:no-underline hover:prose-a:underline"
+              prose-a:text-[#FF5A1F] prose-a:no-underline hover:prose-a:underline"
             dangerouslySetInnerHTML={{ __html: article.content }}
           />
 
           {/* Lien interne contextuel — conversion + maillage */}
-          <div className="mt-10 border-l-2 border-[#e8632a] pl-4 text-sm text-gray-600 leading-relaxed">
+          <div className="mt-10 border-l-2 border-[#FF5A1F] pl-4 text-sm text-gray-600 leading-relaxed">
             Envie d&apos;appliquer ça à votre entreprise ?{" "}
-            <Link href={service.href} className="text-[#e8632a] font-medium hover:underline">Découvrez {service.label}</Link>{" "}
-            ou consultez <Link href="/tarifs" className="text-[#e8632a] font-medium hover:underline">mes tarifs</Link>.
+            <Link href={service.href} className="text-[#FF5A1F] font-medium hover:underline">Découvrez {service.label}</Link>{" "}
+            ou consultez <Link href="/tarifs" className="text-[#FF5A1F] font-medium hover:underline">mes tarifs</Link>.
           </div>
 
           {/* CTA */}
@@ -157,7 +157,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               href="https://calendly.com/ben40nocode/1h"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors"
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors"
             >
               Réserver mon appel gratuit (1h) <ArrowRight size={14} />
             </Link>
@@ -171,7 +171,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                 {related.map((a) => (
                   <Link key={a.slug} href={`/blog/${a.slug}`} className="group block p-5 rounded-xl border border-gray-200 hover:border-gray-300 hover:shadow-sm transition-all">
                     <p className="text-xs text-gray-400 mb-2 flex items-center gap-1"><Clock size={11} /> {a.readingTime}</p>
-                    <h3 className="text-sm font-bold text-gray-900 group-hover:text-[#e8632a] transition-colors leading-snug">{a.title}</h3>
+                    <h3 className="text-sm font-bold text-gray-900 group-hover:text-[#FF5A1F] transition-colors leading-snug">{a.title}</h3>
                   </Link>
                 ))}
               </div>

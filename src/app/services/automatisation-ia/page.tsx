@@ -32,32 +32,32 @@ const jsonLd = {
 
 const automations = [
   {
-    icon: <Zap size={20} className="text-[#e8632a]" />,
+    icon: <Zap size={20} className="text-[#FF5A1F]" />,
     title: "Réponses clients",
     desc: "Emails, WhatsApp, formulaires de contact. Vos clients reçoivent une réponse immédiate, même la nuit ou le week-end.",
   },
   {
-    icon: <Check size={20} className="text-[#e8632a]" />,
+    icon: <Check size={20} className="text-[#FF5A1F]" />,
     title: "Devis et factures automatiques",
     desc: "Un client remplit un formulaire, un devis part dans la minute. Pas besoin de tout faire à la main.",
   },
   {
-    icon: <Clock size={20} className="text-[#e8632a]" />,
+    icon: <Clock size={20} className="text-[#FF5A1F]" />,
     title: "Rappels et confirmations de RDV",
     desc: "SMS ou email automatique 24h avant chaque rendez-vous. Fini les oublis et les no-shows.",
   },
   {
-    icon: <ArrowRight size={20} className="text-[#e8632a]" />,
+    icon: <ArrowRight size={20} className="text-[#FF5A1F]" />,
     title: "Relances impayés & paniers abandonnés",
     desc: "Un message de relance part automatiquement après X jours sans paiement ou sans commande finalisée.",
   },
   {
-    icon: <Star size={20} className="text-[#e8632a]" />,
+    icon: <Star size={20} className="text-[#FF5A1F]" />,
     title: "Notifications et alertes internes",
     desc: "Votre équipe est prévenue en temps réel : nouvelle commande, formulaire reçu, stock bas.",
   },
   {
-    icon: <Users size={20} className="text-[#e8632a]" />,
+    icon: <Users size={20} className="text-[#FF5A1F]" />,
     title: "Collecte d'avis clients",
     desc: "Un message de remerciement part après chaque prestation, avec un lien pour laisser un avis Google.",
   },
@@ -96,13 +96,13 @@ export default function AutomatisationIAPage() {
       <div className="min-h-screen bg-white pt-32 pb-24">
         <div className="max-w-4xl mx-auto px-6">
 
-          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
+          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#FF5A1F] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
             <Zap size={12} /> Automatisations sur mesure
           </div>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
             On prend en charge vos tâches répétitives.<br />
-            <span className="text-[#e8632a]">Vous, vous vous concentrez sur votre métier.</span>
+            <span className="text-[#FF5A1F]">Vous, vous vous concentrez sur votre métier.</span>
           </h1>
 
           <p className="text-lg text-gray-500 max-w-2xl mb-10 leading-relaxed">
@@ -111,7 +111,7 @@ export default function AutomatisationIAPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
               Réserver mon appel gratuit (1h) <ArrowRight size={17} />
             </Link>
             <Link href="/tarifs" className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 px-7 py-4 rounded-xl font-semibold text-base transition-colors hover:bg-gray-50">
@@ -142,7 +142,7 @@ export default function AutomatisationIAPage() {
             <div className="grid md:grid-cols-3 gap-6">
               {steps.map((step) => (
                 <div key={step.number} className="relative">
-                  <div className="w-10 h-10 rounded-full bg-[#e8632a] text-white flex items-center justify-center font-bold text-sm mb-4">
+                  <div className="w-10 h-10 rounded-full bg-[#FF5A1F] text-white flex items-center justify-center font-bold text-sm mb-4">
                     {step.number}
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2">{step.title}</h3>
@@ -158,7 +158,7 @@ export default function AutomatisationIAPage() {
             <ul className="space-y-3">
               {targets.map((target) => (
                 <li key={target} className="flex items-start gap-2.5 text-sm text-gray-600">
-                  <Check size={15} className="text-[#e8632a] flex-shrink-0 mt-0.5" />{target}
+                  <Check size={15} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />{target}
                 </li>
               ))}
             </ul>
@@ -170,7 +170,7 @@ export default function AutomatisationIAPage() {
             <h2 className="text-2xl font-bold text-white mb-3">Prêt à gagner du temps chaque semaine ?</h2>
             <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;appel est gratuit, sans engagement. On vous dit exactement ce qu&apos;on peut automatiser et combien de temps ça vous fera gagner.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
               Réserver mon appel gratuit (1h) <ArrowRight size={15} />
             </Link>
           </div>

@@ -61,7 +61,7 @@ export function FaqSection() {
       <div className="max-w-3xl mx-auto px-6">
 
         <div className="text-center mb-16">
-          <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">FAQ</p>
+          <p className="text-xs font-semibold text-[#FF5A1F] uppercase tracking-widest mb-3">FAQ</p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
             Questions fréquentes.
           </h2>
@@ -76,7 +76,7 @@ export function FaqSection() {
               >
                 <span className="text-sm font-semibold text-gray-900 pr-4">{faq.q}</span>
                 {open === i
-                  ? <Minus size={15} className="text-[#e8632a] flex-shrink-0" />
+                  ? <Minus size={15} className="text-[#FF5A1F] flex-shrink-0" />
                   : <Plus size={15} className="text-gray-400 flex-shrink-0" />
                 }
               </button>

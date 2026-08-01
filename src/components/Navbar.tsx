@@ -10,16 +10,16 @@ import { blogSlugFrToEn, blogSlugEnToFr } from "@/content/blog/article-lang-map"
 
 const linksFR = [
   { label: "À propos", href: "/a-propos" },
-  { label: "Solutions", href: "/#solutions" },
-  { label: "Réalisations", href: "/#realisations" },
+  { label: "Solutions", href: "/solutions" },
+  { label: "Réalisations", href: "/realisations" },
   { label: "Tarifs", href: "/tarifs" },
   { label: "Blog", href: "/blog" },
 ];
 
 const linksEN = [
-  { label: "About", href: "/en#about" },
-  { label: "Solutions", href: "/en#solutions" },
-  { label: "Work", href: "/en#work" },
+  { label: "About", href: "/en/about" },
+  { label: "Solutions", href: "/en/solutions" },
+  { label: "Work", href: "/en/work" },
   { label: "Pricing", href: "/tarifs" },
   { label: "Blog", href: "/en/blog" },
 ];
@@ -66,7 +66,7 @@ export function Navbar() {
 
   return (
     <>
-      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white ${scrolled ? "border-b border-gray-100 shadow-sm" : ""}`}>
+      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[rgba(245,244,241,0.72)] backdrop-blur-[14px] ${scrolled ? "border-b border-[#E2E0DA] shadow-sm" : "border-b border-transparent"}`}>
         <nav className="relative flex items-center justify-between px-4 md:px-[50px] h-16">
 
           {/* Logo — gauche */}
@@ -107,7 +107,7 @@ export function Navbar() {
                   href="https://calendly.com/ben40nocode/1h"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm bg-[#e8632a] hover:bg-[#c4521f] text-white px-5 py-2 rounded-lg transition-colors font-semibold whitespace-nowrap"
+                  className="text-sm bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-5 py-2 rounded-lg transition-colors font-semibold whitespace-nowrap"
                 >
                   {isEN ? "Book audit" : "Réserver l'audit"}
                 </Link>
@@ -156,7 +156,7 @@ export function Navbar() {
               className="flex items-center justify-between py-3 text-base text-gray-700 hover:text-gray-900 border-b border-gray-50 transition-colors group"
             >
               {l.label}
-              <ArrowRight size={14} className="text-gray-300 group-hover:text-[#e8632a] group-hover:translate-x-0.5 transition-all" />
+              <ArrowRight size={14} className="text-gray-300 group-hover:text-[#FF5A1F] group-hover:translate-x-0.5 transition-all" />
             </Link>
           ))}
         </nav>
@@ -179,7 +179,7 @@ export function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
-                className="flex items-center justify-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-4 py-3.5 rounded-xl text-sm font-bold transition-colors"
+                className="flex items-center justify-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-4 py-3.5 rounded-xl text-sm font-bold transition-colors"
               >
                 {isEN ? "Book my free call" : "Réserver mon appel gratuit (1h)"}
                 <ArrowRight size={15} />

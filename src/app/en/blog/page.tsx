@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 };
 
 const categoryColors: Record<string, string> = {
-  "Automation": "bg-orange-50 text-[#e8632a] border-orange-100",
+  "Automation": "bg-orange-50 text-[#FF5A1F] border-orange-100",
   "AI Agents": "bg-purple-50 text-purple-600 border-purple-100",
   "No-Code": "bg-blue-50 text-blue-600 border-blue-100",
   "Business": "bg-green-50 text-green-600 border-green-100",
@@ -43,7 +43,7 @@ export default async function BlogENPage() {
 
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-xs text-[#e8632a] uppercase tracking-widest mb-4 font-semibold">Blog</p>
+          <p className="text-xs text-[#FF5A1F] uppercase tracking-widest mb-4 font-semibold">Blog</p>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-5">
             AI Automation, Agents & Business
           </h1>
@@ -66,11 +66,11 @@ export default async function BlogENPage() {
                   </span>
                   <span className="text-xs text-gray-400">{new Date(featured.date).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</span>
                 </div>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3 group-hover:text-[#e8632a] transition-colors leading-snug">
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3 group-hover:text-[#FF5A1F] transition-colors leading-snug">
                   {featured.title}
                 </h2>
                 <p className="text-gray-500 leading-relaxed mb-5 max-w-3xl">{featured.description}</p>
-                <div className="flex items-center gap-2 text-[#e8632a] text-sm font-semibold">
+                <div className="flex items-center gap-2 text-[#FF5A1F] text-sm font-semibold">
                   Read article <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform" />
                 </div>
               </div>
@@ -91,13 +91,13 @@ export default async function BlogENPage() {
                     <Clock size={12} /> {article.readingTime}
                   </span>
                 </div>
-                <h2 className="text-base font-bold text-gray-900 mb-2 group-hover:text-[#e8632a] transition-colors leading-snug flex-1">
+                <h2 className="text-base font-bold text-gray-900 mb-2 group-hover:text-[#FF5A1F] transition-colors leading-snug flex-1">
                   {article.title}
                 </h2>
                 <p className="text-sm text-gray-500 leading-relaxed mb-5 line-clamp-2">{article.description}</p>
                 <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                   <span className="text-xs text-gray-400">{new Date(article.date).toLocaleDateString("en-GB", { day: "numeric", month: "long" })}</span>
-                  <span className="text-xs font-semibold text-[#e8632a] flex items-center gap-1 group-hover:gap-2 transition-all">
+                  <span className="text-xs font-semibold text-[#FF5A1F] flex items-center gap-1 group-hover:gap-2 transition-all">
                     Read <ArrowRight size={12} />
                   </span>
                 </div>
@@ -114,7 +114,7 @@ export default async function BlogENPage() {
             href="https://calendly.com/ben40nocode/1h"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors"
+            className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-colors"
           >
             Book your free audit <ArrowRight size={14} />
           </Link>

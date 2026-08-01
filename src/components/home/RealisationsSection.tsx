@@ -13,7 +13,7 @@ export function RealisationsSection() {
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="text-center mb-16">
-          <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">
+          <p className="text-xs font-semibold text-[#FF5A1F] uppercase tracking-widest mb-3">
             Exemples concrets
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
@@ -33,8 +33,8 @@ export function RealisationsSection() {
               <span className="text-3xl mb-4 block">{c.emoji}</span>
               <h3 className="text-sm font-bold text-gray-900 mb-2">{c.title}</h3>
               <p className="text-sm text-gray-500 leading-relaxed flex-1 mb-5">{c.desc}</p>
-              <div className="inline-flex items-center gap-2 text-xs font-semibold text-[#e8632a] bg-orange-50 border border-orange-100 rounded-full px-3 py-1.5 self-start">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#e8632a] inline-block" />
+              <div className="inline-flex items-center gap-2 text-xs font-semibold text-[#FF5A1F] bg-orange-50 border border-orange-100 rounded-full px-3 py-1.5 self-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#FF5A1F] inline-block" />
                 {c.impact}
               </div>
             </div>

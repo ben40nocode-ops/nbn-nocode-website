@@ -33,19 +33,19 @@ export default function AiAutomationEnPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="min-h-screen bg-white pt-32 pb-24">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
+          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#FF5A1F] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
             <Bot size={12} /> AI Automation — France
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
             AI Automation Agency in France<br />
-            <span className="text-[#e8632a]">Powered by Claude AI Agents</span>
+            <span className="text-[#FF5A1F]">Powered by Claude AI Agents</span>
           </h1>
           <p className="text-lg text-gray-500 max-w-2xl mb-10 leading-relaxed">
             We design autonomous AI systems that work for your business 24/7 — no human intervention required. Claude AI agents, n8n/Make workflows, complex API integrations. Based in Bordeaux, serving all of France.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
               Book my free call (1h) <ArrowRight size={17} />
             </Link>
             <Link href="/en#solutions"
@@ -59,7 +59,7 @@ export default function AiAutomationEnPage() {
               <ul className="space-y-4">
                 {["Lead qualification & sales follow-up (24/7)", "Document processing & data extraction", "Customer support via AI agents", "CRM sync & pipeline automation", "Content generation & SEO pipelines", "Financial reporting & cash flow alerts"].map((f) => (
                   <li key={f} className="flex items-start gap-3">
-                    <Check size={20} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                    <Check size={20} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700">{f}</span>
                   </li>
                 ))}
@@ -70,7 +70,7 @@ export default function AiAutomationEnPage() {
               <ul className="space-y-4">
                 {["Claude AI (Anthropic) — most reliable LLM for business", "n8n & Make for workflow orchestration", "MCP protocol for advanced agent memory", "Supabase, Airtable, REST APIs", "Vercel + Next.js for AI-powered web apps", "Stripe, Slack, Notion integrations"].map((f) => (
                   <li key={f} className="flex items-start gap-3">
-                    <Check size={20} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                    <Check size={20} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700">{f}</span>
                   </li>
                 ))}
@@ -101,7 +101,7 @@ export default function AiAutomationEnPage() {
                 { step: 3, title: "Maintenance & Evolution", desc: "Monthly subscription. Your system evolves, we monitor, you focus on your business." },
               ].map((p) => (
                 <div key={p.step} className="flex flex-col">
-                  <div className="w-10 h-10 rounded-full bg-[#e8632a] text-white flex items-center justify-center font-bold mb-4">{p.step}</div>
+                  <div className="w-10 h-10 rounded-full bg-[#FF5A1F] text-white flex items-center justify-center font-bold mb-4">{p.step}</div>
                   <h3 className="font-bold text-gray-900 mb-2">{p.title}</h3>
                   <p className="text-sm text-gray-600">{p.desc}</p>
                 </div>
@@ -112,7 +112,7 @@ export default function AiAutomationEnPage() {
             <h2 className="text-white font-bold text-2xl mb-3">Ready to automate your business?</h2>
             <p className="text-gray-300 mb-8 max-w-md mx-auto">Free 1-hour audit. Leave with a concrete AI architecture — no commitment.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
               Book my free call <ArrowRight size={16} />
             </Link>
           </div>

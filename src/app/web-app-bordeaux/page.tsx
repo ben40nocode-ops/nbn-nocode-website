@@ -80,40 +80,40 @@ export default function WebAppBordeauxPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <div className="min-h-screen bg-white pt-32 pb-24">
+      <div className="min-h-screen pt-32 pb-24">
         <div className="max-w-4xl mx-auto px-6">
 
-          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
+          <div className="inline-flex items-center gap-2 bg-[#FCE9DF] text-[#E64A12] rounded-full px-4 py-1.5 text-[11px] font-bold mb-8 tracking-[0.16em] uppercase">
             <Layers size={12} /> Web App IA — Bordeaux
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+          <h1 className="text-4xl md:text-[3.4rem] font-extrabold text-[#0E1116] leading-[1.04] tracking-[-0.03em] mb-6">
             Application web sur mesure<br />
-            <span className="text-[#e8632a]">alimentée par vos agents IA</span>
+            <span className="text-[#FF5A1F]">alimentée par vos agents IA</span>
           </h1>
 
-          <p className="text-lg text-gray-500 max-w-2xl mb-6 leading-relaxed">
+          <p className="text-lg text-[#6B7280] max-w-2xl mb-6 leading-relaxed">
             On développe des applications web complètes — authentification, base de données, interfaces modernes. Et on les connecte à des agents IA pour automatiser votre business logic. Un MVP livré en 2 à 3 semaines grâce au vibe coding avec Claude Code.
           </p>
 
-          <p className="text-base text-gray-500 max-w-2xl mb-10 leading-relaxed">
+          <p className="text-base text-[#6B7280] max-w-2xl mb-10 leading-relaxed">
             Basé à Bordeaux, on accompagne des startups, des PME et des indépendants girondins dans le développement de leurs outils internes, SaaS et applications métier. En présentiel ou à distance.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-7 py-4 rounded-xl font-semibold text-base transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
               Devis gratuit <ArrowRight size={17} />
             </Link>
             <Link href="/tarifs"
-              className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 hover:bg-gray-50 px-7 py-4 rounded-xl font-semibold text-base transition-colors">
+              className="inline-flex items-center gap-2 border border-[#E2E0DA] hover:border-[#E2E0DA] text-[#2E343D] hover:bg-gray-50 px-7 py-4 rounded-xl font-semibold text-base transition-colors">
               Voir les tarifs
             </Link>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 mb-20">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Ce qu&apos;on crée</h2>
+              <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-6">Ce qu&apos;on crée</h2>
               <ul className="space-y-4">
                 {[
                   "Interfaces modernes et responsives (desktop, tablette, mobile)",
@@ -124,15 +124,15 @@ export default function WebAppBordeauxPage() {
                   "Intégrations tierces (Stripe, Slack, Airtable…)",
                 ].map((feature) => (
                   <li key={feature} className="flex items-start gap-3">
-                    <Check size={16} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
-                    <span className="text-sm text-gray-700">{feature}</span>
+                    <Check size={16} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
+                    <span className="text-sm text-[#2E343D]">{feature}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Avec les agents IA</h2>
+              <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-6">Avec les agents IA</h2>
               <ul className="space-y-4">
                 {[
                   "Agents Claude qui comprennent votre métier",
@@ -143,8 +143,8 @@ export default function WebAppBordeauxPage() {
                   "Support 24h/24 via agents autonomes",
                 ].map((feature) => (
                   <li key={feature} className="flex items-start gap-3">
-                    <Check size={16} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
-                    <span className="text-sm text-gray-700">{feature}</span>
+                    <Check size={16} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
+                    <span className="text-sm text-[#2E343D]">{feature}</span>
                   </li>
                 ))}
               </ul>
@@ -152,8 +152,8 @@ export default function WebAppBordeauxPage() {
           </div>
 
           {/* Exemples */}
-          <div className="bg-gray-50 rounded-2xl p-12 mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">Exemples d&apos;applications développées</h2>
+          <div className="bg-white border border-[#E2E0DA] rounded-2xl p-12 shadow-[0_14px_34px_rgba(14,17,22,.06)] mb-20">
+            <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Exemples d&apos;applications développées</h2>
             <div className="grid md:grid-cols-2 gap-8">
               {[
                 {
@@ -173,9 +173,9 @@ export default function WebAppBordeauxPage() {
                   desc: "Agrégation de données depuis plusieurs APIs, visualisations temps réel, rapports automatiques générés chaque semaine par un agent IA.",
                 },
               ].map((example) => (
-                <div key={example.title} className="p-6 border border-gray-200 rounded-xl bg-white hover:border-[#e8632a] transition-colors">
-                  <h3 className="font-bold text-gray-900 mb-2 text-sm">{example.title}</h3>
-                  <p className="text-sm text-gray-500">{example.desc}</p>
+                <div key={example.title} className="p-6 border border-[#E2E0DA] rounded-xl bg-white hover:border-[#FF5A1F] transition-colors">
+                  <h3 className="font-bold text-[#0E1116] mb-2 text-sm">{example.title}</h3>
+                  <p className="text-sm text-[#6B7280]">{example.desc}</p>
                 </div>
               ))}
             </div>
@@ -183,17 +183,17 @@ export default function WebAppBordeauxPage() {
 
           {/* Comment ça marche */}
           <div className="mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">Comment on développe votre web app</h2>
+            <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Comment on développe votre web app</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
                 { step: "01", title: "Audit & Architecture (1-2h)", desc: "On comprend votre métier, vos workflows critiques, les points à automatiser. On définit l'architecture et on vous donne un devis précis." },
                 { step: "02", title: "Développement (2-8 semaines)", desc: "Vibe coding avec Claude Code : MVP livré 3x plus vite qu'une agence classique. Points réguliers, itérations rapides, vous voyez l'app évoluer en temps réel." },
                 { step: "03", title: "Mise en production & Maintenance", desc: "Déploiement sur Vercel. Monitoring, évolutions, corrections incluses dans l'abonnement mensuel. Résiliable à tout moment." },
               ].map(({ step, title, desc }) => (
-                <div key={step} className="bg-white border border-gray-100 rounded-2xl p-6">
-                  <div className="text-3xl font-black text-orange-100 mb-3">{step}</div>
-                  <h3 className="text-base font-bold text-gray-900 mb-2">{title}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{desc}</p>
+                <div key={step} className="bg-white border border-[#E2E0DA] rounded-2xl p-6 shadow-[0_14px_34px_rgba(14,17,22,.06)]">
+                  <div className="text-3xl font-black text-[#FF5A1F]/25 mb-3">{step}</div>
+                  <h3 className="text-base font-bold text-[#0E1116] mb-2">{title}</h3>
+                  <p className="text-sm text-[#6B7280] leading-relaxed">{desc}</p>
                 </div>
               ))}
             </div>
@@ -201,22 +201,22 @@ export default function WebAppBordeauxPage() {
 
           {/* FAQ */}
           <div className="mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">Questions fréquentes — web app IA à Bordeaux</h2>
+            <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Questions fréquentes — web app IA à Bordeaux</h2>
             <div className="flex flex-col gap-4">
               {faqs.map(({ q, a }) => (
-                <div key={q} className="border border-gray-100 rounded-xl p-6">
-                  <p className="font-semibold text-gray-900 mb-2 text-sm">{q}</p>
-                  <p className="text-sm text-gray-500 leading-relaxed">{a}</p>
-                </div>
+                <details key={q} className="faq-acc">
+                  <summary>{q}</summary>
+                  <div>{a}</div>
+                </details>
               ))}
             </div>
           </div>
 
-          <div className="bg-gray-900 rounded-2xl p-10 text-center">
+          <div className="bg-[#0E1116] rounded-[26px] p-10 shadow-[0_40px_100px_rgba(14,17,22,.4)] text-center">
             <h2 className="text-2xl font-bold text-white mb-3">Prêt à démarrer votre web app IA ?</h2>
             <p className="text-gray-400 mb-8 max-w-md mx-auto">Audit gratuit de 1h. On voit ensemble comment connecter IA et product. Zéro engagement.</p>
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-8 py-4 rounded-xl font-bold text-sm transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
               Réserver mon appel gratuit (1h) <ArrowRight size={16} />
             </Link>
           </div>

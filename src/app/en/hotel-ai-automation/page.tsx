@@ -13,19 +13,19 @@ export default function HotelAiPage() {
   return (
     <div className="min-h-screen bg-white pt-32 pb-24">
       <div className="max-w-4xl mx-auto px-6">
-        <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
+        <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#FF5A1F] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
           🏨 AI for Hotels — France
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
           AI Automation for Hotels<br />
-          <span className="text-[#e8632a]">& Hospitality in France</span>
+          <span className="text-[#FF5A1F]">& Hospitality in France</span>
         </h1>
         <p className="text-lg text-gray-500 max-w-2xl mb-10 leading-relaxed">
           From automated check-in to multilingual guest support — we build AI systems that handle guest operations 24/7, reduce staff workload and increase satisfaction scores.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mb-20">
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold transition-colors">
+            className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-7 py-4 rounded-xl font-semibold transition-colors">
             Book my free call <ArrowRight size={17} />
           </Link>
         </div>
@@ -42,7 +42,7 @@ export default function HotelAiPage() {
                 "Staff alert system for maintenance & requests",
               ].map((f) => (
                 <li key={f} className="flex items-start gap-3">
-                  <Check size={20} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                  <Check size={20} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700">{f}</span>
                 </li>
               ))}
@@ -59,7 +59,7 @@ export default function HotelAiPage() {
           <h2 className="text-white font-bold text-2xl mb-3">Ready to automate your hotel?</h2>
           <p className="text-gray-300 mb-8 max-w-md mx-auto">Free audit. We map your guest journey and build the AI system. No commitment.</p>
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
+            className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
             Book my free call <ArrowRight size={16} />
           </Link>
         </div>

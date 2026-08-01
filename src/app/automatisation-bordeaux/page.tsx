@@ -96,24 +96,24 @@ export default function BordeauxPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <div className="min-h-screen bg-white pt-32 pb-24">
+      <div className="min-h-screen pt-32 pb-24">
         <div className="max-w-4xl mx-auto px-6">
 
           {/* Header */}
-          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
+          <div className="inline-flex items-center gap-2 bg-[#FCE9DF] text-[#E64A12] rounded-full px-4 py-1.5 text-[11px] font-bold mb-8 tracking-[0.16em] uppercase">
             <MapPin size={12} /> Bordeaux & Gironde
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+          <h1 className="text-4xl md:text-[3.4rem] font-extrabold text-[#0E1116] leading-[1.04] tracking-[-0.03em] mb-6">
             Automatisation & Agents IA<br />
-            <span className="text-[#e8632a]">pour les PME de Bordeaux</span>
+            <span className="text-[#FF5A1F]">pour les PME de Bordeaux</span>
           </h1>
 
-          <p className="text-lg text-gray-500 max-w-2xl mb-6 leading-relaxed">
+          <p className="text-lg text-[#6B7280] max-w-2xl mb-6 leading-relaxed">
             Chaque semaine, des PME bordelaises perdent entre 5 et 20 heures sur des tâches répétitives : relances clients, saisie de données, synchronisation d&apos;outils, rapports manuels. On conçoit les systèmes IA qui font ce travail à leur place — 24h/24, sans erreur, sans recrutement.
           </p>
 
-          <p className="text-base text-gray-500 max-w-2xl mb-10 leading-relaxed">
+          <p className="text-base text-[#6B7280] max-w-2xl mb-10 leading-relaxed">
             NBN IA est basé dans le triangle Bordeaux · Royan · Arcachon. On intervient en présentiel ou à distance, selon votre préférence. Spécialisé Claude AI (Anthropic), Make et les architectures d&apos;agents autonomes.
           </p>
 
@@ -122,11 +122,11 @@ export default function BordeauxPage() {
               href="https://calendly.com/ben40nocode/1h"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors"
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-7 py-4 rounded-xl font-semibold text-base transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]"
             >
               Audit gratuit à Bordeaux <ArrowRight size={17} />
             </Link>
-            <Link href="/tarifs" className="inline-flex items-center gap-2 border border-gray-200 hover:border-gray-300 text-gray-700 px-7 py-4 rounded-xl font-semibold text-base transition-colors hover:bg-gray-50">
+            <Link href="/tarifs" className="inline-flex items-center gap-2 border border-[#E2E0DA] hover:-translate-y-0.5 bg-white text-[#0E1116] px-7 py-4 rounded-xl font-semibold text-base transition-all">
               Voir les tarifs
             </Link>
           </div>
@@ -134,7 +134,7 @@ export default function BordeauxPage() {
           {/* Ce qu'on automatise */}
           <div className="grid md:grid-cols-2 gap-8 mb-20">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Ce qu&apos;on automatise pour les entreprises bordelaises</h2>
+              <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-4">Ce qu&apos;on automatise pour les entreprises bordelaises</h2>
               <ul className="space-y-3">
                 {[
                   "Gestion des leads et CRM automatisé",
@@ -146,16 +146,16 @@ export default function BordeauxPage() {
                   "Qualification automatique des prospects entrants",
                   "Alertes et notifications intelligentes",
                 ].map((item) => (
-                  <li key={item} className="flex items-start gap-2.5 text-sm text-gray-600">
-                    <Check size={15} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                  <li key={item} className="flex items-start gap-2.5 text-sm text-[#2E343D]">
+                    <Check size={15} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                     {item}
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="bg-gray-50 rounded-2xl p-7">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">Pourquoi NBN IA à Bordeaux ?</h2>
-              <ul className="space-y-3 text-sm text-gray-600">
+            <div className="bg-white border border-[#E2E0DA] rounded-2xl p-7 shadow-[0_14px_34px_rgba(14,17,22,.06)]">
+              <h2 className="text-lg font-extrabold text-[#0E1116] mb-3">Pourquoi NBN IA à Bordeaux ?</h2>
+              <ul className="space-y-3 text-sm text-[#2E343D]">
                 {[
                   "Basé dans le triangle Bordeaux / Royan / Arcachon",
                   "Spécialisé Claude AI — le modèle IA le plus avancé pour les agents",
@@ -165,7 +165,7 @@ export default function BordeauxPage() {
                   "Maintenance mensuelle incluse dans l'abonnement",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5">
-                    <Check size={15} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                    <Check size={15} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                     {item}
                   </li>
                 ))}
@@ -175,17 +175,17 @@ export default function BordeauxPage() {
 
           {/* Comment ça marche */}
           <div className="mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">Comment on travaille avec les PME de Bordeaux</h2>
+            <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Comment on travaille avec les PME de Bordeaux</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
                 { step: "01", title: "Audit gratuit 1h", desc: "On cartographie ensemble vos process : ce qui prend du temps, ce qui peut être automatisé, ce qui ne peut pas l'être. Pas de jargon, pas d'engagement." },
                 { step: "02", title: "Setup sur mesure", desc: "On conçoit et déploie votre architecture : agents IA, workflows Make, connexions API. Livraison en 48h à 2 semaines selon la complexité." },
                 { step: "03", title: "Maintenance continue", desc: "On surveille, on ajuste, on fait évoluer. Vous avez un accès direct pour toute modification. Résiliable à tout moment." },
               ].map(({ step, title, desc }) => (
-                <div key={step} className="bg-white border border-gray-100 rounded-2xl p-6">
-                  <div className="text-3xl font-black text-orange-100 mb-3">{step}</div>
-                  <h3 className="text-base font-bold text-gray-900 mb-2">{title}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{desc}</p>
+                <div key={step} className="bg-white border border-[#E2E0DA] rounded-2xl p-6 shadow-[0_14px_34px_rgba(14,17,22,.06)]">
+                  <div className="text-3xl font-black text-[#FF5A1F]/25 mb-3">{step}</div>
+                  <h3 className="text-base font-bold text-[#0E1116] mb-2">{title}</h3>
+                  <p className="text-sm text-[#6B7280] leading-relaxed">{desc}</p>
                 </div>
               ))}
             </div>
@@ -193,24 +193,24 @@ export default function BordeauxPage() {
 
           {/* Cas d'usage */}
           <div className="mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Cas d’usage à Bordeaux et en Gironde</h2>
-            <p className="text-gray-500 text-sm mb-8">Exemples de systèmes que je peux concevoir pour des entreprises locales.</p>
+            <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-2">Cas d’usage à Bordeaux et en Gironde</h2>
+            <p className="text-[#6B7280] text-sm mb-8">Exemples de systèmes que je peux concevoir pour des entreprises locales.</p>
             <div className="flex flex-col gap-6">
               {casUsage.map(({ secteur, probleme, solution, gain }) => (
-                <div key={secteur} className="border border-gray-100 rounded-2xl p-7">
-                  <div className="inline-flex items-center bg-orange-50 text-[#e8632a] text-xs font-semibold px-3 py-1 rounded-full mb-4">{secteur}</div>
+                <div key={secteur} className="bg-white border border-[#E2E0DA] rounded-2xl p-7 shadow-[0_14px_34px_rgba(14,17,22,.06)]">
+                  <div className="inline-flex items-center bg-[#FCE9DF] text-[#E64A12] text-xs font-bold px-3 py-1 rounded-full mb-4">{secteur}</div>
                   <div className="grid md:grid-cols-3 gap-4 text-sm">
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Problème</p>
-                      <p className="text-gray-500">{probleme}</p>
+                      <p className="font-semibold text-[#0E1116] mb-1">Problème</p>
+                      <p className="text-[#6B7280]">{probleme}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Solution</p>
-                      <p className="text-gray-500">{solution}</p>
+                      <p className="font-semibold text-[#0E1116] mb-1">Solution</p>
+                      <p className="text-[#6B7280]">{solution}</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 mb-1">Objectif</p>
-                      <p className="text-[#e8632a] font-semibold">{gain}</p>
+                      <p className="font-semibold text-[#0E1116] mb-1">Objectif</p>
+                      <p className="text-[#FF5A1F] font-semibold">{gain}</p>
                     </div>
                   </div>
                 </div>
@@ -220,26 +220,26 @@ export default function BordeauxPage() {
 
           {/* FAQ */}
           <div className="mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">Questions fréquentes — automatisation IA à Bordeaux</h2>
+            <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Questions fréquentes — automatisation IA à Bordeaux</h2>
             <div className="flex flex-col gap-4">
               {faqs.map(({ q, a }) => (
-                <div key={q} className="border border-gray-100 rounded-xl p-6">
-                  <p className="font-semibold text-gray-900 mb-2 text-sm">{q}</p>
-                  <p className="text-sm text-gray-500 leading-relaxed">{a}</p>
-                </div>
+                <details key={q} className="faq-acc">
+                  <summary>{q}</summary>
+                  <div>{a}</div>
+                </details>
               ))}
             </div>
           </div>
 
           {/* CTA */}
-          <div className="bg-gray-900 rounded-2xl p-10 text-center">
+          <div className="bg-[#0E1116] rounded-[26px] p-10 shadow-[0_40px_100px_rgba(14,17,22,.4)] text-center">
             <h2 className="text-2xl font-bold text-white mb-3">1 heure pour cartographier vos process</h2>
             <p className="text-gray-400 mb-8 max-w-md mx-auto">L&apos;appel est gratuit, sans engagement. On se retrouve à Bordeaux ou en visio.</p>
             <Link
               href="https://calendly.com/ben40nocode/1h"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors"
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-8 py-4 rounded-xl font-bold text-sm transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]"
             >
               Réserver mon appel gratuit (1h) <ArrowRight size={15} />
             </Link>

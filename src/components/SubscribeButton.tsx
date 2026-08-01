@@ -23,7 +23,7 @@ export function SubscribeButton({ plan, highlight, label, disabled = false }: Pr
         disabled
           ? "bg-gray-100 text-gray-400 cursor-not-allowed"
           : highlight
-          ? "bg-[#e8632a] hover:bg-[#c4521f] text-white"
+          ? "bg-[#FF5A1F] hover:bg-[#E64A12] text-white"
           : "border border-gray-200 hover:border-gray-300 text-gray-700 hover:bg-gray-50"
       }`}
     >

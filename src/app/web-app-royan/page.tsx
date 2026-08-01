@@ -40,36 +40,36 @@ export default function WebAppRoyanPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <div className="min-h-screen bg-white pt-32 pb-24">
+      <div className="min-h-screen pt-32 pb-24">
         <div className="max-w-4xl mx-auto px-6">
 
-          <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
+          <div className="inline-flex items-center gap-2 bg-[#FCE9DF] text-[#E64A12] rounded-full px-4 py-1.5 text-[11px] font-bold mb-8 tracking-[0.16em] uppercase">
             <Layers size={12} /> Web App IA — Royan
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+          <h1 className="text-4xl md:text-[3.4rem] font-extrabold text-[#0E1116] leading-[1.04] tracking-[-0.03em] mb-6">
             Création d&apos;application web sur mesure à Royan<br />
-            <span className="text-[#e8632a]">alimentée par vos agents IA</span>
+            <span className="text-[#FF5A1F]">alimentée par vos agents IA</span>
           </h1>
 
-          <p className="text-lg text-gray-500 max-w-2xl mb-10 leading-relaxed">
+          <p className="text-lg text-[#6B7280] max-w-2xl mb-10 leading-relaxed">
             On développe des applications web complètes — authentification, base de données, interfaces modernes. Mais surtout, on les connecte à vos systèmes IA pour automatiser votre business logic.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold text-base transition-colors">
+              className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] hover:-translate-y-0.5 text-white px-7 py-4 rounded-xl font-semibold text-base transition-all shadow-[0_10px_24px_rgba(255,90,31,.28)]">
               Devis gratuit <ArrowRight size={17} />
             </Link>
             <Link href="/#pricing"
-              className="inline-flex items-center gap-2 border border-gray-300 hover:border-gray-400 text-gray-700 hover:bg-gray-50 px-7 py-4 rounded-xl font-semibold text-base transition-colors">
+              className="inline-flex items-center gap-2 border border-[#E2E0DA] hover:border-gray-400 text-[#2E343D] hover:bg-gray-50 px-7 py-4 rounded-xl font-semibold text-base transition-colors">
               Voir les tarifs <ArrowRight size={17} />
             </Link>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 mb-20">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Qu'on crée</h2>
+              <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-6">Qu'on crée</h2>
               <ul className="space-y-4">
                 {[
                   "Interfaces modernes et responsives (desktop, tablette, mobile)",
@@ -80,15 +80,15 @@ export default function WebAppRoyanPage() {
                   "Intégrations tierces (Stripe, Slack, etc.)",
                 ].map((feature) => (
                   <li key={feature} className="flex items-start gap-3">
-                    <Check size={20} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
-                    <span className="text-gray-700">{feature}</span>
+                    <Check size={20} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
+                    <span className="text-[#2E343D]">{feature}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Avec les agents IA</h2>
+              <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-6">Avec les agents IA</h2>
               <ul className="space-y-4">
                 {[
                   "Agents Claude qui comprennent votre métier",
@@ -99,16 +99,16 @@ export default function WebAppRoyanPage() {
                   "Support 24h/24 via agents autonomes",
                 ].map((feature) => (
                   <li key={feature} className="flex items-start gap-3">
-                    <Check size={20} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
-                    <span className="text-gray-700">{feature}</span>
+                    <Check size={20} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
+                    <span className="text-[#2E343D]">{feature}</span>
                   </li>
                 ))}
               </ul>
             </div>
           </div>
 
-          <div className="bg-gray-50 rounded-2xl p-12 mb-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">Exemples d'applications qu'on a créées</h2>
+          <div className="bg-white border border-[#E2E0DA] rounded-2xl p-12 shadow-[0_14px_34px_rgba(14,17,22,.06)] mb-20">
+            <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Exemples d'applications qu'on a créées</h2>
             <div className="grid md:grid-cols-2 gap-8">
               {[
                 {
@@ -128,16 +128,16 @@ export default function WebAppRoyanPage() {
                   desc: "Clients gèrent leurs commandes, données. Agents IA 24h/24 répondent aux questions, traitent les demandes.",
                 },
               ].map((example) => (
-                <div key={example.title} className="p-6 border border-gray-200 rounded-lg hover:border-[#e8632a] transition-colors">
-                  <h3 className="font-bold text-gray-900 mb-2">{example.title}</h3>
-                  <p className="text-sm text-gray-600">{example.desc}</p>
+                <div key={example.title} className="p-6 border border-[#E2E0DA] bg-white rounded-lg hover:border-[#FF5A1F] shadow-[0_14px_34px_rgba(14,17,22,.06)] transition-colors">
+                  <h3 className="font-bold text-[#0E1116] mb-2">{example.title}</h3>
+                  <p className="text-sm text-[#2E343D]">{example.desc}</p>
                 </div>
               ))}
             </div>
           </div>
 
           <div className="border-t pt-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">Comment ça marche</h2>
+            <h2 className="text-2xl font-extrabold text-[#0E1116] tracking-[-0.02em] mb-8">Comment ça marche</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
@@ -157,11 +157,11 @@ export default function WebAppRoyanPage() {
                 },
               ].map((phase) => (
                 <div key={phase.step} className="flex flex-col">
-                  <div className="w-10 h-10 rounded-full bg-[#e8632a] text-white flex items-center justify-center font-bold mb-4">
+                  <div className="w-10 h-10 rounded-full bg-[#FF5A1F] text-white flex items-center justify-center font-bold mb-4">
                     {phase.step}
                   </div>
-                  <h3 className="font-bold text-gray-900 mb-2">{phase.title}</h3>
-                  <p className="text-sm text-gray-600 flex-1">{phase.desc}</p>
+                  <h3 className="font-bold text-[#0E1116] mb-2">{phase.title}</h3>
+                  <p className="text-sm text-[#2E343D] flex-1">{phase.desc}</p>
                 </div>
               ))}
             </div>
@@ -174,7 +174,7 @@ export default function WebAppRoyanPage() {
               href="https://calendly.com/ben40nocode/1h"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#e8632a] to-[#d97757] hover:shadow-lg hover:shadow-orange-500/50 text-white px-8 py-4 rounded-xl text-base font-semibold transition-all duration-300 hover:-translate-y-0.5"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#FF5A1F] to-[#d97757] hover:shadow-lg hover:shadow-orange-500/50 text-white px-8 py-4 rounded-xl text-base font-semibold transition-all duration-300 hover:-translate-y-0.5"
             >
               Réserver mon appel gratuit (1h) <ArrowRight size={16} />
             </Link>

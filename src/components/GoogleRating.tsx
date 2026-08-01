@@ -15,7 +15,7 @@ export function GoogleRating({ lang = "fr" }: { lang?: "fr" | "en" }) {
       <span className="text-sm text-gray-500">
         {lang === "en" ? "on Google" : "sur Google"}
       </span>
-      <span className="hidden sm:inline text-sm text-gray-400 group-hover:text-[#e8632a] transition-colors">
+      <span className="hidden sm:inline text-sm text-gray-400 group-hover:text-[#FF5A1F] transition-colors">
         · {lang === "en" ? "see reviews" : "voir les avis"}
         <ArrowUpRight size={13} className="inline ml-0.5 -mt-0.5" />
       </span>

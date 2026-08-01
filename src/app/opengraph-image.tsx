@@ -23,8 +23,8 @@ export default function Image() {
       >
         {/* Top accent */}
         <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "40px" }}>
-          <div style={{ width: "40px", height: "4px", background: "#e8632a", borderRadius: "2px" }} />
-          <span style={{ fontSize: "18px", color: "#e8632a", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase" }}>
+          <div style={{ width: "40px", height: "4px", background: "#FF5A1F", borderRadius: "2px" }} />
+          <span style={{ fontSize: "18px", color: "#FF5A1F", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase" }}>
             Spécialiste Claude AI & Automatisation
           </span>
         </div>
@@ -32,7 +32,7 @@ export default function Image() {
         {/* Headline */}
         <div style={{ fontSize: "68px", fontWeight: 900, color: "#111111", lineHeight: 1.1, marginBottom: "32px", maxWidth: "900px" }}>
           Vos process tournent.{" "}
-          <span style={{ color: "#e8632a" }}>Même quand vous dormez.</span>
+          <span style={{ color: "#FF5A1F" }}>Même quand vous dormez.</span>
         </div>
 
         {/* Sub */}

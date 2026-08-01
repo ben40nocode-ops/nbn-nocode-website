@@ -60,7 +60,7 @@ export default function PolitiqueConfidentialitePage() {
               <li>Droit à la portabilité</li>
               <li>Droit d&apos;opposition</li>
             </ul>
-            <p className="mt-3">Pour exercer ces droits : <a href="mailto:contact@nbn-ia.fr" className="text-[#e8632a] hover:underline">contact@nbn-ia.fr</a></p>
+            <p className="mt-3">Pour exercer ces droits : <a href="mailto:contact@nbn-ia.fr" className="text-[#FF5A1F] hover:underline">contact@nbn-ia.fr</a></p>
           </section>
 
           <section>
@@ -71,9 +71,9 @@ export default function PolitiqueConfidentialitePage() {
           <section>
             <h2 className="text-base font-bold text-gray-900 mb-3">Services tiers</h2>
             <ul className="space-y-1 list-disc list-inside">
-              <li><strong>Clerk</strong> — authentification (<a href="https://clerk.com/privacy" className="text-[#e8632a] hover:underline" target="_blank" rel="noopener noreferrer">politique de confidentialité</a>)</li>
-              <li><strong>Stripe</strong> — paiements (<a href="https://stripe.com/privacy" className="text-[#e8632a] hover:underline" target="_blank" rel="noopener noreferrer">politique de confidentialité</a>)</li>
-              <li><strong>Vercel</strong> — hébergement (<a href="https://vercel.com/legal/privacy-policy" className="text-[#e8632a] hover:underline" target="_blank" rel="noopener noreferrer">politique de confidentialité</a>)</li>
+              <li><strong>Clerk</strong> — authentification (<a href="https://clerk.com/privacy" className="text-[#FF5A1F] hover:underline" target="_blank" rel="noopener noreferrer">politique de confidentialité</a>)</li>
+              <li><strong>Stripe</strong> — paiements (<a href="https://stripe.com/privacy" className="text-[#FF5A1F] hover:underline" target="_blank" rel="noopener noreferrer">politique de confidentialité</a>)</li>
+              <li><strong>Vercel</strong> — hébergement (<a href="https://vercel.com/legal/privacy-policy" className="text-[#FF5A1F] hover:underline" target="_blank" rel="noopener noreferrer">politique de confidentialité</a>)</li>
             </ul>
           </section>
 

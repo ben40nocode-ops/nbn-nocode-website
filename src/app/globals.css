@@ -5,18 +5,70 @@
   --font-mono: var(--font-geist-mono);
 }
 
+:root {
+  /* Palette refonte — miroir du proto */
+  --paper: #F5F4F1;
+  --paper2: #ECEAE5;
+  --ink: #0E1116;
+  --ink2: #2E343D;
+  --soft: #6B7280;
+  --faint: #9CA3AE;
+  --line: #E2E0DA;
+  --brand: #FF5A1F;
+  --brand2: #E64A12;
+  --brandtint: #FCE9DF;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background: #ffffff;
-  color: #111111;
+  background: radial-gradient(120% 90% at 50% 0%, #FDFCFA, #F5F4F1 55%, #ECEAE5);
+  background-attachment: fixed;
+  color: #0E1116;
   -webkit-font-smoothing: antialiased;
   line-height: 1.6;
 }
 
 ::selection {
-  background: #e8632a;
+  background: #FF5A1F;
   color: #fff;
+}
+
+/* ---------- FAQ accordéon (miroir proto) ---------- */
+.faq-acc {
+  background: #fff;
+  border: 1px solid #E2E0DA;
+  border-radius: 14px;
+  padding: 2px 20px;
+  margin-bottom: 10px;
+}
+.faq-acc > summary {
+  cursor: pointer;
+  font-weight: 750;
+  font-size: 15px;
+  color: #0E1116;
+  padding: 16px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.faq-acc > summary::-webkit-details-marker { display: none; }
+.faq-acc > summary::after {
+  content: "+";
+  color: #FF5A1F;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1;
+  flex: 0 0 auto;
+}
+.faq-acc[open] > summary::after { content: "\2013"; }
+.faq-acc > div {
+  padding: 0 0 16px;
+  color: #6B7280;
+  font-size: 14px;
+  line-height: 1.55;
 }

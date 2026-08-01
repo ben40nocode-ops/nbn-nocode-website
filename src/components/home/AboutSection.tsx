@@ -13,7 +13,7 @@ export function AboutSection() {
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="text-center mb-16">
-          <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">
+          <p className="text-xs font-semibold text-[#FF5A1F] uppercase tracking-widest mb-3">
             Qui je suis
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-2xl mx-auto leading-snug">
@@ -36,7 +36,7 @@ export function AboutSection() {
           <div className="flex flex-col gap-3">
             {values.map((v, i) => (
               <div key={i} className="flex items-start gap-3 p-4 rounded-xl border border-gray-100 bg-gray-50">
-                <CheckCircle2 size={16} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 size={16} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                 <p className="text-sm text-gray-600 leading-relaxed">{v}</p>
               </div>
             ))}
@@ -44,8 +44,8 @@ export function AboutSection() {
         </div>
 
         {/* Callout */}
-        <div className="mt-12 p-6 rounded-2xl bg-[#fff5f0] border border-[#e8632a]/20">
-          <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Comment ça se passe concrètement ?</p>
+        <div className="mt-12 p-6 rounded-2xl bg-[#fff5f0] border border-[#FF5A1F]/20">
+          <p className="text-xs font-semibold text-[#FF5A1F] uppercase tracking-widest mb-3">Comment ça se passe concrètement ?</p>
           <div className="grid sm:grid-cols-3 gap-4">
             {[
               { title: "1. Appel gratuit (1h)", desc: "On analyse ensemble votre activité et on identifie les 2-3 tâches qui vous coûtent le plus de temps." },

@@ -1,16 +1,5 @@
 import type { Metadata } from "next";
-import { HeroStage } from "@/components/home/HeroStage";
-import { ProblemSection } from "@/components/home/ProblemSection";
-import { DiscoveryOffers } from "@/components/home/DiscoveryOffers";
-import { LogoBar } from "@/components/home/LogoBar";
-import { AboutSection } from "@/components/home/AboutSection";
-import { SolutionsSection } from "@/components/home/SolutionsSection";
-import { ClaudeSection } from "@/components/home/ClaudeSection";
-import { RealisationsSection } from "@/components/home/RealisationsSection";
-import { PricingPreview } from "@/components/home/PricingPreview";
-import { TestimonialsSection } from "@/components/home/TestimonialsSection";
-import { FaqSection } from "@/components/home/FaqSection";
-import { CtaSection } from "@/components/home/CtaSection";
+import { HuskyFilm } from "@/components/home/HuskyFilm";
 
 export const metadata: Metadata = {
   title: "Automatisation & Agents IA pour PME | Bordeaux · Royan",
@@ -26,20 +15,5 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  return (
-    <>
-      <HeroStage />
-      <LogoBar />
-      <ProblemSection />
-      <SolutionsSection />
-      <AboutSection />
-      <ClaudeSection />
-      <RealisationsSection />
-      <DiscoveryOffers />
-      <PricingPreview />
-      <TestimonialsSection />
-      <FaqSection />
-      <CtaSection />
-    </>
-  );
+  return <HuskyFilm />;
 }

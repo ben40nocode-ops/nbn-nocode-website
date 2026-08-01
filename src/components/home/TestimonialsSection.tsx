@@ -25,7 +25,7 @@ export function TestimonialsSection() {
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="text-center mb-16">
-          <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-3">Pourquoi me faire confiance</p>
+          <p className="text-xs font-semibold text-[#FF5A1F] uppercase tracking-widest mb-3">Pourquoi me faire confiance</p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-xl mx-auto leading-snug">
             Un interlocuteur, pas une agence.
           </h2>
@@ -38,7 +38,7 @@ export function TestimonialsSection() {
           {reasons.map((r) => (
             <div key={r.title} className="p-7 rounded-2xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm transition-all duration-200 flex flex-col">
               <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-5 bg-orange-50">
-                <r.icon size={20} className="text-[#e8632a]" />
+                <r.icon size={20} className="text-[#FF5A1F]" />
               </div>
               <h3 className="text-base font-bold text-gray-900 mb-2">{r.title}</h3>
               <p className="text-sm text-gray-500 leading-relaxed flex-1">{r.text}</p>

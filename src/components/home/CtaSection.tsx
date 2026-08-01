@@ -7,7 +7,7 @@ export function CtaSection() {
       <div className="max-w-4xl mx-auto px-6">
         <div className="bg-gray-900 rounded-3xl px-8 py-16 md:px-16 text-center">
 
-          <p className="text-xs font-semibold text-[#e8632a] uppercase tracking-widest mb-4">
+          <p className="text-xs font-semibold text-[#FF5A1F] uppercase tracking-widest mb-4">
             Prêt à démarrer ?
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-5">
@@ -22,7 +22,7 @@ export function CtaSection() {
               href="https://calendly.com/ben40nocode/1h"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center justify-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-bold text-sm transition-all duration-200"
+              className="group inline-flex items-center justify-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-bold text-sm transition-all duration-200"
             >
               <Calendar size={17} />
               Réserver mon appel gratuit (1h)

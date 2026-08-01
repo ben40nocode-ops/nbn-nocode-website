@@ -13,19 +13,19 @@ export default function StartupAiPage() {
   return (
     <div className="min-h-screen bg-white pt-32 pb-24">
       <div className="max-w-4xl mx-auto px-6">
-        <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#e8632a] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
+        <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-[#FF5A1F] rounded-full px-4 py-1.5 text-xs font-semibold mb-8 tracking-wide uppercase">
           🚀 AI for Startups — France
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
           AI Systems for Startups<br />
-          <span className="text-[#e8632a]">& Scale-ups in France</span>
+          <span className="text-[#FF5A1F]">& Scale-ups in France</span>
         </h1>
         <p className="text-lg text-gray-500 max-w-2xl mb-10 leading-relaxed">
           Move fast without breaking things. We build your AI infrastructure — agents, automations, web apps — using vibe coding with Claude Code. Production-ready in weeks, not months.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mb-20">
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-7 py-4 rounded-xl font-semibold transition-colors">
+            className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-7 py-4 rounded-xl font-semibold transition-colors">
             Book my free call <ArrowRight size={17} />
           </Link>
         </div>
@@ -42,7 +42,7 @@ export default function StartupAiPage() {
                 "Data pipelines & analytics infrastructure",
               ].map((f) => (
                 <li key={f} className="flex items-start gap-3">
-                  <Check size={20} className="text-[#e8632a] flex-shrink-0 mt-0.5" />
+                  <Check size={20} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700">{f}</span>
                 </li>
               ))}
@@ -59,7 +59,7 @@ export default function StartupAiPage() {
                 "English-speaking team, international mindset",
               ].map((f) => (
                 <li key={f} className="flex items-start gap-2">
-                  <Check size={14} className="text-[#e8632a] flex-shrink-0 mt-0.5" />{f}
+                  <Check size={14} className="text-[#FF5A1F] flex-shrink-0 mt-0.5" />{f}
                 </li>
               ))}
             </ul>
@@ -69,7 +69,7 @@ export default function StartupAiPage() {
           <h2 className="text-white font-bold text-2xl mb-3">Let&apos;s build your AI stack</h2>
           <p className="text-gray-300 mb-8 max-w-md mx-auto">Free 1-hour session. We audit your current stack and propose what to build first.</p>
           <Link href="https://calendly.com/ben40nocode/1h" target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#e8632a] hover:bg-[#c4521f] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
+            className="inline-flex items-center gap-2 bg-[#FF5A1F] hover:bg-[#E64A12] text-white px-8 py-4 rounded-xl font-semibold transition-colors">
             Book free session <ArrowRight size={16} />
           </Link>
         </div>
