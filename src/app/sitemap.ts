@@ -23,6 +23,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = "https://www.nbn-ia.fr";
   const staticPages: MetadataRoute.Sitemap = [
     { url: base, lastModified: new Date(), changeFrequency: "daily", priority: 1 },
+    { url: `${base}/a-propos`, lastModified: new Date("2026-08-01"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/solutions`, lastModified: new Date("2026-08-01"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/realisations`, lastModified: new Date("2026-08-01"), changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/tarifs`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/contact`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/portfolio-freelance`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.8 },
@@ -114,6 +117,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const enArticles = await getAllArticlesEN().catch((e) => { console.error("[sitemap] getAllArticlesEN error:", e); return []; });
   const enPages: MetadataRoute.Sitemap = [
     { url: `${base}/en`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/en/about`, lastModified: new Date("2026-08-01"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/en/solutions`, lastModified: new Date("2026-08-01"), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${base}/en/work`, lastModified: new Date("2026-08-01"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/en/blog`, lastModified: new Date("2026-05-29"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/en/ai-automation`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/en/hotel-ai-automation`, lastModified: new Date("2026-05-29"), changeFrequency: "monthly", priority: 0.75 },
