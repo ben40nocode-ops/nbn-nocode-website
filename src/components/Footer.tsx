@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Logo } from "@/components/Logo";
+import { useDive } from "@/components/DiveTransition";
 
 const CALENDLY_FR = "https://calendly.com/ben40nocode/1h";
 const CALENDLY_EN = "https://calendly.com/ben40nocode/1h"; // ← remplace par ton lien EN quand créé
@@ -10,6 +11,7 @@ const CALENDLY_EN = "https://calendly.com/ben40nocode/1h"; // ← remplace par t
 export function Footer() {
   const pathname = usePathname();
   const isEN = pathname.startsWith("/en");
+  const dive = useDive();
 
   return (
     <footer className="bg-[#0E1116] text-gray-400">
@@ -60,8 +62,8 @@ export function Footer() {
                 { label: "Contact", href: "/contact" },
                 { label: "Blog", href: "/blog" },
               ]).map((l) => (
-                <li key={l.href}>
-                  <Link href={l.href} className="text-sm hover:text-white transition-colors">{l.label}</Link>
+                <li key={l.label}>
+                  <Link href={l.href} onClick={(e) => dive(e, l.href)} className="text-sm hover:text-white transition-colors">{l.label}</Link>
                 </li>
               ))}
             </ul>
@@ -74,9 +76,9 @@ export function Footer() {
             </h4>
             <ul className="flex flex-col gap-3">
               {(isEN ? [
-                { label: "AI Automation", href: "/en#solutions" },
-                { label: "Web Apps & Custom Tools", href: "/en#solutions" },
-                { label: "AI Agents Claude", href: "/en#solutions" },
+                { label: "AI Automation", href: "/en/solutions" },
+                { label: "Web Apps & Custom Tools", href: "/en/solutions" },
+                { label: "AI Agents Claude", href: "/en/solutions" },
                 { label: "AI Chatbot", href: "/en/ai-automation" },
                 { label: "Website Creation", href: "/en/websites" },
               ] : [
@@ -89,8 +91,8 @@ export function Footer() {
                 { label: "Service — Sites internet", href: "/services/sites-internet" },
                 { label: "Service — Web apps", href: "/services/web-apps" },
               ]).map((l) => (
-                <li key={l.href}>
-                  <Link href={l.href} className="text-sm hover:text-white transition-colors">{l.label}</Link>
+                <li key={l.label}>
+                  <Link href={l.href} onClick={(e) => dive(e, l.href)} className="text-sm hover:text-white transition-colors">{l.label}</Link>
                 </li>
               ))}
             </ul>

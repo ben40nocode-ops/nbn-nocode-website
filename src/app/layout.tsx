@@ -6,6 +6,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
 import ChatWidget from "@/components/ChatWidget";
+import { DiveOverlay } from "@/components/DiveTransition";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -278,6 +279,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
           <CookieBanner />
           <ChatWidget />
+          <DiveOverlay />
         </body>
       </html>
     </ClerkProvider>

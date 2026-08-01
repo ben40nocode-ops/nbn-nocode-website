@@ -6,6 +6,7 @@ import { Menu, X, ArrowRight } from "lucide-react";
 import { useUser, UserButton } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 import { Logo } from "@/components/Logo";
+import { useDive } from "@/components/DiveTransition";
 import { blogSlugFrToEn, blogSlugEnToFr } from "@/content/blog/article-lang-map";
 
 const linksFR = [
@@ -31,6 +32,7 @@ export function Navbar() {
   const pathname = usePathname();
   const isEN = pathname.startsWith("/en");
   const links = isEN ? linksEN : linksFR;
+  const dive = useDive();
 
   // Sélecteur de langue : renvoie vers l'équivalent dans l'autre langue.
   // - Article de blog → article correspondant s'il existe, sinon l'index du blog.
@@ -78,7 +80,7 @@ export function Navbar() {
           <ul className="hidden md:flex items-center gap-6 absolute left-1/2 -translate-x-1/2">
             {links.map((l) => (
               <li key={l.href} className="whitespace-nowrap">
-                <Link href={l.href} className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
+                <Link href={l.href} onClick={(e) => dive(e, l.href)} className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
                   {l.label}
                 </Link>
               </li>
@@ -152,7 +154,7 @@ export function Navbar() {
             <Link
               key={l.href}
               href={l.href}
-              onClick={() => setOpen(false)}
+              onClick={(e) => { setOpen(false); dive(e, l.href); }}
               className="flex items-center justify-between py-3 text-base text-gray-700 hover:text-gray-900 border-b border-gray-50 transition-colors group"
             >
               {l.label}

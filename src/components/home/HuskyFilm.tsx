@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { useDive } from "@/components/DiveTransition";
 import "./film.css";
 
 const CALENDLY = "https://calendly.com/ben40nocode/1h";
@@ -66,6 +67,7 @@ const COPY = {
 export function HuskyFilm({ lang = "fr" }: { lang?: Lang }) {
   const rootRef = useRef<HTMLDivElement>(null);
   const t = COPY[lang];
+  const dive = useDive();
 
   useEffect(() => {
     const root = rootRef.current;
@@ -288,7 +290,7 @@ export function HuskyFilm({ lang = "fr" }: { lang?: Lang }) {
               <a className="btn btn-ghost" data-goto="0" href="#">{t.a5home}</a>
             </div>
             <div className="footnav">
-              {t.nav.map(([label, href]) => <a key={href} href={href}>{label}</a>)}
+              {t.nav.map(([label, href]) => <a key={href} href={href} onClick={(e) => dive(e, href)}>{label}</a>)}
             </div>
           </div>
         </div></section>

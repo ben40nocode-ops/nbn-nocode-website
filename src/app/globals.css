@@ -36,6 +36,33 @@ body {
   color: #fff;
 }
 
+/* ---------- Plongée entre pages (dive) ---------- */
+#dive-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 12000;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(circle at 50% 46%, rgba(255,90,31,.10) 0%, rgba(245,244,241,0) 26%, #F5F4F1 74%);
+  transition: opacity .5s ease;
+}
+body.diving #dive-overlay { opacity: 1; pointer-events: auto; }
+body.diving main {
+  transform: scale(1.9);
+  filter: blur(7px);
+  opacity: 0;
+  transform-origin: center 42%;
+  transition: transform .7s cubic-bezier(.66,0,.86,0), opacity .7s ease-in, filter .7s ease-in;
+}
+body.diving header { opacity: 0; transition: opacity .35s ease; }
+@keyframes dive-arrive { from { opacity: 0; transform: scale(1.03); } to { opacity: 1; transform: none; } }
+main.diving-arrive { animation: dive-arrive .5s ease both; }
+@media (prefers-reduced-motion: reduce) {
+  body.diving main { transform: none; filter: none; transition: opacity .2s; }
+  body.diving header { transition: opacity .1s; }
+  main.diving-arrive { animation: none; }
+}
+
 /* ---------- FAQ accordéon (miroir proto) ---------- */
 .faq-acc {
   background: #fff;
