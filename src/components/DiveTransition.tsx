@@ -19,6 +19,10 @@ export function useDive() {
     if (typeof document === "undefined") return;
     if (document.body.classList.contains("diving")) return;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    // Le zoom doit partir du centre de CE que l'utilisateur regarde.
+    // (Sur le film, <main> fait 900vh → une origine en % tomberait hors écran.)
+    const mainEl = document.querySelector<HTMLElement>("main");
+    if (mainEl) mainEl.style.transformOrigin = `center ${Math.round(window.scrollY + window.innerHeight * 0.45)}px`;
     document.body.classList.add("diving");
     window.setTimeout(() => router.push(href), reduce ? 60 : 700);
   };
@@ -30,6 +34,8 @@ export function DiveOverlay() {
   useEffect(() => {
     if (typeof document === "undefined") return;
     document.body.classList.remove("diving");
+    const mainEl = document.querySelector<HTMLElement>("main");
+    if (mainEl) mainEl.style.transformOrigin = "";
   }, [pathname]);
 
   return <div id="dive-overlay" aria-hidden="true" />;
