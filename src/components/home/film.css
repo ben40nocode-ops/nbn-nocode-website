@@ -24,6 +24,11 @@
 
 .hfilm .warp{position:fixed;inset:0;overflow:hidden;perspective:1250px;z-index:0;
   background:radial-gradient(115% 90% at 50% 42%, #FDFCFA 0%, var(--paper) 46%, var(--paper2) 100%)}
+/* ---------- Plongée (comme le proto) : sur le film on scale le WARP fixe — centré viewport —
+   pas le <main> qui fait 900vh. Le <main> se contente de fondre (opacity via globals.css). ---------- */
+body.diving main:has(.hfilm){transform:none;filter:none}
+body.diving .hfilm .warp{transform:scale(2.1);filter:blur(7px);
+  transition:transform .72s cubic-bezier(.66,0,.86,0),filter .72s ease-in}
 .hfilm .spacer{position:relative;width:1px;height:900vh;pointer-events:none;z-index:1}
 .hfilm .deep{position:absolute;inset:0;z-index:0;pointer-events:none}
 .hfilm .orb{position:absolute;border-radius:50%;filter:blur(48px);opacity:.5}
