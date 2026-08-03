@@ -6,6 +6,7 @@
 // de l'autre langue (jamais vers un mauvais article ni vers l'accueil).
 
 export const blogSlugFrToEn: Record<string, string> = {
+  "posseder-code-automatisation-zapier-power-automate": "why-i-switched-off-zapier-power-automate-to-own-my-code",
   "echec-silencieux-automatisation-ia": "silent-failure-ai-automation-trap",
   "back-office-ia-agence-voyage-nortrip-toolbox": "ai-back-office-travel-agency-nortrip-toolbox",
   "vibe-hangover-2026-gueule-de-bois-ia": "vibe-hangover-2026-ai-quality-crisis",
